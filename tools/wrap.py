@@ -40,38 +40,43 @@ def pages(s):
     return out
 
 
-def fill(body, n, px, last, w):
-    """Lines of a paragraph body ({nl} = forced break); line i may hold `last` px when it ends a window page."""
+def fill(body, n, px, last, w, fixed=False):
+    """Lines of a paragraph body ({nl} = forced break); line i may hold `last` px when it ends a window page.
+    fixed: a {clr} page, whose page-wait arrow sits on window line n whatever the page's length, so only line n
+    gives way to it; else (scrolling narration) the final line does too."""
+    def limit(i, final):
+        return last if i % n == n - 1 or (final and not fixed) else px
     lines = []
     paras = body.split("{nl}")
     for k, para in enumerate(paras):
         start, cur = len(lines), ""
         for word in para.split(" "):
             cand = f"{cur} {word}" if cur else word
-            lim = last if len(lines) % n == n - 1 else px
-            if font.text_width(cand, w) <= lim or not cur:
+            if font.text_width(cand, w) <= limit(len(lines), False) or not cur:
                 cur = cand
             else:
                 lines.append(cur)
                 cur = word
-        # no widow: pull words down from the line above while the last line is a stub and still fits
-        lim = last if len(lines) % n == n - 1 or k == len(paras) - 1 else px
+        # no widow: pull words down from the line above while the last line is a stub (or one word) and still
+        # fits, unless that leaves a single word on the line above
+        lim = limit(len(lines), k == len(paras) - 1)
         while len(lines) > start and (len(cur) < STUB or " " not in cur) and " " in lines[-1]:
             head, word = lines[-1].rsplit(" ", 1)
-            if font.text_width(f"{word} {cur}", w) > lim:
+            if font.text_width(f"{word} {cur}", w) > lim or (" " not in head and len(cur) >= STUB):
                 break
             lines[-1], cur = head, f"{word} {cur}"
         lines.append(cur)
-    if font.text_width(lines[-1], w) > last:  # the page's final line ends at the arrow too
+    lim = limit(len(lines) - 1, True)
+    if font.text_width(lines[-1], w) > lim:  # the final line ends at the arrow too
         words = lines.pop().split(" ")
         k = len(words)
-        while k > 1 and font.text_width(" ".join(words[:k]), w) > last:
+        while k > 1 and font.text_width(" ".join(words[:k]), w) > lim:
             k -= 1
         while k > 1 and len(" ".join(words[k:])) < STUB:  # no widow on the arrow line either
             k -= 1
         lines += [" ".join(words[:k]), " ".join(words[k:])]
     for i, line in enumerate(lines):
-        if font.text_width(line, w) > (last if i % n == n - 1 or i == len(lines) - 1 else px):
+        if font.text_width(line, w) > limit(i, i == len(lines) - 1):
             raise ValueError(f"word too wide for the window: {line!r}")
     return lines
 
@@ -85,26 +90,29 @@ def sentences(body):
     return [x for x in out + [body[i:]] if x]
 
 
-def page_chunks(body, n, px, last, w):
+def page_chunks(body, n, px, last, w, fixed=False):
     """A paragraph too long for one window page -> page texts ({nl} between lines). Prefer page breaks at sentence
-    ends when that takes no extra page; else keep the line fill but never leave one line alone on the last page."""
-    lines = fill(body, n, px, last, w)
+    ends when that takes no extra page; else keep the line fill, but a last page of one line takes the line above
+    it too (3 + 1 -> 2 + 2, refilled)."""
+    lines = fill(body, n, px, last, w, fixed)
     if len(lines) <= n:
         return ["{nl}".join(lines)]
     want = -(-len(lines) // n)
     if "{nl}" not in body:
         groups = []
         for s in sentences(body):
-            if groups and len(fill(f"{groups[-1]} {s}", n, px, last, w)) <= n:
+            if groups and len(fill(f"{groups[-1]} {s}", n, px, last, w, fixed)) <= n:
                 groups[-1] = f"{groups[-1]} {s}"
             else:
                 groups.append(s)
-        filled = [fill(g, n, px, last, w) for g in groups]
+        filled = [fill(g, n, px, last, w, fixed) for g in groups]
         if len(groups) > 1 and sum(-(-len(f) // n) for f in filled) == want:
             return ["{nl}".join(f[i:i + n]) for f in filled for i in range(0, len(f), n)]
     chunks = [lines[i:i + n] for i in range(0, len(lines), n)]
-    if len(chunks[-1]) == 1 and n > 1 and font.text_width(chunks[-2][-2], w) <= last:
-        chunks[-1].insert(0, chunks[-2].pop())  # 3 + 1 lines -> 2 + 2
+    if len(chunks[-1]) == 1 and n > 1 and (fixed or font.text_width(chunks[-2][-2], w) <= last):
+        tail = fill(f"{chunks[-2][-1]} {chunks[-1][0]}", n, px, last, w, fixed)
+        if len(tail) <= n:
+            chunks[-2:] = [chunks[-2][:-1], tail]
     return ["{nl}".join(c) for c in chunks]
 
 
@@ -117,7 +125,7 @@ def wrap_text(s, b, w=None):
         if not body or CODE.sub("", body.replace("{nl}", "")) != body.replace("{nl}", ""):
             out.append(prefix + body + suffix)  # empty or layout page
             continue
-        chunks = page_chunks(body, n, px, last, w)
+        chunks = page_chunks(body, n, px, last, w, "{clr}" in prefix)
         again = prefix if "{clr}" in prefix else "{nl}"
         out.append(prefix + (WAIT + again).join(chunks) + (suffix or (WAIT if len(chunks) > 1 else "")))
     return "".join(out)
