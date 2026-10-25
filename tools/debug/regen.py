@@ -37,6 +37,8 @@ def emu(rom, out, scene, frames, state_in=None, state_out=None):
         cmd += ["--var", f"HOLD={EXTRA['hold']}"]
     if EXTRA.get("shot_every"):
         cmd += ["--shot-every", str(EXTRA["shot_every"])]
+    for v in EXTRA.get("vars", []):
+        cmd += ["--var", v]
     if state_out:
         cmd += ["--var", f"DONE_STATE=[[{Path(state_out).as_posix()}]]"]
     if state_in:
@@ -77,6 +79,7 @@ def main():
     ap.add_argument("--script", action="append", default=[], help="extra Lua probe for every run (repeatable)")
     ap.add_argument("--hold", type=int, default=0, help="keep clicking A this many frames after each scene")
     ap.add_argument("--shot-every", type=int, default=0, help="also shoot every N frames (emu.py)")
+    ap.add_argument("--var", action="append", default=[], help="NAME=LUA global for every run (repeatable)")
     a = ap.parse_args()
     global OUT, STATES
     if a.out:
@@ -85,6 +88,7 @@ def main():
     EXTRA["scripts"] = [Path(s).resolve() for s in a.script]
     EXTRA["hold"] = a.hold
     EXTRA["shot_every"] = a.shot_every
+    EXTRA["vars"] = a.var
     all_scenes = list_scenes(a.rom)
     names = a.scenes or sorted(all_scenes)
     bad = [n for n in names if n not in all_scenes]

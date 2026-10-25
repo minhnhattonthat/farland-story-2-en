@@ -1,4 +1,4 @@
-# Visual-QA reviewer brief - <Game title>
+# Visual-QA reviewer brief - Farland Story 2 (SNES)
 
 You review contact sheets from a translated build's QA tour and give each one a verdict. Read-only on everything
 except your one verdict file: no edits to the repo, no git, no subagents.
@@ -27,7 +27,15 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
 - text still typing out, a box mid-fade or mid-scroll, a cursor caught mid-blink;
 - a map or scene still loading after a warp;
 - anything identical in the original's sheet.
-- <game-specific: e.g. "the double cursor in the shop is the original's">
+- Farland Story 2:
+  - `view/` sheets come from a string viewer: dialogue that only plays mid- or post-battle is drawn in another
+    chapter's story box, so the portrait, speaker and map belong to that host scene. Judge only the text.
+  - Warped chapters 20 and 34-38 show chapter 19's / 33's map; warped chapters have stand-in party units.
+  - The katakana title logo ファーランドストーリー stays Japanese (decision D5); the English "FARLAND STORY 2"
+    sub-logo is the game's own.
+  - Two dialogue boxes (upper and lower) are both on screen; the one not speaking is empty or holds the last line.
+  - A ▼ arrow at the bottom right of a box is the page-wait prompt.
+  - STAGE cards and the objective window use the full-width layout of the original ("STAGE 01", "- Objective -").
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:
