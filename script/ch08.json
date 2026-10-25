@@ -29,7 +29,7 @@
    "vm:06885C"
   ],
   "jp": "{clr}{pos:00000000}{full}しっけいな{wait}{clr}{pos:00000000}{full}私はこれでも、帝国軍の動きを見はっているんだ！{wait}{clr}{pos:00000000}{full}ああっ、こちらの美しい方は・・・{nl}せめてお名前を{wait}",
-  "en": "{clr}{pos:00000000}{full}How rude!{wait}{clr}{pos:00000000}{full}I'll have you know I'm keeping watch on the Imperial army's movements!{wait}{clr}{pos:00000000}{full}Ah! And who might this beautiful lady be...? Pray, tell me your name, at least.{wait}",
+  "en": "{clr}{pos:00000000}{full}How rude!{wait}{clr}{pos:00000000}{full}I'll have you know I'm watching the Imperial army's every move!{wait}{clr}{pos:00000000}{full}Ah! And who might this beautiful lady be...? Pray, tell me your name, at least.{wait}",
   "box": "upper"
  },
  {

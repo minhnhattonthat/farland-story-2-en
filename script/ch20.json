@@ -356,7 +356,7 @@
    "vm:05749A"
   ],
   "jp": "{clr}{pos:00000000}{full}今の舞ではもうこれ以上{wait}{clr}{pos:00000000}{full}ダメージをあたえられないわ{wait}{clr}{pos:00000000}{full}だとすると新しい契約、新しい舞を舞えば・・・{wait}{clr}{pos:00000000}{full}リアド！{wait}",
-  "en": "{clr}{pos:00000000}{full}The dances I know now can't do it{wait}{clr}{pos:00000000}{full}any more damage.{wait}{clr}{pos:00000000}{full}Then if I made a new contract and danced a new dance...{wait}{clr}{pos:00000000}{full}Riad!{wait}",
+  "en": "{clr}{pos:00000000}{full}With the dances I know now,{wait}{clr}{pos:00000000}{full}I can't hurt it any further.{wait}{clr}{pos:00000000}{full}Then if I made a new contract and danced a new dance...{wait}{clr}{pos:00000000}{full}Riad!{wait}",
   "box": "upper"
  },
  {

@@ -679,7 +679,7 @@
    "vm:06EB65"
   ],
   "jp": "{full}町人{nl}　この国は帝国のゾ　ルディン将軍に{wait}{nl}　占領されているの{wait}",
-  "en": "{full}Townsman: This country has been{wait}{nl}occupied by the Empire's General Zordin.{wait}",
+  "en": "{full}Townsman: General Zordin of the Empire{wait}{nl}has occupied this country.{wait}",
   "box": "centre"
  },
  {
