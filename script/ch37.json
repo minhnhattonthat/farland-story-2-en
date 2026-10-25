@@ -205,7 +205,7 @@
    "vm:2A6114"
   ],
   "jp": "{full}まだまだファーランドの世界の冒険は終わっていないが{wait}{nl}それはまた別の{nl}お話で・・・{wait}",
-  "en": "{full}The adventures in the world of Farland are far from over,{wait}{nl}but that is another story...{wait}",
+  "en": "{full}The adventures in the world of Farland are far from over,{wait}{nl}but that is{nl}another story...{wait}",
   "box": "centre"
  }
 ]
