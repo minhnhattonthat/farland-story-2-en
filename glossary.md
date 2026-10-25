@@ -140,3 +140,10 @@ case-insensitively, wherever the JP term occurs (katakana terms only as a whole 
   間せつ魔法力 Ranged Magic; 直間魔法力 Direct/Ranged Magic; サメやろう "that shark creep".
 - Ligito's lisp may touch honorifics ("Serena-shan") but never the glossary name itself.
 - American spelling.
+
+## Menu labels (graphics text, drawn by tools/gfx.py; batches.py does not check these)
+- Title: はじめから New Game, つづきから Continue, 環境設定 Settings.
+- Unit menu (48 px): 移動 Move, ワープ Warp, 攻／回 Action (attack or heal), 必殺 Special, 買物 Shop, 武器 Weapons,
+  アイテム Items, 交換 Trade, 集合 Rally, 待機 Wait.
+- Map menu (80 px): ターン終了 End Turn, 全体マップ Full Map, ユニット一覧 Unit List, 状況 Objective, セーブ Save,
+  ロード Load, 環境設定 Settings.

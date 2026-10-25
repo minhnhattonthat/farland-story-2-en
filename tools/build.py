@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import check_rom
 import extract
 import font
+import gfx
 import lz
 import lzscan
 import romdiff
@@ -191,6 +192,11 @@ def english(rom, entries, blocks, moves=None, log=None):
             continue
         for s in p16_bank_sites(rom, base, n):
             put(out, rom, s, [cpu(P16_BANK) >> 16], f"p16 bank {base:06X}", log)
+    # graphics text (tools/gfx.py)
+    put(out, rom, gfx.LABELS, gfx.menu_labels(), "gfx:menu labels", log)
+    if gfx.TITLE_BLOCK in blocks:  # absent only in tests that pass no LZ blocks
+        size, data = blocks[gfx.TITLE_BLOCK]
+        blocks = {**blocks, gfx.TITLE_BLOCK: (size, gfx.title_menu(data))}
     repack_lz(rom, out, blocks, log)
     return apply_asm(out)
 

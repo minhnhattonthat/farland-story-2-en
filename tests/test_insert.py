@@ -42,6 +42,22 @@ def test_every_translated_string_written(english):
     assert [e["id"] for e in build.load_script() if e["en"] and e["id"] not in written] == []
 
 
+def test_gfx_selftest():
+    import gfx
+    gfx.selftest()
+
+
+@needs_rom
+def test_graphics_text_written(english):
+    """G3 labels and the G2 title menu (docs/re/graphics.md) reach the build."""
+    import gfx
+    import lz
+    rom, out, log = english
+    assert out[gfx.LABELS:gfx.LABELS + 0x1040] == gfx.menu_labels()
+    title = lz.decompress(out, gfx.TITLE_BLOCK)[0]
+    assert title == gfx.title_menu(lz.decompress(rom, gfx.TITLE_BLOCK)[0]) != lz.decompress(rom, gfx.TITLE_BLOCK)[0]
+
+
 def test_lint_clean():
     assert lint.lint() == []
 
