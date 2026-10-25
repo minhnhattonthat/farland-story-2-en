@@ -12,4 +12,12 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| [prior-work.md](prior-work.md) | Bongo's abandoned project (tables, notes, menu IPS), Eien Ni Hen's partial script | done |
+| [rom.md](rom.md) | header, bank map, free space, 4 MiB expansion plan | verified (scan) |
+| [text.md](text.md) | encoding, control codes, text regions, pointer forms, script VM | encoding/controls verified (`tests/test_recon.py`); VM arg counts and table layouts partly guessed |
+| [font.md](font.md) | 16x16 and 8x16 fonts | verified (rendered + draw code) |
+| [compression.md](compression.md) | LZ codec, block list | verified (`tools/lz.py`, test) |
+| [graphics.md](graphics.md) | graphics-text survey (tour + static sweep) | see file |
+
+Tools: `tools/textscan.py` (text runs), `tools/fontsheet.py` (font vs table), `tools/lz.py` + `tools/lzscan.py`
+(LZ blocks), `tools/gfxsweep.py` (static graphics sheets).
