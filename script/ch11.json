@@ -1,0 +1,497 @@
+[
+ {
+  "id": "ch11.06C661",
+  "addr": "06C661",
+  "len": 78,
+  "ptrs": [
+   "vm:06BEB7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、なんだ！？{nl}{wait}{clr}{pos:00000000}{full}帝国軍のやつらがあんなに大勢いるとは{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C6AF",
+  "addr": "06C6AF",
+  "len": 46,
+  "ptrs": [
+   "vm:06BEBC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここももう占領されてしまったのか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C6DD",
+  "addr": "06C6DD",
+  "len": 48,
+  "ptrs": [
+   "vm:06BECF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんかキーキー言ってる、動物かな？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C70D",
+  "addr": "06C70D",
+  "len": 60,
+  "ptrs": [
+   "vm:06BEE2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バカだな、ちがうよあれは女の子の{nl}声じゃないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C749",
+  "addr": "06C749",
+  "len": 108,
+  "ptrs": [
+   "vm:06BEFF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、何っ！{nl}女の子の悲鳴！？{wait}{clr}{pos:00000000}{full}ようし！{nl}女性の味方！{nl}{wait}{clr}{pos:00000000}{full}ケイリナスの出番！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C7B5",
+  "addr": "06C7B5",
+  "len": 32,
+  "ptrs": [
+   "vm:06BF12"
+  ],
+  "jp": "{clr}{pos:00000000}{full}つかれる男だ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C7D5",
+  "addr": "06C7D5",
+  "len": 32,
+  "ptrs": [
+   "vm:06C2AD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あっ、あの船は！{nl}{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C7F5",
+  "addr": "06C7F5",
+  "len": 32,
+  "ptrs": [
+   "vm:06C2B2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サイレントムーン！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C815",
+  "addr": "06C815",
+  "len": 78,
+  "ptrs": [
+   "vm:06C309"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国のやつらめ{nl}{wait}{clr}{pos:00000000}{full}サイレントムーンを商人に売りつけたな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C863",
+  "addr": "06C863",
+  "len": 28,
+  "ptrs": [
+   "vm:06C31C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}取り返すッス！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C87F",
+  "addr": "06C87F",
+  "len": 62,
+  "ptrs": [
+   "vm:06C32F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバさんたら{nl}船を見たとたん男らしくなったわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C8BD",
+  "addr": "06C8BD",
+  "len": 36,
+  "ptrs": [
+   "vm:06C342"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どっちが本当なのかしら{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C8E1",
+  "addr": "06C8E1",
+  "len": 136,
+  "ptrs": [
+   "vm:06BFE4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おじょうさんだいじょうぶですか？{wait}{clr}{pos:00000000}{full}このケイリナスが{nl}来たからには{nl}もう安心！{wait}{clr}{pos:00000000}{full}大船に乗った気でいなさい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C969",
+  "addr": "06C969",
+  "len": 42,
+  "ptrs": [
+   "vm:06BFF7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナスなら{nl}ナンパ船だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C993",
+  "addr": "06C993",
+  "len": 22,
+  "ptrs": [
+   "vm:06C00A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオー！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06C9A9",
+  "addr": "06C9A9",
+  "len": 62,
+  "ptrs": [
+   "vm:06C0C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おじょうさん！{nl}もうご安心くださいしてお名前は？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06C9E7",
+  "addr": "06C9E7",
+  "len": 84,
+  "ptrs": [
+   "vm:06C0D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うちは{nl}ドリスっちゅうねん{wait}{clr}{pos:00000000}{full}助けてもろてめっちゃうれしいわあ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CA3B",
+  "addr": "06CA3B",
+  "len": 34,
+  "ptrs": [
+   "vm:06C0DB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}じゃ、お元気で・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CA5D",
+  "addr": "06CA5D",
+  "len": 90,
+  "ptrs": [
+   "vm:06C0E0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ちょっとなんやねんそのあつかいは！{wait}{clr}{pos:00000000}{full}うちもいっしょに{nl}連れていって{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CAB7",
+  "addr": "06CAB7",
+  "len": 46,
+  "ptrs": [
+   "vm:06C0F3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナス　趣味が変わったんだね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CAE5",
+  "addr": "06CAE5",
+  "len": 98,
+  "ptrs": [
+   "vm:06C10A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}たとえ、子供でも{nl}１０年たてば{nl}りっぱなレディー{wait}{clr}{pos:00000000}{full}名づけて{nl}かぐや姫作戦！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CB47",
+  "addr": "06CB47",
+  "len": 38,
+  "ptrs": [
+   "vm:06C11D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かぐや姫って{nl}だれガオ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CB6D",
+  "addr": "06CB6D",
+  "len": 30,
+  "ptrs": [
+   "vm:06C122"
+  ],
+  "jp": "{clr}{pos:00000000}{full}東洋の国の昔話さ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CB8B",
+  "addr": "06CB8B",
+  "len": 28,
+  "ptrs": [
+   "vm:06C135"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うち１６歳やで{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CBA7",
+  "addr": "06CBA7",
+  "len": 86,
+  "ptrs": [
+   "vm:06C148"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、何！{nl}信じられん！{wait}{clr}{pos:00000000}{full}キミはどう見ても８歳くらいにしか・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CBFD",
+  "addr": "06CBFD",
+  "len": 48,
+  "ptrs": [
+   "vm:06C169"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いてて！{nl}なにするんだ、このガキ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CC2D",
+  "addr": "06CC2D",
+  "len": 36,
+  "ptrs": [
+   "vm:06C16E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うち、ガキとちゃうで！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CC51",
+  "addr": "06CC51",
+  "len": 124,
+  "ptrs": [
+   "vm:06C181"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よせよケイリナス・・・そこのキミ{nl}ドリスといったね{wait}{clr}{pos:00000000}{full}ふくそうから見ると魔法使いの修行中ってとこかい？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CCCD",
+  "addr": "06CCCD",
+  "len": 218,
+  "ptrs": [
+   "vm:06C19C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}見そこなってもろたら困るで{wait}{clr}{pos:00000000}{full}うちはなあ、こう見えても召喚士や{wait}{clr}{pos:00000000}{full}そんで精霊とか呼び出して{wait}{clr}{pos:00000000}{full}悪いやつビシバシ{nl}やっつけるんや！{wait}{clr}{pos:00000000}{full}正義の美少女召喚士とでもゆーてもらおうか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CDA7",
+  "addr": "06CDA7",
+  "len": 30,
+  "ptrs": [
+   "vm:06C1AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うふふ、かわいい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CDC5",
+  "addr": "06CDC5",
+  "len": 78,
+  "ptrs": [
+   "vm:06C1C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ところでキミ{wait}{clr}{pos:00000000}{full}なんだって帝国軍に捕まったりしたん{nl}だい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CE13",
+  "addr": "06CE13",
+  "len": 94,
+  "ptrs": [
+   "vm:06C1D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それがついてないんや{wait}{clr}{pos:00000000}{full}ちょこーっと精霊呼び出すときに失敗してしもたんや{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CE71",
+  "addr": "06CE71",
+  "len": 24,
+  "ptrs": [
+   "vm:06C1E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}失敗って？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CE89",
+  "addr": "06CE89",
+  "len": 120,
+  "ptrs": [
+   "vm:06C1ED"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あんなあ、ずーっと離れたとこに帝国軍がおってん{wait}{clr}{pos:00000000}{full}うちは精霊を呼び{nl}出すれんしゅうを{nl}しとったんや{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CF01",
+  "addr": "06CF01",
+  "len": 32,
+  "ptrs": [
+   "vm:06C200"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うんうん、それで？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CF21",
+  "addr": "06CF21",
+  "len": 136,
+  "ptrs": [
+   "vm:06C213"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国軍の隊長が精霊にふっ飛ばされて{wait}{clr}{pos:00000000}{full}山をよっつかいつつくらい飛びこえてしもたんや{wait}{clr}{pos:00000000}{full}それだけのことやねん{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06CFA9",
+  "addr": "06CFA9",
+  "len": 56,
+  "ptrs": [
+   "vm:06C226"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そ、それはちょっとおこられると思うよ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06CFE1",
+  "addr": "06CFE1",
+  "len": 62,
+  "ptrs": [
+   "vm:06C239"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それにしても、一人によってたかって{nl}ひどすぎるわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06D01F",
+  "addr": "06D01F",
+  "len": 78,
+  "ptrs": [
+   "vm:06C24C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あんたらも帝国に追われてるんやろ？{wait}{clr}{pos:00000000}{full}うちも連れてって！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06D06D",
+  "addr": "06D06D",
+  "len": 50,
+  "ptrs": [
+   "vm:06C25F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし！　俺たちと{nl}あの船に乗り込もう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06D09F",
+  "addr": "06D09F",
+  "len": 22,
+  "ptrs": [
+   "vm:06C264"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わーい！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06D0B5",
+  "addr": "06D0B5",
+  "len": 54,
+  "ptrs": [
+   "vm:06C547"
+  ],
+  "jp": "{clr}{pos:00000000}{full}急げ、帝国軍のやつら、仲間を呼んだらしい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06D0EB",
+  "addr": "06D0EB",
+  "len": 64,
+  "ptrs": [
+   "vm:06C54C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバ！急いで船を出してくれ！{nl}追っ手が来そうだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch11.06D12B",
+  "addr": "06D12B",
+  "len": 32,
+  "ptrs": [
+   "vm:06C55F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ワスにまかすッス！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch11.06D14B",
+  "addr": "06D14B",
+  "len": 42,
+  "ptrs": [
+   "vm:06BD7F"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　８{nl}{half}　{full}　　＜奪取＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

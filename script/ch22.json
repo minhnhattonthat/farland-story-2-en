@@ -1,0 +1,322 @@
+[
+ {
+  "id": "ch22.0595B2",
+  "addr": "0595B2",
+  "len": 144,
+  "ptrs": [
+   "vm:0592A3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったく、お人好しもいいところだぞ{nl}リアド{wait}{clr}{pos:00000000}{full}このロードスくんだりまで{wait}{clr}{pos:00000000}{full}苦戦している反乱軍にすけだちに来るとはな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059642",
+  "addr": "059642",
+  "len": 108,
+  "ptrs": [
+   "vm:0592A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}反乱は、いまや帝国全土に広がっている{wait}{clr}{pos:00000000}{full}このスキをついて{nl}宮殿に攻め込みたいと思うんだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.0596AE",
+  "addr": "0596AE",
+  "len": 62,
+  "ptrs": [
+   "vm:0592BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なるほど！それでロードスの反乱を助けるわけですね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.0596EC",
+  "addr": "0596EC",
+  "len": 40,
+  "ptrs": [
+   "vm:0592CE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あぁーすてきだわ{nl}リアド様{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059714",
+  "addr": "059714",
+  "len": 62,
+  "ptrs": [
+   "vm:0592E1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あの・・・サークルス・・・もう少し{nl}はなれてくれ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059752",
+  "addr": "059752",
+  "len": 24,
+  "ptrs": [
+   "vm:0592F4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.05976A",
+  "addr": "05976A",
+  "len": 32,
+  "ptrs": [
+   "vm:059307"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああっ、あの船は！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.05978A",
+  "addr": "05978A",
+  "len": 24,
+  "ptrs": [
+   "vm:05931A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まさか！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.0597A2",
+  "addr": "0597A2",
+  "len": 32,
+  "ptrs": [
+   "vm:05931F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いやな予感がするわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.0597C2",
+  "addr": "0597C2",
+  "len": 76,
+  "ptrs": [
+   "vm:059372"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ハハハ、リアドよ{wait}{clr}{pos:00000000}{full}またしてもしぶとく生き残っていたか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.05980E",
+  "addr": "05980E",
+  "len": 24,
+  "ptrs": [
+   "vm:059377"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウェイス！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059826",
+  "addr": "059826",
+  "len": 52,
+  "ptrs": [
+   "vm:05937C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、今日こそはおまえの命をもらうぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.05985A",
+  "addr": "05985A",
+  "len": 32,
+  "ptrs": [
+   "vm:059381"
+  ],
+  "jp": "{clr}{pos:00000000}{full}今度は俺がおまえを{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.05987A",
+  "addr": "05987A",
+  "len": 116,
+  "ptrs": [
+   "vm:059386"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ククク・・・{wait}{clr}{pos:00000000}{full}私を倒せば将軍は{nl}おまえに会って{nl}下さるぞ{wait}{clr}{pos:00000000}{full}自分の手で倒す{nl}ためにな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.0598EE",
+  "addr": "0598EE",
+  "len": 28,
+  "ptrs": [
+   "vm:05938B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}く、くそおっ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.05990A",
+  "addr": "05990A",
+  "len": 60,
+  "ptrs": [
+   "vm:059390"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さあ、来い！{nl}海の上で勝負をつけようハハハハッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059946",
+  "addr": "059946",
+  "len": 30,
+  "ptrs": [
+   "vm:059395"
+  ],
+  "jp": "{clr}{pos:00000000}{full}その手にのるか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059964",
+  "addr": "059964",
+  "len": 60,
+  "ptrs": [
+   "vm:0594CE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だ、だめだよ！{nl}海の上ではあいつにかなわないよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.0599A0",
+  "addr": "0599A0",
+  "len": 112,
+  "ptrs": [
+   "vm:0594D3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ということは・・・やつは海の上だから強いのであって{wait}{clr}{pos:00000000}{full}おそらく陸の上ではそれほどでもない！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059A10",
+  "addr": "059A10",
+  "len": 78,
+  "ptrs": [
+   "vm:0594E6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だからどやっちゅうねん？{wait}{clr}{pos:00000000}{full}あいつ陸のほうへはこーへんで{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059A5E",
+  "addr": "059A5E",
+  "len": 132,
+  "ptrs": [
+   "vm:0594EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}海を、陸に変えて{nl}しまうのです！{wait}{clr}{pos:00000000}{full}あの浮島までなら{nl}あさいですから{wait}{clr}{pos:00000000}{full}海をうめつくしてしまえば・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059AE2",
+  "addr": "059AE2",
+  "len": 82,
+  "ptrs": [
+   "vm:0594FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだわ！{wait}{clr}{pos:00000000}{full}ロードスの民たちに力を貸して{nl}もらいましょう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059B34",
+  "addr": "059B34",
+  "len": 50,
+  "ptrs": [
+   "vm:059511"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わしがロードスの民にたのみに行くっス{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059B66",
+  "addr": "059B66",
+  "len": 44,
+  "ptrs": [
+   "vm:059524"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし！さっそく実行にうつそう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059B92",
+  "addr": "059B92",
+  "len": 44,
+  "ptrs": [
+   "vm:059561"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、人間たちもなかなかやるな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch22.059BBE",
+  "addr": "059BBE",
+  "len": 76,
+  "ptrs": [
+   "vm:059566"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あはン・・・がんばってぇン{wait}{clr}{pos:00000000}{full}みなさん{nl}ス・テ・キ・よ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch22.059C0A",
+  "addr": "059C0A",
+  "len": 40,
+  "ptrs": [
+   "vm:05921E"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１８{nl}　＜ロードス島＞{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch22.059C32",
+  "addr": "059C32",
+  "len": 46,
+  "ptrs": [
+   "vm:0595A7"
+  ],
+  "jp": "{full}町人{nl}　トロイヤが帝国を　裹切ったらしい{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch22.05A029",
+  "addr": "05A029",
+  "len": 46,
+  "ptrs": [
+   "vm:059590",
+   "vm:059E69"
+  ],
+  "jp": "{full}町人{nl}　この国はサメやろ　うに占領された{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

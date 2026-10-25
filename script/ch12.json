@@ -1,0 +1,255 @@
+[
+ {
+  "id": "ch12.06D52B",
+  "addr": "06D52B",
+  "len": 54,
+  "ptrs": [
+   "vm:06D266"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿！{nl}帝国軍の船があらわれました！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D561",
+  "addr": "06D561",
+  "len": 24,
+  "ptrs": [
+   "vm:06D26B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しまった！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D579",
+  "addr": "06D579",
+  "len": 30,
+  "ptrs": [
+   "vm:06D2FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしよう・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D597",
+  "addr": "06D597",
+  "len": 90,
+  "ptrs": [
+   "vm:06D30E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はっはっは、天才ケイリナスがついてます{wait}{clr}{pos:00000000}{full}だいじょうぶ、だいじょうぶ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D5F1",
+  "addr": "06D5F1",
+  "len": 54,
+  "ptrs": [
+   "vm:06D321"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そう言うからには{nl}何か考えがあるんだな？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D627",
+  "addr": "06D627",
+  "len": 92,
+  "ptrs": [
+   "vm:06D326"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もちろん！{nl}やつらの船が近づいたら{wait}{clr}{pos:00000000}{full}敵の船に飛び移って乗っ取るのです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D683",
+  "addr": "06D683",
+  "len": 66,
+  "ptrs": [
+   "vm:06D339"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナスのやり方は、いつもイチか{nl}バチかだもんなぁ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D6C5",
+  "addr": "06D6C5",
+  "len": 26,
+  "ptrs": [
+   "vm:06D34C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}悪かったな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D6DF",
+  "addr": "06D6DF",
+  "len": 94,
+  "ptrs": [
+   "vm:06D35F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もう、そこまで来ている！{wait}{clr}{pos:00000000}{full}とにかくケイリナスのやり方しかなさ{nl}そうです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D73D",
+  "addr": "06D73D",
+  "len": 46,
+  "ptrs": [
+   "vm:06D445"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようし、船をくっつけるダスよ！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D76B",
+  "addr": "06D76B",
+  "len": 34,
+  "ptrs": [
+   "vm:06D3C8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}久しぶりだな{nl}リアド{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D78D",
+  "addr": "06D78D",
+  "len": 60,
+  "ptrs": [
+   "vm:06D3CD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウェイス・・・{nl}帝国軍の手先に{nl}なりさがったか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D7C9",
+  "addr": "06D7C9",
+  "len": 154,
+  "ptrs": [
+   "vm:06D3D2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッフッフ、出世したと言ってくれ{wait}{clr}{pos:00000000}{full}ともにゾルディン{nl}師匠に剣のけいこをつけてもらった{wait}{clr}{pos:00000000}{full}私に倒されるなら{nl}不足はないだろう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D863",
+  "addr": "06D863",
+  "len": 60,
+  "ptrs": [
+   "vm:06D3D7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、その言葉は{nl}そっくりあなたに{nl}返してやる{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D89F",
+  "addr": "06D89F",
+  "len": 38,
+  "ptrs": [
+   "vm:06D3EA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いっしょに剣のけいこを？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06D8C5",
+  "addr": "06D8C5",
+  "len": 146,
+  "ptrs": [
+   "vm:06D3FD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだ{nl}ウェイスは兄弟子だ{wait}{clr}{pos:00000000}{full}あなたは{nl}剣を出世のために{nl}使うというのか{wait}{clr}{pos:00000000}{full}ゾルディン師匠も{nl}さぞかしなげく{nl}だろう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06D957",
+  "addr": "06D957",
+  "len": 230,
+  "ptrs": [
+   "vm:06D410"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クックク・・・{nl}こいつはお笑いだ{wait}{clr}{pos:00000000}{full}ゾルディン師匠は{nl}帝国軍の{wait}{clr}{pos:00000000}{full}将軍でもあるってことを忘れたのか{wait}{clr}{pos:00000000}{full}俺がこうして{nl}わざわざおまえを{nl}倒しに来たのも{wait}{clr}{pos:00000000}{full}師匠の・・・いや{nl}将軍の命令だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06DA3D",
+  "addr": "06DA3D",
+  "len": 70,
+  "ptrs": [
+   "vm:06D415"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゾルディン師匠が{nl}そんな命令を！？{wait}{clr}{pos:00000000}{full}ばかな！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06DA83",
+  "addr": "06DA83",
+  "len": 86,
+  "ptrs": [
+   "vm:06D41A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クックク・・・帝国にはおまえの味方などもうおらん{wait}{clr}{pos:00000000}{full}あきらめろ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch12.06DAD9",
+  "addr": "06DAD9",
+  "len": 96,
+  "ptrs": [
+   "vm:06D41F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうはいくものか！{wait}{clr}{pos:00000000}{full}こうなったら、死んでもあなたに負けるわけにはいかん！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06DB39",
+  "addr": "06DB39",
+  "len": 90,
+  "ptrs": [
+   "vm:06D432"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし、今だ！{nl}帝国軍の船に思い切り近づくんだ！{wait}{clr}{pos:00000000}{full}みんなも剣を取れ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06DB93",
+  "addr": "06DB93",
+  "len": 44,
+  "ptrs": [
+   "vm:06D463"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな、帝国軍の船に飛び移れ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch12.06DBBF",
+  "addr": "06DBBF",
+  "len": 42,
+  "ptrs": [
+   "vm:06D1D1"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　９{nl}{half}　{full}　　＜海戦＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

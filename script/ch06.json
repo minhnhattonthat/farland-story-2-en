@@ -1,0 +1,431 @@
+[
+ {
+  "id": "ch06.066D1C",
+  "addr": "066D1C",
+  "len": 74,
+  "ptrs": [
+   "vm:066855"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゼェゼェ・・・つかれた{wait}{clr}{pos:00000000}{full}ネイフルがいけないんだぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066D66",
+  "addr": "066D66",
+  "len": 34,
+  "ptrs": [
+   "vm:066862"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何でだよ{nl}シフィル！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.066D88",
+  "addr": "066D88",
+  "len": 132,
+  "ptrs": [
+   "vm:066867"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフルが{nl}どうしても行こうっていうから{wait}{clr}{pos:00000000}{full}魔物退治に{nl}来たのにィ・・・{wait}{clr}{pos:00000000}{full}もう負けそうじゃ{nl}ないかあ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066E0C",
+  "addr": "066E0C",
+  "len": 80,
+  "ptrs": [
+   "vm:066873"
+  ],
+  "jp": "{clr}{pos:00000000}{full}キミが弱気だからだろっ！{wait}{clr}{pos:00000000}{full}ほら、後ろ！{nl}気をつけろよっ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.066E5C",
+  "addr": "066E5C",
+  "len": 22,
+  "ptrs": [
+   "vm:06687C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うあっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066E72",
+  "addr": "066E72",
+  "len": 100,
+  "ptrs": [
+   "vm:066881"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほら、言ったろ！？えっと・・・{nl}あれ？{wait}{clr}{pos:00000000}{full}回復アイテム、使いきっちゃったみたい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.066ED6",
+  "addr": "066ED6",
+  "len": 40,
+  "ptrs": [
+   "vm:06689D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうダメだぁー{nl}お母様ー！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066EFE",
+  "addr": "066EFE",
+  "len": 92,
+  "ptrs": [
+   "vm:0669A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル{nl}それにネイフル！{wait}{clr}{pos:00000000}{full}また二人で勝手にお城を飛び出したのね！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066F5A",
+  "addr": "066F5A",
+  "len": 40,
+  "ptrs": [
+   "vm:0669BC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリア！{nl}ちょうどいい所へ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.066F82",
+  "addr": "066F82",
+  "len": 38,
+  "ptrs": [
+   "vm:0669CF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ・・・助かった・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066FA8",
+  "addr": "066FA8",
+  "len": 34,
+  "ptrs": [
+   "vm:0669E2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたたちねえ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.066FCA",
+  "addr": "066FCA",
+  "len": 46,
+  "ptrs": [
+   "vm:0669F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいから、早く回復魔法かけてよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.066FF8",
+  "addr": "066FF8",
+  "len": 38,
+  "ptrs": [
+   "vm:0669FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったくもう！{nl}プンプン{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.06701E",
+  "addr": "06701E",
+  "len": 76,
+  "ptrs": [
+   "vm:066A0D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル様{nl}それにネイフル様{wait}{clr}{pos:00000000}{full}危ないじゃないですか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.06706A",
+  "addr": "06706A",
+  "len": 62,
+  "ptrs": [
+   "vm:066A20"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だってえ、ボクは{nl}やだって言ったのにネイフルがぁ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.0670A8",
+  "addr": "0670A8",
+  "len": 48,
+  "ptrs": [
+   "vm:066A33"
+  ],
+  "jp": "{clr}{pos:00000000}{full}すぐ人のせいにしてそれでも男かよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.0670D8",
+  "addr": "0670D8",
+  "len": 62,
+  "ptrs": [
+   "vm:066A46"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフル！いまの{nl}言い方はとっても{nl}お・下・品よ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067116",
+  "addr": "067116",
+  "len": 92,
+  "ptrs": [
+   "vm:066A59"
+  ],
+  "jp": "{clr}{pos:00000000}{full}へえ、すると{nl}この二人がアーク王の息子に{wait}{clr}{pos:00000000}{full}エレノア騎士団長の娘さんか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.067172",
+  "addr": "067172",
+  "len": 100,
+  "ptrs": [
+   "vm:066A5E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうよ、シフィルはちょっぴり情けないし{wait}{clr}{pos:00000000}{full}ネイフルはちょっぴり乱暴すぎるけどね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.0671D6",
+  "addr": "0671D6",
+  "len": 26,
+  "ptrs": [
+   "vm:066A71"
+  ],
+  "jp": "{clr}{pos:00000000}{full}悪かったな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.0671F0",
+  "addr": "0671F0",
+  "len": 58,
+  "ptrs": [
+   "vm:066A76"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいおい、じゃれあってないで、力を合わせよう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.06722A",
+  "addr": "06722A",
+  "len": 22,
+  "ptrs": [
+   "vm:066A7B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようし！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067240",
+  "addr": "067240",
+  "len": 58,
+  "ptrs": [
+   "vm:066A8E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええっ、みんなで逃げるんじゃなかったのぉ！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.06727A",
+  "addr": "06727A",
+  "len": 38,
+  "ptrs": [
+   "vm:066BC1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リ、リアドがあそこに！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.0672A0",
+  "addr": "0672A0",
+  "len": 40,
+  "ptrs": [
+   "vm:066BC6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バカな、俺はここにいるぞ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.0672C8",
+  "addr": "0672C8",
+  "len": 52,
+  "ptrs": [
+   "vm:066BD9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クックク・・・{nl}本物のリアドは{nl}俺だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.0672FC",
+  "addr": "0672FC",
+  "len": 74,
+  "ptrs": [
+   "vm:066BEC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルル{nl}本当のあにきが{wait}{clr}{pos:00000000}{full}ニセモノに負ける{nl}もんか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.067346",
+  "addr": "067346",
+  "len": 42,
+  "ptrs": [
+   "vm:066BFF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}村を襲ったのはこいつらだな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067370",
+  "addr": "067370",
+  "len": 36,
+  "ptrs": [
+   "vm:066C7E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、なかなかやるね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067394",
+  "addr": "067394",
+  "len": 28,
+  "ptrs": [
+   "vm:066C83"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうでもないさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.0673B0",
+  "addr": "0673B0",
+  "len": 192,
+  "ptrs": [
+   "vm:066C96"
+  ],
+  "jp": "{clr}{pos:00000000}{full}昔にほろぼしたはずの魔物たちが攻撃してきた{wait}{clr}{pos:00000000}{full}しかもリアド殿のニセモノまで・・・{wait}{clr}{pos:00000000}{full}今ごろになって、なぜ魔物たちが{wait}{clr}{pos:00000000}{full}姿をあらわすようになったのでしょう？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067470",
+  "addr": "067470",
+  "len": 44,
+  "ptrs": [
+   "vm:066C9B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これはまちがいなく帝国の陰謀だ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.06749C",
+  "addr": "06749C",
+  "len": 80,
+  "ptrs": [
+   "vm:066CAE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}世界を征服するために、魔物と手を組む話は{wait}{clr}{pos:00000000}{full}よく伝承にある{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.0674EC",
+  "addr": "0674EC",
+  "len": 130,
+  "ptrs": [
+   "vm:066CC1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もし、それが本当だとしたら・・・{wait}{clr}{pos:00000000}{full}アーク王が{nl}危ないわ！{wait}{clr}{pos:00000000}{full}リアド、アーク王を早く助けに行かないと{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.06756E",
+  "addr": "06756E",
+  "len": 112,
+  "ptrs": [
+   "vm:066CD4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王の護衛には歴戦の勇士たちがついているはず{wait}{clr}{pos:00000000}{full}そうやすやすとやられるわけがないと思う{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch06.0675DE",
+  "addr": "0675DE",
+  "len": 164,
+  "ptrs": [
+   "vm:066CE7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだよ{wait}{clr}{pos:00000000}{full}ボクの父さんがそう簡単にやられるわけがないよ{wait}{clr}{pos:00000000}{full}それよりも{nl}城にもどって{nl}{wait}{clr}{pos:00000000}{full}何か報告が入ってないかをたしかめよう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067682",
+  "addr": "067682",
+  "len": 96,
+  "ptrs": [
+   "vm:066D11"
+  ],
+  "jp": "{full}町人{nl}　アーク王はすばら　しいお方だ・・{wait}{nl}　それにひきかえ{nl}　シフィル様ときた　ら・・・{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch06.0676E2",
+  "addr": "0676E2",
+  "len": 32,
+  "ptrs": [
+   "vm:066AEF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}北の敵はまかせろ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch06.067702",
+  "addr": "067702",
+  "len": 24,
+  "ptrs": [
+   "vm:066AF4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}たのんだぞ{wait}",
+  "en": "",
+  "box": "lower"
+ }
+]

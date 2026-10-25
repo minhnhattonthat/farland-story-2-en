@@ -1,0 +1,464 @@
+[
+ {
+  "id": "ch02.06194E",
+  "addr": "06194E",
+  "len": 176,
+  "ptrs": [
+   "vm:0613EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}自由都市国家の港{wait}{clr}{pos:00000000}{full}この港町の人々は戦に巻き込まれることはない{wait}{clr}{pos:00000000}{full}それは貿易で手に入れた食料や金を{wait}{clr}{pos:00000000}{full}たっぷりと帝国に送っているからである{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch02.0619FE",
+  "addr": "0619FE",
+  "len": 56,
+  "ptrs": [
+   "vm:0614A1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオー、ここが自由の港かぁ・・・{nl}すごいや{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061A36",
+  "addr": "061A36",
+  "len": 210,
+  "ptrs": [
+   "vm:0614AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だろ？　イオニア大陸で一番大きい港がここさ{wait}{clr}{pos:00000000}{full}帝国もここだけは手出しせずにいるんだ{wait}{clr}{pos:00000000}{full}これだけ栄えている港を、戦であらしちゃ損だからな{wait}{clr}{pos:00000000}{full}ここでなんとかして船を手に入れるぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061B08",
+  "addr": "061B08",
+  "len": 40,
+  "ptrs": [
+   "vm:0614C1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}船でどこへ行くつもりなの？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061B30",
+  "addr": "061B30",
+  "len": 32,
+  "ptrs": [
+   "vm:0614C6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェルサリア王国さ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061B50",
+  "addr": "061B50",
+  "len": 72,
+  "ptrs": [
+   "vm:0614CB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェルサリア？{wait}{clr}{pos:00000000}あの伝説の英雄{nl}アーク王の国ね！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061B98",
+  "addr": "061B98",
+  "len": 118,
+  "ptrs": [
+   "vm:0614D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、アーク王にすべて話してみようと思うんだ{wait}{clr}{pos:00000000}{full}あの人ならきっと{nl}俺たちに味方して{nl}くれると思う{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061C0E",
+  "addr": "061C0E",
+  "len": 38,
+  "ptrs": [
+   "vm:0614D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド・・・{nl}私のために{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061C34",
+  "addr": "061C34",
+  "len": 28,
+  "ptrs": [
+   "vm:0614DA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061C50",
+  "addr": "061C50",
+  "len": 44,
+  "ptrs": [
+   "vm:0614F1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルル・・・{nl}もう勝手にしてよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061C7C",
+  "addr": "061C7C",
+  "len": 124,
+  "ptrs": [
+   "vm:0614F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エヘン、それはそれとしてだな{wait}{clr}{pos:00000000}{full}フェルサリアなら{nl}隠れ家になる場所も{wait}{clr}{pos:00000000}{full}たくさんありそうなんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061CF8",
+  "addr": "061CF8",
+  "len": 40,
+  "ptrs": [
+   "vm:0614FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウオー{nl}じゃ、決まりだね！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061D20",
+  "addr": "061D20",
+  "len": 30,
+  "ptrs": [
+   "vm:061504"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まずは船を探すぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061D3E",
+  "addr": "061D3E",
+  "len": 28,
+  "ptrs": [
+   "vm:061558"
+  ],
+  "jp": "{clr}{pos:00000000}{full}探したぞリアド{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061D5A",
+  "addr": "061D5A",
+  "len": 48,
+  "ptrs": [
+   "vm:061561"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ヴァ、ヴァラカナ！いつのまに・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061D8A",
+  "addr": "061D8A",
+  "len": 46,
+  "ptrs": [
+   "vm:061578"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルル・・・{nl}だれだっ、こいつ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061DB8",
+  "addr": "061DB8",
+  "len": 94,
+  "ptrs": [
+   "vm:06157D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、安心しろ{nl}俺はリアドと{nl}親友だ{wait}{pos:00000000}{clr}{full}ちょっとした借りを返しに来たのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061E16",
+  "addr": "061E16",
+  "len": 32,
+  "ptrs": [
+   "vm:061590"
+  ],
+  "jp": "{clr}{pos:00000000}{full}借り？{nl}何のことだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061E36",
+  "addr": "061E36",
+  "len": 60,
+  "ptrs": [
+   "vm:061595"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いまは美しい恋人のことで頭がいっぱいってわけか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061E72",
+  "addr": "061E72",
+  "len": 28,
+  "ptrs": [
+   "vm:06159A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だ、だれがだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061E8E",
+  "addr": "061E8E",
+  "len": 118,
+  "ptrs": [
+   "vm:06159F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何を{nl}むきになっている{wait}{clr}{pos:00000000}{full}さぁ{nl}遊んでいるひまは{nl}ないぞ{wait}{clr}{pos:00000000}{full}帝国軍が{nl}ここを攻めに来る！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.061F04",
+  "addr": "061F04",
+  "len": 92,
+  "ptrs": [
+   "vm:0615A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そんなバカな！{wait}{clr}{pos:00000000}{full}ここは自由の港、軍は出入りしない決まりがあるはずだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.061F60",
+  "addr": "061F60",
+  "len": 176,
+  "ptrs": [
+   "vm:0615A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえを捕まえるためなら、やつら神にも刃を向けかねん{wait}{clr}{pos:00000000}{full}まして港の民との決まりなど、ためらいもせず破る{wait}{clr}{pos:00000000}{full}・・・いいから{nl}ついて来るんだ{nl}リアド！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.062010",
+  "addr": "062010",
+  "len": 62,
+  "ptrs": [
+   "vm:0615BC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルル、アニキ{nl}帝国軍のヤツらだ！こっちへ来るよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.06204E",
+  "addr": "06204E",
+  "len": 70,
+  "ptrs": [
+   "vm:0615C1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ヴァラカナ！{wait}{clr}{pos:00000000}{full}おまえは関係ない早く逃げるんだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062094",
+  "addr": "062094",
+  "len": 46,
+  "ptrs": [
+   "vm:0615D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よけいな世話を{nl}焼かせてもらうぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.0620C2",
+  "addr": "0620C2",
+  "len": 46,
+  "ptrs": [
+   "vm:0615D9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よけいな世話なら{nl}いらないガオ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.0620F0",
+  "addr": "0620F0",
+  "len": 38,
+  "ptrs": [
+   "vm:0615E2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それは{nl}言葉のあやだっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062116",
+  "addr": "062116",
+  "len": 46,
+  "ptrs": [
+   "vm:0617FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まて、まず船を用意しないと・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062144",
+  "addr": "062144",
+  "len": 46,
+  "ptrs": [
+   "vm:0617FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、とっくに{nl}用意はできてるさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.062172",
+  "addr": "062172",
+  "len": 52,
+  "ptrs": [
+   "vm:061812"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオッ{nl}あれがおいらたちの乗る船かい？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.0621A6",
+  "addr": "0621A6",
+  "len": 30,
+  "ptrs": [
+   "vm:061825"
+  ],
+  "jp": "{clr}{pos:00000000}{full}すばらしい船ね！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.0621C4",
+  "addr": "0621C4",
+  "len": 98,
+  "ptrs": [
+   "vm:061838"
+  ],
+  "jp": "{clr}{pos:00000000}{full}感心していないで{nl}みんな早く{nl}乗り込むんだ！{wait}{clr}{pos:00000000}{full}帝国のやつらに{nl}追いつかれる{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062226",
+  "addr": "062226",
+  "len": 50,
+  "ptrs": [
+   "vm:061886"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おお、おんしらか{nl}ヴァラカナの客は？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062258",
+  "addr": "062258",
+  "len": 80,
+  "ptrs": [
+   "vm:06188B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、紹介しよう{nl}{wait}{clr}{pos:00000000}{full}リアド{nl}こいつは船乗りの{nl}アルタバだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.0622A8",
+  "addr": "0622A8",
+  "len": 136,
+  "ptrs": [
+   "vm:06189E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺はリアド{nl}だが、ヴァラカナ{wait}{clr}{pos:00000000}{full}この人は一体なぜ{nl}俺たちを助けて{nl}くれるんだ？{wait}{clr}{pos:00000000}{full}帝国軍が{nl}恐くないのか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.062330",
+  "addr": "062330",
+  "len": 50,
+  "ptrs": [
+   "vm:0618A3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバは{nl}ロードス国の出身{nl}なのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.062362",
+  "addr": "062362",
+  "len": 72,
+  "ptrs": [
+   "vm:0618A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ロードス・・・{wait}{clr}{pos:00000000}{full}帝国軍に攻め込まれた国のか・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.0623AA",
+  "addr": "0623AA",
+  "len": 168,
+  "ptrs": [
+   "vm:0618BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そのとおりッス{wait}{clr}{pos:00000000}{full}帝国にちょっとばかりいたい目見せてやりたいッスよ{wait}{clr}{pos:00000000}{full}この船「サイレントムーン」が役に立てるなんて{wait}{clr}{pos:00000000}{full}うれしいッス{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.062452",
+  "addr": "062452",
+  "len": 74,
+  "ptrs": [
+   "vm:0618C0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだったのか・・・{wait}{clr}{pos:00000000}{full}しかし、なんてすごい船なんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch02.06249C",
+  "addr": "06249C",
+  "len": 100,
+  "ptrs": [
+   "vm:0618C5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}お客さん、この船は魔法がかかってるから{wait}{clr}{pos:00000000}{full}フェルサリアにもあっというまッスよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch02.062500",
+  "addr": "062500",
+  "len": 42,
+  "ptrs": [
+   "vm:0613E6"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　２{nl}{half}　{full}　　＜船出＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

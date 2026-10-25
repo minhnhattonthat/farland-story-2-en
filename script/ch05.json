@@ -1,0 +1,484 @@
+[
+ {
+  "id": "ch05.0659E4",
+  "addr": "0659E4",
+  "len": 52,
+  "ptrs": [
+   "vm:06568D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王、リアド殿をお連れいたしました{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065A18",
+  "addr": "065A18",
+  "len": 94,
+  "ptrs": [
+   "vm:0656BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}初めてお目にかかります{wait}{clr}{pos:00000000}{full}私はヴァルデス帝国第二皇子のリアドともうします{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065A76",
+  "addr": "065A76",
+  "len": 238,
+  "ptrs": [
+   "vm:0656D6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私がフェルサリア{nl}国王のアークだ{wait}{clr}{pos:00000000}{full}君がそうか・・・{nl}{wait}{clr}{pos:00000000}{full}たしかにカイやドカティの言うとおり{nl}悪者には見えない{wait}{clr}{pos:00000000}{full}しかし君の名をかたり、悪のかぎりをつくす一団{wait}{clr}{pos:00000000}{full}果たして、何が目的だったのか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065B64",
+  "addr": "065B64",
+  "len": 84,
+  "ptrs": [
+   "vm:0656DB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}恐らく、フェルサリアの人々をだまし{wait}{clr}{pos:00000000}{full}私たちを捕らえるためです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065BB8",
+  "addr": "065BB8",
+  "len": 54,
+  "ptrs": [
+   "vm:0656E0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}君たちはなぜ、帝国に追われているのかね？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065BEE",
+  "addr": "065BEE",
+  "len": 110,
+  "ptrs": [
+   "vm:0656E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父ネレイドは世界征服を企んでいます{wait}{clr}{pos:00000000}{full}世界征服にサリーナの舞の力を利用しようとしています{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065C5C",
+  "addr": "065C5C",
+  "len": 22,
+  "ptrs": [
+   "vm:0656EA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}舞の力？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065C72",
+  "addr": "065C72",
+  "len": 112,
+  "ptrs": [
+   "vm:0656EF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そう、サリーナの{nl}一族に伝わる{nl}「破亡の舞」を{wait}{clr}{pos:00000000}{full}使って国々を征服{nl}しようとしているのです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065CE2",
+  "addr": "065CE2",
+  "len": 206,
+  "ptrs": [
+   "vm:0656F4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国とは互いに干渉しない条約を結ぶつもりだったが{wait}{clr}{pos:00000000}{full}それが本当なら帝国の野望を止めなければならない{wait}{clr}{pos:00000000}{full}一度ネレイド皇帝と会談してみないことには{wait}{clr}{pos:00000000}{full}本当のことはわからない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065DB0",
+  "addr": "065DB0",
+  "len": 86,
+  "ptrs": [
+   "vm:0656F9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それはやめた方がいいです{wait}{clr}{pos:00000000}{full}父、いえ皇帝には{nl}邪悪な気を感じます{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065E06",
+  "addr": "065E06",
+  "len": 144,
+  "ptrs": [
+   "vm:0656FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はははっ、見くびってもらっちゃ困るな{wait}{clr}{pos:00000000}{full}これでも２０年前は魔王を退けたこともあるのだよ{wait}{clr}{pos:00000000}{full}もちろん油断は禁物だがね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065E96",
+  "addr": "065E96",
+  "len": 26,
+  "ptrs": [
+   "vm:065703"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかし・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065EB0",
+  "addr": "065EB0",
+  "len": 30,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}わかったわかった{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch05.065ECE",
+  "addr": "065ECE",
+  "len": 134,
+  "ptrs": [
+   "vm:065708"
+  ],
+  "jp": "{clr}{pos:00000000}{full}君がそこまで言うのなら{wait}{clr}{pos:00000000}{full}エレノア・ディーノ・ランティア・ルシーダ・ゴダール{wait}{clr}{pos:00000000}{full}歴戦の勇士にご同行願おう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.065F54",
+  "addr": "065F54",
+  "len": 22,
+  "ptrs": [
+   "vm:06570D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかし！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.065F6A",
+  "addr": "065F6A",
+  "len": 272,
+  "ptrs": [
+   "vm:065712"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私はこれからヴァルデス帝国に向かうことにする{wait}{clr}{pos:00000000}{full}一度ネレイド皇帝と会見し{wait}{clr}{pos:00000000}{full}それからリアド殿たちの処遇を決めるとしよう{wait}{clr}{pos:00000000}{full}それまでは、フェルサリア王国の客として{wait}{clr}{pos:00000000}{full}かんげいすることを約束しよう{wait}{clr}{pos:00000000}{full}それと君にたのみがある{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.06607A",
+  "addr": "06607A",
+  "len": 28,
+  "ptrs": [
+   "vm:065717"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何でしょうか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.066096",
+  "addr": "066096",
+  "len": 94,
+  "ptrs": [
+   "vm:06571C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}船を貸してほしいのだ{wait}{clr}{pos:00000000}{full}フェルサリアには{nl}長い航海にたえれる船がないのだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0660F4",
+  "addr": "0660F4",
+  "len": 100,
+  "ptrs": [
+   "vm:065721"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかりました{wait}{clr}{pos:00000000}{full}マジックシップ{nl}サイレントムーンを{wait}{clr}{pos:00000000}{full}お貸ししましょう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.066158",
+  "addr": "066158",
+  "len": 40,
+  "ptrs": [
+   "vm:065726"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとう{nl}出発は三日後だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.066180",
+  "addr": "066180",
+  "len": 80,
+  "ptrs": [
+   "vm:065763"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王ならきっとだいじょうぶですわ{wait}{clr}{pos:00000000}{full}私はそう信じてるわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0661D0",
+  "addr": "0661D0",
+  "len": 24,
+  "ptrs": [
+   "vm:065768"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うん・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.0661E8",
+  "addr": "0661E8",
+  "len": 62,
+  "ptrs": [
+   "vm:0657F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}た、大変じゃ！{nl}魔物どもが、城に攻め込んできた！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.066226",
+  "addr": "066226",
+  "len": 184,
+  "ptrs": [
+   "vm:0657FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな！{nl}うろたえないで！{wait}{clr}{pos:00000000}{full}アリシア、町の人たちをみんな城の中へ集めて！{wait}{clr}{pos:00000000}{full}ドカティ、カイ{wait}{clr}{pos:00000000}{full}わが軍の兵士たちに城のまわりをかためるように言って{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.0662DE",
+  "addr": "0662DE",
+  "len": 20,
+  "ptrs": [
+   "vm:06580D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はい！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0662F2",
+  "addr": "0662F2",
+  "len": 26,
+  "ptrs": [
+   "vm:06587F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}魔物だと！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.06630C",
+  "addr": "06630C",
+  "len": 86,
+  "ptrs": [
+   "vm:065884"
+  ],
+  "jp": "{clr}{pos:00000000}{full}引っかかるな・・・{wait}{clr}{pos:00000000}{full}アーク王のるすを{nl}まっていたようではないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.066362",
+  "addr": "066362",
+  "len": 86,
+  "ptrs": [
+   "vm:065889"
+  ],
+  "jp": "{clr}{pos:00000000}{full}とにかく、俺たちもフェルサリア軍に{nl}加勢する{wait}{clr}{pos:00000000}{full}いいな、みんな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0663B8",
+  "addr": "0663B8",
+  "len": 34,
+  "ptrs": [
+   "vm:06589C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオッ{nl}まかせてよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.0663DA",
+  "addr": "0663DA",
+  "len": 32,
+  "ptrs": [
+   "vm:0658AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さすがは、リアド殿{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0663FA",
+  "addr": "0663FA",
+  "len": 48,
+  "ptrs": [
+   "vm:0658C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}行くわ！フェルサリアの民のためにも{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.06642A",
+  "addr": "06642A",
+  "len": 50,
+  "ptrs": [
+   "vm:0658D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まって！私も・・・私も連れていって！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.06645C",
+  "addr": "06645C",
+  "len": 64,
+  "ptrs": [
+   "vm:0658E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリア・・・でも{nl}ドカティに怒られるからなあ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.06649C",
+  "addr": "06649C",
+  "len": 98,
+  "ptrs": [
+   "vm:0658ED"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうっ、お父様がそんなにコワイの！？{wait}{clr}{pos:00000000}{full}カイさん、それでも王国のナイトなの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0664FE",
+  "addr": "0664FE",
+  "len": 62,
+  "ptrs": [
+   "vm:0658F2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うーん、エリアの方がドカティよりコワイかも・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.06653C",
+  "addr": "06653C",
+  "len": 60,
+  "ptrs": [
+   "vm:0658F7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は回復魔法が得意なので、きっと役にたちます！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.066578",
+  "addr": "066578",
+  "len": 106,
+  "ptrs": [
+   "vm:06590A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいだろう{nl}エリア、安心していいぞ{wait}{clr}{pos:00000000}{full}危なくなったらカイが命がけで守ってくれるだろう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0665E2",
+  "addr": "0665E2",
+  "len": 42,
+  "ptrs": [
+   "vm:06590F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええっ、それはちょっと・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.06660C",
+  "addr": "06660C",
+  "len": 50,
+  "ptrs": [
+   "vm:065914"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし、冗談はおいといて、魔物退治だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.06663E",
+  "addr": "06663E",
+  "len": 24,
+  "ptrs": [
+   "vm:065919"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.066656",
+  "addr": "066656",
+  "len": 44,
+  "ptrs": [
+   "vm:0655AE"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　５{nl}{half}　{full}　＜アーク王＞{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch05.066682",
+  "addr": "066682",
+  "len": 72,
+  "ptrs": [
+   "vm:065697"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私と馬は{nl}一心同体！{wait}{clr}{pos:00000000}{full}おりるわけには{nl}いきません{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch05.0666CA",
+  "addr": "0666CA",
+  "len": 72,
+  "ptrs": [
+   "vm:065692"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイさん！{nl}王の前ですよ{wait}{clr}{pos:00000000}{full}馬から{nl}おりて下さい！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch05.066712",
+  "addr": "066712",
+  "len": 42,
+  "ptrs": [
+   "vm:06569C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうなんですか{nl}わかりました{wait}",
+  "en": "",
+  "box": "lower"
+ }
+]

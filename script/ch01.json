@@ -1,0 +1,344 @@
+[
+ {
+  "id": "ch01.0493B7",
+  "addr": "0493B7",
+  "len": 90,
+  "ptrs": [
+   "vm:047EE0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド・・・{wait}{clr}{pos:00000000}{full}今なら私を連れてお城にもどれば、ゆるしてもらえるわ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049411",
+  "addr": "049411",
+  "len": 86,
+  "ptrs": [
+   "vm:047EE5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ダメだ！{wait}{clr}{pos:00000000}{full}父上は、キミを使って、世界を支配するつもりなんだぞ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049467",
+  "addr": "049467",
+  "len": 58,
+  "ptrs": [
+   "vm:047EEA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}本当に・・・{nl}私にそんな力が{nl}あるのかしら？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.0494A1",
+  "addr": "0494A1",
+  "len": 114,
+  "ptrs": [
+   "vm:047EEF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナが苦しむ{nl}ことはないよ・・・{wait}{clr}{pos:00000000}{full}それより父上がこんな恐ろしいことを考えるなんて・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049513",
+  "addr": "049513",
+  "len": 28,
+  "ptrs": [
+   "vm:047EF4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どういうこと？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.04952F",
+  "addr": "04952F",
+  "len": 106,
+  "ptrs": [
+   "vm:047EF9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}自分でもわからないけど、以前の父上とは何かがちがう{wait}{clr}{pos:00000000}{full}俺の気のせいかも{nl}しれないけど{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049599",
+  "addr": "049599",
+  "len": 26,
+  "ptrs": [
+   "vm:047EFE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}恐いわ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.0495B3",
+  "addr": "0495B3",
+  "len": 98,
+  "ptrs": [
+   "vm:047F03"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くっ、追っ手がもう来たか！{wait}{clr}{pos:00000000}{full}サリーナ、話は後だ今は逃げることだけ考えよう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049615",
+  "addr": "049615",
+  "len": 24,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}しまった！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch01.04962D",
+  "addr": "04962D",
+  "len": 22,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}リアド！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch01.049643",
+  "addr": "049643",
+  "len": 38,
+  "ptrs": [
+   "vm:0481D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！アニキ助けに来たよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049669",
+  "addr": "049669",
+  "len": 32,
+  "ptrs": [
+   "vm:0481DA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}きゃあ！おおかみ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049689",
+  "addr": "049689",
+  "len": 82,
+  "ptrs": [
+   "vm:0481F1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おおかみ？{wait}{clr}{pos:00000000}{full}だいじょうぶだ{nl}サリーナ！そいつは俺の弟分だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.0496DB",
+  "addr": "0496DB",
+  "len": 24,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}ありがとう{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch01.0496F3",
+  "addr": "0496F3",
+  "len": 194,
+  "ptrs": [
+   "vm:048204"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！{nl}おいらクラウスって言うんだ{wait}{clr}{pos:00000000}{full}もとは宮殿でタリカーラ皇子のペットだったんだけど{wait}{clr}{pos:00000000}{full}アニキが助けてくれて、今はこうして{wait}{clr}{pos:00000000}{full}自由に飛び回ってるってわけさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.0497B5",
+  "addr": "0497B5",
+  "len": 32,
+  "ptrs": [
+   "vm:048217"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだったの・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.0497D5",
+  "addr": "0497D5",
+  "len": 76,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}さっきはごめんなさいね、こわがったりして{wait}{clr}{pos:00000000}{full}私の名前は{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch01.049821",
+  "addr": "049821",
+  "len": 82,
+  "ptrs": [
+   "vm:04821C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいら知ってるよ{nl}あなたはサリーナさんだね{wait}{clr}{pos:00000000}{full}アニキの恋人の{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049873",
+  "addr": "049873",
+  "len": 40,
+  "ptrs": [
+   "vm:04822F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ば、ばか！{nl}恋人はよけいだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.04989B",
+  "addr": "04989B",
+  "len": 190,
+  "ptrs": [
+   "vm:048242"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どっちでもいいからおいらも連れてっておくれよ！{wait}{clr}{pos:00000000}{full}アニキったら、おいらに一言も言わないで{wait}{clr}{pos:00000000}{full}城に行っちゃうんだもん{wait}{clr}{pos:00000000}{full}おいら、おいてきぼりはきらいだよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049959",
+  "addr": "049959",
+  "len": 50,
+  "ptrs": [
+   "vm:048247"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だめだクラウス！{nl}おまえは森にかえれ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.04998B",
+  "addr": "04998B",
+  "len": 32,
+  "ptrs": [
+   "vm:04824C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グルル、どうして？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.0499AB",
+  "addr": "0499AB",
+  "len": 134,
+  "ptrs": [
+   "vm:048251"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺たちは、追われ{nl}てるんだ{wait}{clr}{pos:00000000}{full}父上に・・・{nl}皇帝に逆らったからな・・・{wait}{clr}{pos:00000000}{full}ついてくると{nl}危ない目にあうぞ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049A31",
+  "addr": "049A31",
+  "len": 46,
+  "ptrs": [
+   "vm:048256"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だったら、よけいについて行くよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049A5F",
+  "addr": "049A5F",
+  "len": 48,
+  "ptrs": [],
+  "jp": "{pos:00000000}{full}だって、仲間は多いほうが心強いだろ？{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch01.049A8F",
+  "addr": "049A8F",
+  "len": 50,
+  "ptrs": [
+   "vm:04825B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だめだと言っても{nl}ついてくる気だな？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049AC1",
+  "addr": "049AC1",
+  "len": 32,
+  "ptrs": [
+   "vm:048260"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ、もちろんさ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049AE1",
+  "addr": "049AE1",
+  "len": 52,
+  "ptrs": [
+   "vm:048265"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかったよ{nl}そのかわり、弱音をはくなよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049B15",
+  "addr": "049B15",
+  "len": 38,
+  "ptrs": [
+   "vm:04826A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！{nl}さっすがアニキ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch01.049B3B",
+  "addr": "049B3B",
+  "len": 146,
+  "ptrs": [
+   "vm:04826F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようし、これから{nl}みんなで自由の港に向かおう{wait}{clr}{pos:00000000}{full}そこなら、帝国軍も手出しはできないし{wait}{clr}{pos:00000000}{full}船で遠くに逃げられるはずだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch01.049BCD",
+  "addr": "049BCD",
+  "len": 38,
+  "ptrs": [
+   "vm:0483CE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}町人{nl}　帝国ばんざーい！{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch01.049BF3",
+  "addr": "049BF3",
+  "len": 44,
+  "ptrs": [
+   "vm:047E39"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　１{nl}{half}　{full}　＜帝国脱出＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

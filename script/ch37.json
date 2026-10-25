@@ -1,0 +1,211 @@
+[
+ {
+  "id": "ch37.2A61E4",
+  "addr": "2A61E4",
+  "len": 28,
+  "ptrs": [
+   "vm:2A6077"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うふふふ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A6200",
+  "addr": "2A6200",
+  "len": 30,
+  "ptrs": [
+   "vm:2A607C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何だよ、サリーナ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A621E",
+  "addr": "2A621E",
+  "len": 58,
+  "ptrs": [
+   "vm:2A6081"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ずいぶんしんこくな顔して、考え込んでいるのね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A6258",
+  "addr": "2A6258",
+  "len": 98,
+  "ptrs": [
+   "vm:2A6086"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、兄上や父上の最後の願いをかなえるには{wait}{clr}{pos:00000000}{full}どうしたらいいのか考えてたのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A62BA",
+  "addr": "2A62BA",
+  "len": 74,
+  "ptrs": [
+   "vm:2A608B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}お兄様とお父様の？{wait}{clr}{pos:00000000}{full}戦をこの世から{nl}無くすことね？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A6304",
+  "addr": "2A6304",
+  "len": 58,
+  "ptrs": [
+   "vm:2A6090"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルスや{nl}ゾルディン師匠たちのためにもね{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A633E",
+  "addr": "2A633E",
+  "len": 84,
+  "ptrs": [
+   "vm:2A6095"
+  ],
+  "jp": "{clr}{pos:00000000}{full}お兄様、サークルスさんと天国で幸せに{wait}{clr}{pos:00000000}{full}なっていると{nl}いいわね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A6392",
+  "addr": "2A6392",
+  "len": 28,
+  "ptrs": [
+   "vm:2A609A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだな・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A63AE",
+  "addr": "2A63AE",
+  "len": 190,
+  "ptrs": [
+   "vm:2A609F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ねえ、そんなに考え込まないで・・・{wait}{clr}{pos:00000000}{full}いい知らせがあるのクラウスさんが言ってたんだけど{wait}{clr}{pos:00000000}{full}ヴァラカナさんと{nl}シュナリーさん{wait}{clr}{pos:00000000}{full}とっても仲がいいんですって{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A646C",
+  "addr": "2A646C",
+  "len": 130,
+  "ptrs": [
+   "vm:2A60A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}へえー{nl}あの二人が・・・{wait}{clr}{pos:00000000}{full}そう言えばどっちも町を元の姿にもどす{wait}{clr}{pos:00000000}{full}ためにはたらきたいって言ってたな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A64EE",
+  "addr": "2A64EE",
+  "len": 42,
+  "ptrs": [
+   "vm:2A60A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんなすてきな仲間だったわね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A6518",
+  "addr": "2A6518",
+  "len": 140,
+  "ptrs": [
+   "vm:2A60AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな変な{nl}ヤツばっかり{nl}だったけど・・・{wait}{clr}{pos:00000000}{full}そうだな、みんながいたから最後まで{nl}戦えたんだ{wait}{clr}{pos:00000000}{full}あっ、そうだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A65A4",
+  "addr": "2A65A4",
+  "len": 26,
+  "ptrs": [
+   "vm:2A60B3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしたの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A65BE",
+  "addr": "2A65BE",
+  "len": 140,
+  "ptrs": [
+   "vm:2A60B8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}世界中が仲間なら{nl}きっと戦は無くなる{wait}{clr}{pos:00000000}{full}国と国がお互いに{nl}無いものをおぎない合って{wait}{clr}{pos:00000000}{full}いいところをみとめ合えば{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A664A",
+  "addr": "2A664A",
+  "len": 100,
+  "ptrs": [
+   "vm:2A60BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアドやヴァラカナさんや、ケイリナスさんや・・・{wait}{clr}{pos:00000000}{full}みんなみたいって{nl}ことね？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A66AE",
+  "addr": "2A66AE",
+  "len": 108,
+  "ptrs": [
+   "vm:2A60C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、ただし国同士となると、ちょっとむずかしいかもな{wait}{clr}{pos:00000000}{full}サリーナ、力を貸してくれるね？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch37.2A671A",
+  "addr": "2A671A",
+  "len": 20,
+  "ptrs": [
+   "vm:2A60C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch37.2A672E",
+  "addr": "2A672E",
+  "len": 664,
+  "ptrs": [
+   "vm:2A60E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父ネレイドの後を{nl}継いでヴァルデス{nl}帝国の王となった{wait}{clr}{pos:00000000}{full}リアドは、他の国々と条約を結んだ{wait}{clr}{pos:00000000}{full}お互いに戦争を{nl}しかけないこと{wait}{clr}{pos:00000000}{full}そしてどの国の{nl}人々も{wait}{clr}{pos:00000000}{full}豊かに平和に{nl}くらせるよう力を{nl}合わせることを{wait}{clr}{pos:00000000}{full}うたったその条約はのちの世にも長く{wait}{clr}{pos:00000000}{full}伝えられることと{nl}なった{wait}{clr}{pos:00000000}{full}なお、王妃となったサリーナも{wait}{clr}{pos:00000000}{full}リアド王の大きな{nl}助けとなったと{nl}いわれている{wait}{clr}{pos:00000000}{full}また、言い伝えに{nl}よると、王妃と{nl}なってからも{wait}{clr}{pos:00000000}{full}サリーナは{nl}うれしいときにも{nl}悲しいときにも{wait}{clr}{pos:00000000}{full}舞うことを忘れなかったという{wait}{clr}{pos:00000000}{full}そしてその舞を見た者は{wait}{clr}{pos:00000000}{full}末永く幸せになると人々は信じていたという{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch37.2A76AA",
+  "addr": "2A76AA",
+  "len": 88,
+  "ptrs": [
+   "vm:2A6114"
+  ],
+  "jp": "{full}まだまだファーランドの世界の冒険は終わっていないが{wait}{nl}それはまた別の{nl}お話で・・・{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

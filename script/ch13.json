@@ -1,0 +1,112 @@
+[
+ {
+  "id": "ch13.06E1D6",
+  "addr": "06E1D6",
+  "len": 76,
+  "ptrs": [
+   "vm:06DD29"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やるなリアド！{wait}{clr}{pos:00000000}{full}いい知恵の持ち主を味方につけたようだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch13.06E222",
+  "addr": "06E222",
+  "len": 74,
+  "ptrs": [
+   "vm:06DD2E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いやあ{nl}それほどでも{wait}{clr}{pos:00000000}{full}敵ながら見る目の{nl}あるやつだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch13.06E26C",
+  "addr": "06E26C",
+  "len": 82,
+  "ptrs": [
+   "vm:06DDEA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウェイス！{nl}最後は正々堂々と{nl}{wait}{clr}{pos:00000000}{full}俺たち二人で{nl}一騎打ちだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch13.06E2BE",
+  "addr": "06E2BE",
+  "len": 80,
+  "ptrs": [
+   "vm:06DDEF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クッククク・・・{nl}その必要はない{wait}{clr}{pos:00000000}{full}決着はすでについている{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch13.06E30E",
+  "addr": "06E30E",
+  "len": 26,
+  "ptrs": [
+   "vm:06DDF4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、なに！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch13.06E328",
+  "addr": "06E328",
+  "len": 74,
+  "ptrs": [
+   "vm:06E144"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえたちもなかなかよく戦ったよ{wait}{clr}{pos:00000000}{full}クッククク・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch13.06E372",
+  "addr": "06E372",
+  "len": 62,
+  "ptrs": [
+   "vm:06E149"
+  ],
+  "jp": "{clr}{pos:00000000}{full}く、くそうっ！{nl}サリーナーっ！{nl}手をこっちへ・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch13.06E3B0",
+  "addr": "06E3B0",
+  "len": 34,
+  "ptrs": [
+   "vm:06E15C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}きゃああ！{nl}リアド！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch13.06E3D2",
+  "addr": "06E3D2",
+  "len": 68,
+  "ptrs": [
+   "vm:06E16F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さらばだ、リアド{wait}{clr}{pos:00000000}{full}こんな別れ方をしようとはな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch13.06E416",
+  "addr": "06E416",
+  "len": 34,
+  "ptrs": [
+   "vm:06E182"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うあああああっ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ }
+]

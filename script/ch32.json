@@ -1,0 +1,220 @@
+[
+ {
+  "id": "ch32.2A4573",
+  "addr": "2A4573",
+  "len": 46,
+  "ptrs": [
+   "vm:2A434D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったく母さんも{nl}父さんも・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A45A1",
+  "addr": "2A45A1",
+  "len": 86,
+  "ptrs": [
+   "vm:2A4352"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったくだよな{wait}{clr}{pos:00000000}{full}ボクら、あれくらいの冒険じゃ足りないくらいだよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A45F7",
+  "addr": "2A45F7",
+  "len": 90,
+  "ptrs": [
+   "vm:2A4365"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフルったら{nl}そんなむちゃいって{wait}{clr}{pos:00000000}{full}いつかケガしても{nl}知らないから{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4651",
+  "addr": "2A4651",
+  "len": 58,
+  "ptrs": [
+   "vm:2A436A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリアだって{nl}結横はしゃいで{nl}いたじゃないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A468B",
+  "addr": "2A468B",
+  "len": 50,
+  "ptrs": [
+   "vm:2A437D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ねえ{nl}リアドのところへ遊びに行こうよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A46BD",
+  "addr": "2A46BD",
+  "len": 26,
+  "ptrs": [
+   "vm:2A4382"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でもぉ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A46D7",
+  "addr": "2A46D7",
+  "len": 50,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}お父様が、あんまりとおくへ行くなって{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch32.2A4709",
+  "addr": "2A4709",
+  "len": 88,
+  "ptrs": [
+   "vm:2A4395"
+  ],
+  "jp": "{clr}{pos:00000000}{full}泣いてたもんねえ{nl}ドカティおじさん{wait}{clr}{pos:00000000}{full}ボクらを港までむかえに来てさ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4761",
+  "addr": "2A4761",
+  "len": 56,
+  "ptrs": [
+   "vm:2A439A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}じゃ、ネイフル{nl}ぼくたちだけで{nl}行っちゃお{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A4799",
+  "addr": "2A4799",
+  "len": 22,
+  "ptrs": [
+   "vm:2A439F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A47AF",
+  "addr": "2A47AF",
+  "len": 64,
+  "ptrs": [
+   "vm:2A43C6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ま・・まってよ{nl}あたし、行かないとは言ってないわ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A47EF",
+  "addr": "2A47EF",
+  "len": 230,
+  "ptrs": [
+   "vm:2A43ED"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィルとネイフルそしてエリアは{wait}{clr}{pos:00000000}{full}まだまだ冒険したりない様子である{wait}{clr}{pos:00000000}{full}さっそく三人で王になったリアドのところへ{wait}{clr}{pos:00000000}{full}はるばる遊びに行くけいかくを立てて{nl}いる{wait}{clr}{pos:00000000}{full}どうなることやら{nl}・・・{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch32.2A48D5",
+  "addr": "2A48D5",
+  "len": 112,
+  "ptrs": [
+   "vm:2A444A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ともかくだな{nl}エリアは無事に{nl}連れてかえった{wait}{clr}{pos:00000000}{full}いまさらもんくを{nl}言われるすじあいはないぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4945",
+  "addr": "2A4945",
+  "len": 76,
+  "ptrs": [
+   "vm:2A444F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェルサリアを{nl}出る前より{wait}{clr}{pos:00000000}{full}しっかりした{nl}娘になった{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A4991",
+  "addr": "2A4991",
+  "len": 114,
+  "ptrs": [
+   "vm:2A4454"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だろう？{nl}だったら、ばんばんざいじゃないか{wait}{clr}{pos:00000000}{full}むしろ私には礼を{nl}言ってもらいたい{nl}くらいだぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4A03",
+  "addr": "2A4A03",
+  "len": 36,
+  "ptrs": [
+   "vm:2A4459"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それが問題なんじゃ！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A4A27",
+  "addr": "2A4A27",
+  "len": 30,
+  "ptrs": [
+   "vm:2A445E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}へ？{nl}どうして？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4A45",
+  "addr": "2A4A45",
+  "len": 168,
+  "ptrs": [
+   "vm:2A4463"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリアは・・・{nl}エリアはわしなんかもういなくても{wait}{clr}{pos:00000000}{full}一人でやって{nl}いけるんじゃあー！{wait}{clr}{pos:00000000}{full}それがさびしゅうて・・・うおおおーいおいおい・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch32.2A4AED",
+  "addr": "2A4AED",
+  "len": 30,
+  "ptrs": [
+   "vm:2A4468"
+  ],
+  "jp": "{clr}{pos:00000000}{full}困ったなあ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch32.2A4B0B",
+  "addr": "2A4B0B",
+  "len": 244,
+  "ptrs": [
+   "vm:2A4489"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイは昔の友達ドカティと再会し{wait}{clr}{pos:00000000}{full}お互いに戦の終わりを喜びあった{wait}{clr}{pos:00000000}{full}しかし、ドカティはかわいい娘のエリアが{wait}{clr}{pos:00000000}{full}すっかり成長してしまったのがさびしいらしく{wait}{clr}{pos:00000000}{full}エリアを連れ出したカイに八つ当たりしている{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

@@ -1,0 +1,948 @@
+[
+ {
+  "id": "ch17.052E90",
+  "addr": "052E90",
+  "len": 54,
+  "ptrs": [
+   "vm:0525A3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうやら、帝国軍はいないようですね・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.052EC6",
+  "addr": "052EC6",
+  "len": 44,
+  "ptrs": [
+   "vm:0525A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいら、はらへって死にそうだよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.052EF2",
+  "addr": "052EF2",
+  "len": 48,
+  "ptrs": [
+   "vm:0525BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえは本当に食べてばかりいるなぁ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.052F22",
+  "addr": "052F22",
+  "len": 48,
+  "ptrs": [
+   "vm:0525C0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！おいらはまだまだ食べざかり！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.052F52",
+  "addr": "052F52",
+  "len": 30,
+  "ptrs": [
+   "vm:0525D3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}寒いわ、こころも{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.052F70",
+  "addr": "052F70",
+  "len": 112,
+  "ptrs": [
+   "vm:0525D8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ヴァラカナ、ずっと気になってたんだが{wait}{clr}{pos:00000000}{full}港で助けてくれたときに言ってた借りって何のことだ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.052FE0",
+  "addr": "052FE0",
+  "len": 58,
+  "ptrs": [
+   "vm:0525EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、あれか・・・忘れているなら{nl}それでいい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05301A",
+  "addr": "05301A",
+  "len": 38,
+  "ptrs": [
+   "vm:0525FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よけい気になるじゃないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053040",
+  "addr": "053040",
+  "len": 78,
+  "ptrs": [
+   "vm:052603"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、話せばつまらんことだ{wait}{clr}{pos:00000000}{full}初めて会ったとき{nl}のことさ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05308E",
+  "addr": "05308E",
+  "len": 46,
+  "ptrs": [
+   "vm:052665"
+  ],
+  "jp": "{clr}{pos:00000000}{full}金と女をおいていってもらおうか！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0530BC",
+  "addr": "0530BC",
+  "len": 70,
+  "ptrs": [
+   "vm:05266A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何だ？{nl}{wait}{clr}{pos:00000000}{full}とうぞくのくせにキザなかっこうして！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053102",
+  "addr": "053102",
+  "len": 112,
+  "ptrs": [
+   "vm:05266F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やかましい！{wait}{clr}{pos:00000000}{full}命だけは見逃してやろうと思っていたが気が変わった{wait}{clr}{pos:00000000}{full}死んでもらう！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053172",
+  "addr": "053172",
+  "len": 86,
+  "ptrs": [
+   "vm:052682"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まって・・・{nl}あなたの心・・・{wait}{clr}{pos:00000000}{full}ふかい悲しみが{nl}あふれています{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0531C8",
+  "addr": "0531C8",
+  "len": 20,
+  "ptrs": [
+   "vm:052695"
+  ],
+  "jp": "{clr}{pos:00000000}{full}貴様！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0531DC",
+  "addr": "0531DC",
+  "len": 24,
+  "ptrs": [
+   "vm:0526A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0531F4",
+  "addr": "0531F4",
+  "len": 60,
+  "ptrs": [
+   "vm:0526BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}家族との別離・・・迫害・・・そして{nl}孤独・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053230",
+  "addr": "053230",
+  "len": 66,
+  "ptrs": [
+   "vm:0526CE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なぜそれを・・・{nl}い、言うな！だまれ！だまるんだ女！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053272",
+  "addr": "053272",
+  "len": 80,
+  "ptrs": [
+   "vm:0526D3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたは悲しい人{wait}{clr}{pos:00000000}{full}人のやさしさにふれることなく、孤独な人{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0532C2",
+  "addr": "0532C2",
+  "len": 42,
+  "ptrs": [
+   "vm:0526D8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}言わないでくれ{nl}たのむ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0532EC",
+  "addr": "0532EC",
+  "len": 126,
+  "ptrs": [
+   "vm:0526DD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私の舞でほんの少しだけ、あなたの心を強くしてあげる{wait}{clr}{pos:00000000}{full}ほんの少しだけ、あなたの孤独をはらってあげる・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.05336A",
+  "addr": "05336A",
+  "len": 32,
+  "ptrs": [
+   "vm:0526E2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}心が、俺の心が・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05338A",
+  "addr": "05338A",
+  "len": 36,
+  "ptrs": [
+   "vm:0526F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}泣いてるのか{nl}おまえ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0533AE",
+  "addr": "0533AE",
+  "len": 86,
+  "ptrs": [
+   "vm:0526FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わからない・・・わからない{wait}{clr}{pos:00000000}{full}なぜだ・・・この娘の舞は一体・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053404",
+  "addr": "053404",
+  "len": 82,
+  "ptrs": [
+   "vm:0526FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナのやさしさが{wait}{clr}{pos:00000000}{full}舞を通じて君の心に流れ込んでいるのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053456",
+  "addr": "053456",
+  "len": 48,
+  "ptrs": [
+   "vm:052704"
+  ],
+  "jp": "{clr}{pos:00000000}{full}愛、これが人の愛{nl}やさしさか・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053486",
+  "addr": "053486",
+  "len": 82,
+  "ptrs": [
+   "vm:052709"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こいつ、根はいいやつなのかもな{wait}{clr}{pos:00000000}{full}キミの舞に涙をながしていた{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0534D8",
+  "addr": "0534D8",
+  "len": 26,
+  "ptrs": [
+   "vm:05270E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}い、言うな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0534F2",
+  "addr": "0534F2",
+  "len": 96,
+  "ptrs": [
+   "vm:052713"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はっはは、わかったヒミツにしてやるよ{wait}{clr}{pos:00000000}{full}そのかわり、名前を教えてくれないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053552",
+  "addr": "053552",
+  "len": 58,
+  "ptrs": [
+   "vm:052718"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私はヴァラカナ・・・見ての通り、デーモン族だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05358C",
+  "addr": "05358C",
+  "len": 98,
+  "ptrs": [
+   "vm:05271D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}へえ、デーモン族の友達は初めてだな{wait}{clr}{pos:00000000}{full}俺はリアド{nl}そしてこの娘は{nl}サリーナだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0535EE",
+  "addr": "0535EE",
+  "len": 32,
+  "ptrs": [
+   "vm:052722"
+  ],
+  "jp": "{clr}{pos:00000000}{full}友・・・達？私が？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05360E",
+  "addr": "05360E",
+  "len": 30,
+  "ptrs": [
+   "vm:052727"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだ、いやか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.05362C",
+  "addr": "05362C",
+  "len": 80,
+  "ptrs": [
+   "vm:05272C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうじゃない{wait}{clr}{pos:00000000}{full}友達と呼ばれることになれていなかっただけさ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05367C",
+  "addr": "05367C",
+  "len": 50,
+  "ptrs": [
+   "vm:052731"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうか、じゃ、これからなれればいいさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0536AE",
+  "addr": "0536AE",
+  "len": 20,
+  "ptrs": [
+   "vm:052736"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0536C2",
+  "addr": "0536C2",
+  "len": 120,
+  "ptrs": [
+   "vm:052783"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺はおまえが帝国の皇子だって聞いた{nl}ときはおどろいた{wait}{clr}{pos:00000000}{full}が、心のどこかではなぜかなっとくしていたよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05373A",
+  "addr": "05373A",
+  "len": 86,
+  "ptrs": [
+   "vm:052788"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうして？{wait}{clr}{pos:00000000}{full}俺はいつもらしく{nl}ないって言われて{nl}きたのに・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053790",
+  "addr": "053790",
+  "len": 54,
+  "ptrs": [
+   "vm:05278D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえなら、良い皇帝になると思ったんだよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0537C6",
+  "addr": "0537C6",
+  "len": 40,
+  "ptrs": [
+   "vm:052792"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だけど今では犯罪者ってか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0537EE",
+  "addr": "0537EE",
+  "len": 22,
+  "ptrs": [
+   "vm:052797"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ハハハッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053804",
+  "addr": "053804",
+  "len": 108,
+  "ptrs": [
+   "vm:0527E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキキッ{nl}こんな寒いところ{nl}まで{wait}{clr}{pos:00000000}{full}よく来ましたね{nl}ペンギンさんで{nl}かんげいしますよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053870",
+  "addr": "053870",
+  "len": 20,
+  "ptrs": [
+   "vm:0527EA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}貴様！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053884",
+  "addr": "053884",
+  "len": 42,
+  "ptrs": [
+   "vm:052945"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿！ご無事でしたか！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0538AE",
+  "addr": "0538AE",
+  "len": 20,
+  "ptrs": [
+   "vm:05294A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0538C2",
+  "addr": "0538C2",
+  "len": 178,
+  "ptrs": [
+   "vm:05294F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}遠い島に打ち上げられた、おかげでおそくなりました！{wait}{clr}{pos:00000000}{full}帝国軍を見かけた{nl}もので、後をつけて来たら{wait}{clr}{pos:00000000}{full}思ったとおり{nl}リアド殿の所へ案内してくれましたよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053974",
+  "addr": "053974",
+  "len": 108,
+  "ptrs": [
+   "vm:05298C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうペンギン{nl}うっとうしい！{nl}こうなったら・・{wait}{clr}{pos:00000000}{full}いくで！{nl}きゅうきょくの{nl}召喚魔法！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0539E0",
+  "addr": "0539E0",
+  "len": 70,
+  "ptrs": [
+   "vm:0529DA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれ？{nl}なんやちっこい子供{wait}{clr}{pos:00000000}{full}なんか呼んでしもた{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053A26",
+  "addr": "053A26",
+  "len": 26,
+  "ptrs": [
+   "vm:0529DF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここ、どこ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053A40",
+  "addr": "053A40",
+  "len": 70,
+  "ptrs": [
+   "vm:0529F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}君は？{wait}{clr}{pos:00000000}{full}お雪ちゃん！{nl}お雪ちゃんじゃないか！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053A86",
+  "addr": "053A86",
+  "len": 62,
+  "ptrs": [
+   "vm:0529FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだヨ、あなたはひょっとしたら{nl}カイちゃんだネ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053AC4",
+  "addr": "053AC4",
+  "len": 50,
+  "ptrs": [
+   "vm:052A04"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだよ！{nl}いやあ、２０年ぶりだね！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053AF6",
+  "addr": "053AF6",
+  "len": 48,
+  "ptrs": [
+   "vm:052A17"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まあ、カイさんて{nl}顔が広いのですね{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053B26",
+  "addr": "053B26",
+  "len": 108,
+  "ptrs": [
+   "vm:052A1C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}２０年前、アーク王といっしょに戦った仲間なのですよ{wait}{clr}{pos:00000000}{full}お雪ちゃんこと{nl}雪の精霊さんです{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053B92",
+  "addr": "053B92",
+  "len": 56,
+  "ptrs": [
+   "vm:052A2F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よろしくネ{nl}カイちゃん、ここで何してるの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053BCA",
+  "addr": "053BCA",
+  "len": 56,
+  "ptrs": [
+   "vm:052A42"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国軍からこの国を守るため、戦っているのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053C02",
+  "addr": "053C02",
+  "len": 54,
+  "ptrs": [
+   "vm:052A47"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アタシも手伝うヨ{nl}カイちゃん友達だもんネ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053C38",
+  "addr": "053C38",
+  "len": 46,
+  "ptrs": [
+   "vm:052ABA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキッ、ひとまず{nl}引き上げます！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053C66",
+  "addr": "053C66",
+  "len": 36,
+  "ptrs": [
+   "vm:052AD1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くそっ、また逃げたな！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053C8A",
+  "addr": "053C8A",
+  "len": 42,
+  "ptrs": [
+   "vm:052AE4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いつかやっつけてやるっちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053CB4",
+  "addr": "053CB4",
+  "len": 50,
+  "ptrs": [
+   "vm:052AE9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これでトロイヤは味方になってくれる！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053CE6",
+  "addr": "053CE6",
+  "len": 54,
+  "ptrs": [
+   "vm:052BFD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれは！？{wait}{clr}{pos:00000000}{full}だれか、倒れている{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053D1C",
+  "addr": "053D1C",
+  "len": 46,
+  "ptrs": [
+   "vm:052C0E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おおっ、う、美しいめ、目がくらむ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053D4A",
+  "addr": "053D4A",
+  "len": 48,
+  "ptrs": [
+   "vm:052C25"
+  ],
+  "jp": "{clr}{pos:00000000}{full}また始まったで！{nl}この兄ちゃんは！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053D7A",
+  "addr": "053D7A",
+  "len": 32,
+  "ptrs": [
+   "vm:052C3C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほんとにもう・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053D9A",
+  "addr": "053D9A",
+  "len": 50,
+  "ptrs": [
+   "vm:052C4F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おじょうさん{nl}お怪我はありませんか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053DCC",
+  "addr": "053DCC",
+  "len": 60,
+  "ptrs": [
+   "vm:052C66"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うふん、ありがとうございます{nl}だいじょうぶよン{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053E08",
+  "addr": "053E08",
+  "len": 84,
+  "ptrs": [
+   "vm:052C6B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国軍なら、私が{nl}おっぱらいました{wait}{clr}{pos:00000000}{full}ご安心なさい、美しいお方{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053E5C",
+  "addr": "053E5C",
+  "len": 92,
+  "ptrs": [
+   "vm:052C70"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まっ、お上手ね・・・{wait}{clr}{pos:00000000}{full}私、サークルスと{nl}言いますの{nl}うふん、よろしく{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053EB8",
+  "addr": "053EB8",
+  "len": 56,
+  "ptrs": [
+   "vm:052C75"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私はフェルサリア{nl}一番の知恵者{nl}ケイリナス{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053EF0",
+  "addr": "053EF0",
+  "len": 40,
+  "ptrs": [
+   "vm:052C8C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}女好きもフェルサリア一番！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.053F18",
+  "addr": "053F18",
+  "len": 58,
+  "ptrs": [
+   "vm:052CA3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしてこんなところで、倒れていたのですか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.053F52",
+  "addr": "053F52",
+  "len": 248,
+  "ptrs": [
+   "vm:052CB6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっ{wait}{clr}{pos:00000000}{full}あ、ああ・・・{nl}私、魔法が少々使えますのよ{wait}{clr}{pos:00000000}{full}それで、帝国の人たち、私を利用しようと・・・{wait}{clr}{pos:00000000}{full}うふーん、お願いですわ{wait}{clr}{pos:00000000}{full}私を一緒に連れていって下さいません？{wait}{clr}{pos:00000000}{full}おじゃまはいたしませんから{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05404A",
+  "addr": "05404A",
+  "len": 38,
+  "ptrs": [
+   "vm:052CC9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいだろう{nl}さあ、立って{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.054070",
+  "addr": "054070",
+  "len": 60,
+  "ptrs": [
+   "vm:052CCE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド様って、ホントおやさしいのねンス・テ・キ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0540AC",
+  "addr": "0540AC",
+  "len": 44,
+  "ptrs": [
+   "vm:052CE5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なぜ、リアドの名を知っている？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0540D8",
+  "addr": "0540D8",
+  "len": 84,
+  "ptrs": [
+   "vm:052CF8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっ・・・そ、それはそのう・・・{wait}{clr}{pos:00000000}{full}帝国の人が話していましたの{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.05412C",
+  "addr": "05412C",
+  "len": 94,
+  "ptrs": [
+   "vm:052D0F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったくヴァラカナは、もちっとあいそよくしたほうが{wait}{clr}{pos:00000000}{full}でないと、モテんぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.05418A",
+  "addr": "05418A",
+  "len": 24,
+  "ptrs": [
+   "vm:052D22"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うるさい！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.0541A2",
+  "addr": "0541A2",
+  "len": 80,
+  "ptrs": [
+   "vm:052E6E"
+  ],
+  "jp": "{full}町人{nl}　ここはさむいから　帝国も攻めてこ{wait}{nl}　ないさ{wait}{nl}　と思っていたのに{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch17.0541F2",
+  "addr": "0541F2",
+  "len": 46,
+  "ptrs": [
+   "vm:052E85"
+  ],
+  "jp": "{full}町人{nl}　パラケルで反乱が　おこったらしい{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch17.054220",
+  "addr": "054220",
+  "len": 24,
+  "ptrs": [
+   "vm:05262C"
+  ],
+  "jp": "{full}今から５年前・・・{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch17.054238",
+  "addr": "054238",
+  "len": 344,
+  "ptrs": [
+   "vm:052DC8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わたしはパラケル王{wait}{clr}{pos:00000000}{full}リアド殿のおかげで帝国各地で反乱が起きております{wait}{clr}{pos:00000000}{full}しかし、帝国は反乱に対しては徹底しただんあつを{wait}{clr}{pos:00000000}{full}おこなっています{wait}{clr}{pos:00000000}{full}我が国パラケルも反乱を起こしましたが帝国の反撃にあい{wait}{clr}{pos:00000000}{full}今では城に立てこもるばかりでございます{wait}{clr}{pos:00000000}{full}どうかリアド様{nl}パラケル城を救って下さい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.054390",
+  "addr": "054390",
+  "len": 92,
+  "ptrs": [
+   "vm:052DDB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}パラケルが反乱を・・・{wait}{clr}{pos:00000000}{full}私の生まれた国ですもの、リアド、私は行くわ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.0543EC",
+  "addr": "0543EC",
+  "len": 30,
+  "ptrs": [
+   "vm:052DEE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もちろん俺も行く{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch17.05440A",
+  "addr": "05440A",
+  "len": 24,
+  "ptrs": [
+   "vm:052DC3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたは？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch17.054422",
+  "addr": "054422",
+  "len": 42,
+  "ptrs": [
+   "vm:0524B4"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１３{nl}＜雪の国ギネビア＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

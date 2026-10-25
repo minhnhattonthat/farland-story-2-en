@@ -1,0 +1,189 @@
+[
+ {
+  "id": "ch36.2A59FF",
+  "addr": "2A59FF",
+  "len": 78,
+  "ptrs": [
+   "vm:2A586A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まってくれったら！{wait}{clr}{pos:00000000}{full}ヴァラカナはほんとに冷たいやつガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5A4D",
+  "addr": "2A5A4D",
+  "len": 126,
+  "ptrs": [
+   "vm:2A586F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったくだ・・・{nl}おまえ、何が気に{nl}入らないのだ{wait}{clr}{pos:00000000}{full}リアド王じきじきに城に残るようにたのまれたというのに{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5ACB",
+  "addr": "2A5ACB",
+  "len": 122,
+  "ptrs": [
+   "vm:2A5884"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シュナリーこそ{nl}サリーナさんから{nl}{wait}{clr}{pos:00000000}{full}お城でくらすよう{nl}にって{wait}{clr}{pos:00000000}{full}たのまれてたじゃ{nl}ないか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5B45",
+  "addr": "2A5B45",
+  "len": 138,
+  "ptrs": [
+   "vm:2A5889"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わたしは・・・その{wait}{clr}{pos:00000000}{full}ヴァラカナがさっさと出ていってしまったのに{wait}{clr}{pos:00000000}{full}私だけ残るのも{nl}なんだかヘンだから・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5BCF",
+  "addr": "2A5BCF",
+  "len": 116,
+  "ptrs": [
+   "vm:2A588E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうかなあ？{nl}あっ、わかった{nl}{wait}{clr}{pos:00000000}{full}シュナリーは{nl}ヴァラカナと{wait}{clr}{pos:00000000}{full}一緒に{nl}いたいんだガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5C43",
+  "addr": "2A5C43",
+  "len": 56,
+  "ptrs": [
+   "vm:2A5893"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バッ、バカな{nl}何をそんな！{nl}クラウスったら{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5C7B",
+  "addr": "2A5C7B",
+  "len": 58,
+  "ptrs": [
+   "vm:2A58AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええい、うるさい！さわがしい{nl}ヤツはきらいだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5CB5",
+  "addr": "2A5CB5",
+  "len": 84,
+  "ptrs": [
+   "vm:2A58B3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うっ・・・クラウスのせいで、きらわれてしまった{wait}{clr}{pos:00000000}{full}ふえええーん{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5D09",
+  "addr": "2A5D09",
+  "len": 96,
+  "ptrs": [
+   "vm:2A58C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こ、こら、泣くなっだからその{wait}{clr}{pos:00000000}{full}おまえがきらい{nl}だといったわけ{nl}では・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5D69",
+  "addr": "2A5D69",
+  "len": 52,
+  "ptrs": [
+   "vm:2A58C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほんとか？{nl}私をきらいではないのだな？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5D9D",
+  "addr": "2A5D9D",
+  "len": 50,
+  "ptrs": [
+   "vm:2A58CC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだっ{nl}だから泣くな！{nl}たのむから{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5DCF",
+  "addr": "2A5DCF",
+  "len": 44,
+  "ptrs": [
+   "vm:2A58D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}じゃ、好きなのだ{nl}私のことを？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5DFB",
+  "addr": "2A5DFB",
+  "len": 38,
+  "ptrs": [
+   "vm:2A58D6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっ？{nl}いや、その・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5E21",
+  "addr": "2A5E21",
+  "len": 40,
+  "ptrs": [
+   "vm:2A58E9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よかったね{nl}シュナリー！{nl}{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5E49",
+  "addr": "2A5E49",
+  "len": 110,
+  "ptrs": [
+   "vm:2A58FC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は、おまえのそのスネたような顔が{nl}気に入っている{wait}{clr}{pos:00000000}{full}こうなったらどこまでもついて行くぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch36.2A5EB7",
+  "addr": "2A5EB7",
+  "len": 30,
+  "ptrs": [
+   "vm:2A590F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もう勝手にしろ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch36.2A5ED5",
+  "addr": "2A5ED5",
+  "len": 214,
+  "ptrs": [
+   "vm:2A5930"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シュナリーは{nl}こうしてめでたく{nl}ヴァラカナの心を{wait}{clr}{pos:00000000}{full}いとめ{nl}それを祝福する{nl}クラウスとともに{wait}{clr}{pos:00000000}{full}ヴァルデスの町を{nl}平和だったころの姿にもどすべく{wait}{clr}{pos:00000000}{full}町の人たちと力を合わせている{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

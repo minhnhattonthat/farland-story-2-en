@@ -1,0 +1,696 @@
+[
+ {
+  "id": "ch14.06EB70",
+  "addr": "06EB70",
+  "len": 40,
+  "ptrs": [
+   "vm:06E54D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな、しっかりするガオ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EB98",
+  "addr": "06EB98",
+  "len": 58,
+  "ptrs": [
+   "vm:06E552"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はっ・・・{nl}リギット、あなたもだいじょうぶ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EBD2",
+  "addr": "06EBD2",
+  "len": 44,
+  "ptrs": [
+   "vm:06E565"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うん！{nl}ぼくはつよいんだっちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EBFE",
+  "addr": "06EBFE",
+  "len": 60,
+  "ptrs": [
+   "vm:06E56A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたがみんなを{nl}守ってくれたのね{nl}ありがとう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EC3A",
+  "addr": "06EC3A",
+  "len": 40,
+  "ptrs": [
+   "vm:06E56F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うしゃしゃ{nl}てれるっちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EC62",
+  "addr": "06EC62",
+  "len": 32,
+  "ptrs": [
+   "vm:06E582"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿はどこだ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EC82",
+  "addr": "06EC82",
+  "len": 76,
+  "ptrs": [
+   "vm:06E595"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だいじょうぶ、ここにいる{wait}{clr}{pos:00000000}{full}でも、シフィルがいないよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06ECCE",
+  "addr": "06ECCE",
+  "len": 104,
+  "ptrs": [
+   "vm:06E5A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おちつけ！{nl}今は９人そろっている{wait}{clr}{pos:00000000}{full}シフィル、アルタバそれにカイがいないのか・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06ED36",
+  "addr": "06ED36",
+  "len": 60,
+  "ptrs": [
+   "vm:06E5BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアドさんったら！なにきょろきょろ{nl}してるの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06ED72",
+  "addr": "06ED72",
+  "len": 36,
+  "ptrs": [
+   "vm:06E5CE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド？{nl}俺のことか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06ED96",
+  "addr": "06ED96",
+  "len": 60,
+  "ptrs": [
+   "vm:06E5E1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアドったら・・・冗談いってる場合{nl}じゃないわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EDD2",
+  "addr": "06EDD2",
+  "len": 88,
+  "ptrs": [
+   "vm:06E5F4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まて、本当におかしいぞ{wait}{clr}{pos:00000000}{full}おい、リアド！{nl}俺がだれだか{nl}わかるか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EE2A",
+  "addr": "06EE2A",
+  "len": 62,
+  "ptrs": [
+   "vm:06E607"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わからない・・・{nl}どこかで会った{nl}気がする・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EE68",
+  "addr": "06EE68",
+  "len": 54,
+  "ptrs": [
+   "vm:06E61A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まさかこれって{nl}記憶をなくしたってこと？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EE9E",
+  "addr": "06EE9E",
+  "len": 54,
+  "ptrs": [
+   "vm:06E62D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あかんわ・・・{nl}うちらぜつぼーてきやで！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EED4",
+  "addr": "06EED4",
+  "len": 88,
+  "ptrs": [
+   "vm:06E640"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんとか記憶を取りもどさせる方法は{nl}ないかしら{wait}{clr}{pos:00000000}{full}ケイリナスさん？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EF2C",
+  "addr": "06EF2C",
+  "len": 40,
+  "ptrs": [
+   "vm:06E653"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うーむ、さすがの私も・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EF54",
+  "addr": "06EF54",
+  "len": 116,
+  "ptrs": [
+   "vm:06E6A5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}海に礼をいわねばなるまいな{wait}{clr}{pos:00000000}{full}ちょうど帝国の{nl}領地へおまえたちを{wait}{clr}{pos:00000000}{full}運んでくれるとはな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06EFC8",
+  "addr": "06EFC8",
+  "len": 40,
+  "ptrs": [
+   "vm:06E6AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ？{nl}す、するとここは？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06EFF0",
+  "addr": "06EFF0",
+  "len": 86,
+  "ptrs": [
+   "vm:06E6AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}テーバイムの海岸さ{wait}{clr}{pos:00000000}{full}このゾルディンの{nl}ものとなったばかりの国だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F046",
+  "addr": "06F046",
+  "len": 76,
+  "ptrs": [
+   "vm:06E6C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたがゾルディン将軍！？{wait}{clr}{pos:00000000}{full}リアドに剣を教えた・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F092",
+  "addr": "06F092",
+  "len": 76,
+  "ptrs": [
+   "vm:06E6D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアドよ{nl}久しぶりだな{wait}{clr}{pos:00000000}{full}たっぷり剣の技をみせてやろう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F0DE",
+  "addr": "06F0DE",
+  "len": 30,
+  "ptrs": [
+   "vm:06E6E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゾ・・ルディン？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F0FC",
+  "addr": "06F0FC",
+  "len": 122,
+  "ptrs": [
+   "vm:06E6ED"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうした？{nl}いつもの元気がないようだが・・・{wait}{clr}{pos:00000000}{full}まあいい、おまえの仲間も少しは楽しませてくれるだろう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F176",
+  "addr": "06F176",
+  "len": 56,
+  "ptrs": [
+   "vm:06E700"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やめて！{nl}今のリアドと戦うのはやめて下さい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F1AE",
+  "addr": "06F1AE",
+  "len": 36,
+  "ptrs": [
+   "vm:06E713"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おかしなことを言ったな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F1D2",
+  "addr": "06F1D2",
+  "len": 46,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}今の「リアド」とはどういうことだ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch14.06F200",
+  "addr": "06F200",
+  "len": 50,
+  "ptrs": [
+   "vm:06E718"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアドは今、記憶をなくしているのです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F232",
+  "addr": "06F232",
+  "len": 42,
+  "ptrs": [
+   "vm:06E71D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ハッハッハッ{nl}それはできんな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F25C",
+  "addr": "06F25C",
+  "len": 104,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}リアドは俺の弟子{nl}俺の弟子ならば{wait}{clr}{pos:00000000}{full}たとえ剣をにぎれなくても、活路を見いだすものだ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch14.06F2C4",
+  "addr": "06F2C4",
+  "len": 58,
+  "ptrs": [
+   "vm:06E722"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひどい、あなたはそれでもリアドの師匠なの！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F2FE",
+  "addr": "06F2FE",
+  "len": 80,
+  "ptrs": [
+   "vm:06E735"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿をたのむ{nl}サリーナさん！{wait}{clr}{pos:00000000}{full}あとは私たちがなんとか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F34E",
+  "addr": "06F34E",
+  "len": 26,
+  "ptrs": [
+   "vm:06E748"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかりました{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F368",
+  "addr": "06F368",
+  "len": 48,
+  "ptrs": [
+   "vm:06E75B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}一体、何がなんだかわからない・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F398",
+  "addr": "06F398",
+  "len": 88,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}フッ、どうしたどうした！{wait}{clr}{pos:00000000}{full}わしをたおすと言ったのはどこのどいつだ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch14.06F3F0",
+  "addr": "06F3F0",
+  "len": 58,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}くっ・・・くやしいが力の差がありすぎる・・・{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch14.06F42A",
+  "addr": "06F42A",
+  "len": 30,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}つよすぎるっちゃ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch14.06F448",
+  "addr": "06F448",
+  "len": 38,
+  "ptrs": [
+   "vm:06E953"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うっ！{nl}頭が・・・いたい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F46E",
+  "addr": "06F46E",
+  "len": 26,
+  "ptrs": [
+   "vm:06E958"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F488",
+  "addr": "06F488",
+  "len": 90,
+  "ptrs": [
+   "vm:06E95D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なにかが・・・頭に浮かんできた・・・{wait}{clr}{pos:00000000}{full}ああっ・・・俺は{nl}一体・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F4E2",
+  "addr": "06F4E2",
+  "len": 64,
+  "ptrs": [
+   "vm:06E962"
+  ],
+  "jp": "{clr}{pos:00000000}{full}く・いてて・・・{nl}頭がなんでこんなにいたいんだろう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F522",
+  "addr": "06F522",
+  "len": 40,
+  "ptrs": [
+   "vm:06E975"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だいじょうぶ？{nl}リアドさん{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F54A",
+  "addr": "06F54A",
+  "len": 40,
+  "ptrs": [
+   "vm:06E988"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、だいじょうぶだエリア{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F572",
+  "addr": "06F572",
+  "len": 56,
+  "ptrs": [
+   "vm:06E99B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド・・・{nl}今、なんて？なんて言ったの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F5AA",
+  "addr": "06F5AA",
+  "len": 36,
+  "ptrs": [
+   "vm:06E9AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}記憶がもどったのか！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F5CE",
+  "addr": "06F5CE",
+  "len": 88,
+  "ptrs": [
+   "vm:06E9C1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ん、なんだみんな{nl}そんな心配そうな顔をして・・・{wait}{clr}{pos:00000000}{full}ここはどこだ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F626",
+  "addr": "06F626",
+  "len": 48,
+  "ptrs": [
+   "vm:06E9D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようやく、元の{nl}おまえにもどったか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F656",
+  "addr": "06F656",
+  "len": 38,
+  "ptrs": [
+   "vm:06E9D9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたはゾルディン師匠！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F67C",
+  "addr": "06F67C",
+  "len": 66,
+  "ptrs": [
+   "vm:06E9DE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さあて、少しは手ごたえのあるところを見せてもらおうか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F6BE",
+  "addr": "06F6BE",
+  "len": 42,
+  "ptrs": [
+   "vm:06E9E3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だまってやられはしないぞ！{nl}{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F6E8",
+  "addr": "06F6E8",
+  "len": 74,
+  "ptrs": [
+   "vm:06EA6B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッハハハ、少しはできるようだ{wait}{clr}{pos:00000000}{full}帝国でまっているぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F732",
+  "addr": "06F732",
+  "len": 30,
+  "ptrs": [
+   "vm:06EA85"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゾルディン師匠！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F750",
+  "addr": "06F750",
+  "len": 50,
+  "ptrs": [
+   "vm:06EA98"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルルッ{nl}かなわないから逃げちゃった{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F782",
+  "addr": "06F782",
+  "len": 30,
+  "ptrs": [
+   "vm:06EAAB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いや恐ろしい敵だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F7A0",
+  "addr": "06F7A0",
+  "len": 44,
+  "ptrs": [
+   "vm:06EABE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}じゃ、どうして消えちゃったのさ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F7CC",
+  "addr": "06F7CC",
+  "len": 58,
+  "ptrs": [
+   "vm:06EAD1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}きっとリアドと{nl}本当の勝負がしたいのよ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F806",
+  "addr": "06F806",
+  "len": 24,
+  "ptrs": [
+   "vm:06EAE4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F81E",
+  "addr": "06F81E",
+  "len": 48,
+  "ptrs": [
+   "vm:06EAF7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リギット君がもっと大人だったらなあ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F84E",
+  "addr": "06F84E",
+  "len": 168,
+  "ptrs": [
+   "vm:06EB0A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぼくにはもっと隠された力があるんだっちゃ{wait}{clr}{pos:00000000}{full}お母さんが言ってたけど、ぼくと相性のいい人間を{wait}{clr}{pos:00000000}{full}背中に乗っけたら{nl}すごく強くなれるんだっちゃ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F8F6",
+  "addr": "06F8F6",
+  "len": 20,
+  "ptrs": [
+   "vm:06EB0F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふうん{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F90A",
+  "addr": "06F90A",
+  "len": 66,
+  "ptrs": [
+   "vm:06EB22"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それよりカイさんたちとめぐり合えたらいいのだけど・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch14.06F94C",
+  "addr": "06F94C",
+  "len": 54,
+  "ptrs": [
+   "vm:06EB35"
+  ],
+  "jp": "{clr}{pos:00000000}{full}手っとりばやく{nl}近くの国から探してみよう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch14.06F982",
+  "addr": "06F982",
+  "len": 68,
+  "ptrs": [
+   "vm:06EB65"
+  ],
+  "jp": "{full}町人{nl}　この国は帝国のゾ　ルディン将軍に{wait}{nl}　占領されているの{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch14.06F9C6",
+  "addr": "06F9C6",
+  "len": 40,
+  "ptrs": [
+   "vm:06E494"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１０{nl}　＜ゾルディン＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

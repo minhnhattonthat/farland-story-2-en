@@ -1,0 +1,627 @@
+[
+ {
+  "id": "ch24.05AA2C",
+  "addr": "05AA2C",
+  "len": 80,
+  "ptrs": [
+   "vm:05A16C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここ、ここ！{nl}{wait}{clr}{pos:00000000}{full}おいらが昔{nl}よく通ったぬけ道{nl}なんだガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AA7C",
+  "addr": "05AA7C",
+  "len": 36,
+  "ptrs": [
+   "vm:05A171"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あと少しで着くはずだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AAA0",
+  "addr": "05AAA0",
+  "len": 146,
+  "ptrs": [
+   "vm:05A1CA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲボハハハ{wait}{clr}{pos:00000000}{full}これはリアド様、サリーナさん、お仲のいいことで・・・{wait}{clr}{pos:00000000}{full}お邪魔をするのが{nl}つらいところです{nl}ゲボハハハ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AB32",
+  "addr": "05AB32",
+  "len": 78,
+  "ptrs": [
+   "vm:05A1CF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}とうとうあらわれたなギボゲラ！{wait}{clr}{pos:00000000}{full}俺の手で倒して{nl}やる！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AB80",
+  "addr": "05AB80",
+  "len": 118,
+  "ptrs": [
+   "vm:05A1D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲボッ、せっかちな人だ{wait}{clr}{pos:00000000}{full}まだまだ楽しいお相手がいるのにねえ・・・{wait}{clr}{pos:00000000}{full}さあ、戦うがいい！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05ABF6",
+  "addr": "05ABF6",
+  "len": 26,
+  "ptrs": [
+   "vm:05A294"
+  ],
+  "jp": "{clr}{pos:00000000}{full}と、父さん！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AC10",
+  "addr": "05AC10",
+  "len": 24,
+  "ptrs": [
+   "vm:05A299"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク様！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AC28",
+  "addr": "05AC28",
+  "len": 24,
+  "ptrs": [
+   "vm:05A2AC",
+   "vm:05A2E5",
+   "vm:05A41A",
+   "vm:05A432"
+  ],
+  "jp": "{clr}{pos:00000000}{full}コ・ロ・ス{wait}",
+  "en": "",
+  "box": "lower/upper"
+ },
+ {
+  "id": "ch24.05AC40",
+  "addr": "05AC40",
+  "len": 58,
+  "ptrs": [
+   "vm:05A2BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いかん、心をしばりつける呪いがかけられている{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AC7A",
+  "addr": "05AC7A",
+  "len": 88,
+  "ptrs": [
+   "vm:05A2D2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うそだよね{nl}父さん！{wait}{clr}{pos:00000000}{full}父さんは強いんだ！そんなヤツに負けるもんか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05ACD2",
+  "addr": "05ACD2",
+  "len": 194,
+  "ptrs": [
+   "vm:05A237"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲボハハハ{nl}{wait}{clr}{pos:00000000}{full}どうです、うんと楽しめそうでしょう？{wait}{clr}{pos:00000000}{full}アーク王もおくで{nl}まっていますから{nl}よろしく！{wait}{clr}{pos:00000000}{full}それじゃ、私は{nl}お邪魔のようです{nl}から引きあげます{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AD94",
+  "addr": "05AD94",
+  "len": 24,
+  "ptrs": [
+   "vm:05A23C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05ADAC",
+  "addr": "05ADAC",
+  "len": 22,
+  "ptrs": [
+   "vm:05A415"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父さん！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05ADC2",
+  "addr": "05ADC2",
+  "len": 30,
+  "ptrs": [
+   "vm:05A42D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だめだシフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05ADE0",
+  "addr": "05ADE0",
+  "len": 56,
+  "ptrs": [
+   "vm:05A445"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうして目を覚まさないの？ぼくだよ父さん！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AE18",
+  "addr": "05AE18",
+  "len": 40,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}呪いの力が強すぎるのよ！！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AE40",
+  "addr": "05AE40",
+  "len": 52,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}どないしたらええの？{nl}アルデナーラ先生{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AE74",
+  "addr": "05AE74",
+  "len": 24,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}グー・・・{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AE8C",
+  "addr": "05AE8C",
+  "len": 28,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}先生！おきー！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AEA8",
+  "addr": "05AEA8",
+  "len": 104,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}はっ、なになに{nl}呪いじゃと？{wait}{clr}{pos:00000000}{full}おまえたちには{nl}ケントゥーネの舞いの力があるじゃろ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AF10",
+  "addr": "05AF10",
+  "len": 64,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}でも・・・呪いをとく舞いなんて、どうしたらいいのか{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AF50",
+  "addr": "05AF50",
+  "len": 66,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}心、人を思いやるその気持ちを、そのまま舞いにするのだ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05AF92",
+  "addr": "05AF92",
+  "len": 28,
+  "ptrs": [
+   "vm:05A628"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぐっうううう！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AFAE",
+  "addr": "05AFAE",
+  "len": 22,
+  "ptrs": [
+   "vm:05A62D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父さん！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05AFC4",
+  "addr": "05AFC4",
+  "len": 24,
+  "ptrs": [
+   "vm:05A640"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05AFDC",
+  "addr": "05AFDC",
+  "len": 70,
+  "ptrs": [
+   "vm:05A653"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はぁ、はぁ・・・{wait}{clr}{pos:00000000}{full}う？ここは、{nl}それにシフィル{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B022",
+  "addr": "05B022",
+  "len": 86,
+  "ptrs": [
+   "vm:05A666"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やったあ！{wait}{clr}{pos:00000000}{full}父さん、ギボゲラのやつ、父さんをあやつってたんだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B078",
+  "addr": "05B078",
+  "len": 32,
+  "ptrs": [
+   "vm:05A66B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そ、そうだったのか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B098",
+  "addr": "05B098",
+  "len": 50,
+  "ptrs": [
+   "vm:05A67E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたはなかなか{nl}てごわい敵でしたよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B0CA",
+  "addr": "05B0CA",
+  "len": 80,
+  "ptrs": [
+   "vm:05A691"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ランティアやエレノアたちもここに{wait}{clr}{pos:00000000}{full}とじこめられているのだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B11A",
+  "addr": "05B11A",
+  "len": 38,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}よ、よかった・・・うっ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch24.05B140",
+  "addr": "05B140",
+  "len": 42,
+  "ptrs": [
+   "vm:05A6A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アークおじ様？{nl}どうしたの？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B16A",
+  "addr": "05B16A",
+  "len": 138,
+  "ptrs": [
+   "vm:05A6B7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラの呪いが{nl}強力すぎたのよ{wait}{clr}{pos:00000000}{full}それに、それを一気にといたものだから{wait}{clr}{pos:00000000}{full}体力をしょうもうしちゃったみたい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B1F4",
+  "addr": "05B1F4",
+  "len": 32,
+  "ptrs": [
+   "vm:05A6CA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こ、これしき・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B214",
+  "addr": "05B214",
+  "len": 60,
+  "ptrs": [
+   "vm:05A793"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おお、ネイフル！{nl}おまえたちが助けてくれたのか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B250",
+  "addr": "05B250",
+  "len": 62,
+  "ptrs": [
+   "vm:05A798"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うれしいわネイフルこんなところまで来てくれたのね{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B28E",
+  "addr": "05B28E",
+  "len": 46,
+  "ptrs": [
+   "vm:05A7AB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父様、母様！{nl}よかった、無事で！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B2BC",
+  "addr": "05B2BC",
+  "len": 36,
+  "ptrs": [
+   "vm:05A7BE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}油断は禁物ですよ{nl}父上{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B2E0",
+  "addr": "05B2E0",
+  "len": 90,
+  "ptrs": [
+   "vm:05A7D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナス！{nl}何を言っておる{wait}{clr}{pos:00000000}{full}今回は敵がひれつな手をつかったからだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B33A",
+  "addr": "05B33A",
+  "len": 66,
+  "ptrs": [
+   "vm:05A7E4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まあいいではありませんか、ケイリナスも成長したものだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B37C",
+  "addr": "05B37C",
+  "len": 32,
+  "ptrs": [
+   "vm:05A7F7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな、ありがとう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B39C",
+  "addr": "05B39C",
+  "len": 64,
+  "ptrs": [
+   "vm:05A80A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はあ、せまいところにとじこめられて{nl}つかれちゃった{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B3DC",
+  "addr": "05B3DC",
+  "len": 82,
+  "ptrs": [
+   "vm:05A81D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さあ、これで気がかりはなくなった{wait}{clr}{pos:00000000}{full}そうでしょう？{nl}アーク王{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B42E",
+  "addr": "05B42E",
+  "len": 20,
+  "ptrs": [
+   "vm:05A830"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うん？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B442",
+  "addr": "05B442",
+  "len": 130,
+  "ptrs": [
+   "vm:05A843"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父さん、約束だよ{wait}{clr}{pos:00000000}{full}フェルサリアにもどって、早く元気になって{wait}{clr}{pos:00000000}{full}ボクは絶対かえって来るからまっててよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B4C4",
+  "addr": "05B4C4",
+  "len": 84,
+  "ptrs": [
+   "vm:05A856"
+  ],
+  "jp": "{clr}{pos:00000000}{full}すまぬ・・・{wait}{clr}{pos:00000000}{full}呪いをかけられたせいで、おまえを守ってやれない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B518",
+  "addr": "05B518",
+  "len": 74,
+  "ptrs": [
+   "vm:05A869"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィルならだいじょうぶだよ{nl}{wait}{clr}{pos:00000000}{full}ボクもついてるもん{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B562",
+  "addr": "05B562",
+  "len": 64,
+  "ptrs": [
+   "vm:05A87C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上もびっくりするくらい、強くなってかえるからね！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B5A2",
+  "addr": "05B5A2",
+  "len": 34,
+  "ptrs": [
+   "vm:05A88F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかった信じているぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B5C4",
+  "addr": "05B5C4",
+  "len": 28,
+  "ptrs": [
+   "vm:05A894"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ボク、やるよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B5E0",
+  "addr": "05B5E0",
+  "len": 56,
+  "ptrs": [
+   "vm:05A899"
+  ],
+  "jp": "{clr}{pos:00000000}{full}では、さらばだ{nl}リアド殿{nl}シフィルをたのむ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B618",
+  "addr": "05B618",
+  "len": 84,
+  "ptrs": [
+   "vm:05A8AC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王、だいじょうぶです{wait}{clr}{pos:00000000}{full}シフィルはやはり{nl}あなたの息子だ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B66C",
+  "addr": "05B66C",
+  "len": 40,
+  "ptrs": [
+   "vm:05A931"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いよいよ帝国に乗り込むぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B694",
+  "addr": "05B694",
+  "len": 80,
+  "ptrs": [
+   "vm:05A936"
+  ],
+  "jp": "{clr}{pos:00000000}{full}覚悟はできているのかリアド{wait}{clr}{pos:00000000}{full}まっている敵はおまえの・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B6E4",
+  "addr": "05B6E4",
+  "len": 66,
+  "ptrs": [
+   "vm:05A93B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、だが、父上と兄上は本当の敵じゃないかもしれない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B726",
+  "addr": "05B726",
+  "len": 28,
+  "ptrs": [
+   "vm:05A940"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どういうことだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch24.05B742",
+  "addr": "05B742",
+  "len": 58,
+  "ptrs": [
+   "vm:05A945"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何か帝国をあやつる力があるような気がするんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch24.05B77C",
+  "addr": "05B77C",
+  "len": 44,
+  "ptrs": [
+   "vm:05A0E7"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１９{nl}{half}　{full}　＜トンネル＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

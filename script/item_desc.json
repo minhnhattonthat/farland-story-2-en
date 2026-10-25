@@ -1,0 +1,1327 @@
+[
+ {
+  "id": "item_desc.02675D",
+  "addr": "02675D",
+  "len": 66,
+  "ptrs": [
+   "p16:02665B",
+   "p16:02665D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋４{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02679F",
+  "addr": "02679F",
+  "len": 66,
+  "ptrs": [
+   "p16:02665F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋８{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0267E1",
+  "addr": "0267E1",
+  "len": 68,
+  "ptrs": [
+   "p16:026661"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026825",
+  "addr": "026825",
+  "len": 68,
+  "ptrs": [
+   "p16:026663"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１６{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026869",
+  "addr": "026869",
+  "len": 68,
+  "ptrs": [
+   "p16:026665"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0268AD",
+  "addr": "0268AD",
+  "len": 68,
+  "ptrs": [
+   "p16:026667"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋２２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0268F1",
+  "addr": "0268F1",
+  "len": 68,
+  "ptrs": [
+   "p16:026669"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋２５{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026935",
+  "addr": "026935",
+  "len": 68,
+  "ptrs": [
+   "p16:02666B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026979",
+  "addr": "026979",
+  "len": 68,
+  "ptrs": [
+   "p16:02666D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0269BD",
+  "addr": "0269BD",
+  "len": 68,
+  "ptrs": [
+   "p16:02666F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026A01",
+  "addr": "026A01",
+  "len": 68,
+  "ptrs": [
+   "p16:026671"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026A45",
+  "addr": "026A45",
+  "len": 68,
+  "ptrs": [
+   "p16:026673"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026A89",
+  "addr": "026A89",
+  "len": 68,
+  "ptrs": [
+   "p16:026675"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026ACD",
+  "addr": "026ACD",
+  "len": 68,
+  "ptrs": [
+   "p16:026677"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026B11",
+  "addr": "026B11",
+  "len": 68,
+  "ptrs": [
+   "p16:026679"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026B55",
+  "addr": "026B55",
+  "len": 68,
+  "ptrs": [
+   "p16:02667B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026B99",
+  "addr": "026B99",
+  "len": 36,
+  "ptrs": [
+   "p16:02667D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}シフィル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026BBD",
+  "addr": "026BBD",
+  "len": 34,
+  "ptrs": [
+   "p16:02667F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}リアド",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026BDF",
+  "addr": "026BDF",
+  "len": 64,
+  "ptrs": [
+   "p16:026681"
+  ],
+  "jp": "{clr}{pos:00000000}{full}主にナイトがつかうやり攻撃力＋５{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026C1F",
+  "addr": "026C1F",
+  "len": 52,
+  "ptrs": [
+   "p16:026683"
+  ],
+  "jp": "{clr}{pos:00000000}{full}重いやり{nl}攻撃力＋８{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026C53",
+  "addr": "026C53",
+  "len": 62,
+  "ptrs": [
+   "p16:026685"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぎんで出来たやり{nl}攻撃力＋１２{half}{nl}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026C91",
+  "addr": "026C91",
+  "len": 60,
+  "ptrs": [
+   "p16:026687"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ドラゴンのやり{nl}攻撃力＋１５{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026CCD",
+  "addr": "026CCD",
+  "len": 56,
+  "ptrs": [
+   "p16:026689"
+  ],
+  "jp": "{clr}{pos:00000000}{full}聖なるやり{nl}攻撃力＋２０{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026D05",
+  "addr": "026D05",
+  "len": 58,
+  "ptrs": [
+   "p16:02668B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}神話上のやり{nl}攻撃力＋２５{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026D3F",
+  "addr": "026D3F",
+  "len": 54,
+  "ptrs": [
+   "p16:02668D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}炎のやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026D75",
+  "addr": "026D75",
+  "len": 58,
+  "ptrs": [
+   "p16:02668F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こおりのやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026DAF",
+  "addr": "026DAF",
+  "len": 60,
+  "ptrs": [
+   "p16:026691"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かみなりのやり{nl}攻撃力＋１２{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026DEB",
+  "addr": "026DEB",
+  "len": 60,
+  "ptrs": [
+   "p16:026693"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ラッキーなやり{nl}攻撃力＋１５{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026E27",
+  "addr": "026E27",
+  "len": 56,
+  "ptrs": [
+   "p16:026695"
+  ],
+  "jp": "{clr}{pos:00000000}{full}呪いのやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026E5F",
+  "addr": "026E5F",
+  "len": 64,
+  "ptrs": [
+   "p16:026697"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かたてで使うオノ{nl}攻撃力＋１０{nl}{half}アルタバ・ドカティ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026E9F",
+  "addr": "026E9F",
+  "len": 64,
+  "ptrs": [
+   "p16:026699"
+  ],
+  "jp": "{clr}{pos:00000000}{full}せんとうようのオノ攻撃力＋１５{nl}{half}アルタバ・ドカティ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026EDF",
+  "addr": "026EDF",
+  "len": 64,
+  "ptrs": [
+   "p16:02669B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}りょうてようのオノ攻撃力＋２０{nl}{half}アルタバ・ドカティ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026F1F",
+  "addr": "026F1F",
+  "len": 62,
+  "ptrs": [
+   "p16:02669D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}きょだいなオノ{nl}攻撃力＋２５{nl}{half}アルタバ・ドカティ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026F5D",
+  "addr": "026F5D",
+  "len": 62,
+  "ptrs": [
+   "p16:02669F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ラッキーなオノ{nl}攻撃力＋２０{nl}{half}アルタバ・ドカティ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026F9B",
+  "addr": "026F9B",
+  "len": 60,
+  "ptrs": [
+   "p16:0266A1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}コンパクトなゆみ{nl}間せつ攻撃力＋５{nl}{half}シュナリー",
+  "en": ""
+ },
+ {
+  "id": "item_desc.026FD7",
+  "addr": "026FD7",
+  "len": 54,
+  "ptrs": [
+   "p16:0266A3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}大きいゆみ{nl}間せつ攻撃力＋１０{half}シュナリー",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02700D",
+  "addr": "02700D",
+  "len": 60,
+  "ptrs": [
+   "p16:0266A5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぎんでできたゆみ{nl}間せつ攻撃力＋１５{half}シュナリー",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027049",
+  "addr": "027049",
+  "len": 54,
+  "ptrs": [
+   "p16:0266A7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}聖なるゆみ{nl}間せつ攻撃力＋２０{half}シュナリー",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02707F",
+  "addr": "02707F",
+  "len": 12,
+  "ptrs": [
+   "p16:0266A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02708B",
+  "addr": "02708B",
+  "len": 12,
+  "ptrs": [
+   "p16:0266AB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027097",
+  "addr": "027097",
+  "len": 54,
+  "ptrs": [
+   "p16:0266AD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}攻撃力が強い{nl}間せつ攻撃力＋５０シュナリー",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0270CD",
+  "addr": "0270CD",
+  "len": 56,
+  "ptrs": [
+   "p16:0266AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}火の魔法のつえ{nl}間せつ魔法力＋１０{half}ネイフル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027105",
+  "addr": "027105",
+  "len": 12,
+  "ptrs": [
+   "p16:0266B1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027111",
+  "addr": "027111",
+  "len": 64,
+  "ptrs": [
+   "p16:0266B3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}強力なでんげきをだすつえ間せつ魔法力＋２０{half}ネイフル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027151",
+  "addr": "027151",
+  "len": 12,
+  "ptrs": [
+   "p16:0266B5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02715D",
+  "addr": "02715D",
+  "len": 50,
+  "ptrs": [
+   "p16:0266B7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}炎のつえ{nl}間せつ魔法力＋１５{half}ネイフル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02718F",
+  "addr": "02718F",
+  "len": 58,
+  "ptrs": [
+   "p16:0266B9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}火炎じごくのつえ{nl}間せつ魔法力＋２０{half}ネイフル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0271C9",
+  "addr": "0271C9",
+  "len": 56,
+  "ptrs": [
+   "p16:0266BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いんせきのつえ{nl}間せつ魔法力＋４５{half}ネイフル",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027201",
+  "addr": "027201",
+  "len": 12,
+  "ptrs": [
+   "p16:0266BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02720D",
+  "addr": "02720D",
+  "len": 12,
+  "ptrs": [
+   "p16:0266BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027219",
+  "addr": "027219",
+  "len": 12,
+  "ptrs": [
+   "p16:0266C1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027225",
+  "addr": "027225",
+  "len": 44,
+  "ptrs": [
+   "p16:0266C3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027251",
+  "addr": "027251",
+  "len": 44,
+  "ptrs": [
+   "p16:0266C5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02727D",
+  "addr": "02727D",
+  "len": 44,
+  "ptrs": [
+   "p16:0266C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0272A9",
+  "addr": "0272A9",
+  "len": 44,
+  "ptrs": [
+   "p16:0266C9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}聖なるつえ{nl}魔法力＋５{nl}{half}エリア",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0272D5",
+  "addr": "0272D5",
+  "len": 50,
+  "ptrs": [
+   "p16:0266CB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}がっき{nl}{half}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027307",
+  "addr": "027307",
+  "len": 50,
+  "ptrs": [
+   "p16:0266CD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}がっき{nl}{half}サークルス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027339",
+  "addr": "027339",
+  "len": 54,
+  "ptrs": [
+   "p16:0266CF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ポレポレのつえ{nl}体力を回復させる{nl}{half}ドリス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02736F",
+  "addr": "02736F",
+  "len": 62,
+  "ptrs": [
+   "p16:0266D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ライジングドッグのつえ　魔法力＋１０{half}アルデナーラ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0273AD",
+  "addr": "0273AD",
+  "len": 56,
+  "ptrs": [
+   "p16:0266D3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サラマンダーのつえ間せつ魔法力＋１５{half}ドリス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0273E5",
+  "addr": "0273E5",
+  "len": 50,
+  "ptrs": [
+   "p16:0266D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴーレムのつえ{nl}魔法力＋２０{nl}{half}ドリス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027417",
+  "addr": "027417",
+  "len": 58,
+  "ptrs": [
+   "p16:0266D7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ソードマンのつえ{nl}魔法力＋２５{nl}{half}アルデナーラ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027451",
+  "addr": "027451",
+  "len": 12,
+  "ptrs": [
+   "p16:0266D9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02745D",
+  "addr": "02745D",
+  "len": 12,
+  "ptrs": [
+   "p16:0266DB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027469",
+  "addr": "027469",
+  "len": 60,
+  "ptrs": [
+   "p16:0266DD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ドラゴンのつえ{nl}間せつ魔法力＋３０{half}アルデナーラ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0274A5",
+  "addr": "0274A5",
+  "len": 56,
+  "ptrs": [
+   "p16:0266DF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ポレポレＧのつえ{nl}間せつ魔法力＋４０{half}ドリス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0274DD",
+  "addr": "0274DD",
+  "len": 48,
+  "ptrs": [
+   "p16:0266E1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}するどいつめ{nl}攻撃力＋３{nl}{half}クラウス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02750D",
+  "addr": "02750D",
+  "len": 52,
+  "ptrs": [
+   "p16:0266E3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぎんで出来たつめ{nl}攻撃力＋８{nl}{half}クラウス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027541",
+  "addr": "027541",
+  "len": 52,
+  "ptrs": [
+   "p16:0266E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}きょだいなつめ{nl}攻撃力＋１２{nl}{half}クラウス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027575",
+  "addr": "027575",
+  "len": 12,
+  "ptrs": [
+   "p16:0266E7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027581",
+  "addr": "027581",
+  "len": 52,
+  "ptrs": [
+   "p16:0266E9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ラッキーなつめ{nl}攻撃力＋１０{nl}{half}クラウス",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0275B5",
+  "addr": "0275B5",
+  "len": 42,
+  "ptrs": [
+   "p16:0266EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゆびわ{nl}魔法力＋５{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0275DF",
+  "addr": "0275DF",
+  "len": 40,
+  "ptrs": [
+   "p16:0266ED"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ＨＰ回復のゆびわ{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027607",
+  "addr": "027607",
+  "len": 54,
+  "ptrs": [
+   "p16:0266EF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しんじゅのゆびわ{nl}魔法力＋１０{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.02763D",
+  "addr": "02763D",
+  "len": 52,
+  "ptrs": [
+   "p16:0266F1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ルビーのゆびわ{nl}魔法力＋１５{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027671",
+  "addr": "027671",
+  "len": 54,
+  "ptrs": [
+   "p16:0266F3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サファイヤのゆびわ魔法力＋２０{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0276A7",
+  "addr": "0276A7",
+  "len": 52,
+  "ptrs": [
+   "p16:0266F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ダイヤのゆびわ{nl}魔法力＋２５{nl}{half}サリーナ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0276DB",
+  "addr": "0276DB",
+  "len": 54,
+  "ptrs": [
+   "p16:0266F7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ドラゴンのしっぽ{nl}攻撃力＋１０{nl}{half}リギット",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027711",
+  "addr": "027711",
+  "len": 56,
+  "ptrs": [
+   "p16:0266F9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かえんほうしゃ{nl}間せつ攻撃力＋１０{half}リギット",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027749",
+  "addr": "027749",
+  "len": 62,
+  "ptrs": [
+   "p16:0266FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}雪だるまをふらす{nl}直間魔法力＋２０{nl}{half}おゆきちゃん",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027787",
+  "addr": "027787",
+  "len": 2,
+  "ptrs": [
+   "p16:0266FD"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027789",
+  "addr": "027789",
+  "len": 2,
+  "ptrs": [
+   "p16:0266FF"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02778B",
+  "addr": "02778B",
+  "len": 2,
+  "ptrs": [
+   "p16:026701"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02778D",
+  "addr": "02778D",
+  "len": 2,
+  "ptrs": [
+   "p16:026703"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02778F",
+  "addr": "02778F",
+  "len": 2,
+  "ptrs": [
+   "p16:026705"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027791",
+  "addr": "027791",
+  "len": 2,
+  "ptrs": [
+   "p16:026707"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027793",
+  "addr": "027793",
+  "len": 2,
+  "ptrs": [
+   "p16:026709"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027795",
+  "addr": "027795",
+  "len": 2,
+  "ptrs": [
+   "p16:02670B"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027797",
+  "addr": "027797",
+  "len": 2,
+  "ptrs": [
+   "p16:02670D"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027799",
+  "addr": "027799",
+  "len": 2,
+  "ptrs": [
+   "p16:02670F"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02779B",
+  "addr": "02779B",
+  "len": 2,
+  "ptrs": [
+   "p16:026711"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02779D",
+  "addr": "02779D",
+  "len": 2,
+  "ptrs": [
+   "p16:026713"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02779F",
+  "addr": "02779F",
+  "len": 2,
+  "ptrs": [
+   "p16:026715"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277A1",
+  "addr": "0277A1",
+  "len": 2,
+  "ptrs": [
+   "p16:026717"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277A3",
+  "addr": "0277A3",
+  "len": 2,
+  "ptrs": [
+   "p16:026719"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277A5",
+  "addr": "0277A5",
+  "len": 2,
+  "ptrs": [
+   "p16:02671B"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277A7",
+  "addr": "0277A7",
+  "len": 2,
+  "ptrs": [
+   "p16:02671D"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277A9",
+  "addr": "0277A9",
+  "len": 2,
+  "ptrs": [
+   "p16:02671F"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277AB",
+  "addr": "0277AB",
+  "len": 2,
+  "ptrs": [
+   "p16:026721"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277AD",
+  "addr": "0277AD",
+  "len": 2,
+  "ptrs": [
+   "p16:026723"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277AF",
+  "addr": "0277AF",
+  "len": 2,
+  "ptrs": [
+   "p16:026725"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277B1",
+  "addr": "0277B1",
+  "len": 2,
+  "ptrs": [
+   "p16:026727"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277B3",
+  "addr": "0277B3",
+  "len": 2,
+  "ptrs": [
+   "p16:026729"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277B5",
+  "addr": "0277B5",
+  "len": 2,
+  "ptrs": [
+   "p16:02672B"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277B7",
+  "addr": "0277B7",
+  "len": 2,
+  "ptrs": [
+   "p16:02672D"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277B9",
+  "addr": "0277B9",
+  "len": 2,
+  "ptrs": [
+   "p16:02672F"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277BB",
+  "addr": "0277BB",
+  "len": 2,
+  "ptrs": [
+   "p16:026731"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277BD",
+  "addr": "0277BD",
+  "len": 2,
+  "ptrs": [
+   "p16:026733"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277BF",
+  "addr": "0277BF",
+  "len": 2,
+  "ptrs": [
+   "p16:026735"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.0277C1",
+  "addr": "0277C1",
+  "len": 52,
+  "ptrs": [
+   "p16:026737"
+  ],
+  "jp": "{clr}{pos:00000000}{full}森でとれるしょくぶつ{nl}ＨＰが２０回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0277F5",
+  "addr": "0277F5",
+  "len": 52,
+  "ptrs": [
+   "p16:026739"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようせいが持つくすり{nl}ＨＰが４０回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027829",
+  "addr": "027829",
+  "len": 46,
+  "ptrs": [
+   "p16:02673B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ハチが持つアイテムＨＰ１５回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027857",
+  "addr": "027857",
+  "len": 58,
+  "ptrs": [
+   "p16:02673D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}力つきたものをよみがえらせ{nl}ＨＰが２０回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027891",
+  "addr": "027891",
+  "len": 30,
+  "ptrs": [
+   "p16:02673F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ＨＰが完全回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0278AF",
+  "addr": "0278AF",
+  "len": 58,
+  "ptrs": [
+   "p16:026741"
+  ],
+  "jp": "{clr}{pos:00000000}{full}力つきたものをよみがえらせ{nl}ＨＰが完全回復する",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0278E9",
+  "addr": "0278E9",
+  "len": 62,
+  "ptrs": [
+   "p16:026743"
+  ],
+  "jp": "{clr}{pos:00000000}{full}栄よう満てんの{nl}スッポンのエキス{nl}Ｍぼうぎょ３ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027927",
+  "addr": "027927",
+  "len": 42,
+  "ptrs": [
+   "p16:026745"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ペンギンのたまご{nl}ＨＰ１５回復",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027951",
+  "addr": "027951",
+  "len": 2,
+  "ptrs": [
+   "p16:026747"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027953",
+  "addr": "027953",
+  "len": 2,
+  "ptrs": [
+   "p16:026749"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027955",
+  "addr": "027955",
+  "len": 2,
+  "ptrs": [
+   "p16:02674B"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027957",
+  "addr": "027957",
+  "len": 2,
+  "ptrs": [
+   "p16:02674D"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.027959",
+  "addr": "027959",
+  "len": 2,
+  "ptrs": [
+   "p16:02674F"
+  ],
+  "jp": "",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "item_desc.02795B",
+  "addr": "02795B",
+  "len": 60,
+  "ptrs": [
+   "p16:026751"
+  ],
+  "jp": "{clr}{pos:00000000}{full}伝説？の幸運のくつはいたキャラの{nl}移動力が２ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027997",
+  "addr": "027997",
+  "len": 60,
+  "ptrs": [
+   "p16:026753"
+  ],
+  "jp": "{clr}{pos:00000000}{full}色々な、がくもんについて書かれた本{nl}魔法力２ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0279D3",
+  "addr": "0279D3",
+  "len": 42,
+  "ptrs": [
+   "p16:026755"
+  ],
+  "jp": "{clr}{pos:00000000}{full}不思議な木の実{nl}攻撃力が３ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.0279FD",
+  "addr": "0279FD",
+  "len": 54,
+  "ptrs": [
+   "p16:026757"
+  ],
+  "jp": "{clr}{pos:00000000}{full}守りの力がこもったいし{nl}Ｐぼうぎょが３ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027A33",
+  "addr": "027A33",
+  "len": 64,
+  "ptrs": [
+   "p16:026759"
+  ],
+  "jp": "{clr}{pos:00000000}{full}山おくでしかとれない不思議なキノコ{nl}最大体力が５ＵＰ",
+  "en": ""
+ },
+ {
+  "id": "item_desc.027A73",
+  "addr": "027A73",
+  "len": 48,
+  "ptrs": [
+   "p16:02675B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}怪物グリフォンのはね{nl}素早さが２ＵＰ",
+  "en": ""
+ }
+]

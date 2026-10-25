@@ -1,0 +1,546 @@
+[
+ {
+  "id": "ch27.05D818",
+  "addr": "05D818",
+  "len": 36,
+  "ptrs": [
+   "vm:05D371"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上、お久しぶり{nl}です{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05D83C",
+  "addr": "05D83C",
+  "len": 44,
+  "ptrs": [
+   "vm:05D376"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、とうとうここまで来たか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05D868",
+  "addr": "05D868",
+  "len": 74,
+  "ptrs": [
+   "vm:05D37B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}顔色がすぐれませんね{wait}{clr}{pos:00000000}{full}まだ体の調子は{nl}悪いのですね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05D8B2",
+  "addr": "05D8B2",
+  "len": 136,
+  "ptrs": [
+   "vm:05D380"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴホゴホッ{wait}{clr}{pos:00000000}{full}正直なやつだ{nl}{wait}{clr}{pos:00000000}{full}私はおまえたちのことをよく知っている{wait}{clr}{pos:00000000}{full}・・・スパイからの情報でな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05D93A",
+  "addr": "05D93A",
+  "len": 62,
+  "ptrs": [
+   "vm:05D393"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいらたちの中に{nl}スパイなんているはずがないガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05D978",
+  "addr": "05D978",
+  "len": 60,
+  "ptrs": [
+   "vm:05D398"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかし、おまえがここまでやるとはな{nl}ゴホゴホッ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05D9B4",
+  "addr": "05D9B4",
+  "len": 86,
+  "ptrs": [
+   "vm:05D3AB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上、もうやめましょう！むえきな争いです{wait}{clr}{pos:00000000}{full}帝国はもうおしまいだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DA0A",
+  "addr": "05DA0A",
+  "len": 80,
+  "ptrs": [
+   "vm:05D3BE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}皇位第一継承者と{nl}しておまえを{wait}{clr}{pos:00000000}{full}倒さなければ{nl}ならない！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DA5A",
+  "addr": "05DA5A",
+  "len": 20,
+  "ptrs": [
+   "vm:05D3C3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DA6E",
+  "addr": "05DA6E",
+  "len": 22,
+  "ptrs": [
+   "vm:05D3C8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かかれ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DA84",
+  "addr": "05DA84",
+  "len": 20,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}兄上！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch27.05DA98",
+  "addr": "05DA98",
+  "len": 44,
+  "ptrs": [
+   "vm:05D611"
+  ],
+  "jp": "{clr}{pos:00000000}{full}決着をつけるときがきたようだな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DAC4",
+  "addr": "05DAC4",
+  "len": 20,
+  "ptrs": [
+   "vm:05D616"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DAD8",
+  "addr": "05DAD8",
+  "len": 56,
+  "ptrs": [
+   "vm:05D661"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やめて！{nl}二人とも、兄弟で殺し合うなんて！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DB10",
+  "addr": "05DB10",
+  "len": 28,
+  "ptrs": [
+   "vm:05D666"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いくぞリアド！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DB2C",
+  "addr": "05DB2C",
+  "len": 26,
+  "ptrs": [
+   "vm:05D6B9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルス！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DB46",
+  "addr": "05DB46",
+  "len": 98,
+  "ptrs": [
+   "vm:05D6BE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うう・・・{nl}いけませんわ・・・タリ・カー・ラ様{wait}{clr}{pos:00000000}{full}兄弟同士で殺し合いは・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DBA8",
+  "addr": "05DBA8",
+  "len": 42,
+  "ptrs": [
+   "vm:05D6D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしてなんだ{nl}サークルス！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DBD2",
+  "addr": "05DBD2",
+  "len": 64,
+  "ptrs": [
+   "vm:05D6E4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}タ・タリカーラ様{nl}あ・あい・愛して・ま・・す・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DC12",
+  "addr": "05DC12",
+  "len": 46,
+  "ptrs": [
+   "vm:05D6F7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルス！{nl}私も愛してる・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DC40",
+  "addr": "05DC40",
+  "len": 42,
+  "ptrs": [
+   "vm:05D739"
+  ],
+  "jp": "{clr}{pos:00000000}{full}恋人同士だったのですね・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DC6A",
+  "addr": "05DC6A",
+  "len": 96,
+  "ptrs": [
+   "vm:05D73E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルスは・・・{wait}{clr}{pos:00000000}{full}おまえたちの行動をかんしするための{nl}スパイだったのだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DCCA",
+  "addr": "05DCCA",
+  "len": 62,
+  "ptrs": [
+   "vm:05D751"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それで帝国軍は俺{nl}たちの行動を先よみしていたのか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DD08",
+  "addr": "05DD08",
+  "len": 148,
+  "ptrs": [
+   "vm:05D756"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、サークルスをゆるしてやってくれ{wait}{clr}{pos:00000000}{full}彼女もまた被害者なのだ{wait}{clr}{pos:00000000}{full}ギボゲラに命令されおまえたちの行動を調べるようにと{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DD9C",
+  "addr": "05DD9C",
+  "len": 30,
+  "ptrs": [
+   "vm:05D769"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルス・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DDBA",
+  "addr": "05DDBA",
+  "len": 158,
+  "ptrs": [
+   "vm:05D77C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルス、私はキミをすくえなかった{wait}{clr}{pos:00000000}{full}だが、もうキミを{nl}しばるものは{nl}何もない・・・{wait}{clr}{pos:00000000}{full}私もまもなく自由になる・・・ゴホゴホッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DE58",
+  "addr": "05DE58",
+  "len": 42,
+  "ptrs": [
+   "vm:05D781"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上、聞きたいことがあります{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DE82",
+  "addr": "05DE82",
+  "len": 24,
+  "ptrs": [
+   "vm:05D786"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいだろう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DE9A",
+  "addr": "05DE9A",
+  "len": 64,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}私に答えられることは何でも答えてやろう、ゴホゴホッ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch27.05DEDA",
+  "addr": "05DEDA",
+  "len": 28,
+  "ptrs": [
+   "vm:05D78B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上のことです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DEF6",
+  "addr": "05DEF6",
+  "len": 110,
+  "ptrs": [
+   "vm:05D790"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴホゴホッ・・・リアド、ダメだったよ{wait}{clr}{pos:00000000}{full}父上は最後まで私の言うことには耳をかさなかったよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05DF64",
+  "addr": "05DF64",
+  "len": 18,
+  "ptrs": [
+   "vm:05D795"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05DF76",
+  "addr": "05DF76",
+  "len": 138,
+  "ptrs": [
+   "vm:05D79A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴホゴホッ・・{nl}リアドよ{wait}{clr}{pos:00000000}{full}皇帝を父上を・・・殺してくれ・・・{wait}{clr}{pos:00000000}{full}それしか父上の魂を救うことはできない・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E000",
+  "addr": "05E000",
+  "len": 52,
+  "ptrs": [
+   "vm:05D79F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上{nl}いったい父上に何があったんです？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E034",
+  "addr": "05E034",
+  "len": 302,
+  "ptrs": [
+   "vm:05D7A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラが皇帝につくようになってから{wait}{clr}{pos:00000000}{full}父上は変わられた{nl}・・・{wait}{clr}{pos:00000000}{full}小国ヴァルを守るため戦っていた父上は戦で母をなくし{wait}{clr}{pos:00000000}{full}この世から戦をなくすために立ち上がられた{wait}{clr}{pos:00000000}{full}そのときだ{nl}ギボゲラが奇妙な術と予言で{wait}{clr}{pos:00000000}{full}父上に、とりいったのは・・・{nl}ゴホゴホッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E162",
+  "addr": "05E162",
+  "len": 54,
+  "ptrs": [
+   "vm:05D7A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラが！？{nl}やつはいったい何者です？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E198",
+  "addr": "05E198",
+  "len": 138,
+  "ptrs": [
+   "vm:05D7AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私にもわからない{nl}・・・{wait}{clr}{pos:00000000}{full}私はゾルディン将軍とギボゲラをさぐったことがあるが{wait}{clr}{pos:00000000}{full}全ては謎だった{nl}ゴホゴホッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E222",
+  "addr": "05E222",
+  "len": 18,
+  "ptrs": [
+   "vm:05D7B3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E234",
+  "addr": "05E234",
+  "len": 90,
+  "ptrs": [
+   "vm:05D7B8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上をすくいたかった・・・{wait}{clr}{pos:00000000}{full}私には皇位第一後継者という責任があった{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E28E",
+  "addr": "05E28E",
+  "len": 24,
+  "ptrs": [
+   "vm:05D7BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E2A6",
+  "addr": "05E2A6",
+  "len": 74,
+  "ptrs": [
+   "vm:05D7C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえがうらやましかったぞ{wait}{clr}{pos:00000000}{full}いつも自由な{nl}おまえが{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E2F0",
+  "addr": "05E2F0",
+  "len": 108,
+  "ptrs": [
+   "vm:05D7C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺は兄さんのようになりたかった{wait}{clr}{pos:00000000}{full}やさしくてかしこい兄さんは、俺のあこがれだった・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E35C",
+  "addr": "05E35C",
+  "len": 64,
+  "ptrs": [
+   "vm:05D7CC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}無理をしていたのだな{wait}{clr}{pos:00000000}{full}おまえも私も・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E39C",
+  "addr": "05E39C",
+  "len": 18,
+  "ptrs": [
+   "vm:05D7D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}兄上{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E3AE",
+  "addr": "05E3AE",
+  "len": 24,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}兄上・・・{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch27.05E3C6",
+  "addr": "05E3C6",
+  "len": 62,
+  "ptrs": [
+   "vm:05D7D6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}すまない、リアド{nl}情けない無力な{nl}兄を笑ってくれ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E404",
+  "addr": "05E404",
+  "len": 24,
+  "ptrs": [
+   "vm:05D7DB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あ、兄上！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E41C",
+  "addr": "05E41C",
+  "len": 40,
+  "ptrs": [
+   "vm:05D499"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここから先は{nl}通しはせぬ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch27.05E444",
+  "addr": "05E444",
+  "len": 22,
+  "ptrs": [
+   "vm:05D49E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なにっ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch27.05E45A",
+  "addr": "05E45A",
+  "len": 40,
+  "ptrs": [
+   "vm:05D2EC"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ２２{nl}　＜タリカーラ＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

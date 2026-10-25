@@ -1,0 +1,1367 @@
+[
+ {
+  "id": "system.002B8D",
+  "addr": "002B8D",
+  "len": 22,
+  "ptrs": [
+   "imm:002A83/002A8F"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}Ｘ",
+  "en": ""
+ },
+ {
+  "id": "system.002BA3",
+  "addr": "002BA3",
+  "len": 6,
+  "ptrs": [
+   "imm:002AB7/002AC2"
+  ],
+  "jp": "　Ｙ",
+  "en": ""
+ },
+ {
+  "id": "system.010B44",
+  "addr": "010B44",
+  "len": 38,
+  "ptrs": [
+   "imm:010B0C/010B18"
+  ],
+  "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　リアドたちの行動",
+  "en": ""
+ },
+ {
+  "id": "system.010E21",
+  "addr": "010E21",
+  "len": 32,
+  "ptrs": [
+   "imm:010DE9/010DF5"
+  ],
+  "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　帝国の行動",
+  "en": ""
+ },
+ {
+  "id": "system.0136B4",
+  "addr": "0136B4",
+  "len": 44,
+  "ptrs": [
+   "imm:013613/01361F"
+  ],
+  "jp": "{pos:03000000}{half}{delay:0100}{spd1}{f40on}{f20on}もちものがいっぱいです！",
+  "en": ""
+ },
+ {
+  "id": "system.0136E0",
+  "addr": "0136E0",
+  "len": 40,
+  "ptrs": [
+   "imm:0135A5/0135B1"
+  ],
+  "jp": "{pos:04000000}{half}{delay:0100}{spd1}{f40on}{f20on}おかねがたりません！",
+  "en": ""
+ },
+ {
+  "id": "system.0141B9",
+  "addr": "0141B9",
+  "len": 50,
+  "ptrs": [
+   "imm:0140AB/0140B7"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd1}{f40on}{f20on}ぶきはつかうことができません！",
+  "en": ""
+ },
+ {
+  "id": "system.0141EB",
+  "addr": "0141EB",
+  "len": 48,
+  "ptrs": [
+   "imm:014125/014131"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd1}{f40on}{f20on}それはうることができません！",
+  "en": ""
+ },
+ {
+  "id": "system.014524",
+  "addr": "014524",
+  "len": 52,
+  "ptrs": [
+   "imm:0144C5/0144D1"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd1}{f40on}{f20on}ふっかつできるあいてがいません！",
+  "en": ""
+ },
+ {
+  "id": "system.014ADD",
+  "addr": "014ADD",
+  "len": 48,
+  "ptrs": [
+   "imm:014A4C/014A58"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd1}{f40on}{f20on}それはうることができません！",
+  "en": ""
+ },
+ {
+  "id": "system.014CB5",
+  "addr": "014CB5",
+  "len": 52,
+  "ptrs": [
+   "imm:014C52/014C5E"
+  ],
+  "jp": "{pos:01000000}{half}{delay:0100}{spd1}{f40on}{f20on}こうかんできるあいてがいません！",
+  "en": ""
+ },
+ {
+  "id": "system.01563A",
+  "addr": "01563A",
+  "len": 20,
+  "ptrs": [
+   "imm:0155FB/015607"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.0157FE",
+  "addr": "0157FE",
+  "len": 20,
+  "ptrs": [
+   "imm:015792/01579E"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015A7E",
+  "addr": "015A7E",
+  "len": 8,
+  "ptrs": [
+   "imm:015823/01582A"
+  ],
+  "jp": "{pos:00000000}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015A86",
+  "addr": "015A86",
+  "len": 8,
+  "ptrs": [
+   "imm:01586D/015878",
+   "imm:015955/015960",
+   "imm:015A50/015A5B"
+  ],
+  "jp": "{pos:08000000}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015A8E",
+  "addr": "015A8E",
+  "len": 8,
+  "ptrs": [
+   "imm:01589D/0158A8",
+   "imm:015985/01598C"
+  ],
+  "jp": "{pos:08000100}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015A96",
+  "addr": "015A96",
+  "len": 16,
+  "ptrs": [
+   "imm:015854/01585F",
+   "imm:015A37/015A42"
+  ],
+  "jp": "こうげきりょく",
+  "en": ""
+ },
+ {
+  "id": "system.015AA6",
+  "addr": "015AA6",
+  "len": 14,
+  "ptrs": [
+   "imm:01593C/015947"
+  ],
+  "jp": "まほうりょく",
+  "en": ""
+ },
+ {
+  "id": "system.015AB4",
+  "addr": "015AB4",
+  "len": 6,
+  "ptrs": [
+   "imm:015A1C/015A27"
+  ],
+  "jp": "――",
+  "en": ""
+ },
+ {
+  "id": "system.015B28",
+  "addr": "015B28",
+  "len": 8,
+  "ptrs": [
+   "imm:015AC6/015ACD"
+  ],
+  "jp": "{pos:02000200}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015B30",
+  "addr": "015B30",
+  "len": 18,
+  "ptrs": [
+   "imm:015B10/015B1B"
+  ],
+  "jp": "そうびしていない",
+  "en": ""
+ },
+ {
+  "id": "system.015E2C",
+  "addr": "015E2C",
+  "len": 20,
+  "ptrs": [
+   "imm:015DEB/015DF7"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015F8E",
+  "addr": "015F8E",
+  "len": 20,
+  "ptrs": [
+   "imm:015F2E/015F3A",
+   "imm:015F75/015F81"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.015FE8",
+  "addr": "015FE8",
+  "len": 36,
+  "ptrs": [
+   "imm:015FA9/015FB5"
+  ],
+  "jp": "{pos:02000000}{half}{delay:3C00}{spd0}{f40off}{f20off}つかう{pos:02000100}うる",
+  "en": ""
+ },
+ {
+  "id": "system.016458",
+  "addr": "016458",
+  "len": 20,
+  "ptrs": [
+   "imm:01607F/01608B",
+   "imm:0160D7/0160E3",
+   "imm:016111/01611D",
+   "imm:01616A/016176",
+   "imm:0161C3/0161CF",
+   "imm:01621C/016228",
+   "imm:016275/016281",
+   "imm:0162CE/0162DA",
+   "imm:016327/016333",
+   "imm:016380/01638C",
+   "imm:0163FC/016408"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd1}{f40on}{f20on}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.01646C",
+  "addr": "01646C",
+  "len": 10,
+  "ptrs": [
+   "imm:0160A1/0160AC"
+  ],
+  "jp": "はＨＰが",
+  "en": ""
+ },
+ {
+  "id": "system.016476",
+  "addr": "016476",
+  "len": 8,
+  "ptrs": [
+   "imm:0163CC/0163D3"
+  ],
+  "jp": "ＨＰが",
+  "en": ""
+ },
+ {
+  "id": "system.01647E",
+  "addr": "01647E",
+  "len": 24,
+  "ptrs": [
+   "imm:0160C4/0160CB",
+   "imm:0163E9/0163F0"
+  ],
+  "jp": "ポイントかいふくした！",
+  "en": ""
+ },
+ {
+  "id": "system.016496",
+  "addr": "016496",
+  "len": 20,
+  "ptrs": [],
+  "jp": "はげんきになった！",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "system.0164AA",
+  "addr": "0164AA",
+  "len": 22,
+  "ptrs": [
+   "imm:016133/01613E"
+  ],
+  "jp": "のＰこうげきりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.0164C0",
+  "addr": "0164C0",
+  "len": 22,
+  "ptrs": [
+   "imm:01618C/016197"
+  ],
+  "jp": "のＰぼうぎょりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.0164D6",
+  "addr": "0164D6",
+  "len": 18,
+  "ptrs": [
+   "imm:0161E5/0161F0"
+  ],
+  "jp": "のまほうりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.0164E8",
+  "addr": "0164E8",
+  "len": 22,
+  "ptrs": [
+   "imm:01623E/016249"
+  ],
+  "jp": "のＭぼうぎょりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.0164FE",
+  "addr": "0164FE",
+  "len": 14,
+  "ptrs": [
+   "imm:016297/0162A2"
+  ],
+  "jp": "のすばやさが",
+  "en": ""
+ },
+ {
+  "id": "system.01650C",
+  "addr": "01650C",
+  "len": 26,
+  "ptrs": [
+   "imm:016349/016354"
+  ],
+  "jp": "のたいりょくのさいだいが",
+  "en": ""
+ },
+ {
+  "id": "system.016526",
+  "addr": "016526",
+  "len": 18,
+  "ptrs": [
+   "imm:0162F0/0162FB"
+  ],
+  "jp": "のいどうりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.016538",
+  "addr": "016538",
+  "len": 20,
+  "ptrs": [
+   "imm:016156/01615D",
+   "imm:0161AF/0161B6",
+   "imm:016208/01620F",
+   "imm:016261/016268",
+   "imm:0162BA/0162C1",
+   "imm:016313/01631A",
+   "imm:01636C/016373"
+  ],
+  "jp": "ポイントあがった！",
+  "en": ""
+ },
+ {
+  "id": "system.01654C",
+  "addr": "01654C",
+  "len": 40,
+  "ptrs": [
+   "imm:0160F9/016104"
+  ],
+  "jp": "はたいりょくがかんぜんにかいふくした！",
+  "en": ""
+ },
+ {
+  "id": "system.016574",
+  "addr": "016574",
+  "len": 38,
+  "ptrs": [
+   "imm:016448/01644F"
+  ],
+  "jp": "たいりょくがかんぜんにかいふくした！",
+  "en": ""
+ },
+ {
+  "id": "system.01659A",
+  "addr": "01659A",
+  "len": 20,
+  "ptrs": [
+   "imm:0163C3/0163BD",
+   "imm:01643F/016439"
+  ],
+  "jp": "はげんきになった{nl}",
+  "en": ""
+ },
+ {
+  "id": "system.0168A2",
+  "addr": "0168A2",
+  "len": 20,
+  "ptrs": [
+   "imm:0167FC/016808"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.0168B6",
+  "addr": "0168B6",
+  "len": 4,
+  "ptrs": [
+   "imm:01684E/016848"
+  ],
+  "jp": "は",
+  "en": ""
+ },
+ {
+  "id": "system.0168BA",
+  "addr": "0168BA",
+  "len": 58,
+  "ptrs": [
+   "imm:016863/01686A"
+  ],
+  "jp": "ゴールドになります{pos:05000100}うりますか？{pos:05000200}はい　　いいえ",
+  "en": ""
+ },
+ {
+  "id": "system.01693D",
+  "addr": "01693D",
+  "len": 20,
+  "ptrs": [
+   "imm:0168FB/016907"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.016A40",
+  "addr": "016A40",
+  "len": 14,
+  "ptrs": [
+   "imm:016A20/016A1A"
+  ],
+  "jp": "{pos:00000400}ねだん",
+  "en": ""
+ },
+ {
+  "id": "system.016A6B",
+  "addr": "016A6B",
+  "len": 8,
+  "ptrs": [
+   "imm:016A5A/016A54"
+  ],
+  "jp": "{pos:03000500}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.016B28",
+  "addr": "016B28",
+  "len": 20,
+  "ptrs": [
+   "imm:016AC1/016ACD"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.016B92",
+  "addr": "016B92",
+  "len": 52,
+  "ptrs": [
+   "imm:016B4B/016B41"
+  ],
+  "jp": "{pos:05000000}{half}{delay:3C00}{spd0}{f40off}{f20off}かいますか？{pos:05000100}はい　　いいえ",
+  "en": ""
+ },
+ {
+  "id": "system.01F1D4",
+  "addr": "01F1D4",
+  "len": 18,
+  "ptrs": [
+   "p16:01F1B2"
+  ],
+  "jp": "こうげきりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.01F1E6",
+  "addr": "01F1E6",
+  "len": 18,
+  "ptrs": [
+   "p16:01F1B4"
+  ],
+  "jp": "ぼうぎょりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.01F1F8",
+  "addr": "01F1F8",
+  "len": 24,
+  "ptrs": [
+   "p16:01F1B6"
+  ],
+  "jp": "まほうこうげきりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.01F210",
+  "addr": "01F210",
+  "len": 24,
+  "ptrs": [
+   "p16:01F1B8"
+  ],
+  "jp": "まほうぼうぎょりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.01F228",
+  "addr": "01F228",
+  "len": 12,
+  "ptrs": [
+   "p16:01F1BA"
+  ],
+  "jp": "すばやさが",
+  "en": ""
+ },
+ {
+  "id": "system.01F234",
+  "addr": "01F234",
+  "len": 14,
+  "ptrs": [
+   "p16:01F1BC"
+  ],
+  "jp": "たいりょくが",
+  "en": ""
+ },
+ {
+  "id": "system.020312",
+  "addr": "020312",
+  "len": 36,
+  "ptrs": [
+   "imm:0202AD/0202B9"
+  ],
+  "jp": "{pos:02000000}{full}{delay:3C00}{spd0}{f40off}{f20off}{pos:02000000}ＳＴＡＧＥ",
+  "en": ""
+ },
+ {
+  "id": "system.020336",
+  "addr": "020336",
+  "len": 28,
+  "ptrs": [
+   "imm:0202F0/0202EA"
+  ],
+  "jp": "{pos:02000100}―クリア条件―{pos:00000200}",
+  "en": ""
+ },
+ {
+  "id": "system.02060F",
+  "addr": "02060F",
+  "len": 48,
+  "ptrs": [
+   "imm:0205D5/0205E1"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}ほんとうにセーブしますか？　",
+  "en": ""
+ },
+ {
+  "id": "system.020AD6",
+  "addr": "020AD6",
+  "len": 48,
+  "ptrs": [
+   "imm:020A9C/020AA8"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}　　　ロードしますか？　　　",
+  "en": ""
+ },
+ {
+  "id": "system.02107B",
+  "addr": "02107B",
+  "len": 72,
+  "ptrs": [
+   "imm:020FC6/020FD2"
+  ],
+  "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}かんきょうせってい{pos:02000100}ＢＧＭ{pos:02000200}ＳＥ{pos:02000300}モード",
+  "en": ""
+ },
+ {
+  "id": "system.0210C3",
+  "addr": "0210C3",
+  "len": 12,
+  "ptrs": [
+   "imm:020FF3/020FFA"
+  ],
+  "jp": "{pos:0A000100}あり",
+  "en": ""
+ },
+ {
+  "id": "system.0210CF",
+  "addr": "0210CF",
+  "len": 12,
+  "ptrs": [
+   "imm:021005/02100C"
+  ],
+  "jp": "{pos:0A000100}なし",
+  "en": ""
+ },
+ {
+  "id": "system.0210DB",
+  "addr": "0210DB",
+  "len": 12,
+  "ptrs": [
+   "imm:02101E/021025"
+  ],
+  "jp": "{pos:0A000200}あり",
+  "en": ""
+ },
+ {
+  "id": "system.0210E7",
+  "addr": "0210E7",
+  "len": 12,
+  "ptrs": [
+   "imm:021030/021037"
+  ],
+  "jp": "{pos:0A000200}なし",
+  "en": ""
+ },
+ {
+  "id": "system.0210F3",
+  "addr": "0210F3",
+  "len": 16,
+  "ptrs": [
+   "imm:021049/021050"
+  ],
+  "jp": "{pos:0A000300}ステレオ",
+  "en": ""
+ },
+ {
+  "id": "system.021103",
+  "addr": "021103",
+  "len": 16,
+  "ptrs": [
+   "imm:02105B/021062"
+  ],
+  "jp": "{pos:0A000300}モノラル",
+  "en": ""
+ },
+ {
+  "id": "system.021173",
+  "addr": "021173",
+  "len": 48,
+  "ptrs": [
+   "imm:02115B/021167"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}　　どこにセーブしますか？　",
+  "en": ""
+ },
+ {
+  "id": "system.0211C1",
+  "addr": "0211C1",
+  "len": 48,
+  "ptrs": [
+   "imm:0211A9/0211B5"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}どのつづきからはじめますか？",
+  "en": ""
+ },
+ {
+  "id": "system.021289",
+  "addr": "021289",
+  "len": 20,
+  "ptrs": [
+   "imm:0211F8/021204"
+  ],
+  "jp": "{pos:02000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.02129D",
+  "addr": "02129D",
+  "len": 8,
+  "ptrs": [
+   "imm:021228/021233"
+  ],
+  "jp": "{pos:02000100}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.0212A5",
+  "addr": "0212A5",
+  "len": 8,
+  "ptrs": [
+   "imm:021253/02125E"
+  ],
+  "jp": "{pos:02000200}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.02132F",
+  "addr": "02132F",
+  "len": 16,
+  "ptrs": [
+   "p16:021323"
+  ],
+  "jp": "１．ＳＴＡＧＥ",
+  "en": ""
+ },
+ {
+  "id": "system.02133F",
+  "addr": "02133F",
+  "len": 16,
+  "ptrs": [
+   "p16:021325"
+  ],
+  "jp": "２．ＳＴＡＧＥ",
+  "en": ""
+ },
+ {
+  "id": "system.02134F",
+  "addr": "02134F",
+  "len": 16,
+  "ptrs": [
+   "p16:021327"
+  ],
+  "jp": "３．ＳＴＡＧＥ",
+  "en": ""
+ },
+ {
+  "id": "system.02135F",
+  "addr": "02135F",
+  "len": 16,
+  "ptrs": [
+   "imm:0212ED/0212F4"
+  ],
+  "jp": "　リアド　ＬＶ",
+  "en": ""
+ },
+ {
+  "id": "system.02136F",
+  "addr": "02136F",
+  "len": 24,
+  "ptrs": [
+   "p16:021329"
+  ],
+  "jp": "１．データがありません",
+  "en": ""
+ },
+ {
+  "id": "system.021387",
+  "addr": "021387",
+  "len": 24,
+  "ptrs": [
+   "p16:02132B"
+  ],
+  "jp": "２．データがありません",
+  "en": ""
+ },
+ {
+  "id": "system.02139F",
+  "addr": "02139F",
+  "len": 24,
+  "ptrs": [
+   "p16:02132D"
+  ],
+  "jp": "３．データがありません",
+  "en": ""
+ },
+ {
+  "id": "system.0214AC",
+  "addr": "0214AC",
+  "len": 36,
+  "ptrs": [
+   "imm:02148E/021495"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}▶はい　　いいえ",
+  "en": ""
+ },
+ {
+  "id": "system.0214D0",
+  "addr": "0214D0",
+  "len": 36,
+  "ptrs": [
+   "imm:02149D/0214A4"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}　はい　▶いいえ",
+  "en": ""
+ },
+ {
+  "id": "system.021DDB",
+  "addr": "021DDB",
+  "len": 20,
+  "ptrs": [
+   "imm:021C08/021C14"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021DEF",
+  "addr": "021DEF",
+  "len": 8,
+  "ptrs": [
+   "imm:021C48/021C61"
+  ],
+  "jp": "{pos:02000100}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021DF7",
+  "addr": "021DF7",
+  "len": 8,
+  "ptrs": [
+   "imm:021C6E/021C7D"
+  ],
+  "jp": "{pos:00000200}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E07",
+  "addr": "021E07",
+  "len": 8,
+  "ptrs": [
+   "imm:021CA3/021CB2"
+  ],
+  "jp": "{pos:00000300}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E17",
+  "addr": "021E17",
+  "len": 8,
+  "ptrs": [
+   "imm:021CD8/021CE7"
+  ],
+  "jp": "{pos:00000400}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E27",
+  "addr": "021E27",
+  "len": 8,
+  "ptrs": [
+   "imm:021D0D/021D1C"
+  ],
+  "jp": "{pos:00000500}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E37",
+  "addr": "021E37",
+  "len": 8,
+  "ptrs": [
+   "imm:021D42/021D51"
+  ],
+  "jp": "{pos:00000600}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E47",
+  "addr": "021E47",
+  "len": 8,
+  "ptrs": [
+   "imm:021D77/021D86"
+  ],
+  "jp": "{pos:00000700}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E57",
+  "addr": "021E57",
+  "len": 8,
+  "ptrs": [
+   "imm:021DAC/021DBB"
+  ],
+  "jp": "{pos:00000800}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E5F",
+  "addr": "021E5F",
+  "len": 8,
+  "ptrs": [
+   "imm:021DC8/021DC2"
+  ],
+  "jp": "{pos:09000800}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E67",
+  "addr": "021E67",
+  "len": 8,
+  "ptrs": [
+   "imm:021C76/021C7D"
+  ],
+  "jp": "レベル",
+  "en": ""
+ },
+ {
+  "id": "system.021E6F",
+  "addr": "021E6F",
+  "len": 16,
+  "ptrs": [
+   "imm:021CAB/021CB2"
+  ],
+  "jp": "こうげきりょく",
+  "en": ""
+ },
+ {
+  "id": "system.021E7F",
+  "addr": "021E7F",
+  "len": 14,
+  "ptrs": [
+   "imm:021CE0/021CE7"
+  ],
+  "jp": "まほうりょく",
+  "en": ""
+ },
+ {
+  "id": "system.021E8D",
+  "addr": "021E8D",
+  "len": 18,
+  "ptrs": [
+   "imm:021D15/021D1C"
+  ],
+  "jp": "Ｐぼうぎょりょく",
+  "en": ""
+ },
+ {
+  "id": "system.021E9F",
+  "addr": "021E9F",
+  "len": 18,
+  "ptrs": [
+   "imm:021D4A/021D51"
+  ],
+  "jp": "Ｍぼうぎょりょく",
+  "en": ""
+ },
+ {
+  "id": "system.021EB1",
+  "addr": "021EB1",
+  "len": 10,
+  "ptrs": [
+   "imm:021D7F/021D86"
+  ],
+  "jp": "すばやさ",
+  "en": ""
+ },
+ {
+  "id": "system.021EBB",
+  "addr": "021EBB",
+  "len": 14,
+  "ptrs": [
+   "imm:021DB4/021DBB"
+  ],
+  "jp": "いどうりょく",
+  "en": ""
+ },
+ {
+  "id": "system.021F62",
+  "addr": "021F62",
+  "len": 20,
+  "ptrs": [
+   "imm:021ECD/021ED9"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021F76",
+  "addr": "021F76",
+  "len": 8,
+  "ptrs": [
+   "imm:021F03/021F14"
+  ],
+  "jp": "{pos:05000000}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021F7E",
+  "addr": "021F7E",
+  "len": 8,
+  "ptrs": [
+   "imm:021F1A/021F29"
+  ],
+  "jp": "{pos:00000100}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021F8E",
+  "addr": "021F8E",
+  "len": 8,
+  "ptrs": [
+   "imm:021EEB/021EF6"
+  ],
+  "jp": "ＥＸＰ",
+  "en": ""
+ },
+ {
+  "id": "system.021F96",
+  "addr": "021F96",
+  "len": 6,
+  "ptrs": [
+   "imm:021F22/021F29"
+  ],
+  "jp": "ＨＰ",
+  "en": ""
+ },
+ {
+  "id": "system.022EDB",
+  "addr": "022EDB",
+  "len": 48,
+  "ptrs": [
+   "imm:022EA1/022EAD"
+  ],
+  "jp": "{pos:00000000}{half}{delay:3C00}{spd0}{f40off}{f20off}　　　ロードしますか？　　　",
+  "en": ""
+ },
+ {
+  "id": "system.0237B2",
+  "addr": "0237B2",
+  "len": 6,
+  "ptrs": [
+   "p16:023764",
+   "p16:023766"
+  ],
+  "jp": "０１",
+  "en": ""
+ },
+ {
+  "id": "system.0237B8",
+  "addr": "0237B8",
+  "len": 6,
+  "ptrs": [
+   "p16:023768"
+  ],
+  "jp": "０２",
+  "en": ""
+ },
+ {
+  "id": "system.0237BE",
+  "addr": "0237BE",
+  "len": 6,
+  "ptrs": [
+   "p16:02376A"
+  ],
+  "jp": "０３",
+  "en": ""
+ },
+ {
+  "id": "system.0237C4",
+  "addr": "0237C4",
+  "len": 6,
+  "ptrs": [
+   "p16:02376C"
+  ],
+  "jp": "０４",
+  "en": ""
+ },
+ {
+  "id": "system.0237CA",
+  "addr": "0237CA",
+  "len": 6,
+  "ptrs": [
+   "p16:02376E",
+   "p16:023770"
+  ],
+  "jp": "０５",
+  "en": ""
+ },
+ {
+  "id": "system.0237D0",
+  "addr": "0237D0",
+  "len": 6,
+  "ptrs": [
+   "p16:023772",
+   "p16:023774",
+   "p16:023776"
+  ],
+  "jp": "０６",
+  "en": ""
+ },
+ {
+  "id": "system.0237D6",
+  "addr": "0237D6",
+  "len": 6,
+  "ptrs": [
+   "p16:023778"
+  ],
+  "jp": "０７",
+  "en": ""
+ },
+ {
+  "id": "system.0237DC",
+  "addr": "0237DC",
+  "len": 6,
+  "ptrs": [
+   "p16:02377A"
+  ],
+  "jp": "０８",
+  "en": ""
+ },
+ {
+  "id": "system.0237E2",
+  "addr": "0237E2",
+  "len": 6,
+  "ptrs": [
+   "p16:02377C",
+   "p16:02377E"
+  ],
+  "jp": "０９",
+  "en": ""
+ },
+ {
+  "id": "system.0237E8",
+  "addr": "0237E8",
+  "len": 6,
+  "ptrs": [
+   "p16:023780"
+  ],
+  "jp": "１０",
+  "en": ""
+ },
+ {
+  "id": "system.0237EE",
+  "addr": "0237EE",
+  "len": 6,
+  "ptrs": [
+   "p16:023782"
+  ],
+  "jp": "１１",
+  "en": ""
+ },
+ {
+  "id": "system.0237F4",
+  "addr": "0237F4",
+  "len": 6,
+  "ptrs": [
+   "p16:023784"
+  ],
+  "jp": "１２",
+  "en": ""
+ },
+ {
+  "id": "system.0237FA",
+  "addr": "0237FA",
+  "len": 6,
+  "ptrs": [
+   "p16:023786"
+  ],
+  "jp": "１３",
+  "en": ""
+ },
+ {
+  "id": "system.023800",
+  "addr": "023800",
+  "len": 6,
+  "ptrs": [
+   "p16:023788"
+  ],
+  "jp": "１４",
+  "en": ""
+ },
+ {
+  "id": "system.023806",
+  "addr": "023806",
+  "len": 6,
+  "ptrs": [
+   "p16:02378A"
+  ],
+  "jp": "１５",
+  "en": ""
+ },
+ {
+  "id": "system.02380C",
+  "addr": "02380C",
+  "len": 6,
+  "ptrs": [
+   "p16:02378C"
+  ],
+  "jp": "１６",
+  "en": ""
+ },
+ {
+  "id": "system.023812",
+  "addr": "023812",
+  "len": 6,
+  "ptrs": [
+   "p16:02378E"
+  ],
+  "jp": "１７",
+  "en": ""
+ },
+ {
+  "id": "system.023818",
+  "addr": "023818",
+  "len": 6,
+  "ptrs": [
+   "p16:023790",
+   "p16:023792"
+  ],
+  "jp": "１８",
+  "en": ""
+ },
+ {
+  "id": "system.02381E",
+  "addr": "02381E",
+  "len": 6,
+  "ptrs": [
+   "p16:023794"
+  ],
+  "jp": "１９",
+  "en": ""
+ },
+ {
+  "id": "system.023824",
+  "addr": "023824",
+  "len": 6,
+  "ptrs": [
+   "p16:023796"
+  ],
+  "jp": "２０",
+  "en": ""
+ },
+ {
+  "id": "system.02382A",
+  "addr": "02382A",
+  "len": 6,
+  "ptrs": [
+   "p16:023798"
+  ],
+  "jp": "２１",
+  "en": ""
+ },
+ {
+  "id": "system.023830",
+  "addr": "023830",
+  "len": 6,
+  "ptrs": [
+   "p16:02379A"
+  ],
+  "jp": "２２",
+  "en": ""
+ },
+ {
+  "id": "system.023836",
+  "addr": "023836",
+  "len": 6,
+  "ptrs": [
+   "p16:02379C"
+  ],
+  "jp": "２３",
+  "en": ""
+ },
+ {
+  "id": "system.02383C",
+  "addr": "02383C",
+  "len": 6,
+  "ptrs": [
+   "p16:02379E"
+  ],
+  "jp": "２４",
+  "en": ""
+ },
+ {
+  "id": "system.023842",
+  "addr": "023842",
+  "len": 6,
+  "ptrs": [
+   "p16:0237A0",
+   "p16:0237A2",
+   "p16:0237A4",
+   "p16:0237A6",
+   "p16:0237A8",
+   "p16:0237AA",
+   "p16:0237AC",
+   "p16:0237AE",
+   "p16:0237B0"
+  ],
+  "jp": "２５",
+  "en": ""
+ },
+ {
+  "id": "system.027AA3",
+  "addr": "027AA3",
+  "len": 36,
+  "ptrs": [
+   "imm:02879B/0287A3"
+  ],
+  "jp": "サリーナは、はぼうのまいをまった！",
+  "en": ""
+ },
+ {
+  "id": "system.027AC7",
+  "addr": "027AC7",
+  "len": 36,
+  "ptrs": [
+   "imm:028EB8/028EC0"
+  ],
+  "jp": "サリーナはかいふくのまいをまった！",
+  "en": ""
+ },
+ {
+  "id": "system.029F47",
+  "addr": "029F47",
+  "len": 12,
+  "ptrs": [
+   "imm:02A419/02A421"
+  ],
+  "jp": "へんしん！",
+  "en": ""
+ }
+]

@@ -1,0 +1,707 @@
+[
+ {
+  "id": "ch10.06AB03",
+  "addr": "06AB03",
+  "len": 36,
+  "ptrs": [
+   "vm:06A417"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だれもいないじゃないか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AB27",
+  "addr": "06AB27",
+  "len": 40,
+  "ptrs": [
+   "vm:06A41C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれ、おっかしいなあ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AB4F",
+  "addr": "06AB4F",
+  "len": 28,
+  "ptrs": [
+   "vm:06A42F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうかえろうか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AB6B",
+  "addr": "06AB6B",
+  "len": 84,
+  "ptrs": [
+   "vm:06A442"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな、そうがっかりするな{wait}{clr}{pos:00000000}{full}まだ全部、探した{nl}わけじゃない！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06ABBF",
+  "addr": "06ABBF",
+  "len": 34,
+  "ptrs": [
+   "vm:06A455"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もっと探してみるガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06ABE1",
+  "addr": "06ABE1",
+  "len": 102,
+  "ptrs": [
+   "vm:06A468"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ブツブツ・・・{nl}ほりょのやつ、ウソだったら{wait}{clr}{pos:00000000}{full}見つけだして、ぶんなぐってやるから{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AC47",
+  "addr": "06AC47",
+  "len": 120,
+  "ptrs": [
+   "vm:06A5D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やい、やい、やい！{wait}{clr}{pos:00000000}{full}きちゃな悪者！{wait}{clr}{pos:00000000}{full}しぇーぎのドラゴンリギット様がやっつけてやるっちゃ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06ACBF",
+  "addr": "06ACBF",
+  "len": 20,
+  "ptrs": [
+   "vm:06A5E3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はあ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06ACD3",
+  "addr": "06ACD3",
+  "len": 54,
+  "ptrs": [
+   "vm:06A5F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}悪者って、もしかして、おいらたちのこと？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AD09",
+  "addr": "06AD09",
+  "len": 76,
+  "ptrs": [
+   "vm:06A609"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しまった！{wait}{clr}{pos:00000000}{full}バーナサスめ、また同じやり方を使ったな！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AD55",
+  "addr": "06AD55",
+  "len": 98,
+  "ptrs": [
+   "vm:06A61C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もー、私みたいな海の男が{wait}{clr}{pos:00000000}{full}なんでこんな火山で苦労しなくちゃならないのかしら{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06ADB7",
+  "addr": "06ADB7",
+  "len": 84,
+  "ptrs": [
+   "vm:06A62F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキキッ{nl}悪人ども、悪あがきはよせ！{wait}{clr}{pos:00000000}{full}そう言ってやんなさい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AE0B",
+  "addr": "06AE0B",
+  "len": 62,
+  "ptrs": [
+   "vm:06A642"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかってまちゅ{nl}悪人ども、悪あがきはやめるっちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AE49",
+  "addr": "06AE49",
+  "len": 54,
+  "ptrs": [
+   "vm:06A655"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でっかいけど・・・しゃべり方が迫力ないね{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AE7F",
+  "addr": "06AE7F",
+  "len": 54,
+  "ptrs": [
+   "vm:06A668"
+  ],
+  "jp": "{clr}{pos:00000000}{full}油断するなよ！{nl}子供といってもドラゴンだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AEB5",
+  "addr": "06AEB5",
+  "len": 82,
+  "ptrs": [
+   "vm:06A67B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ちゃあ、来い！{wait}{clr}{pos:00000000}{full}かかってこなけりゃこっちから行くっちゃよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AF07",
+  "addr": "06AF07",
+  "len": 26,
+  "ptrs": [
+   "vm:06A68E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}き、来たあ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AF21",
+  "addr": "06AF21",
+  "len": 22,
+  "ptrs": [
+   "vm:06A777"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くそっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06AF37",
+  "addr": "06AF37",
+  "len": 88,
+  "ptrs": [
+   "vm:06A78A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くしょう！{wait}{clr}{pos:00000000}{full}よくもしぇーぎのお兄ちゃんたちをやっつけたでちゅね！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06AF8F",
+  "addr": "06AF8F",
+  "len": 114,
+  "ptrs": [
+   "vm:06A78F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ちがうんだ！{wait}{clr}{pos:00000000}{full}フェルサリアを{nl}乗っ取ろうとして{nl}いたのは{wait}{clr}{pos:00000000}{full}そいつらの方なんだよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B001",
+  "addr": "06B001",
+  "len": 112,
+  "ptrs": [
+   "vm:06A794"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うそでちゅ！{wait}{clr}{pos:00000000}{full}ぼくはアーク王と{nl}約束したでちゅ！{wait}{clr}{pos:00000000}{full}このフェルサリアを守るって！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B071",
+  "addr": "06B071",
+  "len": 24,
+  "ptrs": [
+   "vm:06A7A7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父さんと？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B089",
+  "addr": "06B089",
+  "len": 80,
+  "ptrs": [
+   "vm:06A809"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ホワイトドラゴン{nl}それにグリーンドラゴン{wait}{clr}{pos:00000000}{full}戦いはやめろ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B0D9",
+  "addr": "06B0D9",
+  "len": 144,
+  "ptrs": [
+   "vm:06A80E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}邪魔するな！{wait}{clr}{pos:00000000}{full}俺たちはひいじい{nl}さんのそのまたひいじいさん・・・{wait}{clr}{pos:00000000}{full}いや、もっとずうっと昔からのかたき{nl}同士だ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B169",
+  "addr": "06B169",
+  "len": 86,
+  "ptrs": [
+   "vm:06A813"
+  ],
+  "jp": "{clr}{pos:00000000}{full}戦ってなんになる！{wait}{clr}{pos:00000000}{full}このフェルサリアをめちゃめちゃにする気か？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B1BF",
+  "addr": "06B1BF",
+  "len": 122,
+  "ptrs": [
+   "vm:06A826"
+  ],
+  "jp": "{clr}{pos:00000000}{full}人間は関係ない！{wait}{clr}{pos:00000000}{full}光に仕える{nl}私たちと{wait}{clr}{pos:00000000}{full}闇につかえるグリーンドラゴンは、戦うしかないんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B239",
+  "addr": "06B239",
+  "len": 68,
+  "ptrs": [
+   "vm:06A839"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まて、それ以上戦うなら・・・{wait}{clr}{pos:00000000}{full}ぼくが相手だ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B27D",
+  "addr": "06B27D",
+  "len": 52,
+  "ptrs": [
+   "vm:06A84C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何？{wait}{clr}{pos:00000000}{full}なぜそこまでしてとめる{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B2B1",
+  "addr": "06B2B1",
+  "len": 112,
+  "ptrs": [
+   "vm:06A851"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それは、フェルサリアはぼくの国だからさ・・・{wait}{clr}{pos:00000000}{full}フェルサリアの平和を乱すやつはゆるせない！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B321",
+  "addr": "06B321",
+  "len": 26,
+  "ptrs": [
+   "vm:06A864"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふうむ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B33B",
+  "addr": "06B33B",
+  "len": 46,
+  "ptrs": [
+   "vm:06A877"
+  ],
+  "jp": "{clr}{pos:00000000}{full}その剣・・・おまえアーク王だな？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B369",
+  "addr": "06B369",
+  "len": 36,
+  "ptrs": [
+   "vm:06A88A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だったら{nl}どうなんだ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B38D",
+  "addr": "06B38D",
+  "len": 150,
+  "ptrs": [
+   "vm:06A89D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グワハハハ・・・{wait}{clr}{pos:00000000}{full}どうりで俺たちを{nl}恐がらないはずだ{wait}{clr}{pos:00000000}{full}やめたやめた{nl}俺は行くぞ{wait}{clr}{pos:00000000}{full}さらばだ{nl}ホワイトドラゴン{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B423",
+  "addr": "06B423",
+  "len": 40,
+  "ptrs": [
+   "vm:06A8A2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}戦いを、やめてくれるのか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B44B",
+  "addr": "06B44B",
+  "len": 94,
+  "ptrs": [
+   "vm:06A8A7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グワハハ、おまえの聖剣は恐ろしい{wait}{clr}{pos:00000000}{full}俺は魔王のように{nl}なりたくないからな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B4A9",
+  "addr": "06B4A9",
+  "len": 80,
+  "ptrs": [
+   "vm:06A8BA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王、さすがだ{wait}{clr}{pos:00000000}{full}おかげでこの子も{nl}怪我をせずにすんだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B4F9",
+  "addr": "06B4F9",
+  "len": 82,
+  "ptrs": [
+   "vm:06A8CD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}実は、ぼくにも{nl}子供ができたばかりなんだ{wait}{clr}{pos:00000000}{full}気持ちはわかるよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B54B",
+  "addr": "06B54B",
+  "len": 54,
+  "ptrs": [
+   "vm:06A8D2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}礼をさせてくれ{nl}何か望みをかなえてやるぞ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B581",
+  "addr": "06B581",
+  "len": 80,
+  "ptrs": [
+   "vm:06A8D7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そういわれても・・・{wait}{clr}{pos:00000000}{full}ぼくはただ、フェルサリアが平和なら{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B5D1",
+  "addr": "06B5D1",
+  "len": 166,
+  "ptrs": [
+   "vm:06A8DC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかった！{nl}その願い、かなえてやるぞ！{wait}{clr}{pos:00000000}{full}私たち{nl}ホワイトドラゴンがフェルサリアの{wait}{clr}{pos:00000000}{full}東の地を守ってやる魔物や敵が決して入れないようにな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B677",
+  "addr": "06B677",
+  "len": 48,
+  "ptrs": [
+   "vm:06A8E1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとう、それはすばらしいお礼だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B6A7",
+  "addr": "06B6A7",
+  "len": 116,
+  "ptrs": [
+   "vm:06A8E6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私の命がつきたら{nl}この子・・・{wait}{clr}{pos:00000000}{full}リギットが役目を{nl}引きつぐ{wait}{clr}{pos:00000000}{full}わかったな{nl}リギット？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B71B",
+  "addr": "06B71B",
+  "len": 162,
+  "ptrs": [
+   "vm:06A8F9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかったっちゃ！{wait}{clr}{pos:00000000}{full}フェルサリアはぼくがいるかぎり{wait}{clr}{pos:00000000}{full}ずーっとずーっと平和だっちゃ！{wait}{clr}{pos:00000000}{full}アーク王は安心していいっちゃよ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B7BD",
+  "addr": "06B7BD",
+  "len": 56,
+  "ptrs": [
+   "vm:06A952"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なるほどねえ{nl}父さんとそんな約束してたんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B7F5",
+  "addr": "06B7F5",
+  "len": 140,
+  "ptrs": [
+   "vm:06A957"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええっ、父さん？{nl}クンクン・・・{wait}{clr}{pos:00000000}{full}そういえば{nl}あんちゃのにおいは{wait}{clr}{pos:00000000}{full}アーク王とおんなじっちゃ・・・ってことは{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B881",
+  "addr": "06B881",
+  "len": 148,
+  "ptrs": [
+   "vm:06A96A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そう、このシフィルはアーク王の息子だ{wait}{clr}{pos:00000000}{full}そして俺たちは{nl}帝国軍につかまった{wait}{clr}{pos:00000000}{full}アーク王を助けに{nl}行くところなんだけどな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B915",
+  "addr": "06B915",
+  "len": 48,
+  "ptrs": [
+   "vm:06A97D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これでもボクらは{nl}キミの敵かい！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B945",
+  "addr": "06B945",
+  "len": 76,
+  "ptrs": [
+   "vm:06A990"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええー！まちがえてたっちゃ！{wait}{clr}{pos:00000000}{full}ごめんちゃ、ごめんちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B991",
+  "addr": "06B991",
+  "len": 56,
+  "ptrs": [
+   "vm:06A9C9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかってくれれば{nl}いいのよね{nl}ぼ・う・や！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06B9C9",
+  "addr": "06B9C9",
+  "len": 46,
+  "ptrs": [
+   "vm:06A9DC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}このおじちゃん{nl}気持ち悪いっちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06B9F7",
+  "addr": "06B9F7",
+  "len": 118,
+  "ptrs": [
+   "vm:06A9EF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}根はいい人よ{nl}ねぇ、かわいい{nl}ドラゴンさん{wait}{clr}{pos:00000000}{full}アーク王を助ける{nl}ために、力を貸してくれないかしら{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BA6D",
+  "addr": "06BA6D",
+  "len": 48,
+  "ptrs": [
+   "vm:06AA02"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うん、ぼくも手つだってあげるっちゃ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06BA9D",
+  "addr": "06BA9D",
+  "len": 38,
+  "ptrs": [
+   "vm:06AA15"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかしだいじょうぶガオ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BAC3",
+  "addr": "06BAC3",
+  "len": 38,
+  "ptrs": [
+   "vm:06AA28"
+  ],
+  "jp": "{clr}{pos:00000000}{full}とにかく先を急がなければ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06BAE9",
+  "addr": "06BAE9",
+  "len": 40,
+  "ptrs": [
+   "vm:06AA3B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でもさ、船はどうするガオ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BB11",
+  "addr": "06BB11",
+  "len": 28,
+  "ptrs": [
+   "vm:06AA40"
+  ],
+  "jp": "{clr}{pos:00000000}{full}忘れてた・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06BB2D",
+  "addr": "06BB2D",
+  "len": 122,
+  "ptrs": [
+   "vm:06AA53"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はっはは、リアド殿簡単なことです{wait}{clr}{pos:00000000}{full}帝国軍はこっちへ来てるのです{wait}{clr}{pos:00000000}{full}それをぬすめばいいのです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06BBA7",
+  "addr": "06BBA7",
+  "len": 44,
+  "ptrs": [
+   "vm:06AA66"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どろぼうさんに{nl}なっちゃうのね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BBD3",
+  "addr": "06BBD3",
+  "len": 136,
+  "ptrs": [
+   "vm:06AA6B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それなら、さっそく西の港町ルイドックへ行きましょう{wait}{clr}{pos:00000000}{full}帝国のやつらが乗り込むなら{wait}{clr}{pos:00000000}{full}大きな港町にちがいない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch10.06BC5B",
+  "addr": "06BC5B",
+  "len": 34,
+  "ptrs": [
+   "vm:06A7D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}今から１５年前・・・{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch10.06BC7D",
+  "addr": "06BC7D",
+  "len": 46,
+  "ptrs": [
+   "vm:06A5CB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リギットさん{nl}やつらが来ましたよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BCAB",
+  "addr": "06BCAB",
+  "len": 54,
+  "ptrs": [
+   "vm:06A9A3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひとまず{nl}ひきあげます{nl}また会いましょう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch10.06BCE1",
+  "addr": "06BCE1",
+  "len": 22,
+  "ptrs": [
+   "vm:06A75F",
+   "vm:06A764"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うわぁー{wait}",
+  "en": "",
+  "box": "lower/upper"
+ },
+ {
+  "id": "ch10.06BCF7",
+  "addr": "06BCF7",
+  "len": 44,
+  "ptrs": [
+   "vm:06A301"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　７{nl}{half}　{full}　＜ドラゴン＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

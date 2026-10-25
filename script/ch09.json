@@ -1,0 +1,383 @@
+[
+ {
+  "id": "ch09.06992B",
+  "addr": "06992B",
+  "len": 92,
+  "ptrs": [
+   "vm:0695E1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やったぞ！どうやら成功だ！{wait}{clr}{pos:00000000}{full}はっはっはっ{nl}作戦勝ちというやつですよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069987",
+  "addr": "069987",
+  "len": 42,
+  "ptrs": [
+   "vm:0695E6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、まぐれというやつだろう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.0699B1",
+  "addr": "0699B1",
+  "len": 38,
+  "ptrs": [
+   "vm:0695EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何！？{nl}し、しっけいな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.0699D7",
+  "addr": "0699D7",
+  "len": 88,
+  "ptrs": [
+   "vm:06971B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ようし、捕まえた！{wait}{clr}{pos:00000000}{full}さあ、知ってることを全部、しゃべらせてやる！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069A2F",
+  "addr": "069A2F",
+  "len": 58,
+  "ptrs": [
+   "vm:06972E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフルったら{nl}言葉使いがとっても下品・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069A69",
+  "addr": "069A69",
+  "len": 66,
+  "ptrs": [
+   "vm:069733"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんで敵に上品に{nl}しゃべらなくちゃ{nl}いけないんだよぉ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069AAB",
+  "addr": "069AAB",
+  "len": 78,
+  "ptrs": [
+   "vm:069746"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おい！{nl}ボクの父上は・・・{wait}{clr}{pos:00000000}{full}アーク王は{nl}無事なのか！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069AF9",
+  "addr": "069AF9",
+  "len": 86,
+  "ptrs": [
+   "vm:069759"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぐっぐぐ・・・{nl}このガキめ！{wait}{clr}{pos:00000000}{full}そう簡単にしゃべってたまるかあ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069B4F",
+  "addr": "069B4F",
+  "len": 92,
+  "ptrs": [
+   "vm:06976C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、しゃべりたくなければそれでよい{wait}{clr}{pos:00000000}{full}どうなってもいいのなら・・・な{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069BAB",
+  "addr": "069BAB",
+  "len": 52,
+  "ptrs": [
+   "vm:069771"
+  ],
+  "jp": "{clr}{pos:00000000}{full}や、やめろぉ！{nl}こ、恐くなんかな{nl}いぞ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069BDF",
+  "addr": "069BDF",
+  "len": 84,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}おまえたちなんか{wait}{clr}{pos:00000000}{full}・・・だけど、かわいそうだから教えてやるよ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch09.069C33",
+  "addr": "069C33",
+  "len": 42,
+  "ptrs": [
+   "vm:069784"
+  ],
+  "jp": "{clr}{pos:00000000}{full}とってもムリしてるね、こいつ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069C5D",
+  "addr": "069C5D",
+  "len": 62,
+  "ptrs": [
+   "vm:069797"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アーク王は、帝国の要塞にとじこめられているらしい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069C9B",
+  "addr": "069C9B",
+  "len": 34,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}ってだれかがいってた{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch09.069CBD",
+  "addr": "069CBD",
+  "len": 22,
+  "ptrs": [
+   "vm:0697AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}要塞？！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069CD3",
+  "addr": "069CD3",
+  "len": 78,
+  "ptrs": [
+   "vm:0697AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひぃ！{wait}{clr}{pos:00000000}{full}あんた、なんでそんなコワイ顔してにらむんだよお{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069D21",
+  "addr": "069D21",
+  "len": 70,
+  "ptrs": [
+   "vm:0697C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まっ、失礼ね！{nl}これって素顔よ！{wait}{clr}{pos:00000000}{full}傷ついちゃう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069D67",
+  "addr": "069D67",
+  "len": 56,
+  "ptrs": [
+   "vm:0697D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバさん、ますます変になっちゃってるわ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069D9F",
+  "addr": "069D9F",
+  "len": 86,
+  "ptrs": [
+   "vm:0697E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}と、とにかく、帝国軍はもう{wait}{clr}{pos:00000000}{full}フェルサリアに入り込んでいるはずだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069DF5",
+  "addr": "069DF5",
+  "len": 50,
+  "ptrs": [
+   "vm:0697FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何っ！{nl}一体どこから入り込んだんだ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069E27",
+  "addr": "069E27",
+  "len": 210,
+  "ptrs": [
+   "vm:069800"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えーと、たしか{nl}東のサンデッドの{nl}火山に{wait}{clr}{pos:00000000}{full}そこにすんでる{nl}ホワイトドラゴンを味方につけてから{wait}{clr}{pos:00000000}{full}本格的に戦が始まるって{wait}{clr}{pos:00000000}{full}こ、これだけ、しゃべったんだから、ゆるしてくれよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069EF9",
+  "addr": "069EF9",
+  "len": 86,
+  "ptrs": [
+   "vm:069805"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんてことだ・・・{wait}{clr}{pos:00000000}{full}このフェルサリアが帝国に攻め込まれるなんて{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.069F4F",
+  "addr": "069F4F",
+  "len": 94,
+  "ptrs": [
+   "vm:069818"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それにあのアーク王が{wait}{clr}{pos:00000000}{full}やつらに捕らえられてしまったとは{nl}信じられません{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.069FAD",
+  "addr": "069FAD",
+  "len": 96,
+  "ptrs": [
+   "vm:06982B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こうしてはいられないわ{wait}{clr}{pos:00000000}{full}なんとかしてこの{nl}フェルサリアを{nl}守りましょう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.06A00D",
+  "addr": "06A00D",
+  "len": 40,
+  "ptrs": [
+   "vm:06983E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・どうしよう{nl}ネイフル{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.06A035",
+  "addr": "06A035",
+  "len": 44,
+  "ptrs": [
+   "vm:069851"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ボクたちも行くさ！サンデッドへ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.06A061",
+  "addr": "06A061",
+  "len": 218,
+  "ptrs": [
+   "vm:069864"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ホワイトドラゴンか・・・{wait}{clr}{pos:00000000}{full}本当にホワイトドラゴンなら、善の心を持っているはずだ{wait}{clr}{pos:00000000}{full}今から急いで行って帝国より先にドラゴンに会えたら{wait}{clr}{pos:00000000}{full}ドラゴンは俺たちに味方してくれるかもしれない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.06A13B",
+  "addr": "06A13B",
+  "len": 54,
+  "ptrs": [
+   "vm:069877"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも、もう帝国の味方になっていたら・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.06A171",
+  "addr": "06A171",
+  "len": 32,
+  "ptrs": [
+   "vm:06988A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうっ、シフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch09.06A191",
+  "addr": "06A191",
+  "len": 100,
+  "ptrs": [
+   "vm:06989D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}とにかく、行ってみよう{wait}{clr}{pos:00000000}{full}少しでも希望のあることなら、なんでもやってみるんだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.06A1F5",
+  "addr": "06A1F5",
+  "len": 38,
+  "ptrs": [
+   "vm:0698F0"
+  ],
+  "jp": "{full}町人{nl}　南の島に行って{nl}　みなよ{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch09.06A21B",
+  "addr": "06A21B",
+  "len": 38,
+  "ptrs": [
+   "vm:069907"
+  ],
+  "jp": "{full}町人{nl}　森で大きな火事が　あった{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch09.06A241",
+  "addr": "06A241",
+  "len": 26,
+  "ptrs": [
+   "vm:069716"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国の兵隊よ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch09.06A25B",
+  "addr": "06A25B",
+  "len": 36,
+  "ptrs": [
+   "vm:06991E"
+  ],
+  "jp": "{full}めずらしい{nl}武器を売ってやろう{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch09.06A27F",
+  "addr": "06A27F",
+  "len": 38,
+  "ptrs": [
+   "vm:0695FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}敵のえん軍が{nl}来たッス！{wait}",
+  "en": "",
+  "box": "upper"
+ }
+]

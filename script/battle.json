@@ -1,0 +1,347 @@
+[
+ {
+  "id": "battle.01E82E",
+  "addr": "01E82E",
+  "len": 20,
+  "ptrs": [
+   "imm:01E8F0/01E8FC",
+   "imm:01EA15/01EA21",
+   "imm:01EB53/01EB5F",
+   "imm:01EBF8/01EC04",
+   "imm:01ED62/01ED6E",
+   "imm:01EE0B/01EE17",
+   "imm:01EF1B/01EF27",
+   "imm:01F06E/01F07A",
+   "imm:01F299/01F2A5",
+   "imm:01F392/01F39E",
+   "imm:01F49C/01F4A8",
+   "imm:01F52B/01F537",
+   "imm:01F666/01F672"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0100}{spd0}{f40off}{f20off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "battle.01E842",
+  "addr": "01E842",
+  "len": 16,
+  "ptrs": [
+   "imm:01EC8D/01EC99"
+  ],
+  "jp": "{pos:00000000}{half}{delay:0E00}{f40off}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "battle.01E9D2",
+  "addr": "01E9D2",
+  "len": 14,
+  "ptrs": [
+   "imm:01E96B/01E976"
+  ],
+  "jp": "のこうげき！",
+  "en": ""
+ },
+ {
+  "id": "battle.01E9E0",
+  "addr": "01E9E0",
+  "len": 14,
+  "ptrs": [
+   "imm:01E987/01E992"
+  ],
+  "jp": "のはんげき！",
+  "en": ""
+ },
+ {
+  "id": "battle.01E9EE",
+  "addr": "01E9EE",
+  "len": 20,
+  "ptrs": [
+   "imm:01E9A3/01E9AE"
+  ],
+  "jp": "のかいふくまほう！",
+  "en": ""
+ },
+ {
+  "id": "battle.01EB0C",
+  "addr": "01EB0C",
+  "len": 6,
+  "ptrs": [
+   "imm:01EA99/01EAA4"
+  ],
+  "jp": "に{nl}",
+  "en": ""
+ },
+ {
+  "id": "battle.01EB12",
+  "addr": "01EB12",
+  "len": 18,
+  "ptrs": [
+   "imm:01EADD/01EAE8"
+  ],
+  "jp": "ダメージあたえた",
+  "en": ""
+ },
+ {
+  "id": "battle.01EB24",
+  "addr": "01EB24",
+  "len": 28,
+  "ptrs": [
+   "imm:01EA49/01EA54"
+  ],
+  "jp": "クリティカルヒット！{pos:00000100}",
+  "en": ""
+ },
+ {
+  "id": "battle.01EBD7",
+  "addr": "01EBD7",
+  "len": 14,
+  "ptrs": [
+   "imm:01EBA8/01EBB3"
+  ],
+  "jp": "をたおした！",
+  "en": ""
+ },
+ {
+  "id": "battle.01EC7C",
+  "addr": "01EC7C",
+  "len": 14,
+  "ptrs": [
+   "imm:01EC4D/01EC58"
+  ],
+  "jp": "はかわした！",
+  "en": ""
+ },
+ {
+  "id": "battle.01ED33",
+  "addr": "01ED33",
+  "len": 20,
+  "ptrs": [
+   "imm:01ECA7/01ECB3"
+  ],
+  "jp": "　　　　　　　　　",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "battle.01ED47",
+  "addr": "01ED47",
+  "len": 8,
+  "ptrs": [
+   "imm:01ED00/01ED0B"
+  ],
+  "jp": "ＬＶ　",
+  "en": ""
+ },
+ {
+  "id": "battle.01EDE6",
+  "addr": "01EDE6",
+  "len": 18,
+  "ptrs": [
+   "imm:01EDB7/01EDC2"
+  ],
+  "jp": "はちからつきた！",
+  "en": ""
+ },
+ {
+  "id": "battle.01EED3",
+  "addr": "01EED3",
+  "len": 4,
+  "ptrs": [
+   "imm:01EE60/01EE6B"
+  ],
+  "jp": "は",
+  "en": ""
+ },
+ {
+  "id": "battle.01EED7",
+  "addr": "01EED7",
+  "len": 28,
+  "ptrs": [
+   "imm:01EEA4/01EEAF"
+  ],
+  "jp": "ポイントけいけんちをえた！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F1BE",
+  "addr": "01F1BE",
+  "len": 22,
+  "ptrs": [
+   "imm:01EF70/01EF7B"
+  ],
+  "jp": "はレベルアップした！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F242",
+  "addr": "01F242",
+  "len": 22,
+  "ptrs": [
+   "imm:01F0DA/01F0E5"
+  ],
+  "jp": "ポイントアップした！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F4E2",
+  "addr": "01F4E2",
+  "len": 24,
+  "ptrs": [
+   "imm:01F2CC/01F2D7"
+  ],
+  "jp": "ゴールドをてにいれた！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F4FA",
+  "addr": "01F4FA",
+  "len": 14,
+  "ptrs": [
+   "imm:01F3DC/01F3E7"
+  ],
+  "jp": "をてにいれた",
+  "en": ""
+ },
+ {
+  "id": "battle.01F508",
+  "addr": "01F508",
+  "len": 16,
+  "ptrs": [
+   "imm:01F4BB/01F4C6"
+  ],
+  "jp": "もちきれない！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F61F",
+  "addr": "01F61F",
+  "len": 8,
+  "ptrs": [
+   "imm:01F5AC/01F5B7"
+  ],
+  "jp": "のＨＰ",
+  "en": ""
+ },
+ {
+  "id": "battle.01F627",
+  "addr": "01F627",
+  "len": 20,
+  "ptrs": [
+   "imm:01F590/01F59B"
+  ],
+  "jp": "はげんきになった！",
+  "en": ""
+ },
+ {
+  "id": "battle.01F63B",
+  "addr": "01F63B",
+  "len": 24,
+  "ptrs": [
+   "imm:01F5F0/01F5FB"
+  ],
+  "jp": "ポイントかいふくした！",
+  "en": ""
+ },
+ {
+  "id": "battle.030A16",
+  "addr": "030A16",
+  "len": 40,
+  "ptrs": [
+   "imm:0309DE/0309EA"
+  ],
+  "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　ＧＡＭＥ　ＯＶＥＲ",
+  "en": ""
+ },
+ {
+  "id": "battle.03480B",
+  "addr": "03480B",
+  "len": 20,
+  "ptrs": [
+   "imm:03507B/035083"
+  ],
+  "jp": "ブレイクストーム！",
+  "en": ""
+ },
+ {
+  "id": "battle.2A8D1B",
+  "addr": "2A8D1B",
+  "len": 50,
+  "ptrs": [
+   "imm:2A8FC9/2A8FD1"
+  ],
+  "jp": "アルデナーラはライジングドッグをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2A8D4D",
+  "addr": "2A8D4D",
+  "len": 44,
+  "ptrs": [
+   "imm:2A9996/2A999E"
+  ],
+  "jp": "アルデナーラはソードマンをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2A8D79",
+  "addr": "2A8D79",
+  "len": 42,
+  "ptrs": [
+   "imm:2AA6FF/2AA707"
+  ],
+  "jp": "アルデナーラはドラゴンをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2B335B",
+  "addr": "2B335B",
+  "len": 14,
+  "ptrs": [
+   "imm:2B3E5F/2B3E67"
+  ],
+  "jp": "がろうけん！",
+  "en": ""
+ },
+ {
+  "id": "battle.2B6426",
+  "addr": "2B6426",
+  "len": 40,
+  "ptrs": [
+   "imm:2B662F/2B6637"
+  ],
+  "jp": "ドリスはサラマンダーをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2B644E",
+  "addr": "2B644E",
+  "len": 36,
+  "ptrs": [
+   "imm:2B6F8A/2B6F92"
+  ],
+  "jp": "ドリスはゴーレムをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2B6472",
+  "addr": "2B6472",
+  "len": 44,
+  "ptrs": [
+   "imm:2B7973/2B797B"
+  ],
+  "jp": "ドリスはポレポレグレートをしょうかんした！",
+  "en": ""
+ },
+ {
+  "id": "battle.2B649E",
+  "addr": "2B649E",
+  "len": 36,
+  "ptrs": [
+   "imm:2B85F1/2B85F9"
+  ],
+  "jp": "ドリスはポレポレをしょうかんした！",
+  "en": ""
+ }
+]

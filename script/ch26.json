@@ -1,0 +1,374 @@
+[
+ {
+  "id": "ch26.05CAB2",
+  "addr": "05CAB2",
+  "len": 34,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}やっとたどりついたか{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch26.05CAD4",
+  "addr": "05CAD4",
+  "len": 64,
+  "ptrs": [
+   "vm:05C0BA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああっ！おまえはお母しゃんとケンカしてたやつっちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CB14",
+  "addr": "05CB14",
+  "len": 50,
+  "ptrs": [
+   "vm:05C0BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえはホワイトドラゴンではないか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CB46",
+  "addr": "05CB46",
+  "len": 114,
+  "ptrs": [
+   "vm:05BFF0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ついにかえって来たか{wait}{clr}{pos:00000000}{full}帝国軍は各地の反乱をおさえるために{wait}{clr}{pos:00000000}{full}出はらっている{nl}はずだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CBB8",
+  "addr": "05CBB8",
+  "len": 86,
+  "ptrs": [
+   "vm:05BFF5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でもグズグズして{nl}いたら{wait}{clr}{pos:00000000}{full}おうえんにかけつけて来るかもしれない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CC0E",
+  "addr": "05CC0E",
+  "len": 42,
+  "ptrs": [
+   "vm:05C1EA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うわあ！{nl}た、たくさん来た！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CC38",
+  "addr": "05CC38",
+  "len": 62,
+  "ptrs": [
+   "vm:05C1EF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}逃げるなったら！{nl}ぼ、ぼくだって{nl}恐いけど・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CC76",
+  "addr": "05CC76",
+  "len": 62,
+  "ptrs": [
+   "vm:05C202"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ちくしょう・・・{nl}ここまでやっと来れたというのに{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CCB4",
+  "addr": "05CCB4",
+  "len": 46,
+  "ptrs": [
+   "vm:05C215"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナス、なにか考えてよお！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CCE2",
+  "addr": "05CCE2",
+  "len": 48,
+  "ptrs": [
+   "vm:05C228"
+  ],
+  "jp": "{clr}{pos:00000000}{full}い、今さら考えた{nl}って間に合わない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CD12",
+  "addr": "05CD12",
+  "len": 26,
+  "ptrs": [
+   "vm:05C23B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほなあかんわ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CD2C",
+  "addr": "05CD2C",
+  "len": 42,
+  "ptrs": [
+   "vm:05C24E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああん、もう{nl}だめぇン・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CD56",
+  "addr": "05CD56",
+  "len": 24,
+  "ptrs": [
+   "vm:05C261"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グー・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CD6E",
+  "addr": "05CD6E",
+  "len": 60,
+  "ptrs": [
+   "vm:05C274"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こうなったら、一人でも多く道ずれに{nl}してやる！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CDAA",
+  "addr": "05CDAA",
+  "len": 90,
+  "ptrs": [
+   "vm:05C2D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あ、あなたたちは！パラケル王！{nl}パリス王！{wait}{clr}{pos:00000000}{full}それにアーク王まで！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CE04",
+  "addr": "05CE04",
+  "len": 44,
+  "ptrs": [
+   "vm:05C2D9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はははっ、なんとか間に合ったな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CE30",
+  "addr": "05CE30",
+  "len": 24,
+  "ptrs": [
+   "vm:05C2EC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CE48",
+  "addr": "05CE48",
+  "len": 90,
+  "ptrs": [
+   "vm:05C2FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここはわしたちが{nl}くい止める{wait}{clr}{pos:00000000}{full}リアド殿はいっこくも早く、皇帝の元へ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CEA2",
+  "addr": "05CEA2",
+  "len": 112,
+  "ptrs": [
+   "vm:05C312"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふふふっ{nl}わしたちも覚悟を{nl}決めた{wait}{clr}{pos:00000000}{full}こうなったらどこまでもリアド殿の味方をさせていただく{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CF12",
+  "addr": "05CF12",
+  "len": 100,
+  "ptrs": [
+   "vm:05C325"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフル{nl}ここまでよくがんばったわね{wait}{clr}{pos:00000000}{full}これからも男の人になんか負けちゃだめよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CF76",
+  "addr": "05CF76",
+  "len": 56,
+  "ptrs": [
+   "vm:05C338"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかってるよ母上！ぼく、うんと強くなったよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05CFAE",
+  "addr": "05CFAE",
+  "len": 80,
+  "ptrs": [
+   "vm:05C34B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいおい・・・がんばりすぎるなよ{wait}{clr}{pos:00000000}{full}怪我だけはせんようにな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05CFFE",
+  "addr": "05CFFE",
+  "len": 38,
+  "ptrs": [
+   "vm:05C35E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うほほ、あばれまわるぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05D024",
+  "addr": "05D024",
+  "len": 96,
+  "ptrs": [
+   "vm:05C371"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナス{nl}借りはこれで返す{nl}{wait}{clr}{pos:00000000}{full}だから後になって恩に着せるのは、なしだぞ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05D084",
+  "addr": "05D084",
+  "len": 88,
+  "ptrs": [
+   "vm:05C384"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったく・・・{wait}{clr}{pos:00000000}{full}でも、うれしいですよ父上、いっしょに戦えるなんて{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05D0DC",
+  "addr": "05D0DC",
+  "len": 34,
+  "ptrs": [
+   "vm:05C397"
+  ],
+  "jp": "{clr}{pos:00000000}{full}お父様{nl}ありがとう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05D0FE",
+  "addr": "05D0FE",
+  "len": 60,
+  "ptrs": [
+   "vm:05C3AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うん、うん{nl}無事でよかったわいさすがはわしの娘{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05D13A",
+  "addr": "05D13A",
+  "len": 36,
+  "ptrs": [
+   "vm:05C3BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さあ、私たちもやるわよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05D15E",
+  "addr": "05D15E",
+  "len": 30,
+  "ptrs": [
+   "vm:05C3D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いっくわよお！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05D17C",
+  "addr": "05D17C",
+  "len": 26,
+  "ptrs": [
+   "vm:05C40D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}助かった！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch26.05D196",
+  "addr": "05D196",
+  "len": 38,
+  "ptrs": [
+   "vm:05C412"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いくぞ{nl}最後の戦いへ！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch26.05D1BC",
+  "addr": "05D1BC",
+  "len": 114,
+  "ptrs": [
+   "vm:05CA90"
+  ],
+  "jp": "{full}町人{nl}　ヴァンパレスは　　敵のしんにゅう{wait}{nl}　をゆるしたことが　ない！{wait}{nl}　今度も、安心さ{nl}　帝国ばんざい！{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch26.05D22E",
+  "addr": "05D22E",
+  "len": 56,
+  "ptrs": [
+   "vm:05CAA7"
+  ],
+  "jp": "{full}町人{nl}　戦争になったらこ　の町はどうなる{wait}{nl}　の？{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch26.05D266",
+  "addr": "05D266",
+  "len": 42,
+  "ptrs": [
+   "vm:05BF6B"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ２１{nl}＜ヴァン・パレス＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

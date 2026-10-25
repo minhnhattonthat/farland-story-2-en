@@ -1,0 +1,24 @@
+[
+ {
+  "id": "ch35.2A55B0",
+  "addr": "2A55B0",
+  "len": 244,
+  "ptrs": [
+   "vm:2A54A2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぼくはアーク王との約束をまもったっちゃ{wait}{clr}{pos:00000000}{full}世界を救ったんだ{nl}もんね・・・{nl}{wait}{clr}{pos:00000000}{full}でも退屈でしゅ{nl}むにゃむにゃ・・・{wait}{clr}{pos:00000000}{full}あーあっ・・・{nl}サリーナしゃんや{nl}リアドにいちゃん{wait}{clr}{pos:00000000}{full}あしょびにこないかなあ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch35.2A56A4",
+  "addr": "2A56A4",
+  "len": 222,
+  "ptrs": [
+   "vm:2A54C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェルサリアを守るホワイトドラゴンとしての自覚に{wait}{clr}{pos:00000000}{full}目覚めたリギット{wait}{clr}{pos:00000000}{full}だがすっかり{nl}フェルサリアが{nl}平和になった今は{wait}{clr}{pos:00000000}{full}遊びたいざかりの彼には少々{nl}{wait}{clr}{pos:00000000}{full}今の役目は{nl}退屈らしい{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

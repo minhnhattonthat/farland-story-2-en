@@ -1,0 +1,343 @@
+[
+ {
+  "id": "ch21.058A78",
+  "addr": "058A78",
+  "len": 80,
+  "ptrs": [
+   "vm:058615"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナさん{wait}{clr}{pos:00000000}{full}ついに「破亡の舞」を手に入れたそう{nl}ですね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058AC8",
+  "addr": "058AC8",
+  "len": 32,
+  "ptrs": [
+   "vm:05861A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしてそれを！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058AE8",
+  "addr": "058AE8",
+  "len": 130,
+  "ptrs": [
+   "vm:05861F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキクキッ{nl}それぐらい知ってますよ！{wait}{clr}{pos:00000000}{full}さぁ、帝国のトラの子の戦象部隊です！{wait}{clr}{pos:00000000}{full}楽しませてくれますよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058B6A",
+  "addr": "058B6A",
+  "len": 42,
+  "ptrs": [
+   "vm:058632"
+  ],
+  "jp": "{clr}{pos:00000000}{full}トラの子の象？{nl}何だそりゃ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058B94",
+  "addr": "058B94",
+  "len": 80,
+  "ptrs": [
+   "vm:058645"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うるさいです{nl}{wait}{clr}{pos:00000000}{full}無敵の戦象たち！{nl}けちらして{nl}おしまい！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058BE4",
+  "addr": "058BE4",
+  "len": 38,
+  "ptrs": [
+   "vm:058658"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひぇー、魔物や、魔物や！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058C0A",
+  "addr": "058C0A",
+  "len": 42,
+  "ptrs": [
+   "vm:05866B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかし、またしてもまち伏せ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058C34",
+  "addr": "058C34",
+  "len": 54,
+  "ptrs": [
+   "vm:05867E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれだけの数の魔物をあやつれるとは・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058C6A",
+  "addr": "058C6A",
+  "len": 140,
+  "ptrs": [
+   "vm:058691"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれはあたたかい国にすむという象です{wait}{clr}{pos:00000000}{full}魔物じゃありません{wait}{clr}{pos:00000000}{full}体は大きいけど{nl}とてもやさしい動物と聞いています{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058CF6",
+  "addr": "058CF6",
+  "len": 54,
+  "ptrs": [
+   "vm:0586A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも、あいつにふまれりゃ{nl}ペチャンコだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058D2C",
+  "addr": "058D2C",
+  "len": 90,
+  "ptrs": [
+   "vm:0586B7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああん、だめぇン{nl}大きいわ、{wait}{clr}{pos:00000000}{full}大きすぎて攻撃が{nl}きかないわ、きっと{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058D86",
+  "addr": "058D86",
+  "len": 60,
+  "ptrs": [
+   "vm:0586CA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゆるせない！{nl}森の動物を戦争に{nl}つかうなんて！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058DC2",
+  "addr": "058DC2",
+  "len": 64,
+  "ptrs": [
+   "vm:0586DD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうしてやさしいはずの象が、こんなに戦鬪的なんだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058E02",
+  "addr": "058E02",
+  "len": 32,
+  "ptrs": [
+   "vm:0586F0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かわいそうに・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058E22",
+  "addr": "058E22",
+  "len": 58,
+  "ptrs": [
+   "vm:058703"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それは象使いがムチを使ってあやつっているんだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058E5C",
+  "addr": "058E5C",
+  "len": 50,
+  "ptrs": [
+   "vm:058716"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かかれ！{nl}帝国がほこる{nl}戦象軍団よ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058E8E",
+  "addr": "058E8E",
+  "len": 86,
+  "ptrs": [
+   "vm:05891D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バーカ！{wait}{clr}{pos:00000000}{full}おまえは一人で何もできないただの使いっぱしりじゃない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058EE4",
+  "addr": "058EE4",
+  "len": 48,
+  "ptrs": [
+   "vm:058922"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルッ、おまえ{nl}本当に強いのガオ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058F14",
+  "addr": "058F14",
+  "len": 32,
+  "ptrs": [
+   "vm:058935"
+  ],
+  "jp": "{clr}{pos:00000000}{full}口だけじゃないの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058F34",
+  "addr": "058F34",
+  "len": 46,
+  "ptrs": [
+   "vm:058948"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いつもしっぽをまいてかっこ悪いわ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058F62",
+  "addr": "058F62",
+  "len": 30,
+  "ptrs": [
+   "vm:05895B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}タイプじゃないわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058F80",
+  "addr": "058F80",
+  "len": 28,
+  "ptrs": [
+   "vm:05896E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウソつきっちゃ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.058F9C",
+  "addr": "058F9C",
+  "len": 80,
+  "ptrs": [
+   "vm:058981"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうおまえ{nl}来なくていいよ{wait}{clr}{pos:00000000}{full}今度から戦う人だけと話すから{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.058FEC",
+  "addr": "058FEC",
+  "len": 78,
+  "ptrs": [
+   "vm:058994"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうですか、ここまでコケにされて{wait}{clr}{pos:00000000}{full}それでも逃げますか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.05903A",
+  "addr": "05903A",
+  "len": 24,
+  "ptrs": [
+   "vm:0589A7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}殺す・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.059052",
+  "addr": "059052",
+  "len": 50,
+  "ptrs": [
+   "vm:058A32"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、なぜだ・・・{nl}そんなバカな・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.059084",
+  "addr": "059084",
+  "len": 142,
+  "ptrs": [
+   "vm:058A37"
+  ],
+  "jp": "{clr}{pos:00000000}{full}感情に負けたな{nl}バーナサス！{wait}{clr}{pos:00000000}{full}おまえは俺たちの{nl}ことをよく知っていたが{wait}{clr}{pos:00000000}{full}自分のことをよく{nl}知らなかったのさ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch21.059112",
+  "addr": "059112",
+  "len": 28,
+  "ptrs": [
+   "vm:058A3C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキ・キ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.05912E",
+  "addr": "05912E",
+  "len": 64,
+  "ptrs": [
+   "vm:058A6D"
+  ],
+  "jp": "{full}町人{nl}　あちこちで帝国に　たいする反乱が{wait}{nl}　起こっている{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch21.05916E",
+  "addr": "05916E",
+  "len": 42,
+  "ptrs": [
+   "vm:0588D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それではみなさん{nl}さようなら{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch21.059198",
+  "addr": "059198",
+  "len": 42,
+  "ptrs": [
+   "vm:058590"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１７{nl}＜かわいそうな象＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

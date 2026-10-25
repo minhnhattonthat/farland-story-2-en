@@ -1,0 +1,659 @@
+[
+ {
+  "id": "ch20.0576EC",
+  "addr": "0576EC",
+  "len": 48,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}この木なんだか、みおぼえがあるわ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.05771C",
+  "addr": "05771C",
+  "len": 20,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}ガオ？{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.057730",
+  "addr": "057730",
+  "len": 50,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}この木はケントゥーネ族の守り木・・・{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.057762",
+  "addr": "057762",
+  "len": 20,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}あー、{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.057776",
+  "addr": "057776",
+  "len": 32,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}す、すいこまれるー{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.057796",
+  "addr": "057796",
+  "len": 24,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}きゃああ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.0577AE",
+  "addr": "0577AE",
+  "len": 28,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}サリーナーっ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch20.0577CA",
+  "addr": "0577CA",
+  "len": 32,
+  "ptrs": [
+   "vm:057169"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここはどこなんだ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0577EA",
+  "addr": "0577EA",
+  "len": 24,
+  "ptrs": [
+   "vm:05716E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}木の中よ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057802",
+  "addr": "057802",
+  "len": 64,
+  "ptrs": [
+   "vm:057181"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は村を守るように命じられただけで{nl}何かは知らない{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057842",
+  "addr": "057842",
+  "len": 44,
+  "ptrs": [
+   "vm:057194"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うあっ！{nl}な、何だ？{nl}この光は{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.05786E",
+  "addr": "05786E",
+  "len": 56,
+  "ptrs": [
+   "vm:0571E6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わが一族最後の娘よ・・・{nl}よくたどりついた{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0578A6",
+  "addr": "0578A6",
+  "len": 32,
+  "ptrs": [
+   "vm:0571EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたはいったい？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.0578C6",
+  "addr": "0578C6",
+  "len": 46,
+  "ptrs": [
+   "vm:0571F0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}記憶が完全にもどっていないのか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0578F4",
+  "addr": "0578F4",
+  "len": 20,
+  "ptrs": [
+   "vm:0571F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}記憶？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057908",
+  "addr": "057908",
+  "len": 292,
+  "ptrs": [
+   "vm:0571FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}心して聞くがいい・・・{wait}{clr}{pos:00000000}{full}おまえはケントゥーネ族の族長の娘、我々はある勢力から{wait}{clr}{pos:00000000}{full}おまえを守るために１４年前に記憶を奪いある村に送った{wait}{clr}{pos:00000000}{full}それは今日、我々が帝国に滅ぼされることを予言し敵の目{wait}{clr}{pos:00000000}{full}をあざむくためにわざと帝国の村におまえを送ったのだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057A2C",
+  "addr": "057A2C",
+  "len": 48,
+  "ptrs": [
+   "vm:05720D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ある勢力？{nl}帝国じゃないのですか？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057A5C",
+  "addr": "057A5C",
+  "len": 50,
+  "ptrs": [
+   "vm:057212"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は・・・{nl}舞とは一体何なの{nl}です？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057A8E",
+  "addr": "057A8E",
+  "len": 154,
+  "ptrs": [
+   "vm:057225"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケントゥーネの舞{nl}とは、神々との契約を意味するのだ{wait}{clr}{pos:00000000}{full}正しい舞を舞った{nl}とき{wait}{clr}{pos:00000000}{full}神々が契約に{nl}したがって力を{nl}貸してくださる{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057B28",
+  "addr": "057B28",
+  "len": 80,
+  "ptrs": [
+   "vm:057238"
+  ],
+  "jp": "{clr}{pos:00000000}{full}教えてください{wait}{clr}{pos:00000000}{full}それでは帝国が{nl}ねらう「破亡の舞」とは？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057B78",
+  "addr": "057B78",
+  "len": 126,
+  "ptrs": [
+   "vm:05723D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}良かろう{wait}{clr}{pos:00000000}{full}この世界にはきょうぼうなキメラがすみ着いている{wait}{clr}{pos:00000000}{full}そいつを倒して{nl}くれば教えてやろう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057BF6",
+  "addr": "057BF6",
+  "len": 40,
+  "ptrs": [
+   "vm:057242"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかりました{nl}やってみます{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057C1E",
+  "addr": "057C1E",
+  "len": 26,
+  "ptrs": [
+   "vm:057247"
+  ],
+  "jp": "{clr}{pos:00000000}{full}キメラは強い{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057C38",
+  "addr": "057C38",
+  "len": 52,
+  "ptrs": [
+   "vm:057347"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ジュルーッ{nl}うまそうな人間たちが来た！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057C6C",
+  "addr": "057C6C",
+  "len": 58,
+  "ptrs": [
+   "vm:05734C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ！{nl}手ごわそうだから{nl}離れているんだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057CA6",
+  "addr": "057CA6",
+  "len": 28,
+  "ptrs": [
+   "vm:057394"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんてやつ！{nl}{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057CC2",
+  "addr": "057CC2",
+  "len": 40,
+  "ptrs": [
+   "vm:057399"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうした？{nl}そのていどか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057CEA",
+  "addr": "057CEA",
+  "len": 58,
+  "ptrs": [
+   "vm:0573AC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルッ！おいらたちじゃ、歯が立たないのか！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057D24",
+  "addr": "057D24",
+  "len": 80,
+  "ptrs": [
+   "vm:0573BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どこかに、どこかに死角があるはずだ{wait}{clr}{pos:00000000}{full}どこかにきっと・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057D74",
+  "addr": "057D74",
+  "len": 60,
+  "ptrs": [
+   "vm:0573D2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いけない！{nl}このままではみんなが死んでしまうわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057DB0",
+  "addr": "057DB0",
+  "len": 36,
+  "ptrs": [
+   "vm:0573E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もうあきらめよう{nl}よ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057DD4",
+  "addr": "057DD4",
+  "len": 28,
+  "ptrs": [
+   "vm:0573F8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いやだっちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057DF0",
+  "addr": "057DF0",
+  "len": 54,
+  "ptrs": [
+   "vm:05740B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こいつはわしの力でも、どうにもならんわい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057E26",
+  "addr": "057E26",
+  "len": 150,
+  "ptrs": [
+   "vm:05749A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}今の舞ではもうこれ以上{wait}{clr}{pos:00000000}{full}ダメージをあたえられないわ{wait}{clr}{pos:00000000}{full}だとすると新しい契約、新しい舞を舞えば・・・{wait}{clr}{pos:00000000}{full}リアド！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057EBC",
+  "addr": "057EBC",
+  "len": 22,
+  "ptrs": [
+   "vm:05749F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何だ！{nl}{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057ED2",
+  "addr": "057ED2",
+  "len": 44,
+  "ptrs": [
+   "vm:0574A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ためしてみたい舞があるの・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057EFE",
+  "addr": "057EFE",
+  "len": 84,
+  "ptrs": [
+   "vm:0574A9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかった{wait}{clr}{pos:00000000}{full}みんな、サリーナの邪魔にならないように離れるんだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057F52",
+  "addr": "057F52",
+  "len": 32,
+  "ptrs": [
+   "vm:0574AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は舞に全てを！{nl}{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057F72",
+  "addr": "057F72",
+  "len": 30,
+  "ptrs": [
+   "vm:0574F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まさか、そんな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057F90",
+  "addr": "057F90",
+  "len": 38,
+  "ptrs": [
+   "vm:0574FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これが・・・{nl}破亡の舞！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.057FB6",
+  "addr": "057FB6",
+  "len": 52,
+  "ptrs": [
+   "vm:05750E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ちがう・・・{nl}あれは、怪物じゃないっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.057FEA",
+  "addr": "057FEA",
+  "len": 32,
+  "ptrs": [
+   "vm:057513"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あれはライナス様！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.05800A",
+  "addr": "05800A",
+  "len": 94,
+  "ptrs": [
+   "vm:0575B6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よ、よくやった！{nl}それが破亡の舞じゃ・・・{wait}{clr}{pos:00000000}{full}おまえだけの破亡の舞・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.058068",
+  "addr": "058068",
+  "len": 54,
+  "ptrs": [
+   "vm:0575BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ライナス様{nl}「破亡の舞」とは{nl}いったい？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.05809E",
+  "addr": "05809E",
+  "len": 334,
+  "ptrs": [
+   "vm:0575C0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}すべてを無へとかえす舞じゃ{wait}{clr}{pos:00000000}{full}その舞、この世界を破滅させる{nl}神々さえも・・・{wait}{clr}{pos:00000000}{full}我々、ケントゥーネ族の使命は{wait}{clr}{pos:00000000}{full}善と悪の勢力の均衡じゃ！{wait}{clr}{pos:00000000}{full}もしどちらかの勢力が世界をおおったとき{wait}{clr}{pos:00000000}{full}一族に伝わる舞{nl}破亡の舞で世界を{nl}滅ぼし{wait}{clr}{pos:00000000}{full}全てを一からやり直させるという使命を持つ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0581EC",
+  "addr": "0581EC",
+  "len": 42,
+  "ptrs": [
+   "vm:0575C5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そんな恐ろしい力を私が・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.058216",
+  "addr": "058216",
+  "len": 194,
+  "ptrs": [
+   "vm:0575CA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わしはそのことを伝えるために５００年{wait}{clr}{pos:00000000}{full}おまえをまっていた{wait}{clr}{pos:00000000}{full}わしの使命はこのことをおまえに伝えることじゃった{wait}{clr}{pos:00000000}{full}それでは舞を・・・ただしく・ま・・え・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0582D8",
+  "addr": "0582D8",
+  "len": 30,
+  "ptrs": [
+   "vm:0575CF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ラ、ライナス様！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.0582F6",
+  "addr": "0582F6",
+  "len": 42,
+  "ptrs": [
+   "vm:0575DD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これで・・・{nl}私は一人ぼっち{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.058320",
+  "addr": "058320",
+  "len": 90,
+  "ptrs": [
+   "vm:0575F0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ・・・{nl}きみには俺が・・みんながいる{wait}{clr}{pos:00000000}{full}一人ぼっちじゃないさ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.05837A",
+  "addr": "05837A",
+  "len": 34,
+  "ptrs": [
+   "vm:057603"
+  ],
+  "jp": "{clr}{pos:00000000}{full}仲間がいるじゃない！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.05839C",
+  "addr": "05839C",
+  "len": 34,
+  "ptrs": [
+   "vm:057616"
+  ],
+  "jp": "{clr}{pos:00000000}{full}元気を出してください{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0583BE",
+  "addr": "0583BE",
+  "len": 36,
+  "ptrs": [
+   "vm:057629"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ、元気だせよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.0583E2",
+  "addr": "0583E2",
+  "len": 28,
+  "ptrs": [
+   "vm:05763C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだっちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0583FE",
+  "addr": "0583FE",
+  "len": 48,
+  "ptrs": [
+   "vm:05764F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたには悲しい顔は、にあわない！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.05842E",
+  "addr": "05842E",
+  "len": 70,
+  "ptrs": [
+   "vm:057662"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうよ{nl}{wait}{clr}{pos:00000000}{full}悲しい顔してたら{nl}幸福が逃げちゃうわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.058474",
+  "addr": "058474",
+  "len": 36,
+  "ptrs": [
+   "vm:057675"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな・・・ありがとう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.058498",
+  "addr": "058498",
+  "len": 52,
+  "ptrs": [
+   "vm:057688"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうそう！{nl}アルタバの顔を見てごらん！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch20.0584CC",
+  "addr": "0584CC",
+  "len": 22,
+  "ptrs": [
+   "vm:05769B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオー！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch20.0584E2",
+  "addr": "0584E2",
+  "len": 44,
+  "ptrs": [
+   "vm:0570E4"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１６{nl}{half}　{full}　＜破亡の舞＞{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch20.05850E",
+  "addr": "05850E",
+  "len": 38,
+  "ptrs": [
+   "vm:0576AE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし、帝国に{nl}むかうぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ }
+]

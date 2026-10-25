@@ -1,0 +1,233 @@
+[
+ {
+  "id": "ch08.068EB1",
+  "addr": "068EB1",
+  "len": 98,
+  "ptrs": [
+   "vm:068852"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やぁ、シフィルに{nl}ネイフル！{wait}{clr}{pos:00000000}{full}ちょうどよかった{nl}手伝いがほしかったところだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.068F13",
+  "addr": "068F13",
+  "len": 78,
+  "ptrs": [
+   "vm:068857"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何いってんだよ{nl}ケイリナス{wait}{clr}{pos:00000000}{full}こんなとこで{nl}ブラブラして{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.068F61",
+  "addr": "068F61",
+  "len": 142,
+  "ptrs": [
+   "vm:06885C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しっけいな{wait}{clr}{pos:00000000}{full}私はこれでも、帝国軍の動きを見はっているんだ！{wait}{clr}{pos:00000000}{full}ああっ、こちらの美しい方は・・・{nl}せめてお名前を{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.068FEF",
+  "addr": "068FEF",
+  "len": 44,
+  "ptrs": [
+   "vm:068887"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・私のこと？{nl}私はサリーナ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.06901B",
+  "addr": "06901B",
+  "len": 142,
+  "ptrs": [
+   "vm:06889A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナ・・・{nl}おお、名前まで美しい{wait}{clr}{pos:00000000}{full}私の名はケイリナス騎士ランティアの長男{wait}{clr}{pos:00000000}{full}そしてフェルサリア一の知恵者！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.0690A9",
+  "addr": "0690A9",
+  "len": 60,
+  "ptrs": [
+   "vm:0688B1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フッ、残念だが{nl}サリーナの相手は{nl}決まっている{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.0690E5",
+  "addr": "0690E5",
+  "len": 44,
+  "ptrs": [
+   "vm:0688C8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ヴァラカナ！{nl}変なこと言うなよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.069111",
+  "addr": "069111",
+  "len": 72,
+  "ptrs": [
+   "vm:0688DF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おいおい{nl}ケイリナス{wait}{clr}{pos:00000000}{full}敵の動きを教えて{nl}くれんか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.069159",
+  "addr": "069159",
+  "len": 164,
+  "ptrs": [
+   "vm:0688F2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あ、そうでした{wait}{clr}{pos:00000000}{full}見たところ{nl}私たちの十倍はいますね{wait}{clr}{pos:00000000}{full}やつら、もしかするとフェルサリアに{wait}{clr}{pos:00000000}{full}戦争を仕掛けるつもりかもしれない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.0691FD",
+  "addr": "0691FD",
+  "len": 42,
+  "ptrs": [
+   "vm:068909"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まあ・・・そんなに大軍なの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.069227",
+  "addr": "069227",
+  "len": 106,
+  "ptrs": [
+   "vm:06891C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリア、キミまでこんなところに{wait}{clr}{pos:00000000}{full}しかし、この森の中で見るとさらにキミは美しい・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.069291",
+  "addr": "069291",
+  "len": 40,
+  "ptrs": [
+   "vm:068933"
+  ],
+  "jp": "{clr}{pos:00000000}{full}この人だれでもいいんだガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.0692B9",
+  "addr": "0692B9",
+  "len": 46,
+  "ptrs": [
+   "vm:068946"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナス！{nl}また話がそれたよ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.0692E7",
+  "addr": "0692E7",
+  "len": 124,
+  "ptrs": [
+   "vm:068959"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うるさいなあ・・・{wait}{clr}{pos:00000000}{full}コホン、敵はあなどれないが、私にいい考えがあります{wait}{clr}{pos:00000000}{full}聞きたいでしょう？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.069363",
+  "addr": "069363",
+  "len": 38,
+  "ptrs": [
+   "vm:06896C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ねえ、やっぱりかえろうよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.069389",
+  "addr": "069389",
+  "len": 24,
+  "ptrs": [
+   "vm:06897F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.0693A1",
+  "addr": "0693A1",
+  "len": 172,
+  "ptrs": [
+   "vm:068992"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私の考えとは、こうです{wait}{clr}{pos:00000000}{full}帝国軍は今、せまい森に隠れています{wait}{clr}{pos:00000000}{full}スキをついて森の{nl}木に火をつければ{wait}{clr}{pos:00000000}{full}一気にやっつけれるというわけです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.06944D",
+  "addr": "06944D",
+  "len": 64,
+  "ptrs": [
+   "vm:0689A5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それじゃあ、ヘタをするとボクたちも危ないじゃないか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.06948D",
+  "addr": "06948D",
+  "len": 80,
+  "ptrs": [
+   "vm:0689B8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だが、何もやらなければ結果もでない{nl}{wait}{clr}{pos:00000000}{full}よしやってみよう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch08.0694DD",
+  "addr": "0694DD",
+  "len": 30,
+  "ptrs": [
+   "vm:0689CB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうこなくちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch08.0694FB",
+  "addr": "0694FB",
+  "len": 24,
+  "ptrs": [
+   "vm:0689DE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・はぁ{wait}",
+  "en": "",
+  "box": "lower"
+ }
+]

@@ -1,0 +1,145 @@
+[
+ {
+  "id": "ch38.2A6FD0",
+  "addr": "2A6FD0",
+  "len": 40,
+  "ptrs": [
+   "vm:2A6AAC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲームを作った{nl}人たちか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch38.2A6FF8",
+  "addr": "2A6FF8",
+  "len": 32,
+  "ptrs": [
+   "vm:2A6AA7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}スタッフの人たちよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A7018",
+  "addr": "2A7018",
+  "len": 50,
+  "ptrs": [
+   "vm:2A6B00"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓メインプログラムフジワラ　ヒロユキ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A704A",
+  "addr": "2A704A",
+  "len": 88,
+  "ptrs": [
+   "vm:2A6B59"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓サブプログラム{wait}{clr}{pos:00000000}{full}くどう　ひろゆき{nl}ＳＹＯーぶ{nl}すやま　ひではる{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A70A2",
+  "addr": "2A70A2",
+  "len": 244,
+  "ptrs": [
+   "vm:2A6BB2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}▶ドット軍団隊長{nl}アゴー　トモヒロ！{wait}{clr}{pos:00000000}{full}▶ドット軍団{nl}やーまだー　ウフフ{wait}{clr}{pos:00000000}{full}やなぎもと　ゆうきいしい　タツオ{wait}{clr}{pos:00000000}{full}おおにし　しんじ{nl}フジイ　ヒデキ{wait}{clr}{pos:00000000}{full}ゆきさわ　せーじんさいとー　まさし{nl}やぎ　メーメー{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A7196",
+  "addr": "2A7196",
+  "len": 118,
+  "ptrs": [
+   "vm:2A6C0C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓サウンド{wait}{clr}{pos:00000000}{full}キタウラ　マサタカいせむら　あつよしＨ―ＲＩＫＥＩ{wait}{clr}{pos:00000000}{full}{nl}ＭＵＳＩＣＷＯＲＸ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A720C",
+  "addr": "2A720C",
+  "len": 46,
+  "ptrs": [
+   "vm:2A6C66"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓ディレクター{nl}かなざわとしひで{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A723A",
+  "addr": "2A723A",
+  "len": 302,
+  "ptrs": [
+   "vm:2A6CC1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓キャラクター{nl}　デザイン{wait}{clr}{pos:00000000}{full}{nl}やまもと　かずえ{wait}{clr}{pos:00000000}{full}{nl}Ｊ．Ｃ．ＳＴＡＦＦ{wait}{clr}{pos:00000000}{half}ＰＲＯＤＵＣＥＲ{nl}　ＴＯＭＯＫＯ　ＫＡＷＡＳＡＫＩ{wait}{clr}{pos:00000000}{half}ＡＳＳＩＳＴＡＮＴ　ＰＲＯＤＵＣＥＲ　ＮＡＭＩＫＯ　ＹＡＭＡＺＡＫＩ{wait}{clr}{pos:00000000}{half}ＤＥＳＩＧＮＥＲ{nl}　ＹＵＭＩ　ＮＡＫＡＹＡＭＡ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A7368",
+  "addr": "2A7368",
+  "len": 672,
+  "ptrs": [
+   "vm:2A6D1C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}　ＳＰＥＣＩＡＬ{nl}　ＴＨＡＮＫＳ{wait}{clr}{pos:00000000}{half}ＤＥＢＵＧＧＥＤ　ＢＹ{nl}　　　　　　　ＳＴＵＤＩＯ　ＳＴＡＴ{wait}{clr}{pos:00000000}{half}{nl}ＫＩＫＵＣＨＩ　ＲＸ{wait}{clr}{pos:00000000}{half}{nl}ＴＯＫＩＭＥＫＩ　ＫＡＤＯＴＳＵＪＩ{wait}{clr}{pos:00000000}{half}ＴＯＭＯＨＩＲＯ　ＣＨＩＢＡ{nl}ＫＥＩＳＵＫＥ　ＵＥＤＡ{nl}ＧＡＫＵＪＩ　ＳＡＫＡＮＯ{wait}{clr}{pos:00000000}{half}ＴＳＵＫＡＮＰＯ　ＭＡＮＡＢＵ{nl}ＫＡＮＥＤＡ　ＭＩＴＵＨＩＳＡ{nl}ＯＮＥＥＳＡＭＡ　ＭＯＲＩ{wait}{clr}{pos:00000000}{half}ＫＡＺＵＮＯＲＩ　ＩＨＡＴＡ{nl}ＳＨＩＭＩＺＵ　ＫＯＳＵＫＥ{nl}ＴＯＭＯＡＫＩ　ＣＨＯＳＨＯ{wait}{clr}{pos:00000000}{half}ＢＥＡＲＴ{nl}ＯＹＡ　ＭＡＳＡＴＯＳＨＩ{nl}Ｋ．ＮＩＳＨＩＧＯＵＲＩ{wait}{clr}{pos:00000000}{half}ＯＨＮＵＫＩ　ＭＡＳＡＲＵ{nl}ＭＡＳＡＫＡＺＵ　ＳＵＺＵＫＩ{nl}ＨＩＲＯＹＵＫＩ　ＨＩＮＯ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A7608",
+  "addr": "2A7608",
+  "len": 70,
+  "ptrs": [
+   "vm:2A6D78"
+  ],
+  "jp": "{clr}{pos:00000000}{full}↓プロデューサー{wait}{clr}{pos:00000000}{full}ＹＵＴＡ{nl}　ＫＡＤＯＨＡＲＡ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch38.2A764E",
+  "addr": "2A764E",
+  "len": 32,
+  "ptrs": [
+   "vm:2A6E3C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}{nl}　ＴＨＥ　ＥＮＤ　",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch38.2A766E",
+  "addr": "2A766E",
+  "len": 22,
+  "ptrs": [
+   "vm:2A6E05"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みなさん{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch38.2A7684",
+  "addr": "2A7684",
+  "len": 38,
+  "ptrs": [
+   "vm:2A6E0A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほんとうに{nl}ありがとう！{wait}",
+  "en": "",
+  "box": "upper"
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "id": "ch31.2A40DC",
+  "addr": "2A40DC",
+  "len": 78,
+  "ptrs": [
+   "vm:2A3FC0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よくかえって来た{wait}{clr}{pos:00000000}{full}ずいぶん{nl}たくましくなった{nl}ようだな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch31.2A412A",
+  "addr": "2A412A",
+  "len": 46,
+  "ptrs": [
+   "vm:2A3FC5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えへへ{nl}だって父さんの息子だもん{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch31.2A4158",
+  "addr": "2A4158",
+  "len": 82,
+  "ptrs": [
+   "vm:2A3FD8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィルは本当に{nl}偉かったわ{wait}{clr}{pos:00000000}{full}母様からごほうびがありますよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch31.2A41AA",
+  "addr": "2A41AA",
+  "len": 56,
+  "ptrs": [
+   "vm:2A3FDD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ホント！？{nl}何？おいしいもの？それとも馬？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch31.2A41E2",
+  "addr": "2A41E2",
+  "len": 86,
+  "ptrs": [
+   "vm:2A3FE2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほら、王になるための心得を書いた本よ{wait}{clr}{pos:00000000}{full}とってもためになりますよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch31.2A4238",
+  "addr": "2A4238",
+  "len": 26,
+  "ptrs": [
+   "vm:2A3FF1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガクッ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ }
+]

@@ -1,0 +1,542 @@
+[
+ {
+  "id": "ch16.0517FC",
+  "addr": "0517FC",
+  "len": 308,
+  "ptrs": [
+   "vm:051051"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何っ！{nl}リアド皇子が{nl}このトロイヤに？{wait}{clr}{pos:00000000}{full}死んだのではないのか？！{wait}{clr}{pos:00000000}{full}まずい{nl}帝国にしたがうと{nl}ネレイド皇帝に{wait}{clr}{pos:00000000}{full}約束したばかりだというのに・・・{wait}{clr}{pos:00000000}{full}城のまわりに兵を集めろ！やつを城の中に入れてはならん{wait}{clr}{pos:00000000}{full}入れればわしも反乱に手を貸すとうたがわれてしまう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051930",
+  "addr": "051930",
+  "len": 122,
+  "ptrs": [
+   "vm:0511D6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ともかく、トロイヤ城にいるパリス王にお目にかかろう{wait}{clr}{pos:00000000}{full}トロイヤを説得できれば帝国反抗の大きな力となる{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.0519AA",
+  "addr": "0519AA",
+  "len": 62,
+  "ptrs": [
+   "vm:0511DB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ボクたちだけで、こんな大きな国にかなうわけないよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.0519E8",
+  "addr": "0519E8",
+  "len": 50,
+  "ptrs": [
+   "vm:0511EE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もう、シフィルったら、そればっかり！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051A1A",
+  "addr": "051A1A",
+  "len": 138,
+  "ptrs": [
+   "vm:051201"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だから言ったでしょう！{wait}{clr}{pos:00000000}{full}トロイヤ軍は今、帝国に手を貸すために遠征してますから{wait}{clr}{pos:00000000}{full}残ってる兵は少しなんですよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051AA4",
+  "addr": "051AA4",
+  "len": 26,
+  "ptrs": [
+   "vm:051214"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ほんとガオ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051ABE",
+  "addr": "051ABE",
+  "len": 22,
+  "ptrs": [
+   "vm:051219"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もちろん{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051AD4",
+  "addr": "051AD4",
+  "len": 46,
+  "ptrs": [
+   "vm:05126F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わおっ、リアドさんサリーナさん！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051B02",
+  "addr": "051B02",
+  "len": 30,
+  "ptrs": [
+   "vm:051274"
+  ],
+  "jp": "{clr}{pos:00000000}{full}無事だったのね！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051B20",
+  "addr": "051B20",
+  "len": 94,
+  "ptrs": [
+   "vm:051279"
+  ],
+  "jp": "{clr}{pos:00000000}{full}この町の人に助けてもらったッスよ{wait}{clr}{pos:00000000}{full}会えてうれしいダス・・・うおおおーい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051B7E",
+  "addr": "051B7E",
+  "len": 26,
+  "ptrs": [
+   "vm:05128C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だきつくな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051B98",
+  "addr": "051B98",
+  "len": 52,
+  "ptrs": [
+   "vm:051354"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どうやって入ろう？まったくスキがないぞ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051BCC",
+  "addr": "051BCC",
+  "len": 38,
+  "ptrs": [
+   "vm:051359"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何か考えてよ{nl}ケイリナス{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051BF2",
+  "addr": "051BF2",
+  "len": 56,
+  "ptrs": [
+   "vm:05136C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴホン、たよりにされては仕方がない{nl}えーと{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051C2A",
+  "addr": "051C2A",
+  "len": 80,
+  "ptrs": [
+   "vm:051371"
+  ],
+  "jp": "{clr}{pos:00000000}{full}たよりにはしてないけど{wait}{clr}{pos:00000000}{full}気がまぎれるかもしれないと思って{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051C7A",
+  "addr": "051C7A",
+  "len": 48,
+  "ptrs": [
+   "vm:051376"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くーっ、ならばどうだ、この作戦は！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051CAA",
+  "addr": "051CAA",
+  "len": 26,
+  "ptrs": [
+   "vm:051389"
+  ],
+  "jp": "{clr}{pos:00000000}{full}聞かせてくれ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051CC4",
+  "addr": "051CC4",
+  "len": 38,
+  "ptrs": [
+   "vm:05138E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}実はごにょごにょ{nl}・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051CEA",
+  "addr": "051CEA",
+  "len": 44,
+  "ptrs": [
+   "vm:051393"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、何！？{nl}大胆すぎやしないか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051D16",
+  "addr": "051D16",
+  "len": 50,
+  "ptrs": [
+   "vm:051398"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いや、パリス王はマニアだと聞いている{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051D48",
+  "addr": "051D48",
+  "len": 100,
+  "ptrs": [
+   "vm:05139D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どっちにしろ・・・このままじゃ何もできないしな・・・{wait}{clr}{pos:00000000}{full}よし！{nl}やってみよう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051DAC",
+  "addr": "051DAC",
+  "len": 188,
+  "ptrs": [
+   "vm:051493"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やや、あれは？{wait}{clr}{pos:00000000}{full}これは、めずらしいげいじゅつひん！！{wait}{clr}{pos:00000000}{full}こんなものでわしのきげんをとれるとでも思ったのか・・{wait}{clr}{pos:00000000}{full}まあよい、せっかくだ、もらっておこう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051E68",
+  "addr": "051E68",
+  "len": 60,
+  "ptrs": [
+   "vm:05154B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}な、なんと！リアド皇子！わしとしたことが・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051EA4",
+  "addr": "051EA4",
+  "len": 36,
+  "ptrs": [
+   "vm:051550"
+  ],
+  "jp": "{clr}{pos:00000000}{full}目指すはパリス王のみ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051EC8",
+  "addr": "051EC8",
+  "len": 72,
+  "ptrs": [
+   "vm:051616"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いまさら話すことなどない！{nl}{wait}{clr}{pos:00000000}{full}とっとと出ていけ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051F10",
+  "addr": "051F10",
+  "len": 92,
+  "ptrs": [
+   "vm:05161B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうはいかない！{wait}{clr}{pos:00000000}{full}トロイヤが帝国のものになってしまってもいいのか！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.051F6C",
+  "addr": "051F6C",
+  "len": 108,
+  "ptrs": [
+   "vm:051620"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいとは思わん{nl}だが他にどんな方法がある{wait}{clr}{pos:00000000}{full}帝国にさからって無事ですむはずもないだろう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.051FD8",
+  "addr": "051FD8",
+  "len": 82,
+  "ptrs": [
+   "vm:051625"
+  ],
+  "jp": "{clr}{pos:00000000}{full}戦う前からシッポをまいたか{wait}{clr}{pos:00000000}{full}それでよく王がつとまるものだな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.05202A",
+  "addr": "05202A",
+  "len": 20,
+  "ptrs": [
+   "vm:05162A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何っ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.05203E",
+  "addr": "05203E",
+  "len": 36,
+  "ptrs": [
+   "vm:05163D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド！{nl}むちゃよっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.052062",
+  "addr": "052062",
+  "len": 144,
+  "ptrs": [
+   "vm:051642"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国にしたがえば{nl}この国のすべてが{wait}{clr}{pos:00000000}{full}帝国の戦のために{nl}利用される{wait}{clr}{pos:00000000}{full}それをこのトロイヤの人々が喜ぶと{nl}思うのか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.0520F2",
+  "addr": "0520F2",
+  "len": 26,
+  "ptrs": [
+   "vm:051655"
+  ],
+  "jp": "{clr}{pos:00000000}{full}むう・・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.05210C",
+  "addr": "05210C",
+  "len": 66,
+  "ptrs": [
+   "vm:051668"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ヒヤヒヤするなあ{nl}まったく、リアド殿の口の悪いのには{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.05214E",
+  "addr": "05214E",
+  "len": 84,
+  "ptrs": [
+   "vm:05166D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よし、それならば{nl}わが国としても{wait}{clr}{pos:00000000}{full}君たちに力を貸さぬでもない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.0521A2",
+  "addr": "0521A2",
+  "len": 34,
+  "ptrs": [
+   "vm:051680"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオッ{nl}ほんとか！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.0521C4",
+  "addr": "0521C4",
+  "len": 32,
+  "ptrs": [
+   "vm:051693"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ただし、条件がある{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.0521E4",
+  "addr": "0521E4",
+  "len": 30,
+  "ptrs": [
+   "vm:0516A6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうくると思った{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.052202",
+  "addr": "052202",
+  "len": 166,
+  "ptrs": [
+   "vm:0516AB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここからはるか北の国、ギネビアに{wait}{clr}{pos:00000000}{full}帝国軍が入り込んでいるそうだ{wait}{clr}{pos:00000000}{full}それを全滅させることができたなら{wait}{clr}{pos:00000000}{full}君たちを信じ、力を貸そう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.0522A8",
+  "addr": "0522A8",
+  "len": 26,
+  "ptrs": [
+   "vm:0516BE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やってみよう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.0522C2",
+  "addr": "0522C2",
+  "len": 56,
+  "ptrs": [
+   "vm:0516D1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんだと！{nl}この人数だけでやれというのか！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.0522FA",
+  "addr": "0522FA",
+  "len": 54,
+  "ptrs": [
+   "vm:0516D6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やりとげれば{nl}信じてもらえるの{nl}ですね？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.052330",
+  "addr": "052330",
+  "len": 32,
+  "ptrs": [
+   "vm:0516E9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だいじょうぶガオ？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.052350",
+  "addr": "052350",
+  "len": 42,
+  "ptrs": [
+   "vm:0516FC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}約束しよう{nl}必ずやりとげる！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.05237A",
+  "addr": "05237A",
+  "len": 32,
+  "ptrs": [
+   "vm:05170F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふははは、楽しみだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch16.05239A",
+  "addr": "05239A",
+  "len": 60,
+  "ptrs": [
+   "vm:0517DA"
+  ],
+  "jp": "{full}町人{nl}　パリス王はげいじ　ゅつ品に目が{wait}{nl}　ないそうだ{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch16.0523D6",
+  "addr": "0523D6",
+  "len": 42,
+  "ptrs": [
+   "vm:0517F1"
+  ],
+  "jp": "{full}町人{nl}　トロイヤは帝国に　屈服したよ{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch16.052400",
+  "addr": "052400",
+  "len": 22,
+  "ptrs": [
+   "vm:0513C6",
+   "vm:0547C9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}つぎの日{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch16.052416",
+  "addr": "052416",
+  "len": 26,
+  "ptrs": [
+   "vm:051056"
+  ],
+  "jp": "{clr}{pos:00000000}{full}承知しました{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch16.052430",
+  "addr": "052430",
+  "len": 40,
+  "ptrs": [
+   "vm:050FCC"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１２{nl}　＜トロイヤ王＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

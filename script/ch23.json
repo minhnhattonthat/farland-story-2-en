@@ -1,0 +1,90 @@
+[
+ {
+  "id": "ch23.059E8B",
+  "addr": "059E8B",
+  "len": 60,
+  "ptrs": [
+   "vm:059D22"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おのれ・・・すこしは戦い方を身につけたようだな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch23.059EC7",
+  "addr": "059EC7",
+  "len": 44,
+  "ptrs": [
+   "vm:059D27"
+  ],
+  "jp": "{clr}{pos:00000000}{full}今度こそ、決着を{nl}つけてやる！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch23.059EF3",
+  "addr": "059EF3",
+  "len": 22,
+  "ptrs": [
+   "vm:059D2C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}面白い！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch23.059F09",
+  "addr": "059F09",
+  "len": 88,
+  "ptrs": [
+   "vm:059E30"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リ、リアド、{nl}ウデをあげたか・・・{wait}{clr}{pos:00000000}{full}いい仲間を持っているようだな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch23.059F61",
+  "addr": "059F61",
+  "len": 28,
+  "ptrs": [
+   "vm:059E35"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウェイス・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch23.059F7D",
+  "addr": "059F7D",
+  "len": 94,
+  "ptrs": [
+   "vm:059E3A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}最高の戦いだった・・・{wait}{clr}{pos:00000000}{full}こんなに本気で戦ったのは、初めてだ{nl}・ぜ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch23.059FDB",
+  "addr": "059FDB",
+  "len": 78,
+  "ptrs": [
+   "vm:059E3F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたもよく戦った・・・{wait}{clr}{pos:00000000}{full}せめて、やすらかに眠ってくれ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch23.05A057",
+  "addr": "05A057",
+  "len": 52,
+  "ptrs": [
+   "vm:059E80"
+  ],
+  "jp": "{full}町人{nl}　島と大陸がつなが　った？{wait}{nl}　すごいや{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

@@ -1,0 +1,356 @@
+[
+ {
+  "id": "ch07.067C2B",
+  "addr": "067C2B",
+  "len": 50,
+  "ptrs": [
+   "vm:067861"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みなさん、本当にありがとうございます{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.067C5D",
+  "addr": "067C5D",
+  "len": 118,
+  "ptrs": [
+   "vm:067866"
+  ],
+  "jp": "{clr}{pos:00000000}{full}のんびりしてたらウデがなまってしまいます{wait}{clr}{pos:00000000}{full}それより、アーク王から何か連絡はありませんでしたか？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.067CD3",
+  "addr": "067CD3",
+  "len": 158,
+  "ptrs": [
+   "vm:06786B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それが・・・{wait}{clr}{pos:00000000}{full}使者もきませんし{nl}魔法の鏡にも何もうつりません{wait}{clr}{pos:00000000}{full}私も、何かあったのかと{wait}{clr}{pos:00000000}{full}気にかけていたところなのです{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.067D71",
+  "addr": "067D71",
+  "len": 56,
+  "ptrs": [
+   "vm:06787E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まさか、アーク王の身の上に何かあったのでは{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.067DA9",
+  "addr": "067DA9",
+  "len": 118,
+  "ptrs": [
+   "vm:067895"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェリオ様{nl}こうして手をこまねいているよりは、{wait}{clr}{pos:00000000}{full}我らが帝国へ王を迎えに出向いてはいかがかのう？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.067E1F",
+  "addr": "067E1F",
+  "len": 30,
+  "ptrs": [
+   "vm:0678A8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ええ、でも・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.067E3D",
+  "addr": "067E3D",
+  "len": 50,
+  "ptrs": [
+   "vm:0678BB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私たちがアーク王たちを探しましょう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.067E6F",
+  "addr": "067E6F",
+  "len": 194,
+  "ptrs": [
+   "vm:0678C0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}お願いできますか？{wait}{clr}{pos:00000000}{full}フェルサリアにいる人間で{wait}{clr}{pos:00000000}{full}帝国にくわしいのはあなたたちだけです{wait}{clr}{pos:00000000}{full}カイもいっしょに連れていって下さい{wait}{clr}{pos:00000000}{full}お役にたつと思います{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.067F31",
+  "addr": "067F31",
+  "len": 148,
+  "ptrs": [
+   "vm:0678C5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかりました{wait}{clr}{pos:00000000}{full}そのかわりと言ってはなんですが{wait}{clr}{pos:00000000}{full}船を貸していただけませんか？{wait}{clr}{pos:00000000}{full}帝国に渡ることの{nl}できる船を{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.067FC5",
+  "addr": "067FC5",
+  "len": 212,
+  "ptrs": [
+   "vm:0678DC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}残念じゃが・・・{wait}{clr}{pos:00000000}{full}今のフェルサリアには帝国までたどり着けるだけの{wait}{clr}{pos:00000000}{full}まともな船が一隻もない{wait}{clr}{pos:00000000}{full}これまでフェルサリア以外に{wait}{clr}{pos:00000000}{full}大陸があるとは、知らなかったものじゃから{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.068099",
+  "addr": "068099",
+  "len": 56,
+  "ptrs": [
+   "vm:0678EF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかりました{nl}船は自分たちで{nl}何とかします{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0680D1",
+  "addr": "0680D1",
+  "len": 36,
+  "ptrs": [
+   "vm:067902"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何か、あてでもあるの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.0680F5",
+  "addr": "0680F5",
+  "len": 66,
+  "ptrs": [
+   "vm:067907"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まあね、それでは・・・{wait}{clr}{pos:00000000}{full}我々はこれで・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.068137",
+  "addr": "068137",
+  "len": 126,
+  "ptrs": [
+   "vm:067992"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド{wait}{clr}{pos:00000000}{full}帝国軍らしい軍勢が北の森でひそんでいるそうです{wait}{clr}{pos:00000000}{full}そいつらからくわしい話を聞きましょう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.0681B5",
+  "addr": "0681B5",
+  "len": 42,
+  "ptrs": [
+   "vm:067997"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ネイフル、だいじょうぶかい？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0681DF",
+  "addr": "0681DF",
+  "len": 158,
+  "ptrs": [
+   "vm:0679B4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル！{wait}{clr}{pos:00000000}{full}三人とも、おまちなさい{wait}{clr}{pos:00000000}{full}どこに行くつもりですか？{wait}{clr}{pos:00000000}{full}まさか、リアド殿について行くつもりではないでしょうね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.06827D",
+  "addr": "06827D",
+  "len": 76,
+  "ptrs": [
+   "vm:0679BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父さんはきっとボクが助けます{wait}{clr}{pos:00000000}{full}だから止めないで下さい{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0682C9",
+  "addr": "0682C9",
+  "len": 64,
+  "ptrs": [
+   "vm:0679D4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だいじょうぶです{nl}シフィルの面倒はボクが見ますから{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.068309",
+  "addr": "068309",
+  "len": 214,
+  "ptrs": [
+   "vm:0679EB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おゆるしください{nl}王妃様、お父様{wait}{clr}{pos:00000000}{full}聞けば帝国は{nl}世界征服をねらっているとか・・・{wait}{clr}{pos:00000000}{full}また戦が起きるに{nl}ちがいありません{wait}{clr}{pos:00000000}{full}私はフェルサリアだけでなく世界の人々を助けたいのです{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.0683DF",
+  "addr": "0683DF",
+  "len": 178,
+  "ptrs": [
+   "vm:0679FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふぅ・・・{nl}わかりました{wait}{clr}{pos:00000000}{full}行ってらっしゃい{nl}ただし、必ずもどって来るのですよ{wait}{clr}{pos:00000000}{full}フェルサリアの未来をになうのは{wait}{clr}{pos:00000000}{full}あなたたちなのですから！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.068491",
+  "addr": "068491",
+  "len": 34,
+  "ptrs": [
+   "vm:067A11"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はい！{nl}わかりました{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.0684B3",
+  "addr": "0684B3",
+  "len": 24,
+  "ptrs": [
+   "vm:067A24"
+  ],
+  "jp": "{clr}{pos:00000000}{full}約束します{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0684CB",
+  "addr": "0684CB",
+  "len": 40,
+  "ptrs": [
+   "vm:067A41"
+  ],
+  "jp": "{clr}{pos:00000000}{full}エリア・・・{nl}ムリはするな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.0684F3",
+  "addr": "0684F3",
+  "len": 38,
+  "ptrs": [
+   "vm:067A54"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だいじょうぶです{nl}お父様{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.068519",
+  "addr": "068519",
+  "len": 78,
+  "ptrs": [
+   "vm:067A67"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿、ご迷惑をおかけしますが{wait}{clr}{pos:00000000}{full}よろしくお願いします{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.068567",
+  "addr": "068567",
+  "len": 140,
+  "ptrs": [
+   "vm:067A7E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おのれの道はおのれで選び{wait}{clr}{pos:00000000}{full}おのれの道はおのれで切り開く{wait}{clr}{pos:00000000}{full}私の国では何事も{nl}自分で選ぶことが{nl}美徳とされます{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0685F3",
+  "addr": "0685F3",
+  "len": 56,
+  "ptrs": [
+   "vm:067A83"
+  ],
+  "jp": "{clr}{pos:00000000}{full}みんな、きっちりと自覚を持って戦うのですよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.06862B",
+  "addr": "06862B",
+  "len": 20,
+  "ptrs": [
+   "vm:067A96",
+   "vm:067AA9",
+   "vm:067ABC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はい！{wait}",
+  "en": "",
+  "box": "lower/upper"
+ },
+ {
+  "id": "ch07.06863F",
+  "addr": "06863F",
+  "len": 38,
+  "ptrs": [
+   "vm:067ACF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}るすは全てわしにまかせろ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.068665",
+  "addr": "068665",
+  "len": 44,
+  "ptrs": [
+   "vm:067AE2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それでは、私たちはこれで・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch07.068691",
+  "addr": "068691",
+  "len": 22,
+  "ptrs": [
+   "vm:067AF5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ご武運を{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch07.0686A7",
+  "addr": "0686A7",
+  "len": 42,
+  "ptrs": [
+   "vm:067776"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　６{nl}{half}　{full}　　＜出立＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

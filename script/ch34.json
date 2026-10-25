@@ -1,0 +1,46 @@
+[
+ {
+  "id": "ch34.2A523B",
+  "addr": "2A523B",
+  "len": 86,
+  "ptrs": [
+   "vm:2A50D9"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ワスはやっぱり{nl}海の男ダス！！{wait}{clr}{pos:00000000}{full}広くて大きい、海はいいなあ！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch34.2A5291",
+  "addr": "2A5291",
+  "len": 104,
+  "ptrs": [
+   "vm:2A50FE"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバはロードスの町で漁師として{nl}くらし始めた{wait}{clr}{pos:00000000}{full}とにかく、海の{nl}好きな男である{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch34.2A52F9",
+  "addr": "2A52F9",
+  "len": 182,
+  "ptrs": [
+   "vm:2A5143"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも、リアド様・・・{wait}{clr}{pos:00000000}{full}ちょっぴり会い{nl}たくなって来たダス{wait}{clr}{pos:00000000}{full}あの方のぬくもりが忘れられないダス{nl}・・・うふっ{wait}{clr}{pos:00000000}{full}お城に遊びに{nl}行っちゃおうかな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch34.2A53AF",
+  "addr": "2A53AF",
+  "len": 42,
+  "ptrs": [
+   "vm:2A5168"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ずっと海でくらす{nl}べきである{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

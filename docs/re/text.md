@@ -13,6 +13,8 @@ Addresses: CPU `$Bk:addr` (HiROM, file offset = `addr & $3FFFFF`) and file offse
   変/陸 swapped (`$0105`/`$0106`), 送 (`$018D`, was 迷), 色 (`$01F0`, was 角), 迷 `$0248` and 角 `$02EB` added,
   「」 (`$1E`/`$1F`, were 『』), ” (`$02`); `$9E` reads as the long-vowel mark ー (was －). Every non-blank glyph `$000-$329` has a reading; no duplicate values.
   Entries whose glyph is blank (`$03-$0A $10 $11 $13 $16-$1C $23 $7A $CD`) are Bongo's guesses and appear unused.
+  Phase 4 added the codes the table lacked, so every word decodes on its own: `$22` ▶ (menu cursor), `$24` ▼,
+  `$25` ↓ (8x16 arrows; blank in 16x16), and `{g26} {g27} {gCE} {gF1}..{gFF}` for glyphs blank in both fonts.
 - Verified by decoding the opening narration at `0x483D9` ("アークがフェルサリアの王となって２０年...") and the
   STAGE cards, item names, unit names, battle messages (all read as correct Japanese).
 
@@ -34,40 +36,55 @@ Addresses: CPU `$Bk:addr` (HiROM, file offset = `addr & $3FFFFF`) and file offse
 
 Dialogue boxes are 3 lines; the box width in glyphs is to be measured in phase 5.
 
-## Where text lives (scan: `python -X utf8 tools/textscan.py`)
+## Extraction (phase 4, verified: `tests/test_build.py`)
 
-`tools/textscan.py` finds every run of glyph/control words ending in `$8000`. Real text clusters:
+`python -X utf8 tools/extract.py --write` dumps `script/*.json` (never overwrites without `--force`): 1899 strings
+in 46 files, found through the pointers that reach them, not by scanning. Each entry: `id` (`<file>.<addr>`),
+`addr`, `len` (bytes incl. `{end}`: the in-place room), `ptrs`, `jp` (without the final `{end}`), `en`, and
+`box` (script windows), `unused` (no pointer reaches it: 49 dead-scene lines + 1), `notext` (controls/blanks only).
+Tests: every `jp` re-encodes to the ROM bytes, the files match a fresh extraction, every textscan run in the text
+ranges (`extract.TEXT_RANGES`: `0x10000-0x3FFFF`, `0x47800-0x6FFFF`, `0x2A3540-0x2BFFFF`) is inside an entry
+(`NOT_TEXT` lists the one false run), no two entries overlap.
 
-| Range (file) | Strings | Bytes | Content | Pointer form |
-|---|---|---|---|---|
-| `0x10000-0x1FFFF` | ~67 | ~1.4 KB | battle/shop/status messages inline in bank `$C1` code ("のこうげき！", "ゴールドになります") | 16-bit immediate in code (`LDA #lo`, bank set separately), e.g. `0x1EB12` from `0x10965` (verified by reference scan; exact opcode per site: phase 4) |
-| `0x2465B-0x24AC3` | 75 | 1.1 KB | unit names, class names | struct table, 16-bit in-bank pointers, stride 10 (`0x245E5`, `0x245EF`, ...) and class table at `0x24925` (guess from refs) |
-| `0x25231-0x253ED` | 25 | 0.4 KB | stage objectives ("ニセリアドを倒せ") | 16-bit table at `0x251FD` (refs) |
-| `0x25F7D-0x26653` | 110 | 1.7 KB | item / weapon / spell names | 24-bit pointer inside 110-byte (`$6E`) item records from `0x254BD` |
-| `0x2665B-0x27AEB` | 86 | 5 KB | item descriptions (`{clr}{pos}{full}...{nl}{half}<who can equip>`) | 16-bit table at `0x2665B` |
-| `0x47800-0x6F9EE` | ~1250 | 81 KB | chapter scripts 0-29 (dialogue, narration, STAGE cards) | **24-bit pointers in script bytecode** (see below) |
-| `0x2A3540-0x2A8DA3` | ~111 | 9 KB | chapter scripts 30-38 (late game, ending) | same, bank `$EA` |
+| File(s) | Strings | Pointer kind (`ptrs`) | Where |
+|---|---|---|---|
+| `ch00`-`ch38` | 1362 | `vm:` 24-bit arg of script text ops | `$C4-$C6`, `$EA`; filed by the chapter block holding the op |
+| `units` | 60 | `p16:` table `0x245E3` | unit names |
+| `classes` | 32 | `p16:` table `0x24923` | class names |
+| `objectives` | 25 | `p16:` table `0x251F3` (31 entries, some shared) | stage objectives |
+| `items` | 129 | `p24:` name pointer at `0x25465 + 22 * n` (22-byte item records) | item / weapon / spell names |
+| `item_desc` | 128 | `p16:` table `0x2665B` (129 entries) | item descriptions |
+| `system` | 130 | `imm:` + `p16:` tables `0x23764` (stage numbers by chapter), `0x21323` (save slots), `0x1F1B2` (stat names) | menus, shop, save/load, settings, status |
+| `battle` | 33 | `imm:` | battle messages (`$C1`, `$C3`, `$EA/$EB` code) |
 
-Script text total ~92 KB of 16-bit words: English in a 1-byte or VWF encoding will be well under that, but
-pointers are absolute, so text can move to expanded ROM.
+`imm:LO/BANK` = the code loads the pointer as immediates: `LDA #addr : STA $10|$14` plus `LDA #bank : STA
+$12|$16` in the same call setup (no JSL between), or `LDY #1 : LDA #addr : STA [$28],y ... LDY #3 : LDA #bank :
+STA [$28],y` (battle summon messages). The two offsets are the 16-bit and the bank immediates, so phase 7 can
+move these strings to another bank.
 
-## Script bytecode (verified for the pointer opcodes; other argument counts from Bongo, unverified)
+Known gaps: `system.016496` "はげんきになった！" has no pointer form found (probably `$C1:647E` + offset, or unused);
+the 49 unused chapter lines sit in dead bytecode (e.g. `0x5A458`, no pointer to it) or after it.
+
+## Script bytecode (verified: `tools/vm.py` walks every reachable op with no unknown opcode)
 
 - Chapter script table: `$C0:C9F0`, 39 x 3-byte pointers (index = chapter `$03B1`), entries `$C4:7800` ...
-  `$EA:69DA`. Each entry points at a small 65816 stub that sets the bytecode pointer `$9B/$9D` and jumps into
-  the VM loop `$C0:CEBA`.
-- VM: 16-bit opcodes, `$FFFF` = end, handler table `$C0:CEEE` (89 opcodes `$00-$58`/`$59`). Bongo's argument
-  list: `work/dl/bongo/x/Farland2/Asm/OpCodes.txt` (re-derived in phase 4 from the handlers before the
-  extractor relies on it).
-- Text opcodes `$3C`, `$3D`, `$41` (and `$42`?) take a 3-byte (24-bit) text pointer: e.g. at `0x4784C` the
-  pointer `$C4:83D9` (opening narration). 1207 of the ~1250 script-bank strings have a 24-bit reference;
-  the other ~42 (e.g. `0x49615` "しまった！") have none and are reached another way (fall-through after a
-  previous string? a computed pointer?): phase 4 must account for them.
-- Bongo's dump `Tools/FS2_VM/Pointers.txt` lists `.POINTER <target> @ <site>` for chapter 0.
+  `$EA:69DA`. Each entry points at a small 65816 stub that sets the bytecode pointer `$9B/$9D`
+  (`LDA #bank : STA $9D : REP #$20 : LDA #addr : STA $9B`) and runs the VM loop `$C0:CEBA`. 193 such stubs exist
+  (chapter starts plus in-chapter events).
+- **Talk scripts:** `$C0:CC4F` reads `[$C0:CCBA + 3 * chapter]` -> a table of 24-bit bytecode pointers indexed by
+  `$03C8` (town people, "町人"). Each table runs until its own scripts start. Op `$42` points at the map/event
+  data block that precedes such a table (e.g. `$C4:82DE`).
+- VM: 16-bit opcodes, `$FFFF` = end, handler table `$C0:CEEE` (`$00-$59`). Argument bytes, read off the handlers
+  (count of `INC $9B` per path; `tools/vm.py` `ARGS`/`BRANCH`):
+  - 0: `$00-$03 $05-$0B $0E-$11 $15 $1A-$1D $23 $2E-$31 $34-$3B $3E-$40 $45-$47 $59` (`$59` ends the script)
+  - 1: `$13 $14 $16-$19 $21 $22 $2C $2D $32 $33 $43 $44 $55 $56`; 2: `$04 $0C $0D $1E $24 $25 $2A $2B`;
+    3: `$12 $28 $29`; 4: `$1F $20`
+  - 3 = 24-bit pointer: `$3C` (upper window), `$3D` (lower), `$41` (centre) text; `$42` event data; `$54` goto
+  - `$26 $27`: 1 byte, a `$FF`-terminated byte list, 1 byte (unit move paths)
+  - conditional branches = condition bytes + 24-bit target: `$48-$4D $57 $58` 1 byte, `$52 $53` 2,
+    `$4E $4F` 4, `$50 $51` 6. Bongo's "variable length" for `$4E-$53` was the early-exit paths, all the same length.
 
-## Open questions for phase 4
+## Open questions
 
-- Exact arg counts of all VM opcodes (`$26 $27 $4E-$53` are variable-length per Bongo).
-- The ~42 script-bank strings without a direct pointer.
-- Per-site opcode forms for the `$C1` inline strings, and the exact record layouts of the `$C2` tables.
 - Names inserted into text: no name-variable control code seen; the hero name appears literal (リアド).
+- `{f40on}`/`{f20on}` meaning (phase 5 marker build).

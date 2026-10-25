@@ -1,0 +1,79 @@
+[
+ {
+  "id": "ch33.2A4E00",
+  "addr": "2A4E00",
+  "len": 88,
+  "ptrs": [
+   "vm:2A4CD7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だから{nl}私の頭脳は絶対{wait}{clr}{pos:00000000}{full}おまえの{nl}召喚魔法より{nl}よっぽど上等だ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch33.2A4E58",
+  "addr": "2A4E58",
+  "len": 40,
+  "ptrs": [
+   "vm:2A4CDC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どこがやねん{nl}言うてみー！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch33.2A4E80",
+  "addr": "2A4E80",
+  "len": 110,
+  "ptrs": [
+   "vm:2A4CE1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえがバケモノを召喚したおかげで{wait}{clr}{pos:00000000}{full}私が食われるところだったの、忘れたとは言わせんぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch33.2A4EEE",
+  "addr": "2A4EEE",
+  "len": 46,
+  "ptrs": [
+   "vm:2A4CF0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まっ{nl}すぎたことは水に{nl}流そーな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch33.2A4F1C",
+  "addr": "2A4F1C",
+  "len": 46,
+  "ptrs": [
+   "vm:2A4CFB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうはいくか！{nl}まてこのガキ！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch33.2A4F4A",
+  "addr": "2A4F4A",
+  "len": 34,
+  "ptrs": [
+   "vm:2A4D0C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガキ！？{nl}だれがや！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch33.2A4F6C",
+  "addr": "2A4F6C",
+  "len": 162,
+  "ptrs": [
+   "vm:2A4D31"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ケイリナスと{nl}ドリスは{wait}{clr}{pos:00000000}{full}２人で再び修行の{nl}旅に出かけた{wait}{clr}{pos:00000000}{full}しかし二人の話題はいつも{wait}{clr}{pos:00000000}{full}お互いの魔法と頭脳のけなし合いである{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

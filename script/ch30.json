@@ -1,0 +1,246 @@
+[
+ {
+  "id": "ch30.2A3AB7",
+  "addr": "2A3AB7",
+  "len": 102,
+  "ptrs": [
+   "vm:2A363D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そこはギボゲラの{nl}体内じゃ！{wait}{clr}{pos:00000000}{full}心臓じゃ・・・{nl}やつの心臓を攻撃{nl}するのじゃ！！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3B1D",
+  "addr": "2A3B1D",
+  "len": 30,
+  "ptrs": [
+   "vm:2A3650"
+  ],
+  "jp": "{clr}{pos:00000000}{full}邪魔なカベがある{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3B3B",
+  "addr": "2A3B3B",
+  "len": 32,
+  "ptrs": [
+   "vm:2A3663"
+  ],
+  "jp": "{clr}{pos:00000000}{full}破かいしてやろう！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3B5B",
+  "addr": "2A3B5B",
+  "len": 40,
+  "ptrs": [
+   "vm:2A3676"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲボッ、よけいな{nl}ことを！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3B83",
+  "addr": "2A3B83",
+  "len": 84,
+  "ptrs": [
+   "vm:2A37F8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かなり弱ってはいるが・・・{wait}{clr}{pos:00000000}{full}どうしたらとどめが刺せるんだ！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3BD7",
+  "addr": "2A3BD7",
+  "len": 44,
+  "ptrs": [
+   "vm:2A37FD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかったわ！{nl}「破亡の舞」よ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3C03",
+  "addr": "2A3C03",
+  "len": 116,
+  "ptrs": [
+   "vm:2A3810"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも・・・{nl}ギボゲラだけじゃなく、外の世界まで{wait}{clr}{pos:00000000}{full}めちゃくちゃになっちゃったら、どうするんだよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3C77",
+  "addr": "2A3C77",
+  "len": 92,
+  "ptrs": [
+   "vm:2A3823"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いや、ここはギボゲラの世界だ{wait}{clr}{pos:00000000}{full}ヤツを倒すにはそれしかないかもしれない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3CD3",
+  "addr": "2A3CD3",
+  "len": 46,
+  "ptrs": [
+   "vm:2A3836"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やってみるわ！{nl}「破亡の舞」を！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3D01",
+  "addr": "2A3D01",
+  "len": 58,
+  "ptrs": [
+   "vm:2A38CD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゲボゲボゲボゲボ{nl}苦しい・・・{nl}これはなんだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3D3B",
+  "addr": "2A3D3B",
+  "len": 34,
+  "ptrs": [
+   "vm:2A38D2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やったぞ、サリーナ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3D5D",
+  "addr": "2A3D5D",
+  "len": 58,
+  "ptrs": [
+   "vm:2A38E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}で・・でもなんだかぼくらも危ない・・・みたい{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3D97",
+  "addr": "2A3D97",
+  "len": 22,
+  "ptrs": [
+   "vm:2A3A43",
+   "vm:2A3A48"
+  ],
+  "jp": "{clr}{pos:00000000}{full}うあっ！{wait}",
+  "en": "",
+  "box": "lower/upper"
+ },
+ {
+  "id": "ch30.2A3DAD",
+  "addr": "2A3DAD",
+  "len": 40,
+  "ptrs": [
+   "vm:2A3751"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これがギボゲラの{nl}心臓か？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3DD5",
+  "addr": "2A3DD5",
+  "len": 28,
+  "ptrs": [
+   "vm:2A3756"
+  ],
+  "jp": "{clr}{pos:00000000}{full}気持ち悪いぞ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3DF1",
+  "addr": "2A3DF1",
+  "len": 28,
+  "ptrs": [
+   "vm:2A3769"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いくぞみんな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3E0D",
+  "addr": "2A3E0D",
+  "len": 44,
+  "ptrs": [
+   "vm:2A3588"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ２５{nl}{half}　{full}　＜ギボゲラ＞{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch30.2A3E39",
+  "addr": "2A3E39",
+  "len": 30,
+  "ptrs": [
+   "vm:2A3A5B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わしにまかせろ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3E57",
+  "addr": "2A3E57",
+  "len": 32,
+  "ptrs": [
+   "vm:2A3638",
+   "vm:2A3A60"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルデナーラ先生！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3E77",
+  "addr": "2A3E77",
+  "len": 26,
+  "ptrs": [
+   "vm:2A360D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここは・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch30.2A3E91",
+  "addr": "2A3E91",
+  "len": 26,
+  "ptrs": [
+   "vm:2A3612"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここはドコ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch30.2A3EAB",
+  "addr": "2A3EAB",
+  "len": 72,
+  "ptrs": [
+   "vm:2A3625"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラめ！{wait}{clr}{pos:00000000}{full}やつはわしを入れ{nl}なかったのじゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ }
+]

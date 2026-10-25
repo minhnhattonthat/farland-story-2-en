@@ -1,0 +1,915 @@
+[
+ {
+  "id": "ch18.054DD8",
+  "addr": "054DD8",
+  "len": 122,
+  "ptrs": [
+   "vm:05452D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド様ったら{nl}うふン、サリーナ{nl}さんのためなら{wait}{clr}{pos:00000000}{full}たとえ、火の中、水の中ですのね{nl}うらやましいわン{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.054E52",
+  "addr": "054E52",
+  "len": 36,
+  "ptrs": [
+   "vm:054532"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっ、そ、そんな・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.054E76",
+  "addr": "054E76",
+  "len": 92,
+  "ptrs": [
+   "vm:054537"
+  ],
+  "jp": "{clr}{pos:00000000}{full}それに比べて、私はただ後ろからくっついて来た{wait}{clr}{pos:00000000}{full}邪魔ものです{nl}ものねン{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.054ED2",
+  "addr": "054ED2",
+  "len": 64,
+  "ptrs": [
+   "vm:05454A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サークルスさんたらだれもそんなこと{nl}思っていません{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.054F12",
+  "addr": "054F12",
+  "len": 44,
+  "ptrs": [
+   "vm:05454F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}本当かしら？{nl}ねン、リアド様？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.054F3E",
+  "addr": "054F3E",
+  "len": 44,
+  "ptrs": [
+   "vm:054562"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああ、サリーナの{nl}言うとおりだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.054F6A",
+  "addr": "054F6A",
+  "len": 58,
+  "ptrs": [
+   "vm:054575"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でしたら私のお願いも聞いて下さる？{nl}うっふン{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.054FA4",
+  "addr": "054FA4",
+  "len": 26,
+  "ptrs": [
+   "vm:05457A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どんな事だ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.054FBE",
+  "addr": "054FBE",
+  "len": 194,
+  "ptrs": [
+   "vm:05457F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私、これ以上戦いに巻き込まれるのは{wait}{clr}{pos:00000000}{full}イヤなんですもの・・・うふん{wait}{clr}{pos:00000000}{full}せっかくギネビアの帝国軍はやっつけたんですもの{wait}{clr}{pos:00000000}{full}もうしばらく{nl}ゆっくりしていきたいわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055080",
+  "addr": "055080",
+  "len": 58,
+  "ptrs": [
+   "vm:054592"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも・・・そうしている間にもパラケルが・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0550BA",
+  "addr": "0550BA",
+  "len": 120,
+  "ptrs": [
+   "vm:054597"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あらン、それじゃ{nl}サリーナさんお一人でお行きなさいな{wait}{clr}{pos:00000000}{full}うふん、リアド様は私にお・ま・か・せうふン{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055132",
+  "addr": "055132",
+  "len": 22,
+  "ptrs": [
+   "vm:0545AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっ？！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055148",
+  "addr": "055148",
+  "len": 116,
+  "ptrs": [
+   "vm:0545BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ああーん{nl}だってぇン{wait}{clr}{pos:00000000}{full}これだけの人数で{nl}帝国軍に勝てるはずなんて{wait}{clr}{pos:00000000}{full}ないんですものン{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0551BC",
+  "addr": "0551BC",
+  "len": 84,
+  "ptrs": [
+   "vm:0545D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！{nl}おいらたち力を合わせれば{wait}{clr}{pos:00000000}{full}どんな敵もへっちゃらだよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055210",
+  "addr": "055210",
+  "len": 80,
+  "ptrs": [
+   "vm:0545E3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クラウスの言うとおりだ{wait}{clr}{pos:00000000}{full}サークルス{nl}君の力も必要なんだよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055260",
+  "addr": "055260",
+  "len": 24,
+  "ptrs": [
+   "vm:0545F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055278",
+  "addr": "055278",
+  "len": 38,
+  "ptrs": [
+   "vm:0545FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いっしょに来てくれるね？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.05529E",
+  "addr": "05529E",
+  "len": 32,
+  "ptrs": [
+   "vm:054600"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかたないですわン{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0552BE",
+  "addr": "0552BE",
+  "len": 34,
+  "ptrs": [
+   "vm:054613"
+  ],
+  "jp": "{clr}{pos:00000000}{full}でも、もうおそいかも{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0552E0",
+  "addr": "0552E0",
+  "len": 24,
+  "ptrs": [
+   "vm:054626"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0552F8",
+  "addr": "0552F8",
+  "len": 54,
+  "ptrs": [
+   "vm:05466F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}見ての通り{nl}この城は風前の{nl}ともしびじゃ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.05532E",
+  "addr": "05532E",
+  "len": 34,
+  "ptrs": [
+   "vm:054674"
+  ],
+  "jp": "{clr}{pos:00000000}{full}問題はここからですね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055350",
+  "addr": "055350",
+  "len": 40,
+  "ptrs": [
+   "vm:0546BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}このケイリナスにおまかせを{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055378",
+  "addr": "055378",
+  "len": 36,
+  "ptrs": [
+   "vm:0546C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まじめに考えているの？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.05539C",
+  "addr": "05539C",
+  "len": 58,
+  "ptrs": [
+   "vm:0546D5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いいさ、ケイリナスなんでもいいから言ってくれ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0553D6",
+  "addr": "0553D6",
+  "len": 176,
+  "ptrs": [
+   "vm:0546E8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}城の南にある山の上にある湖から、流れ出ている川を{wait}{clr}{pos:00000000}{full}せきとめます{wait}{clr}{pos:00000000}{full}そしていっきにせきをきり、水をおし流します{wait}{clr}{pos:00000000}{full}すると城のまわりは・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055486",
+  "addr": "055486",
+  "len": 24,
+  "ptrs": [
+   "vm:0546FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}水びたし！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.05549E",
+  "addr": "05549E",
+  "len": 90,
+  "ptrs": [
+   "vm:05470E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}つまり、この城を包囲している敵を{wait}{clr}{pos:00000000}{full}水の勢いで混乱させようってこと？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0554F8",
+  "addr": "0554F8",
+  "len": 182,
+  "ptrs": [
+   "vm:054721"
+  ],
+  "jp": "{clr}{pos:00000000}{full}パラケルの魔法使いさんたちに湖にいってもらいます{wait}{clr}{pos:00000000}{full}そして魔法使いさんたちの力で川をせきとめてもらいます{wait}{clr}{pos:00000000}{full}護衛にはシフィル様とリギットくん{nl}が良いかと{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0555AE",
+  "addr": "0555AE",
+  "len": 22,
+  "ptrs": [
+   "vm:054734"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えーっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0555C4",
+  "addr": "0555C4",
+  "len": 52,
+  "ptrs": [
+   "vm:054747"
+  ],
+  "jp": "{clr}{pos:00000000}{full}危険すぎるような気がするのじゃが・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0555F8",
+  "addr": "0555F8",
+  "len": 30,
+  "ptrs": [
+   "vm:054AEA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルデナーラ様！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055616",
+  "addr": "055616",
+  "len": 78,
+  "ptrs": [
+   "vm:054AEF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふわああ、まだ眠りたりん・・・{wait}{clr}{pos:00000000}{full}もう十二年、眠ったのか{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055664",
+  "addr": "055664",
+  "len": 84,
+  "ptrs": [
+   "vm:054AF4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}偉大なるアルデナーラ様{wait}{clr}{pos:00000000}{full}いまはまだ、八年しかたっておりません{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0556B8",
+  "addr": "0556B8",
+  "len": 110,
+  "ptrs": [
+   "vm:054B07"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひゃああーっ{nl}この人{wait}{clr}{pos:00000000}{full}伝説の召喚士の{nl}アルデナーラ先生{nl}かいな？！{wait}{clr}{pos:00000000}{full}うそー！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055726",
+  "addr": "055726",
+  "len": 140,
+  "ptrs": [
+   "vm:054B0C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}にゃ、にゃにー！{nl}８年じゃとぉー！{wait}{clr}{pos:00000000}{full}すると、私の力は{nl}半分しか復活できぬ{wait}{clr}{pos:00000000}{full}しかたない、もどってあと四年眠る{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0557B2",
+  "addr": "0557B2",
+  "len": 66,
+  "ptrs": [
+   "vm:054B1F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ま、まってくださいパラケルの、いや世界の危機なのです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0557F4",
+  "addr": "0557F4",
+  "len": 112,
+  "ptrs": [
+   "vm:054B32"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかっておるが{nl}眠りがたりぬもので{wait}{clr}{pos:00000000}{full}どこまで力を出せるか不安じゃが・・・まあやってみるか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055864",
+  "addr": "055864",
+  "len": 44,
+  "ptrs": [
+   "vm:054B45"
+  ],
+  "jp": "{clr}{pos:00000000}{full}心強い！{nl}ありがとうございます{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055890",
+  "addr": "055890",
+  "len": 126,
+  "ptrs": [
+   "vm:054B58"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なーなー{nl}アルデナーラ先生{wait}{clr}{pos:00000000}{full}うちな、先生にあこがれてますねん{wait}{clr}{pos:00000000}{full}せやから、うちを{nl}弟子にしてや{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.05590E",
+  "addr": "05590E",
+  "len": 24,
+  "ptrs": [
+   "vm:054B6B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グー・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055926",
+  "addr": "055926",
+  "len": 56,
+  "ptrs": [
+   "vm:054B7E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ときどき、急に{nl}眠られるが気に{nl}せんでくれ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.05595E",
+  "addr": "05595E",
+  "len": 32,
+  "ptrs": [
+   "vm:054B91"
+  ],
+  "jp": "{clr}{pos:00000000}{full}めっちゃ不安・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.05597E",
+  "addr": "05597E",
+  "len": 40,
+  "ptrs": [
+   "vm:054BA4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そこの{nl}ホワイトドラゴンよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0559A6",
+  "addr": "0559A6",
+  "len": 28,
+  "ptrs": [
+   "vm:054BB7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なんだっちゃ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0559C2",
+  "addr": "0559C2",
+  "len": 32,
+  "ptrs": [
+   "vm:054BCA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わっ、びっくりした{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0559E2",
+  "addr": "0559E2",
+  "len": 36,
+  "ptrs": [
+   "vm:054BDD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}眠ると元気になるんだね{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055A06",
+  "addr": "055A06",
+  "len": 96,
+  "ptrs": [
+   "vm:054BF0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}見たところ{nl}まだ本当の力に{nl}目覚めておらんな{wait}{clr}{pos:00000000}{full}ふうむ・・・{nl}そこの少年！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055A66",
+  "addr": "055A66",
+  "len": 20,
+  "ptrs": [
+   "vm:054C03"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぼく？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055A7A",
+  "addr": "055A7A",
+  "len": 44,
+  "ptrs": [
+   "vm:054C08"
+  ],
+  "jp": "{clr}{pos:00000000}{full}このドラゴンの背中に乗るのだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055AA6",
+  "addr": "055AA6",
+  "len": 46,
+  "ptrs": [
+   "vm:054C0D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えーと、ぼく高い所はニガテ・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055AD4",
+  "addr": "055AD4",
+  "len": 24,
+  "ptrs": [
+   "vm:054C20"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055AEC",
+  "addr": "055AEC",
+  "len": 72,
+  "ptrs": [
+   "vm:054C25"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかったよ、やってみるよ！{wait}{clr}{pos:00000000}{full}リギット{nl}いいかい？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055B34",
+  "addr": "055B34",
+  "len": 36,
+  "ptrs": [
+   "vm:054C38"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぼくは平気だっちゃよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055B58",
+  "addr": "055B58",
+  "len": 92,
+  "ptrs": [
+   "vm:054C4B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ドラゴンのクラが{nl}たしか宝庫にあったはず{wait}{clr}{pos:00000000}{full}君たちへのおくり物にしよう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055BB4",
+  "addr": "055BB4",
+  "len": 34,
+  "ptrs": [
+   "vm:054C9C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さすがだ{nl}シフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055BD6",
+  "addr": "055BD6",
+  "len": 42,
+  "ptrs": [
+   "vm:054CA1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}えっへへ・・・{nl}かっこいい？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055C00",
+  "addr": "055C00",
+  "len": 44,
+  "ptrs": [
+   "vm:054CB4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}これこそが{nl}ドラゴンライダー！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055C2C",
+  "addr": "055C2C",
+  "len": 36,
+  "ptrs": [
+   "vm:054CC7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}見なおしたよ{nl}シフィル{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055C50",
+  "addr": "055C50",
+  "len": 40,
+  "ptrs": [
+   "vm:054871"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル様！心配しましたよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055C78",
+  "addr": "055C78",
+  "len": 116,
+  "ptrs": [
+   "vm:054876"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ぼくたちだって{nl}一時はどうなるかと思ったんだよ{wait}{clr}{pos:00000000}{full}だって湖についたら敵がまちぶせしてたんだもん{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055CEC",
+  "addr": "055CEC",
+  "len": 46,
+  "ptrs": [
+   "vm:054889"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ま、シフィルにしちゃよくやったよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055D1A",
+  "addr": "055D1A",
+  "len": 30,
+  "ptrs": [
+   "vm:05488E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}どういう意味だよ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055D38",
+  "addr": "055D38",
+  "len": 62,
+  "ptrs": [
+   "vm:0548A1"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はっはは、シフィル様、ネイフルのてれかくしですよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055D76",
+  "addr": "055D76",
+  "len": 46,
+  "ptrs": [
+   "vm:0548B4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リギット、えらかったわ、ナデナデ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055DA4",
+  "addr": "055DA4",
+  "len": 46,
+  "ptrs": [
+   "vm:0548C7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゴロゴロ・・・もっとほめてっちゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055DD2",
+  "addr": "055DD2",
+  "len": 54,
+  "ptrs": [
+   "vm:0548DA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}敵がまちぶせしていただと？{nl}どうしてだ？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055E08",
+  "addr": "055E08",
+  "len": 86,
+  "ptrs": [
+   "vm:054D04"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとうございます{wait}{clr}{pos:00000000}{full}これで帝国に反撃{nl}することができますじゃ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055E5E",
+  "addr": "055E5E",
+  "len": 36,
+  "ptrs": [
+   "vm:054D09"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿{nl}わしも行くぞ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055E82",
+  "addr": "055E82",
+  "len": 98,
+  "ptrs": [
+   "vm:054D1C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとうございます{wait}{clr}{pos:00000000}{full}俺も伝説の召喚士{nl}の助けを借りれる{nl}なんて光栄で・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055EE4",
+  "addr": "055EE4",
+  "len": 24,
+  "ptrs": [
+   "vm:054D2F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}グー・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055EFC",
+  "addr": "055EFC",
+  "len": 58,
+  "ptrs": [
+   "vm:054D42"
+  ],
+  "jp": "{clr}{pos:00000000}{full}戦いで少々、おつかれのようだ{nl}気にせんでくれ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.055F36",
+  "addr": "055F36",
+  "len": 140,
+  "ptrs": [
+   "vm:054D55"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はあ{nl}しかし、パラケル王{wait}{clr}{pos:00000000}{full}俺にはどうしても{nl}気になることがあります{wait}{clr}{pos:00000000}{full}サリーナの一族{nl}ケントゥーネのことです{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.055FC2",
+  "addr": "055FC2",
+  "len": 116,
+  "ptrs": [
+   "vm:054D68"
+  ],
+  "jp": "{clr}{pos:00000000}{full}この娘が・・・{wait}{clr}{pos:00000000}{full}では、ケントゥーネの生き残りがいるといううわさは{wait}{clr}{pos:00000000}{full}本当じゃったのか{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.056036",
+  "addr": "056036",
+  "len": 90,
+  "ptrs": [
+   "vm:054D7B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}生き残り・・・{wait}{clr}{pos:00000000}{full}では、私以外の一族の人たちはどうなったのですか！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.056090",
+  "addr": "056090",
+  "len": 194,
+  "ptrs": [
+   "vm:054D80"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あの一族は、この国の王であるわしも{nl}よくは知らんのだ{wait}{clr}{pos:00000000}{full}なにしろ恐るべき力を持つ神聖な一族といわれておってな{wait}{clr}{pos:00000000}{full}たしか北の谷に、ケントゥーネの村があるのじゃが・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.056152",
+  "addr": "056152",
+  "len": 84,
+  "ptrs": [
+   "vm:054D93"
+  ],
+  "jp": "{clr}{pos:00000000}{full}もし他のケントゥーネがいて{wait}{clr}{pos:00000000}{full}その舞が帝国に利用されたら・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0561A6",
+  "addr": "0561A6",
+  "len": 38,
+  "ptrs": [
+   "vm:054DA6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、行ってみましょう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.0561CC",
+  "addr": "0561CC",
+  "len": 32,
+  "ptrs": [
+   "vm:05475A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}がんばれシフィル！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.0561EC",
+  "addr": "0561EC",
+  "len": 48,
+  "ptrs": [
+   "vm:05476D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わ、わかったよ{nl}行きゃーいいんだろ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch18.05621C",
+  "addr": "05621C",
+  "len": 28,
+  "ptrs": [
+   "vm:054780"
+  ],
+  "jp": "{clr}{pos:00000000}{full}がんばるちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch18.056238",
+  "addr": "056238",
+  "len": 50,
+  "ptrs": [
+   "vm:054DCD"
+  ],
+  "jp": "{full}町人{nl}　また戦争だ{wait}{nl}　恐ろしや、恐ろし　や{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch18.05626A",
+  "addr": "05626A",
+  "len": 40,
+  "ptrs": [
+   "vm:0544A8"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１４{nl}　＜パラケル城＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

@@ -14,7 +14,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Paths
 - Original ROM: `rom/Farland Story 2 (Japan).sfc` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). HiROM+FastROM (map $31), 3 MiB, 8 KiB SRAM, no copier header.
 - Emulator: this repo's own MesenCE in `tools/mesen/` (release 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip, via `$SKILL/scripts/fetch_emu.py mesen`; gitignored; GUI settings with key mappings in `tools/emu-config/mesen-settings.json`, copy to `tools/mesen/settings.json` on a fresh clone). Savestates: `work/states/`.
-- Text: `script/` (format decided in phase 4). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/*.json` (one file per chapter/table; fields and pointer kinds: `docs/re/text.md` §Extraction; `tools/extract.py --write` never overwrites). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 - `tools/tbl.py`, `bps.py`, `romdiff.py` are copies from `$SKILL/scripts/` so a clone builds without the skill.
 
 ## Rulings

@@ -1,0 +1,227 @@
+[
+ {
+  "id": "ch25.05BA5B",
+  "addr": "05BA5B",
+  "len": 58,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}トンネルをぬけたリアドたちは急ぎ帝都にむかう{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch25.05BA95",
+  "addr": "05BA95",
+  "len": 58,
+  "ptrs": [
+   "vm:05B889"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ずいぶんおそかったな、まちかねたぞ{nl}リアド！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BACF",
+  "addr": "05BACF",
+  "len": 88,
+  "ptrs": [
+   "vm:05B88E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}師匠！{nl}いやゾルディン将軍お願いです{wait}{clr}{pos:00000000}{full}俺たちに協力して{nl}下さい！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BB27",
+  "addr": "05BB27",
+  "len": 54,
+  "ptrs": [
+   "vm:05B893"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド、あまいところはまだ直っていないな{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BB5D",
+  "addr": "05BB5D",
+  "len": 112,
+  "ptrs": [
+   "vm:05B898"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なぜです？{nl}もう帝国はおしまいです{wait}{clr}{pos:00000000}{full}各地での反乱、いかにあなたでもおさえることはできない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BBCD",
+  "addr": "05BBCD",
+  "len": 30,
+  "ptrs": [
+   "vm:05B89D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私は帝国の将軍だ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BBEB",
+  "addr": "05BBEB",
+  "len": 78,
+  "ptrs": [
+   "vm:05B8A2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あなたなら知っているはずだ{wait}{clr}{pos:00000000}{full}父のへんぼうの{nl}わけを！！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BC39",
+  "addr": "05BC39",
+  "len": 48,
+  "ptrs": [
+   "vm:05B8A7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}残りの話は、こいつでケリをつけよう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BC69",
+  "addr": "05BC69",
+  "len": 38,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}ザコでは相手にならんわ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch25.05BC8F",
+  "addr": "05BC8F",
+  "len": 40,
+  "ptrs": [
+   "vm:05B96C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺はあなたをこえてみせる！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BCB7",
+  "addr": "05BCB7",
+  "len": 28,
+  "ptrs": [
+   "vm:05B971"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうこなくては{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BCD3",
+  "addr": "05BCD3",
+  "len": 22,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}くそっ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch25.05BCE9",
+  "addr": "05BCE9",
+  "len": 30,
+  "ptrs": [
+   "vm:05B9F0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}見事だ、リアド！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BD07",
+  "addr": "05BD07",
+  "len": 46,
+  "ptrs": [
+   "vm:05B9F5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゾルディン将軍！いや、師匠・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BD35",
+  "addr": "05BD35",
+  "len": 226,
+  "ptrs": [
+   "vm:05B9FA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リ、リアド{nl}皇帝は・・・{wait}{clr}{pos:00000000}{full}我らが主君とあがめていた・・・皇帝は・・{wait}{clr}{pos:00000000}{full}変わってしまわれた・・・{wait}{clr}{pos:00000000}{full}私にできることは{nl}おまえに{nl}{wait}{clr}{pos:00000000}{full}ブレイクストームを覚えさせることだけだった・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BE17",
+  "addr": "05BE17",
+  "len": 26,
+  "ptrs": [
+   "vm:05B9FF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上は一体？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BE31",
+  "addr": "05BE31",
+  "len": 56,
+  "ptrs": [
+   "vm:05BA04"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ギボゲラに・・・気をつけ・・・やつは・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch25.05BE69",
+  "addr": "05BE69",
+  "len": 30,
+  "ptrs": [
+   "vm:05BA09"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ゾルディン師匠！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch25.05BE87",
+  "addr": "05BE87",
+  "len": 42,
+  "ptrs": [
+   "vm:05BA37"
+  ],
+  "jp": "{full}町人{nl}　モンダニアが帝国　を裹切った{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch25.05BEB1",
+  "addr": "05BEB1",
+  "len": 52,
+  "ptrs": [
+   "vm:05BA50"
+  ],
+  "jp": "{full}町人{nl}　また戦争だ{nl}　恐ろしや、恐ろ{wait}{nl}　しや{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch25.05BEE5",
+  "addr": "05BEE5",
+  "len": 42,
+  "ptrs": [
+   "vm:05B804"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ２０{nl}{half}　{full}　　＜師弟＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

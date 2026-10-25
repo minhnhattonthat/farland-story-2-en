@@ -1,0 +1,721 @@
+[
+ {
+  "id": "ch03.062BE9",
+  "addr": "062BE9",
+  "len": 148,
+  "ptrs": [
+   "vm:062591"
+  ],
+  "jp": "{clr}{pos:00000000}{full}やがて陸は見えなくなり航海が始まった{wait}{clr}{pos:00000000}{full}奇跡的にも海はずっとおだやかなままで{wait}{clr}{pos:00000000}{full}フェルサリア王国に上陸することができた{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch03.062C7D",
+  "addr": "062C7D",
+  "len": 38,
+  "ptrs": [
+   "vm:06269F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ウーッ、やっと着いたガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062CA3",
+  "addr": "062CA3",
+  "len": 92,
+  "ptrs": [
+   "vm:0626A4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まったく・・・{wait}{clr}{pos:00000000}{full}はしゃぎすぎるからそんなに船よいするんだぞクラウス！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.062CFF",
+  "addr": "062CFF",
+  "len": 46,
+  "ptrs": [
+   "vm:06274A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}フェルサリアへようこそ、リアド様{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.062D2D",
+  "addr": "062D2D",
+  "len": 26,
+  "ptrs": [
+   "vm:06274F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バーナサス！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062D47",
+  "addr": "062D47",
+  "len": 34,
+  "ptrs": [
+   "vm:062762"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何者だ{nl}こいつは！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062D69",
+  "addr": "062D69",
+  "len": 96,
+  "ptrs": [
+   "vm:062775"
+  ],
+  "jp": "{clr}{pos:00000000}{full}父上に悪知恵をふきこんだギボゲラの手下さ・・・{wait}{clr}{pos:00000000}{full}貴様が{nl}なぜこんな所へ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062DC9",
+  "addr": "062DC9",
+  "len": 180,
+  "ptrs": [
+   "vm:062788"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキッ{nl}皇帝陛下からの{nl}伝言を伝えにです{wait}{clr}{pos:00000000}{full}リアド様、皇帝は{nl}あなたをゆるして{nl}下さるそうです{wait}{clr}{pos:00000000}{full}ぜひ帝国へ{nl}おもどり下さい{wait}{clr}{pos:00000000}{full}クキックキッ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.062E7D",
+  "addr": "062E7D",
+  "len": 24,
+  "ptrs": [
+   "vm:06278D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}本当か！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062E95",
+  "addr": "062E95",
+  "len": 44,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}父上はわかってくださったのか！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.062EC1",
+  "addr": "062EC1",
+  "len": 174,
+  "ptrs": [
+   "vm:062792"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ただし{nl}条件がありましてね{wait}{clr}{pos:00000000}{full}そちらにいる{nl}サリーナさんを{wait}{clr}{pos:00000000}{full}おとなしく私に{nl}引き渡して{nl}下されば・・・{wait}{clr}{pos:00000000}{full}ということですよ{nl}クキキキッ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.062F6F",
+  "addr": "062F6F",
+  "len": 78,
+  "ptrs": [
+   "vm:062797"
+  ],
+  "jp": "{clr}{pos:00000000}{full}断る！{wait}{clr}{pos:00000000}{full}父上に伝えろ{nl}こうなったら俺は{nl}徹底的に戦う！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062FBD",
+  "addr": "062FBD",
+  "len": 38,
+  "ptrs": [
+   "vm:0627AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルルッ{nl}おいらだって！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.062FE3",
+  "addr": "062FE3",
+  "len": 22,
+  "ptrs": [
+   "vm:0627BD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ワスも！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.062FF9",
+  "addr": "062FF9",
+  "len": 22,
+  "ptrs": [
+   "vm:0627D0"
+  ],
+  "jp": "{clr}{pos:00000000}{full}私もよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.06300F",
+  "addr": "06300F",
+  "len": 210,
+  "ptrs": [
+   "vm:0627E3"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキッ・・・{nl}よくもこうバカが{nl}そろったものです{wait}{clr}{pos:00000000}{full}リアド様・・・{wait}{clr}{pos:00000000}{full}いや、リアド！{wait}{clr}{pos:00000000}{full}おまえは{nl}今から皇子では{nl}ありません！{wait}{clr}{pos:00000000}{full}ただの反逆者・・・いや、罪人です{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.0630E1",
+  "addr": "0630E1",
+  "len": 20,
+  "ptrs": [
+   "vm:0627F6"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何！？{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.0630F5",
+  "addr": "0630F5",
+  "len": 142,
+  "ptrs": [
+   "vm:0627FB"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキッ、いまさらとぼけるか！{wait}{clr}{pos:00000000}{full}フェルサリアを{nl}乗っ取るために{nl}村を襲ったことは{wait}{clr}{pos:00000000}{full}アーク王も{nl}知っているぞ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063183",
+  "addr": "063183",
+  "len": 102,
+  "ptrs": [
+   "vm:06280E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そのとおり！{nl}リアドとやら{wait}{clr}{pos:00000000}{full}よくもフェルサリアの罪もない村人を傷つけてくれたな{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.0631E9",
+  "addr": "0631E9",
+  "len": 58,
+  "ptrs": [
+   "vm:062821"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルルッ、俺たち{nl}たった今上陸したとこだよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063223",
+  "addr": "063223",
+  "len": 82,
+  "ptrs": [
+   "vm:062834"
+  ],
+  "jp": "{clr}{pos:00000000}{full}バーナサス{wait}{clr}{pos:00000000}{full}貴様、先回りして{nl}俺たちを悪者に{nl}したてたな！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063275",
+  "addr": "063275",
+  "len": 136,
+  "ptrs": [
+   "vm:062847"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキッ・・・{nl}何のことやら{nl}クキックキッ{wait}{clr}{pos:00000000}{full}こうるさい{nl}悪党どもめ！{wait}{clr}{pos:00000000}{full}さっ{nl}やっつけて下さい{nl}カイさん！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.0632FD",
+  "addr": "0632FD",
+  "len": 28,
+  "ptrs": [
+   "vm:06285A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}まかせておけ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063319",
+  "addr": "063319",
+  "len": 58,
+  "ptrs": [
+   "vm:0628AA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}サリーナだけは生け捕りにしてくださいクキキッ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063353",
+  "addr": "063353",
+  "len": 46,
+  "ptrs": [
+   "vm:0628AF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}よかろう{nl}悪人ども、かくごしろ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063381",
+  "addr": "063381",
+  "len": 100,
+  "ptrs": [
+   "vm:0628C2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}くっ・・・{nl}面倒だ{nl}来るならこい！{wait}{clr}{pos:00000000}{full}倒してから{nl}ゆっくりなっとく{nl}させてやる{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.0633E5",
+  "addr": "0633E5",
+  "len": 64,
+  "ptrs": [
+   "vm:062921"
+  ],
+  "jp": "{clr}{pos:00000000}{full}なかなかやるな{wait}{clr}{pos:00000000}{full}悪人には{nl}おしいウデだ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063425",
+  "addr": "063425",
+  "len": 86,
+  "ptrs": [
+   "vm:062926"
+  ],
+  "jp": "{clr}{pos:00000000}{full}俺たちは{nl}たった今上陸した{nl}ばかりで{wait}{clr}{pos:00000000}{full}村を{nl}襲ってなどいない！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.06347B",
+  "addr": "06347B",
+  "len": 38,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}本当よ、信じてください！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.0634A1",
+  "addr": "0634A1",
+  "len": 160,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}しかし・・・ええい信じるか！{wait}{clr}{pos:00000000}{full}アンデッドをあやつって村を襲った魔術使いのことだ・・・{wait}{clr}{pos:00000000}{full}私をだますために術を使ったにちがいない！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.063541",
+  "addr": "063541",
+  "len": 130,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}どこまでガンコなんだ、まったく・・・{wait}{clr}{pos:00000000}{full}ええい面倒だ{nl}決着をつけてやる！{wait}{clr}{pos:00000000}{full}サリーナ、さがっていろ！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.0635C3",
+  "addr": "0635C3",
+  "len": 30,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}まって、リアド！{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.0635E1",
+  "addr": "0635E1",
+  "len": 50,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}なにをしている！{nl}こ、これも魔法か？{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.063613",
+  "addr": "063613",
+  "len": 22,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}心の舞だ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.063629",
+  "addr": "063629",
+  "len": 158,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}心の・・・舞だと？{wait}{clr}{pos:00000000}{full}言葉にならない思いを相手に伝えること{wait}{clr}{pos:00000000}{full}のできる不思議な舞さ・・・{wait}{clr}{pos:00000000}{full}サリーナの得意な舞のひとつだ{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.0636C7",
+  "addr": "0636C7",
+  "len": 92,
+  "ptrs": [],
+  "jp": "{clr}{pos:00000000}{full}ああ・・・なんて安らかな気持ちになれるんだ{wait}{clr}{pos:00000000}{full}この舞を見ていると・・・{wait}",
+  "en": "",
+  "unused": true
+ },
+ {
+  "id": "ch03.063723",
+  "addr": "063723",
+  "len": 84,
+  "ptrs": [
+   "vm:062939"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイさん！何をしているんです！{wait}{clr}{pos:00000000}{full}さっさと{nl}殺して下さいよっ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063777",
+  "addr": "063777",
+  "len": 94,
+  "ptrs": [
+   "vm:06293E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}このリアドとかいうヤツからは{wait}{clr}{pos:00000000}{full}アンデッド使いの邪悪な気が感じられ{nl}ない{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.0637D5",
+  "addr": "0637D5",
+  "len": 56,
+  "ptrs": [
+   "vm:062951"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうよ！リアドは{nl}そんな人じゃありません！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.06380D",
+  "addr": "06380D",
+  "len": 82,
+  "ptrs": [
+   "vm:062964"
+  ],
+  "jp": "{clr}{pos:00000000}{full}そうだガオ！{wait}{clr}{pos:00000000}{full}勉強がキライだから魔法は覚えてないんだガオ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.06385F",
+  "addr": "06385F",
+  "len": 32,
+  "ptrs": [
+   "vm:062977"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こ、こら、クラウス{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.06387F",
+  "addr": "06387F",
+  "len": 146,
+  "ptrs": [
+   "vm:06297C"
+  ],
+  "jp": "{clr}{pos:00000000}{full}む、どうだろう{nl}バーナサス殿{wait}{clr}{pos:00000000}{full}私だけではなく、この者たちをアーク王に会わせてみて{wait}{clr}{pos:00000000}{full}王に判断してもらうというのは？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063911",
+  "addr": "063911",
+  "len": 160,
+  "ptrs": [
+   "vm:06298F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}困りましたねぇ{nl}カイさん{wait}{clr}{pos:00000000}{full}私の言うことを{nl}聞けないと・・・{wait}{clr}{pos:00000000}{full}ならばあなたも反逆者・・・{wait}{clr}{pos:00000000}{full}帝国を敵に回すことになるぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.0639B1",
+  "addr": "0639B1",
+  "len": 22,
+  "ptrs": [
+   "vm:062994"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何っ！？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.0639C7",
+  "addr": "0639C7",
+  "len": 134,
+  "ptrs": [
+   "vm:062999"
+  ],
+  "jp": "{clr}{pos:00000000}{full}クキキッ・・・{nl}死ね死ねぇ！{wait}{clr}{pos:00000000}{full}こうなったら{nl}みな殺しよ！{wait}{clr}{pos:00000000}{full}いけ、おまえたち！私は消えさせてもらいます{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063A4D",
+  "addr": "063A4D",
+  "len": 60,
+  "ptrs": [
+   "vm:062B21"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイさん、わかってもらえてありがとうございます{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063A89",
+  "addr": "063A89",
+  "len": 52,
+  "ptrs": [
+   "vm:062B26"
+  ],
+  "jp": "{clr}{pos:00000000}{full}いえいえ、我々の方こそおゆるしください{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063ABD",
+  "addr": "063ABD",
+  "len": 180,
+  "ptrs": [
+   "vm:062B2B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}別に{nl}気にしていませんよ{wait}{clr}{pos:00000000}{full}我々がそちらの立場だったら{wait}{clr}{pos:00000000}{full}まちがいなく同じことをしていたと思いますよ{wait}{clr}{pos:00000000}{full}それよりもアーク王に引き合わせください{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063B71",
+  "addr": "063B71",
+  "len": 102,
+  "ptrs": [
+   "vm:062B30"
+  ],
+  "jp": "{clr}{pos:00000000}{full}はい、わかりました私には気を使わなくても横いません{wait}{clr}{pos:00000000}{full}呼び捨てにされても結横です{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063BD7",
+  "addr": "063BD7",
+  "len": 44,
+  "ptrs": [
+   "vm:062B35"
+  ],
+  "jp": "{clr}{pos:00000000}{full}わかった、それでは行こう、カイ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063C03",
+  "addr": "063C03",
+  "len": 44,
+  "ptrs": [
+   "vm:062B3A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こちらです、ついて来てください{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063C2F",
+  "addr": "063C2F",
+  "len": 98,
+  "ptrs": [
+   "vm:062B3F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}アルタバ！{nl}クラウス！{wait}{clr}{pos:00000000}{full}ヴァラカナ、サリーナも、行くぞ！フェルサリア城へ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063C91",
+  "addr": "063C91",
+  "len": 20,
+  "ptrs": [
+   "vm:062B52"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガオ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063CA5",
+  "addr": "063CA5",
+  "len": 90,
+  "ptrs": [
+   "vm:062B65"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あら？アルタバさんどうしたの？{wait}{clr}{pos:00000000}{full}なんだか顔色がとっても悪いわ・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063CFF",
+  "addr": "063CFF",
+  "len": 34,
+  "ptrs": [
+   "vm:062B78"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふええーん{nl}切ないわ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063D21",
+  "addr": "063D21",
+  "len": 32,
+  "ptrs": [
+   "vm:062B8B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だ、だきつくなっ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063D41",
+  "addr": "063D41",
+  "len": 94,
+  "ptrs": [
+   "vm:062B90"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ワス、海の男・・・{wait}{clr}{pos:00000000}{full}だから海を離れるとなんだかとっても{nl}さみしいのダス{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063D9F",
+  "addr": "063D9F",
+  "len": 56,
+  "ptrs": [
+   "vm:062B95"
+  ],
+  "jp": "{clr}{pos:00000000}{full}だからって、なぜ私にだきつかねばならんのだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063DD7",
+  "addr": "063DD7",
+  "len": 92,
+  "ptrs": [
+   "vm:062B9A"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さみしいから、だれか強いお方になぐさめてほしいのダス{wait}{clr}{pos:00000000}{full}お・ね・が・い{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063E33",
+  "addr": "063E33",
+  "len": 32,
+  "ptrs": [
+   "vm:062B9F"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さ、さむけが・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063E53",
+  "addr": "063E53",
+  "len": 48,
+  "ptrs": [
+   "vm:062BB2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あの二人はほっといて、先へ急ぐぞ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063E83",
+  "addr": "063E83",
+  "len": 40,
+  "ptrs": [
+   "vm:062BB7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こっ、こら、まってくれー！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063EAB",
+  "addr": "063EAB",
+  "len": 84,
+  "ptrs": [
+   "vm:0629F8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}リアド殿！{wait}{clr}{pos:00000000}{full}本当のことはわからないが、あなた方を信じてみよう{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch03.063EFF",
+  "addr": "063EFF",
+  "len": 24,
+  "ptrs": [
+   "vm:0629FD"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとう{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063F17",
+  "addr": "063F17",
+  "len": 54,
+  "ptrs": [
+   "vm:0626B7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}船は帝国に見つからないように隠しとくっス{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch03.063F4D",
+  "addr": "063F4D",
+  "len": 64,
+  "ptrs": [
+   "vm:062BDE"
+  ],
+  "jp": "{full}町人{nl}　今の王様になって　から戦がおこっ{wait}{nl}　たことがない{wait}",
+  "en": "",
+  "box": "centre"
+ },
+ {
+  "id": "ch03.063F8D",
+  "addr": "063F8D",
+  "len": 46,
+  "ptrs": [
+   "vm:06258C"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ　３{nl}{half}　{full}＜フェルサリア＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]

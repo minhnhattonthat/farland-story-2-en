@@ -1,0 +1,255 @@
+[
+ {
+  "id": "ch15.050B12",
+  "addr": "050B12",
+  "len": 46,
+  "ptrs": [
+   "vm:050933"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ここが商業のさかんな国キンドアだ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050B40",
+  "addr": "050B40",
+  "len": 26,
+  "ptrs": [
+   "vm:050938"
+  ],
+  "jp": "{clr}{pos:00000000}{full}帝国軍だわ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050B5A",
+  "addr": "050B5A",
+  "len": 36,
+  "ptrs": [
+   "vm:05094B"
+  ],
+  "jp": "{clr}{pos:00000000}{full}かかって{nl}こいっちゃ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050B7E",
+  "addr": "050B7E",
+  "len": 26,
+  "ptrs": [
+   "vm:05095E"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ガルルルッ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050B98",
+  "addr": "050B98",
+  "len": 64,
+  "ptrs": [
+   "vm:0507BA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}さあさあ買った買った、イキのいいのがそろってるよ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050BD8",
+  "addr": "050BD8",
+  "len": 32,
+  "ptrs": [
+   "vm:0507BF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おなかすいたガオ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050BF8",
+  "addr": "050BF8",
+  "len": 52,
+  "ptrs": [
+   "vm:0507C4"
+  ],
+  "jp": "{clr}{pos:00000000}{full}安いよ安い！子供{nl}一人１２０ゴールド！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050C2C",
+  "addr": "050C2C",
+  "len": 28,
+  "ptrs": [
+   "vm:0507D7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}あっ、あれは！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050C48",
+  "addr": "050C48",
+  "len": 24,
+  "ptrs": [
+   "vm:050828"
+  ],
+  "jp": "{clr}{pos:00000000}{full}助けてえ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050C60",
+  "addr": "050C60",
+  "len": 24,
+  "ptrs": [
+   "vm:05082D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}シフィル！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050C78",
+  "addr": "050C78",
+  "len": 24,
+  "ptrs": [
+   "vm:05087D"
+  ],
+  "jp": "{clr}{pos:00000000}{full}こいつめ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050C90",
+  "addr": "050C90",
+  "len": 30,
+  "ptrs": [
+   "vm:050882"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ひぇー、お助けを{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050CAE",
+  "addr": "050CAE",
+  "len": 64,
+  "ptrs": [
+   "vm:0508E5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ありがとうネイフルぼくね、ぼく・・・しくしく・・・{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050CEE",
+  "addr": "050CEE",
+  "len": 28,
+  "ptrs": [
+   "vm:0508EA"
+  ],
+  "jp": "{clr}{pos:00000000}{full}泣くな男だろ！{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050D0A",
+  "addr": "050D0A",
+  "len": 100,
+  "ptrs": [
+   "vm:050A23"
+  ],
+  "jp": "{clr}{pos:00000000}{full}おまえたちは・・・生きていたのか？{wait}{clr}{pos:00000000}{full}それでは{nl}ここでとどめを{nl}刺してやるわ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050D6E",
+  "addr": "050D6E",
+  "len": 82,
+  "ptrs": [
+   "vm:050AA2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}き、貴様・・・{nl}私を倒したとこで{wait}{clr}{pos:00000000}{full}もう世界は帝国の{nl}ものよ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050DC0",
+  "addr": "050DC0",
+  "len": 18,
+  "ptrs": [
+   "vm:050AA7"
+  ],
+  "jp": "{clr}{pos:00000000}{full}何？{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050DD2",
+  "addr": "050DD2",
+  "len": 84,
+  "ptrs": [
+   "vm:050AAC"
+  ],
+  "jp": "{clr}{pos:00000000}{full}ふふ、ふ・・・{nl}トロイヤも、もはや帝国のもの{wait}{clr}{pos:00000000}{full}帝国ばんざい！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050E26",
+  "addr": "050E26",
+  "len": 40,
+  "ptrs": [
+   "vm:050ABF"
+  ],
+  "jp": "{clr}{pos:00000000}{full}最後まで、いやなヤツだガオ{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050E4E",
+  "addr": "050E4E",
+  "len": 52,
+  "ptrs": [
+   "vm:050AD2"
+  ],
+  "jp": "{clr}{pos:00000000}{full}しかし重要な情報を聞いたことはたしかだ{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050E82",
+  "addr": "050E82",
+  "len": 110,
+  "ptrs": [
+   "vm:050AE5"
+  ],
+  "jp": "{clr}{pos:00000000}{full}南方最大の国、トロイヤか・・・よし！トロイヤへ行こう{wait}{clr}{pos:00000000}{full}トロイヤを帝国の手から救うんだ！{wait}",
+  "en": "",
+  "box": "upper"
+ },
+ {
+  "id": "ch15.050EF0",
+  "addr": "050EF0",
+  "len": 84,
+  "ptrs": [
+   "vm:050AF8"
+  ],
+  "jp": "{clr}{pos:00000000}{full}カイさんやアルタバさんは{wait}{clr}{pos:00000000}{full}どこへ行ってしまったのかしら・・・{wait}",
+  "en": "",
+  "box": "lower"
+ },
+ {
+  "id": "ch15.050F44",
+  "addr": "050F44",
+  "len": 44,
+  "ptrs": [
+   "vm:0506CE"
+  ],
+  "jp": "{full}　ＳＴＡＧＥ１１{nl}{half}　{full}　＜キンドア＞{wait}",
+  "en": "",
+  "box": "centre"
+ }
+]
