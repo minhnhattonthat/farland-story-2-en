@@ -12,6 +12,7 @@
 --jp also shoots the scenes on the original ROM (once; <out>/scenes_jp). About 25 minutes with 4 jobs.
 """
 import argparse
+import hashlib
 import os
 import shutil
 import subprocess
@@ -65,6 +66,8 @@ def main():
         manifest.write_text("".join(r + "\n" for r in rows if (ROOT / r.split("\t")[1]).exists()
                                     or Path(r.split("\t")[1]).exists()), encoding="utf-8")
     step(os.path.join(SCRIPTS, "qa_gate.py"), "init", manifest, out / "sheets", "--glob", "*.png")
+    if not skip - {""}:  # tools/release.py refuses a build this full tour didn't shoot
+        (out / "rom.sha1").write_text(hashlib.sha1(Path(a.rom).read_bytes()).hexdigest() + "\n")
 
 
 if __name__ == "__main__":
