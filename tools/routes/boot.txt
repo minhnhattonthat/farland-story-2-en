@@ -1,0 +1,4 @@
+# Cold boot: Banpresto/TGL logos and intro (~1000 frames) to the title screen, then Start opens the New/Continue menu
+1000 -
+6 start
+300 -

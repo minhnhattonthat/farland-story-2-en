@@ -6,6 +6,30 @@
   "permissions": {
     "deny": ["WebFetch(domain:tcrf.net)"]
   },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$HOME/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game/scripts/hooks/guard_bash.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "compact|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"print('Context was reset. Before continuing, re-read AGENTS.md (or CLAUDE.md) and docs/status.md; resume from the next item there.')\""
+          }
+        ]
+      }
+    ]
+  },
   "extraKnownMarketplaces": {
     "retro-translation": {
       "source": { "source": "github", "repo": "minhnhattonthat/translate-retro-game" },

@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). 3,145,728 bytes, no copier header.
+fc2c596cc601e7d7dbb4abc7262bc91b97a5ceb7  rom/Farland Story 2 (Japan).sfc
