@@ -7,7 +7,7 @@
    "vm:06DD29"
   ],
   "jp": "{clr}{pos:00000000}{full}やるなリアド！{wait}{clr}{pos:00000000}{full}いい知恵の持ち主を味方につけたようだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Not bad, Riad!{wait}{clr}{pos:00000000}{full}Looks like you've got a clever one on your side.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:06DD2E"
   ],
   "jp": "{clr}{pos:00000000}{full}いやあ{nl}それほどでも{wait}{clr}{pos:00000000}{full}敵ながら見る目の{nl}あるやつだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, it was nothing, really.{wait}{clr}{pos:00000000}{full}For an enemy, he has a good eye.{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06DDEA"
   ],
   "jp": "{clr}{pos:00000000}{full}ウェイス！{nl}最後は正々堂々と{nl}{wait}{clr}{pos:00000000}{full}俺たち二人で{nl}一騎打ちだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wace! Let's end this fair and square:{wait}{clr}{pos:00000000}{full}a duel, just the two of us!{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06DDEF"
   ],
   "jp": "{clr}{pos:00000000}{full}クッククク・・・{nl}その必要はない{wait}{clr}{pos:00000000}{full}決着はすでについている{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh heh heh heh... There's no need.{wait}{clr}{pos:00000000}{full}The outcome is already decided.{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06DDF4"
   ],
   "jp": "{clr}{pos:00000000}{full}な、なに！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wh-what?!{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:06E144"
   ],
   "jp": "{clr}{pos:00000000}{full}おまえたちもなかなかよく戦ったよ{wait}{clr}{pos:00000000}{full}クッククク・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You all put up quite a fight.{wait}{clr}{pos:00000000}{full}Heh heh heh heh...{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:06E149"
   ],
   "jp": "{clr}{pos:00000000}{full}く、くそうっ！{nl}サリーナーっ！{nl}手をこっちへ・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}D-damn it! Serenaaa! Give me your hand...{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:06E15C"
   ],
   "jp": "{clr}{pos:00000000}{full}きゃああ！{nl}リアド！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Aaaah! Riad!{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:06E16F"
   ],
   "jp": "{clr}{pos:00000000}{full}さらばだ、リアド{wait}{clr}{pos:00000000}{full}こんな別れ方をしようとはな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Farewell, Riad.{wait}{clr}{pos:00000000}{full}Who'd have thought we'd part like this.{wait}",
   "box": "lower"
  },
  {
@@ -106,7 +106,7 @@
    "vm:06E182"
   ],
   "jp": "{clr}{pos:00000000}{full}うあああああっ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Waaaaaah...{wait}",
   "box": "upper"
  }
 ]

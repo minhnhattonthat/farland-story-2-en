@@ -41,7 +41,7 @@
    "imm:01E96B/01E976"
   ],
   "jp": "のこうげき！",
-  "en": ""
+  "en": " attacks!"
  },
  {
   "id": "battle.01E9E0",
@@ -51,7 +51,7 @@
    "imm:01E987/01E992"
   ],
   "jp": "のはんげき！",
-  "en": ""
+  "en": " counters!"
  },
  {
   "id": "battle.01E9EE",
@@ -61,7 +61,7 @@
    "imm:01E9A3/01E9AE"
   ],
   "jp": "のかいふくまほう！",
-  "en": ""
+  "en": " casts healing magic!"
  },
  {
   "id": "battle.01EB0C",
@@ -71,7 +71,7 @@
    "imm:01EA99/01EAA4"
   ],
   "jp": "に{nl}",
-  "en": ""
+  "en": " takes{nl}"
  },
  {
   "id": "battle.01EB12",
@@ -81,7 +81,7 @@
    "imm:01EADD/01EAE8"
   ],
   "jp": "ダメージあたえた",
-  "en": ""
+  "en": " damage!"
  },
  {
   "id": "battle.01EB24",
@@ -91,7 +91,7 @@
    "imm:01EA49/01EA54"
   ],
   "jp": "クリティカルヒット！{pos:00000100}",
-  "en": ""
+  "en": "Critical hit!{pos:00000100}"
  },
  {
   "id": "battle.01EBD7",
@@ -101,7 +101,7 @@
    "imm:01EBA8/01EBB3"
   ],
   "jp": "をたおした！",
-  "en": ""
+  "en": " is defeated!"
  },
  {
   "id": "battle.01EC7C",
@@ -111,7 +111,7 @@
    "imm:01EC4D/01EC58"
   ],
   "jp": "はかわした！",
-  "en": ""
+  "en": " dodged!"
  },
  {
   "id": "battle.01ED33",
@@ -132,7 +132,7 @@
    "imm:01ED00/01ED0B"
   ],
   "jp": "ＬＶ　",
-  "en": ""
+  "en": "LV"
  },
  {
   "id": "battle.01EDE6",
@@ -142,7 +142,7 @@
    "imm:01EDB7/01EDC2"
   ],
   "jp": "はちからつきた！",
-  "en": ""
+  "en": " has fallen!"
  },
  {
   "id": "battle.01EED3",
@@ -152,7 +152,7 @@
    "imm:01EE60/01EE6B"
   ],
   "jp": "は",
-  "en": ""
+  "en": " gained"
  },
  {
   "id": "battle.01EED7",
@@ -162,7 +162,7 @@
    "imm:01EEA4/01EEAF"
   ],
   "jp": "ポイントけいけんちをえた！",
-  "en": ""
+  "en": " EXP!"
  },
  {
   "id": "battle.01F1BE",
@@ -172,7 +172,7 @@
    "imm:01EF70/01EF7B"
   ],
   "jp": "はレベルアップした！",
-  "en": ""
+  "en": " leveled up!"
  },
  {
   "id": "battle.01F242",
@@ -182,7 +182,7 @@
    "imm:01F0DA/01F0E5"
   ],
   "jp": "ポイントアップした！",
-  "en": ""
+  "en": "!"
  },
  {
   "id": "battle.01F4E2",
@@ -192,7 +192,7 @@
    "imm:01F2CC/01F2D7"
   ],
   "jp": "ゴールドをてにいれた！",
-  "en": ""
+  "en": " Gold obtained!"
  },
  {
   "id": "battle.01F4FA",
@@ -202,7 +202,7 @@
    "imm:01F3DC/01F3E7"
   ],
   "jp": "をてにいれた",
-  "en": ""
+  "en": " obtained"
  },
  {
   "id": "battle.01F508",
@@ -212,7 +212,7 @@
    "imm:01F4BB/01F4C6"
   ],
   "jp": "もちきれない！",
-  "en": ""
+  "en": "Can't carry any more!"
  },
  {
   "id": "battle.01F61F",
@@ -222,7 +222,7 @@
    "imm:01F5AC/01F5B7"
   ],
   "jp": "のＨＰ",
-  "en": ""
+  "en": "'s HP +"
  },
  {
   "id": "battle.01F627",
@@ -232,7 +232,7 @@
    "imm:01F590/01F59B"
   ],
   "jp": "はげんきになった！",
-  "en": ""
+  "en": " is revived!"
  },
  {
   "id": "battle.01F63B",
@@ -242,7 +242,7 @@
    "imm:01F5F0/01F5FB"
   ],
   "jp": "ポイントかいふくした！",
-  "en": ""
+  "en": "!"
  },
  {
   "id": "battle.030A16",
@@ -252,7 +252,7 @@
    "imm:0309DE/0309EA"
   ],
   "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　ＧＡＭＥ　ＯＶＥＲ",
-  "en": ""
+  "en": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　GAME OVER"
  },
  {
   "id": "battle.03480B",
@@ -262,7 +262,7 @@
    "imm:03507B/035083"
   ],
   "jp": "ブレイクストーム！",
-  "en": ""
+  "en": "Break Storm!"
  },
  {
   "id": "battle.2A8D1B",
@@ -272,7 +272,7 @@
    "imm:2A8FC9/2A8FD1"
   ],
   "jp": "アルデナーラはライジングドッグをしょうかんした！",
-  "en": ""
+  "en": "Ardenara summoned{nl}Rising Dog!"
  },
  {
   "id": "battle.2A8D4D",
@@ -282,7 +282,7 @@
    "imm:2A9996/2A999E"
   ],
   "jp": "アルデナーラはソードマンをしょうかんした！",
-  "en": ""
+  "en": "Ardenara summoned{nl}Swordsman!"
  },
  {
   "id": "battle.2A8D79",
@@ -292,7 +292,7 @@
    "imm:2AA6FF/2AA707"
   ],
   "jp": "アルデナーラはドラゴンをしょうかんした！",
-  "en": ""
+  "en": "Ardenara summoned{nl}Dragon!"
  },
  {
   "id": "battle.2B335B",
@@ -302,7 +302,7 @@
    "imm:2B3E5F/2B3E67"
   ],
   "jp": "がろうけん！",
-  "en": ""
+  "en": "Wolf Fang Fist!"
  },
  {
   "id": "battle.2B6426",
@@ -312,7 +312,7 @@
    "imm:2B662F/2B6637"
   ],
   "jp": "ドリスはサラマンダーをしょうかんした！",
-  "en": ""
+  "en": "Doris summoned{nl}Salamander!"
  },
  {
   "id": "battle.2B644E",
@@ -322,7 +322,7 @@
    "imm:2B6F8A/2B6F92"
   ],
   "jp": "ドリスはゴーレムをしょうかんした！",
-  "en": ""
+  "en": "Doris summoned{nl}Golem!"
  },
  {
   "id": "battle.2B6472",
@@ -332,7 +332,7 @@
    "imm:2B7973/2B797B"
   ],
   "jp": "ドリスはポレポレグレートをしょうかんした！",
-  "en": ""
+  "en": "Doris summoned{nl}Pole-Pole Great!"
  },
  {
   "id": "battle.2B649E",
@@ -342,6 +342,6 @@
    "imm:2B85F1/2B85F9"
   ],
   "jp": "ドリスはポレポレをしょうかんした！",
-  "en": ""
+  "en": "Doris summoned{nl}Pole-Pole!"
  }
 ]

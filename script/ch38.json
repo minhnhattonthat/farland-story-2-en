@@ -7,7 +7,7 @@
    "vm:2A6AAC"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲームを作った{nl}人たちか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The people who made the game?{wait}",
   "box": "lower"
  },
  {
@@ -18,7 +18,7 @@
    "vm:2A6AA7"
   ],
   "jp": "{clr}{pos:00000000}{full}スタッフの人たちよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's the staff!{wait}",
   "box": "upper"
  },
  {
@@ -29,7 +29,7 @@
    "vm:2A6B00"
   ],
   "jp": "{clr}{pos:00000000}{full}↓メインプログラムフジワラ　ヒロユキ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Main Program{nl}Hiroyuki Fujiwara{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:2A6B59"
   ],
   "jp": "{clr}{pos:00000000}{full}↓サブプログラム{wait}{clr}{pos:00000000}{full}くどう　ひろゆき{nl}ＳＹＯーぶ{nl}すやま　ひではる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Sub Program{wait}{clr}{pos:00000000}{full}Hiroyuki Kudo{nl}SYO-bu{nl}Hideharu Suyama{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:2A6BB2"
   ],
   "jp": "{clr}{pos:00000000}{full}▶ドット軍団隊長{nl}アゴー　トモヒロ！{wait}{clr}{pos:00000000}{full}▶ドット軍団{nl}やーまだー　ウフフ{wait}{clr}{pos:00000000}{full}やなぎもと　ゆうきいしい　タツオ{wait}{clr}{pos:00000000}{full}おおにし　しんじ{nl}フジイ　ヒデキ{wait}{clr}{pos:00000000}{full}ゆきさわ　せーじんさいとー　まさし{nl}やぎ　メーメー{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Dot Squad Captain{nl}Tomohiro Agoo!{wait}{clr}{pos:00000000}{full}Dot Squad{nl}Tee-hee Yaamadaa{wait}{clr}{pos:00000000}{full}Yuki Yanagimoto{nl}Tatsuo Ishii{wait}{clr}{pos:00000000}{full}Shinji Onishi{nl}Hideki Fujii{wait}{clr}{pos:00000000}{full}Seijin Yukisawa{nl}Masashi Saito{nl}Meh-meh Yagi{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:2A6C0C"
   ],
   "jp": "{clr}{pos:00000000}{full}↓サウンド{wait}{clr}{pos:00000000}{full}キタウラ　マサタカいせむら　あつよしＨ―ＲＩＫＥＩ{wait}{clr}{pos:00000000}{full}{nl}ＭＵＳＩＣＷＯＲＸ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Sound{wait}{clr}{pos:00000000}{full}Masataka Kitaura{nl}Atsuyoshi Isemura{nl}H-RIKEI{wait}{clr}{pos:00000000}{full}{nl}MUSICWORX{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:2A6C66"
   ],
   "jp": "{clr}{pos:00000000}{full}↓ディレクター{nl}かなざわとしひで{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Director{nl}Toshihide Kanazawa{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:2A6CC1"
   ],
   "jp": "{clr}{pos:00000000}{full}↓キャラクター{nl}　デザイン{wait}{clr}{pos:00000000}{full}{nl}やまもと　かずえ{wait}{clr}{pos:00000000}{full}{nl}Ｊ．Ｃ．ＳＴＡＦＦ{wait}{clr}{pos:00000000}{half}ＰＲＯＤＵＣＥＲ{nl}　ＴＯＭＯＫＯ　ＫＡＷＡＳＡＫＩ{wait}{clr}{pos:00000000}{half}ＡＳＳＩＳＴＡＮＴ　ＰＲＯＤＵＣＥＲ　ＮＡＭＩＫＯ　ＹＡＭＡＺＡＫＩ{wait}{clr}{pos:00000000}{half}ＤＥＳＩＧＮＥＲ{nl}　ＹＵＭＩ　ＮＡＫＡＹＡＭＡ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Character{nl}Design{wait}{clr}{pos:00000000}{full}{nl}Kazue Yamamoto{wait}{clr}{pos:00000000}{full}{nl}J.C.STAFF{wait}{clr}{pos:00000000}{half}PRODUCER{nl}TOMOKO KAWASAKI{wait}{clr}{pos:00000000}{half}ASSISTANT PRODUCER NAMIKO YAMAZAKI{wait}{clr}{pos:00000000}{half}DESIGNER{nl}YUMI NAKAYAMA{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:2A6D1C"
   ],
   "jp": "{clr}{pos:00000000}{full}　ＳＰＥＣＩＡＬ{nl}　ＴＨＡＮＫＳ{wait}{clr}{pos:00000000}{half}ＤＥＢＵＧＧＥＤ　ＢＹ{nl}　　　　　　　ＳＴＵＤＩＯ　ＳＴＡＴ{wait}{clr}{pos:00000000}{half}{nl}ＫＩＫＵＣＨＩ　ＲＸ{wait}{clr}{pos:00000000}{half}{nl}ＴＯＫＩＭＥＫＩ　ＫＡＤＯＴＳＵＪＩ{wait}{clr}{pos:00000000}{half}ＴＯＭＯＨＩＲＯ　ＣＨＩＢＡ{nl}ＫＥＩＳＵＫＥ　ＵＥＤＡ{nl}ＧＡＫＵＪＩ　ＳＡＫＡＮＯ{wait}{clr}{pos:00000000}{half}ＴＳＵＫＡＮＰＯ　ＭＡＮＡＢＵ{nl}ＫＡＮＥＤＡ　ＭＩＴＵＨＩＳＡ{nl}ＯＮＥＥＳＡＭＡ　ＭＯＲＩ{wait}{clr}{pos:00000000}{half}ＫＡＺＵＮＯＲＩ　ＩＨＡＴＡ{nl}ＳＨＩＭＩＺＵ　ＫＯＳＵＫＥ{nl}ＴＯＭＯＡＫＩ　ＣＨＯＳＨＯ{wait}{clr}{pos:00000000}{half}ＢＥＡＲＴ{nl}ＯＹＡ　ＭＡＳＡＴＯＳＨＩ{nl}Ｋ．ＮＩＳＨＩＧＯＵＲＩ{wait}{clr}{pos:00000000}{half}ＯＨＮＵＫＩ　ＭＡＳＡＲＵ{nl}ＭＡＳＡＫＡＺＵ　ＳＵＺＵＫＩ{nl}ＨＩＲＯＹＵＫＩ　ＨＩＮＯ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}SPECIAL{nl}THANKS{wait}{clr}{pos:00000000}{half}DEBUGGED BY{nl}STUDIO STAT{wait}{clr}{pos:00000000}{half}{nl}KIKUCHI RX{wait}{clr}{pos:00000000}{half}{nl}TOKIMEKI KADOTSUJI{wait}{clr}{pos:00000000}{half}TOMOHIRO CHIBA{nl}KEISUKE UEDA{nl}GAKUJI SAKANO{wait}{clr}{pos:00000000}{half}TSUKANPO MANABU{nl}KANEDA MITUHISA{nl}ONEESAMA MORI{wait}{clr}{pos:00000000}{half}KAZUNORI IHATA{nl}SHIMIZU KOSUKE{nl}TOMOAKI CHOSHO{wait}{clr}{pos:00000000}{half}BEART{nl}OYA MASATOSHI{nl}K.NISHIGOURI{wait}{clr}{pos:00000000}{half}OHNUKI MASARU{nl}MASAKAZU SUZUKI{nl}HIROYUKI HINO{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:2A6D78"
   ],
   "jp": "{clr}{pos:00000000}{full}↓プロデューサー{wait}{clr}{pos:00000000}{full}ＹＵＴＡ{nl}　ＫＡＤＯＨＡＲＡ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Producer{wait}{clr}{pos:00000000}{full}YUTA{nl}KADOHARA{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:2A6E3C"
   ],
   "jp": "{clr}{pos:00000000}{full}{nl}　ＴＨＥ　ＥＮＤ　",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}{nl}THE END",
   "box": "centre"
  },
  {
@@ -128,7 +128,7 @@
    "vm:2A6E05"
   ],
   "jp": "{clr}{pos:00000000}{full}みなさん{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone!{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:2A6E0A"
   ],
   "jp": "{clr}{pos:00000000}{full}ほんとうに{nl}ありがとう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Thank you so much!{wait}",
   "box": "upper"
  }
 ]

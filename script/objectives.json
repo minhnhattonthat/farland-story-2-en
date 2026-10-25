@@ -8,7 +8,7 @@
    "p16:0251F5"
   ],
   "jp": "ナイトを倒せ",
-  "en": ""
+  "en": "Defeat the Knight"
  },
  {
   "id": "objectives.02523F",
@@ -18,7 +18,7 @@
    "p16:0251F7"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.025251",
@@ -28,7 +28,7 @@
    "p16:0251F9"
   ],
   "jp": "グリーンキャットを倒せ",
-  "en": ""
+  "en": "Defeat the Green Cat"
  },
  {
   "id": "objectives.025269",
@@ -38,7 +38,7 @@
    "p16:0251FB"
   ],
   "jp": "ドカティを倒せ",
-  "en": ""
+  "en": "Defeat Docaty"
  },
  {
   "id": "objectives.025279",
@@ -49,7 +49,7 @@
    "p16:0251FF"
   ],
   "jp": "ニセリアドを倒せ",
-  "en": ""
+  "en": "Defeat Fake Riad"
  },
  {
   "id": "objectives.02528B",
@@ -61,7 +61,7 @@
    "p16:025205"
   ],
   "jp": "グリーンキャットを倒せ",
-  "en": ""
+  "en": "Defeat the Green Cat"
  },
  {
   "id": "objectives.0252A3",
@@ -71,7 +71,7 @@
    "p16:025207"
   ],
   "jp": "バーナサスと戦え",
-  "en": ""
+  "en": "Fight Barnassus"
  },
  {
   "id": "objectives.0252B5",
@@ -81,7 +81,7 @@
    "p16:025209"
   ],
   "jp": "ヘルハウンドを倒せ",
-  "en": ""
+  "en": "Defeat the Hellhound"
  },
  {
   "id": "objectives.0252C9",
@@ -92,7 +92,7 @@
    "p16:02520D"
   ],
   "jp": "ウェイスと戦え",
-  "en": ""
+  "en": "Fight Wace"
  },
  {
   "id": "objectives.0252D9",
@@ -102,7 +102,7 @@
    "p16:02520F"
   ],
   "jp": "ゾルディンと戦え",
-  "en": ""
+  "en": "Fight Zordin"
  },
  {
   "id": "objectives.0252EB",
@@ -112,7 +112,7 @@
    "p16:025211"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.0252FD",
@@ -122,7 +122,7 @@
    "p16:025213"
   ],
   "jp": "城もんにたどりつけ",
-  "en": ""
+  "en": "Reach the castle gate"
  },
  {
   "id": "objectives.025311",
@@ -132,7 +132,7 @@
    "p16:025215"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.025323",
@@ -142,7 +142,7 @@
    "p16:025217"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.025335",
@@ -152,7 +152,7 @@
    "p16:025219"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.025347",
@@ -162,7 +162,7 @@
    "p16:02521B"
   ],
   "jp": "スラミを倒せ",
-  "en": ""
+  "en": "Defeat Surami"
  },
  {
   "id": "objectives.025355",
@@ -172,7 +172,7 @@
    "p16:02521D"
   ],
   "jp": "バーナサスを倒せ",
-  "en": ""
+  "en": "Defeat Barnassus"
  },
  {
   "id": "objectives.025367",
@@ -183,7 +183,7 @@
    "p16:025221"
   ],
   "jp": "ウェイスを倒せ",
-  "en": ""
+  "en": "Defeat Wace"
  },
  {
   "id": "objectives.025377",
@@ -193,7 +193,7 @@
    "p16:025223"
   ],
   "jp": "アーク王を倒せ",
-  "en": ""
+  "en": "Defeat King Ark"
  },
  {
   "id": "objectives.025387",
@@ -203,7 +203,7 @@
    "p16:025225"
   ],
   "jp": "ゾルディンを倒せ",
-  "en": ""
+  "en": "Defeat Zordin"
  },
  {
   "id": "objectives.025399",
@@ -213,7 +213,7 @@
    "p16:025227"
   ],
   "jp": "サイトスを倒せ",
-  "en": ""
+  "en": "Defeat Saitos"
  },
  {
   "id": "objectives.0253A9",
@@ -223,7 +223,7 @@
    "p16:025229"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.0253BB",
@@ -233,7 +233,7 @@
    "p16:02522B"
   ],
   "jp": "ネレイドを倒せ",
-  "en": ""
+  "en": "Defeat Nereid"
  },
  {
   "id": "objectives.0253CB",
@@ -243,7 +243,7 @@
    "p16:02522D"
   ],
   "jp": "ジェネラルを倒せ",
-  "en": ""
+  "en": "Defeat the General"
  },
  {
   "id": "objectives.0253DD",
@@ -253,6 +253,6 @@
    "p16:02522F"
   ],
   "jp": "ギボゲラを倒せ",
-  "en": ""
+  "en": "Defeat Gibogera"
  }
 ]

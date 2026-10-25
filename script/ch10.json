@@ -7,7 +7,7 @@
    "vm:06A417"
   ],
   "jp": "{clr}{pos:00000000}{full}だれもいないじゃないか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}There's nobody here.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:06A41C"
   ],
   "jp": "{clr}{pos:00000000}{full}あれ、おっかしいなあ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Huh? That's weird...{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06A42F"
   ],
   "jp": "{clr}{pos:00000000}{full}もうかえろうか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Should we just go home?{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06A442"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな、そうがっかりするな{wait}{clr}{pos:00000000}{full}まだ全部、探した{nl}わけじゃない！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Don't be so disappointed, everyone.{wait}{clr}{pos:00000000}{full}We haven't searched everywhere yet!{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06A455"
   ],
   "jp": "{clr}{pos:00000000}{full}もっと探してみるガオ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let's look some more! Rawr!{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:06A468"
   ],
   "jp": "{clr}{pos:00000000}{full}ブツブツ・・・{nl}ほりょのやつ、ウソだったら{wait}{clr}{pos:00000000}{full}見つけだして、ぶんなぐってやるから{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grumble, grumble... If that prisoner lied to us,{wait}{clr}{pos:00000000}{full}I'll hunt him down and punch his lights out.{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:06A5D0"
   ],
   "jp": "{clr}{pos:00000000}{full}やい、やい、やい！{wait}{clr}{pos:00000000}{full}きちゃな悪者！{wait}{clr}{pos:00000000}{full}しぇーぎのドラゴンリギット様がやっつけてやるっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hey, hey, hey!{wait}{clr}{pos:00000000}{full}You dirty villainsh!{wait}{clr}{pos:00000000}{full}Ligito-sama, the dragon of jushtish, will beat you up!{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:06A5E3"
   ],
   "jp": "{clr}{pos:00000000}{full}はあ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Huh?{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:06A5F6"
   ],
   "jp": "{clr}{pos:00000000}{full}悪者って、もしかして、おいらたちのこと？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Villains... does he mean us?{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:06A609"
   ],
   "jp": "{clr}{pos:00000000}{full}しまった！{wait}{clr}{pos:00000000}{full}バーナサスめ、また同じやり方を使ったな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Damn it!{wait}{clr}{pos:00000000}{full}Barnassus pulled the same trick again!{wait}",
   "box": "lower"
  },
  {
@@ -117,7 +117,7 @@
    "vm:06A61C"
   ],
   "jp": "{clr}{pos:00000000}{full}もー、私みたいな海の男が{wait}{clr}{pos:00000000}{full}なんでこんな火山で苦労しなくちゃならないのかしら{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Honestly, why must a man of the sea like me{wait}{clr}{pos:00000000}{full}suffer on a volcano like this?{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:06A62F"
   ],
   "jp": "{clr}{pos:00000000}{full}クキキキッ{nl}悪人ども、悪あがきはよせ！{wait}{clr}{pos:00000000}{full}そう言ってやんなさい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Kekekek! \"Villains, stop your useless struggling!\"{wait}{clr}{pos:00000000}{full}Go on, tell them that.{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:06A642"
   ],
   "jp": "{clr}{pos:00000000}{full}わかってまちゅ{nl}悪人ども、悪あがきはやめるっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Got it! Villainsh, shtop your ushelessh shtruggling!{wait}",
   "box": "upper"
  },
  {
@@ -150,7 +150,7 @@
    "vm:06A655"
   ],
   "jp": "{clr}{pos:00000000}{full}でっかいけど・・・しゃべり方が迫力ないね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}He's huge, but... the way he talks isn't very scary.{wait}",
   "box": "lower"
  },
  {
@@ -161,7 +161,7 @@
    "vm:06A668"
   ],
   "jp": "{clr}{pos:00000000}{full}油断するなよ！{nl}子供といってもドラゴンだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Don't let your guard down! He may be a kid, but he's a dragon.{wait}",
   "box": "upper"
  },
  {
@@ -172,7 +172,7 @@
    "vm:06A67B"
   ],
   "jp": "{clr}{pos:00000000}{full}ちゃあ、来い！{wait}{clr}{pos:00000000}{full}かかってこなけりゃこっちから行くっちゃよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Now come on!{wait}{clr}{pos:00000000}{full}If you won't come at me, I'll come at you!{wait}",
   "box": "lower"
  },
  {
@@ -183,7 +183,7 @@
    "vm:06A68E"
   ],
   "jp": "{clr}{pos:00000000}{full}き、来たあ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}H-here he comes!{wait}",
   "box": "upper"
  },
  {
@@ -194,7 +194,7 @@
    "vm:06A777"
   ],
   "jp": "{clr}{pos:00000000}{full}くそっ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Damn it!{wait}",
   "box": "upper"
  },
  {
@@ -205,7 +205,7 @@
    "vm:06A78A"
   ],
   "jp": "{clr}{pos:00000000}{full}くしょう！{wait}{clr}{pos:00000000}{full}よくもしぇーぎのお兄ちゃんたちをやっつけたでちゅね！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Darn it!{wait}{clr}{pos:00000000}{full}How dare you beat up the big brothersh of jushtish!{wait}",
   "box": "lower"
  },
  {
@@ -216,7 +216,7 @@
    "vm:06A78F"
   ],
   "jp": "{clr}{pos:00000000}{full}ちがうんだ！{wait}{clr}{pos:00000000}{full}フェルサリアを{nl}乗っ取ろうとして{nl}いたのは{wait}{clr}{pos:00000000}{full}そいつらの方なんだよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You've got it wrong!{wait}{clr}{pos:00000000}{full}The ones trying to take over Felsaria{wait}{clr}{pos:00000000}{full}it's those guys!{wait}",
   "box": "upper"
  },
  {
@@ -227,7 +227,7 @@
    "vm:06A794"
   ],
   "jp": "{clr}{pos:00000000}{full}うそでちゅ！{wait}{clr}{pos:00000000}{full}ぼくはアーク王と{nl}約束したでちゅ！{wait}{clr}{pos:00000000}{full}このフェルサリアを守るって！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Liesh!{wait}{clr}{pos:00000000}{full}I made a promishe to King Ark!{wait}{clr}{pos:00000000}{full}That I'd protect Felsaria!{wait}",
   "box": "lower"
  },
  {
@@ -238,7 +238,7 @@
    "vm:06A7A7"
   ],
   "jp": "{clr}{pos:00000000}{full}父さんと？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}With my dad?{wait}",
   "box": "upper"
  },
  {
@@ -249,7 +249,7 @@
    "vm:06A809"
   ],
   "jp": "{clr}{pos:00000000}{full}ホワイトドラゴン{nl}それにグリーンドラゴン{wait}{clr}{pos:00000000}{full}戦いはやめろ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}White Dragon, Green Dragon!{wait}{clr}{pos:00000000}{full}Stop this fight!{wait}",
   "box": "upper"
  },
  {
@@ -260,7 +260,7 @@
    "vm:06A80E"
   ],
   "jp": "{clr}{pos:00000000}{full}邪魔するな！{wait}{clr}{pos:00000000}{full}俺たちはひいじい{nl}さんのそのまたひいじいさん・・・{wait}{clr}{pos:00000000}{full}いや、もっとずうっと昔からのかたき{nl}同士だ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Stay out of this!{wait}{clr}{pos:00000000}{full}We've been enemies since our great-grandfathers' great-grandfathers...{wait}{clr}{pos:00000000}{full}No, since long, long before that!{wait}",
   "box": "lower"
  },
  {
@@ -271,7 +271,7 @@
    "vm:06A813"
   ],
   "jp": "{clr}{pos:00000000}{full}戦ってなんになる！{wait}{clr}{pos:00000000}{full}このフェルサリアをめちゃめちゃにする気か？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What good will fighting do?!{wait}{clr}{pos:00000000}{full}Do you mean to tear Felsaria apart?{wait}",
   "box": "upper"
  },
  {
@@ -282,7 +282,7 @@
    "vm:06A826"
   ],
   "jp": "{clr}{pos:00000000}{full}人間は関係ない！{wait}{clr}{pos:00000000}{full}光に仕える{nl}私たちと{wait}{clr}{pos:00000000}{full}闇につかえるグリーンドラゴンは、戦うしかないんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This has nothing to do with humans!{wait}{clr}{pos:00000000}{full}We who serve the light{wait}{clr}{pos:00000000}{full}and the Green Dragons who serve darkness have no choice but to fight!{wait}",
   "box": "upper"
  },
  {
@@ -293,7 +293,7 @@
    "vm:06A839"
   ],
   "jp": "{clr}{pos:00000000}{full}まて、それ以上戦うなら・・・{wait}{clr}{pos:00000000}{full}ぼくが相手だ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait. If you keep on fighting...{wait}{clr}{pos:00000000}{full}you'll have to deal with me!{wait}",
   "box": "lower"
  },
  {
@@ -304,7 +304,7 @@
    "vm:06A84C"
   ],
   "jp": "{clr}{pos:00000000}{full}何？{wait}{clr}{pos:00000000}{full}なぜそこまでしてとめる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What?{wait}{clr}{pos:00000000}{full}Why go so far to stop us?{wait}",
   "box": "upper"
  },
  {
@@ -315,7 +315,7 @@
    "vm:06A851"
   ],
   "jp": "{clr}{pos:00000000}{full}それは、フェルサリアはぼくの国だからさ・・・{wait}{clr}{pos:00000000}{full}フェルサリアの平和を乱すやつはゆるせない！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Because Felsaria is my country...{wait}{clr}{pos:00000000}{full}I won't forgive anyone who disturbs its peace!{wait}",
   "box": "lower"
  },
  {
@@ -326,7 +326,7 @@
    "vm:06A864"
   ],
   "jp": "{clr}{pos:00000000}{full}ふうむ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hmmm...{wait}",
   "box": "lower"
  },
  {
@@ -337,7 +337,7 @@
    "vm:06A877"
   ],
   "jp": "{clr}{pos:00000000}{full}その剣・・・おまえアーク王だな？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That sword... You're King Ark, aren't you?{wait}",
   "box": "upper"
  },
  {
@@ -348,7 +348,7 @@
    "vm:06A88A"
   ],
   "jp": "{clr}{pos:00000000}{full}だったら{nl}どうなんだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What if I am?{wait}",
   "box": "lower"
  },
  {
@@ -359,7 +359,7 @@
    "vm:06A89D"
   ],
   "jp": "{clr}{pos:00000000}{full}グワハハハ・・・{wait}{clr}{pos:00000000}{full}どうりで俺たちを{nl}恐がらないはずだ{wait}{clr}{pos:00000000}{full}やめたやめた{nl}俺は行くぞ{wait}{clr}{pos:00000000}{full}さらばだ{nl}ホワイトドラゴン{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gwahahaha...{wait}{clr}{pos:00000000}{full}No wonder you're not afraid of us.{wait}{clr}{pos:00000000}{full}Forget it, I'm done. I'm leaving.{wait}{clr}{pos:00000000}{full}Farewell, White Dragon.{wait}",
   "box": "upper"
  },
  {
@@ -370,7 +370,7 @@
    "vm:06A8A2"
   ],
   "jp": "{clr}{pos:00000000}{full}戦いを、やめてくれるのか！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You'll stop fighting?!{wait}",
   "box": "lower"
  },
  {
@@ -381,7 +381,7 @@
    "vm:06A8A7"
   ],
   "jp": "{clr}{pos:00000000}{full}グワハハ、おまえの聖剣は恐ろしい{wait}{clr}{pos:00000000}{full}俺は魔王のように{nl}なりたくないからな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gwahaha, that holy sword of yours is frightening.{wait}{clr}{pos:00000000}{full}I don't want to end up like the Demon Lord.{wait}",
   "box": "upper"
  },
  {
@@ -392,7 +392,7 @@
    "vm:06A8BA"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王、さすがだ{wait}{clr}{pos:00000000}{full}おかげでこの子も{nl}怪我をせずにすんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}King Ark, you live up to your name.{wait}{clr}{pos:00000000}{full}Thanks to you, this child came through unhurt.{wait}",
   "box": "lower"
  },
  {
@@ -403,7 +403,7 @@
    "vm:06A8CD"
   ],
   "jp": "{clr}{pos:00000000}{full}実は、ぼくにも{nl}子供ができたばかりなんだ{wait}{clr}{pos:00000000}{full}気持ちはわかるよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Actually, I just had a child of my own.{wait}{clr}{pos:00000000}{full}I know how you feel.{wait}",
   "box": "upper"
  },
  {
@@ -414,7 +414,7 @@
    "vm:06A8D2"
   ],
   "jp": "{clr}{pos:00000000}{full}礼をさせてくれ{nl}何か望みをかなえてやるぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let me repay you. I'll grant you any wish.{wait}",
   "box": "lower"
  },
  {
@@ -425,7 +425,7 @@
    "vm:06A8D7"
   ],
   "jp": "{clr}{pos:00000000}{full}そういわれても・・・{wait}{clr}{pos:00000000}{full}ぼくはただ、フェルサリアが平和なら{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Even if you say that...{wait}{clr}{pos:00000000}{full}All I want is for Felsaria to be at peace.{wait}",
   "box": "upper"
  },
  {
@@ -436,7 +436,7 @@
    "vm:06A8DC"
   ],
   "jp": "{clr}{pos:00000000}{full}わかった！{nl}その願い、かなえてやるぞ！{wait}{clr}{pos:00000000}{full}私たち{nl}ホワイトドラゴンがフェルサリアの{wait}{clr}{pos:00000000}{full}東の地を守ってやる魔物や敵が決して入れないようにな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Very well! I'll grant that wish!{wait}{clr}{pos:00000000}{full}We White Dragons will guard the eastern lands{wait}{clr}{pos:00000000}{full}of Felsaria, so no monster or enemy can ever get in.{wait}",
   "box": "lower"
  },
  {
@@ -447,7 +447,7 @@
    "vm:06A8E1"
   ],
   "jp": "{clr}{pos:00000000}{full}ありがとう、それはすばらしいお礼だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Thank you. That's a wonderful reward.{wait}",
   "box": "upper"
  },
  {
@@ -458,7 +458,7 @@
    "vm:06A8E6"
   ],
   "jp": "{clr}{pos:00000000}{full}私の命がつきたら{nl}この子・・・{wait}{clr}{pos:00000000}{full}リギットが役目を{nl}引きつぐ{wait}{clr}{pos:00000000}{full}わかったな{nl}リギット？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}When my life runs out, this child...{wait}{clr}{pos:00000000}{full}Ligito will take over the duty.{wait}{clr}{pos:00000000}{full}Do you understand, Ligito?{wait}",
   "box": "lower"
  },
  {
@@ -469,7 +469,7 @@
    "vm:06A8F9"
   ],
   "jp": "{clr}{pos:00000000}{full}わかったっちゃ！{wait}{clr}{pos:00000000}{full}フェルサリアはぼくがいるかぎり{wait}{clr}{pos:00000000}{full}ずーっとずーっと平和だっちゃ！{wait}{clr}{pos:00000000}{full}アーク王は安心していいっちゃよ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Undershtood!{wait}{clr}{pos:00000000}{full}Ash long ash I'm here, Felsaria{wait}{clr}{pos:00000000}{full}will be peashful forever and ever!{wait}{clr}{pos:00000000}{full}You don't have to worry, King Ark...{wait}",
   "box": "upper"
  },
  {
@@ -480,7 +480,7 @@
    "vm:06A952"
   ],
   "jp": "{clr}{pos:00000000}{full}なるほどねえ{nl}父さんとそんな約束してたんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I see... So you made a promise like that with my dad.{wait}",
   "box": "upper"
  },
  {
@@ -491,7 +491,7 @@
    "vm:06A957"
   ],
   "jp": "{clr}{pos:00000000}{full}ええっ、父さん？{nl}クンクン・・・{wait}{clr}{pos:00000000}{full}そういえば{nl}あんちゃのにおいは{wait}{clr}{pos:00000000}{full}アーク王とおんなじっちゃ・・・ってことは{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Whaaat, your dad? Sniff, sniff...{wait}{clr}{pos:00000000}{full}Now that you menshion it, big brother, you shmell{wait}{clr}{pos:00000000}{full}jusht like King Ark... which meansh...{wait}",
   "box": "lower"
  },
  {
@@ -502,7 +502,7 @@
    "vm:06A96A"
   ],
   "jp": "{clr}{pos:00000000}{full}そう、このシフィルはアーク王の息子だ{wait}{clr}{pos:00000000}{full}そして俺たちは{nl}帝国軍につかまった{wait}{clr}{pos:00000000}{full}アーク王を助けに{nl}行くところなんだけどな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's right. Cifil here is King Ark's son.{wait}{clr}{pos:00000000}{full}And we're on our way to rescue King Ark,{wait}{clr}{pos:00000000}{full}who's been captured by the Imperial army.{wait}",
   "box": "upper"
  },
  {
@@ -513,7 +513,7 @@
    "vm:06A97D"
   ],
   "jp": "{clr}{pos:00000000}{full}これでもボクらは{nl}キミの敵かい！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Do you still think we're your enemies?!{wait}",
   "box": "lower"
  },
  {
@@ -524,7 +524,7 @@
    "vm:06A990"
   ],
   "jp": "{clr}{pos:00000000}{full}ええー！まちがえてたっちゃ！{wait}{clr}{pos:00000000}{full}ごめんちゃ、ごめんちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Whaaa! I got it wrong!{wait}{clr}{pos:00000000}{full}Shorry, shorry!{wait}",
   "box": "upper"
  },
  {
@@ -535,7 +535,7 @@
    "vm:06A9C9"
   ],
   "jp": "{clr}{pos:00000000}{full}わかってくれれば{nl}いいのよね{nl}ぼ・う・や！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}As long as you understand, that's all that matters, little bo-o-y!{wait}",
   "box": "lower"
  },
  {
@@ -546,7 +546,7 @@
    "vm:06A9DC"
   ],
   "jp": "{clr}{pos:00000000}{full}このおじちゃん{nl}気持ち悪いっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Thish mishter ish creepy...{wait}",
   "box": "upper"
  },
  {
@@ -557,7 +557,7 @@
    "vm:06A9EF"
   ],
   "jp": "{clr}{pos:00000000}{full}根はいい人よ{nl}ねぇ、かわいい{nl}ドラゴンさん{wait}{clr}{pos:00000000}{full}アーク王を助ける{nl}ために、力を貸してくれないかしら{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}He's a good person at heart, you know, cute little dragon.{wait}{clr}{pos:00000000}{full}Won't you lend us your strength to rescue King Ark?{wait}",
   "box": "upper"
  },
  {
@@ -568,7 +568,7 @@
    "vm:06AA02"
   ],
   "jp": "{clr}{pos:00000000}{full}うん、ぼくも手つだってあげるっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Uh-huh, I'll help you too!{wait}",
   "box": "lower"
  },
  {
@@ -579,7 +579,7 @@
    "vm:06AA15"
   ],
   "jp": "{clr}{pos:00000000}{full}しかしだいじょうぶガオ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But is it gonna be okay? Rawr?{wait}",
   "box": "upper"
  },
  {
@@ -590,7 +590,7 @@
    "vm:06AA28"
   ],
   "jp": "{clr}{pos:00000000}{full}とにかく先を急がなければ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Anyway, we have to hurry on.{wait}",
   "box": "lower"
  },
  {
@@ -601,7 +601,7 @@
    "vm:06AA3B"
   ],
   "jp": "{clr}{pos:00000000}{full}でもさ、船はどうするガオ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But hey, what're we doing about a ship? Rawr?{wait}",
   "box": "upper"
  },
  {
@@ -612,7 +612,7 @@
    "vm:06AA40"
   ],
   "jp": "{clr}{pos:00000000}{full}忘れてた・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I forgot...{wait}",
   "box": "lower"
  },
  {
@@ -623,7 +623,7 @@
    "vm:06AA53"
   ],
   "jp": "{clr}{pos:00000000}{full}はっはは、リアド殿簡単なことです{wait}{clr}{pos:00000000}{full}帝国軍はこっちへ来てるのです{wait}{clr}{pos:00000000}{full}それをぬすめばいいのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hahaha, Riad-dono, it's simple.{wait}{clr}{pos:00000000}{full}The Imperial army is coming over here.{wait}{clr}{pos:00000000}{full}We need only steal their ships.{wait}",
   "box": "lower"
  },
  {
@@ -634,7 +634,7 @@
    "vm:06AA66"
   ],
   "jp": "{clr}{pos:00000000}{full}どろぼうさんに{nl}なっちゃうのね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So we'll be turning into thieves...{wait}",
   "box": "upper"
  },
  {
@@ -645,7 +645,7 @@
    "vm:06AA6B"
   ],
   "jp": "{clr}{pos:00000000}{full}それなら、さっそく西の港町ルイドックへ行きましょう{wait}{clr}{pos:00000000}{full}帝国のやつらが乗り込むなら{wait}{clr}{pos:00000000}{full}大きな港町にちがいない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}In that case, let's head straight for the western port town of Ruidock.{wait}{clr}{pos:00000000}{full}If the Imperial troops are boarding ships,{wait}{clr}{pos:00000000}{full}it has to be a big port town.{wait}",
   "box": "lower"
  },
  {
@@ -656,7 +656,7 @@
    "vm:06A7D0"
   ],
   "jp": "{clr}{pos:00000000}{full}今から１５年前・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}15 years ago...{wait}",
   "box": "centre"
  },
  {
@@ -667,7 +667,7 @@
    "vm:06A5CB"
   ],
   "jp": "{clr}{pos:00000000}{full}リギットさん{nl}やつらが来ましたよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ligito-san, here they come.{wait}",
   "box": "upper"
  },
  {
@@ -678,7 +678,7 @@
    "vm:06A9A3"
   ],
   "jp": "{clr}{pos:00000000}{full}ひとまず{nl}ひきあげます{nl}また会いましょう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll withdraw for now. We'll meet again.{wait}",
   "box": "upper"
  },
  {
@@ -690,7 +690,7 @@
    "vm:06A764"
   ],
   "jp": "{clr}{pos:00000000}{full}うわぁー{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Waaah!{wait}",
   "box": "lower/upper"
  },
  {
@@ -701,7 +701,7 @@
    "vm:06A301"
   ],
   "jp": "{full}　ＳＴＡＧＥ　７{nl}{half}　{full}　＜ドラゴン＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 7{nl}{half}　{full}　<Dragon>{wait}",
   "box": "centre"
  }
 ]

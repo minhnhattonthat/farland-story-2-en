@@ -7,7 +7,7 @@
    "vm:067861"
   ],
   "jp": "{clr}{pos:00000000}{full}みなさん、本当にありがとうございます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone, thank you so very much.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:067866"
   ],
   "jp": "{clr}{pos:00000000}{full}のんびりしてたらウデがなまってしまいます{wait}{clr}{pos:00000000}{full}それより、アーク王から何か連絡はありませんでしたか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}If we sat around idle, our skills would only get rusty.{wait}{clr}{pos:00000000}{full}More importantly, has there been any word from King Ark?{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06786B"
   ],
   "jp": "{clr}{pos:00000000}{full}それが・・・{wait}{clr}{pos:00000000}{full}使者もきませんし{nl}魔法の鏡にも何もうつりません{wait}{clr}{pos:00000000}{full}私も、何かあったのかと{wait}{clr}{pos:00000000}{full}気にかけていたところなのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well...{wait}{clr}{pos:00000000}{full}No messenger has come, and nothing shows in the Magic Mirror.{wait}{clr}{pos:00000000}{full}I, too, was just beginning to worry{wait}{clr}{pos:00000000}{full}that something might have happened.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06787E"
   ],
   "jp": "{clr}{pos:00000000}{full}まさか、アーク王の身の上に何かあったのでは{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You don't think something has happened to King Ark...?{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:067895"
   ],
   "jp": "{clr}{pos:00000000}{full}フェリオ様{nl}こうして手をこまねいているよりは、{wait}{clr}{pos:00000000}{full}我らが帝国へ王を迎えに出向いてはいかがかのう？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ferio-sama, rather than sitting here twiddling our thumbs,{wait}{clr}{pos:00000000}{full}why don't we go to the Empire ourselves to fetch the king?{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:0678A8"
   ],
   "jp": "{clr}{pos:00000000}{full}ええ、でも・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yes, but...{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:0678BB"
   ],
   "jp": "{clr}{pos:00000000}{full}私たちがアーク王たちを探しましょう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We'll search for King Ark and the others!{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:0678C0"
   ],
   "jp": "{clr}{pos:00000000}{full}お願いできますか？{wait}{clr}{pos:00000000}{full}フェルサリアにいる人間で{wait}{clr}{pos:00000000}{full}帝国にくわしいのはあなたたちだけです{wait}{clr}{pos:00000000}{full}カイもいっしょに連れていって下さい{wait}{clr}{pos:00000000}{full}お役にたつと思います{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Would you?{wait}{clr}{pos:00000000}{full}Of everyone in Felsaria,{wait}{clr}{pos:00000000}{full}you are the only ones who know the Empire well.{wait}{clr}{pos:00000000}{full}Please take Kai with you too.{wait}{clr}{pos:00000000}{full}I'm sure he'll be of help.{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:0678C5"
   ],
   "jp": "{clr}{pos:00000000}{full}わかりました{wait}{clr}{pos:00000000}{full}そのかわりと言ってはなんですが{wait}{clr}{pos:00000000}{full}船を貸していただけませんか？{wait}{clr}{pos:00000000}{full}帝国に渡ることの{nl}できる船を{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Understood.{wait}{clr}{pos:00000000}{full}I hate to ask something in return, but...{wait}{clr}{pos:00000000}{full}could you lend us a ship?{wait}{clr}{pos:00000000}{full}One that can make the crossing to the Empire.{wait}",
   "box": "lower"
  },
  {
@@ -106,7 +106,7 @@
    "vm:0678DC"
   ],
   "jp": "{clr}{pos:00000000}{full}残念じゃが・・・{wait}{clr}{pos:00000000}{full}今のフェルサリアには帝国までたどり着けるだけの{wait}{clr}{pos:00000000}{full}まともな船が一隻もない{wait}{clr}{pos:00000000}{full}これまでフェルサリア以外に{wait}{clr}{pos:00000000}{full}大陸があるとは、知らなかったものじゃから{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm afraid...{wait}{clr}{pos:00000000}{full}Felsaria today hasn't a single decent ship{wait}{clr}{pos:00000000}{full}that could make it all the way to the Empire.{wait}{clr}{pos:00000000}{full}Until now, you see, we never knew{wait}{clr}{pos:00000000}{full}there were any lands beyond Felsaria.{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:0678EF"
   ],
   "jp": "{clr}{pos:00000000}{full}わかりました{nl}船は自分たちで{nl}何とかします{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Understood. We'll find a ship on our own somehow.{wait}",
   "box": "lower"
  },
  {
@@ -128,7 +128,7 @@
    "vm:067902"
   ],
   "jp": "{clr}{pos:00000000}{full}何か、あてでもあるの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Do you have something in mind?{wait}",
   "box": "upper"
  },
  {
@@ -139,7 +139,7 @@
    "vm:067907"
   ],
   "jp": "{clr}{pos:00000000}{full}まあね、それでは・・・{wait}{clr}{pos:00000000}{full}我々はこれで・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Sort of. Well then...{wait}{clr}{pos:00000000}{full}we'll be on our way...{wait}",
   "box": "lower"
  },
  {
@@ -150,7 +150,7 @@
    "vm:067992"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド{wait}{clr}{pos:00000000}{full}帝国軍らしい軍勢が北の森でひそんでいるそうです{wait}{clr}{pos:00000000}{full}そいつらからくわしい話を聞きましょう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad,{wait}{clr}{pos:00000000}{full}I hear a force that looks like the Imperial army is lurking in the northern forest.{wait}{clr}{pos:00000000}{full}Let's get the details out of them.{wait}",
   "box": "upper"
  },
  {
@@ -161,7 +161,7 @@
    "vm:067997"
   ],
   "jp": "{clr}{pos:00000000}{full}ネイフル、だいじょうぶかい？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Neiful, are you all right?{wait}",
   "box": "lower"
  },
  {
@@ -172,7 +172,7 @@
    "vm:0679B4"
   ],
   "jp": "{clr}{pos:00000000}{full}シフィル！{wait}{clr}{pos:00000000}{full}三人とも、おまちなさい{wait}{clr}{pos:00000000}{full}どこに行くつもりですか？{wait}{clr}{pos:00000000}{full}まさか、リアド殿について行くつもりではないでしょうね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Cifil!{wait}{clr}{pos:00000000}{full}All three of you, wait right there.{wait}{clr}{pos:00000000}{full}Where do you think you're going?{wait}{clr}{pos:00000000}{full}Surely you aren't planning to follow Riad-dono?{wait}",
   "box": "upper"
  },
  {
@@ -183,7 +183,7 @@
    "vm:0679BD"
   ],
   "jp": "{clr}{pos:00000000}{full}父さんはきっとボクが助けます{wait}{clr}{pos:00000000}{full}だから止めないで下さい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm going to rescue Dad, I promise.{wait}{clr}{pos:00000000}{full}So please don't stop me.{wait}",
   "box": "lower"
  },
  {
@@ -194,7 +194,7 @@
    "vm:0679D4"
   ],
   "jp": "{clr}{pos:00000000}{full}だいじょうぶです{nl}シフィルの面倒はボクが見ますから{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's fine, I'll look after Cifil.{wait}",
   "box": "lower"
  },
  {
@@ -205,7 +205,7 @@
    "vm:0679EB"
   ],
   "jp": "{clr}{pos:00000000}{full}おゆるしください{nl}王妃様、お父様{wait}{clr}{pos:00000000}{full}聞けば帝国は{nl}世界征服をねらっているとか・・・{wait}{clr}{pos:00000000}{full}また戦が起きるに{nl}ちがいありません{wait}{clr}{pos:00000000}{full}私はフェルサリアだけでなく世界の人々を助けたいのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Forgive me, Your Majesty, Father.{wait}{clr}{pos:00000000}{full}I hear the Empire is out to conquer the world...{wait}{clr}{pos:00000000}{full}There's bound to be another war.{wait}{clr}{pos:00000000}{full}I want to help not just Felsaria, but the people of the whole world.{wait}",
   "box": "upper"
  },
  {
@@ -216,7 +216,7 @@
    "vm:0679FE"
   ],
   "jp": "{clr}{pos:00000000}{full}ふぅ・・・{nl}わかりました{wait}{clr}{pos:00000000}{full}行ってらっしゃい{nl}ただし、必ずもどって来るのですよ{wait}{clr}{pos:00000000}{full}フェルサリアの未来をになうのは{wait}{clr}{pos:00000000}{full}あなたたちなのですから！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Haah... Very well.{wait}{clr}{pos:00000000}{full}Go, then. But you must come back, without fail.{wait}{clr}{pos:00000000}{full}For the future of Felsaria rests{wait}{clr}{pos:00000000}{full}on your shoulders!{wait}",
   "box": "lower"
  },
  {
@@ -227,7 +227,7 @@
    "vm:067A11"
   ],
   "jp": "{clr}{pos:00000000}{full}はい！{nl}わかりました{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yes! I understand!{wait}",
   "box": "upper"
  },
  {
@@ -238,7 +238,7 @@
    "vm:067A24"
   ],
   "jp": "{clr}{pos:00000000}{full}約束します{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I promise.{wait}",
   "box": "lower"
  },
  {
@@ -249,7 +249,7 @@
    "vm:067A41"
   ],
   "jp": "{clr}{pos:00000000}{full}エリア・・・{nl}ムリはするな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eria... don't push yourself.{wait}",
   "box": "upper"
  },
  {
@@ -260,7 +260,7 @@
    "vm:067A54"
   ],
   "jp": "{clr}{pos:00000000}{full}だいじょうぶです{nl}お父様{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll be fine, Father.{wait}",
   "box": "lower"
  },
  {
@@ -271,7 +271,7 @@
    "vm:067A67"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド殿、ご迷惑をおかけしますが{wait}{clr}{pos:00000000}{full}よろしくお願いします{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad-dono, I'm sorry to burden you,{wait}{clr}{pos:00000000}{full}but please take care of them.{wait}",
   "box": "upper"
  },
  {
@@ -282,7 +282,7 @@
    "vm:067A7E"
   ],
   "jp": "{clr}{pos:00000000}{full}おのれの道はおのれで選び{wait}{clr}{pos:00000000}{full}おのれの道はおのれで切り開く{wait}{clr}{pos:00000000}{full}私の国では何事も{nl}自分で選ぶことが{nl}美徳とされます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Choose your own road,{wait}{clr}{pos:00000000}{full}and carve it out yourself.{wait}{clr}{pos:00000000}{full}In my homeland, choosing everything for yourself is held to be a virtue.{wait}",
   "box": "lower"
  },
  {
@@ -293,7 +293,7 @@
    "vm:067A83"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな、きっちりと自覚を持って戦うのですよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All of you, fight with a proper sense of your duty.{wait}",
   "box": "upper"
  },
  {
@@ -306,7 +306,7 @@
    "vm:067ABC"
   ],
   "jp": "{clr}{pos:00000000}{full}はい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yes!{wait}",
   "box": "lower/upper"
  },
  {
@@ -317,7 +317,7 @@
    "vm:067ACF"
   ],
   "jp": "{clr}{pos:00000000}{full}るすは全てわしにまかせろ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Leave everything here to me while you're away.{wait}",
   "box": "lower"
  },
  {
@@ -328,7 +328,7 @@
    "vm:067AE2"
   ],
   "jp": "{clr}{pos:00000000}{full}それでは、私たちはこれで・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well then, we'll be off...{wait}",
   "box": "upper"
  },
  {
@@ -339,7 +339,7 @@
    "vm:067AF5"
   ],
   "jp": "{clr}{pos:00000000}{full}ご武運を{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Good luck out there.{wait}",
   "box": "lower"
  },
  {
@@ -350,7 +350,7 @@
    "vm:067776"
   ],
   "jp": "{full}　ＳＴＡＧＥ　６{nl}{half}　{full}　　＜出立＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 6{nl}{half}　{full}　　<Departure>{wait}",
   "box": "centre"
  }
 ]

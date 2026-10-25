@@ -11,12 +11,23 @@ sys.path.insert(0, str(ROOT / "tools"))
 import build  # noqa: E402
 import font  # noqa: E402
 import marker  # noqa: E402
+import wrap  # noqa: E402
 
 needs_rom = pytest.mark.skipif(not build.ROM.is_file() or not build.ASAR.is_file(), reason="ROM or asar absent")
 
 
 def test_font_selftest():
     font.selftest()
+
+
+def test_wrap_selftest():
+    wrap.selftest()
+
+
+def test_wrap_keeps_marker_layout():
+    data, w = wrap.windows.load(), font.widths()
+    for e in marker.fill(build.load_script()):
+        assert wrap.wrap(e, data, w) == e["en"], e["id"]
 
 
 def test_name_template_guard():

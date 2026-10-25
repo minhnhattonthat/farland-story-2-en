@@ -7,7 +7,7 @@
    "vm:047EE0"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド・・・{wait}{clr}{pos:00000000}{full}今なら私を連れてお城にもどれば、ゆるしてもらえるわ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad...{wait}{clr}{pos:00000000}{full}If you take me back to the castle now, they'll forgive you!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:047EE5"
   ],
   "jp": "{clr}{pos:00000000}{full}ダメだ！{wait}{clr}{pos:00000000}{full}父上は、キミを使って、世界を支配するつもりなんだぞ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No!{wait}{clr}{pos:00000000}{full}Father means to use you to rule the world!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:047EEA"
   ],
   "jp": "{clr}{pos:00000000}{full}本当に・・・{nl}私にそんな力が{nl}あるのかしら？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Do I really... have that kind of power?{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:047EEF"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナが苦しむ{nl}ことはないよ・・・{wait}{clr}{pos:00000000}{full}それより父上がこんな恐ろしいことを考えるなんて・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Don't let it trouble you, Serena...{wait}{clr}{pos:00000000}{full}What gets me is that Father would ever think of something so horrible...{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:047EF4"
   ],
   "jp": "{clr}{pos:00000000}{full}どういうこと？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What do you mean?{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:047EF9"
   ],
   "jp": "{clr}{pos:00000000}{full}自分でもわからないけど、以前の父上とは何かがちがう{wait}{clr}{pos:00000000}{full}俺の気のせいかも{nl}しれないけど{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I can't put my finger on it, but something about him isn't the father I knew.{wait}{clr}{pos:00000000}{full}Maybe it's just my imagination.{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:047EFE"
   ],
   "jp": "{clr}{pos:00000000}{full}恐いわ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm scared...{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:047F03"
   ],
   "jp": "{clr}{pos:00000000}{full}くっ、追っ手がもう来たか！{wait}{clr}{pos:00000000}{full}サリーナ、話は後だ今は逃げることだけ考えよう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ngh, the pursuers are here already!{wait}{clr}{pos:00000000}{full}Serena, we'll talk later. Right now, let's just think about getting away!{wait}",
   "box": "lower"
  },
  {
@@ -113,7 +113,7 @@
    "vm:0481D5"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオ！アニキ助けに来たよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! I came to help you, Big Bro!{wait}",
   "box": "upper"
  },
  {
@@ -124,7 +124,7 @@
    "vm:0481DA"
   ],
   "jp": "{clr}{pos:00000000}{full}きゃあ！おおかみ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eek! A wolf!{wait}",
   "box": "lower"
  },
  {
@@ -135,7 +135,7 @@
    "vm:0481F1"
   ],
   "jp": "{clr}{pos:00000000}{full}おおかみ？{wait}{clr}{pos:00000000}{full}だいじょうぶだ{nl}サリーナ！そいつは俺の弟分だ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A wolf?{wait}{clr}{pos:00000000}{full}It's all right, Serena! He's like a little brother to me!{wait}",
   "box": "upper"
  },
  {
@@ -155,7 +155,7 @@
    "vm:048204"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオ！{nl}おいらクラウスって言うんだ{wait}{clr}{pos:00000000}{full}もとは宮殿でタリカーラ皇子のペットだったんだけど{wait}{clr}{pos:00000000}{full}アニキが助けてくれて、今はこうして{wait}{clr}{pos:00000000}{full}自由に飛び回ってるってわけさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! My name's Klaus!{wait}{clr}{pos:00000000}{full}I used to be Prince Taricalla's pet at the palace,{wait}{clr}{pos:00000000}{full}but Big Bro rescued me, and now{wait}{clr}{pos:00000000}{full}I run around wherever I like!{wait}",
   "box": "lower"
  },
  {
@@ -166,7 +166,7 @@
    "vm:048217"
   ],
   "jp": "{clr}{pos:00000000}{full}そうだったの・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So that's how it was...{wait}",
   "box": "upper"
  },
  {
@@ -186,7 +186,7 @@
    "vm:04821C"
   ],
   "jp": "{clr}{pos:00000000}{full}おいら知ってるよ{nl}あなたはサリーナさんだね{wait}{clr}{pos:00000000}{full}アニキの恋人の{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I know who you are! You're Serena-san,{wait}{clr}{pos:00000000}{full}Big Bro's sweetheart!{wait}",
   "box": "lower"
  },
  {
@@ -197,7 +197,7 @@
    "vm:04822F"
   ],
   "jp": "{clr}{pos:00000000}{full}ば、ばか！{nl}恋人はよけいだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wh-what?! Leave the \"sweetheart\" part out!{wait}",
   "box": "lower"
  },
  {
@@ -208,7 +208,7 @@
    "vm:048242"
   ],
   "jp": "{clr}{pos:00000000}{full}どっちでもいいからおいらも連れてっておくれよ！{wait}{clr}{pos:00000000}{full}アニキったら、おいらに一言も言わないで{wait}{clr}{pos:00000000}{full}城に行っちゃうんだもん{wait}{clr}{pos:00000000}{full}おいら、おいてきぼりはきらいだよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Whatever! Just take me with you!{wait}{clr}{pos:00000000}{full}Big Bro, you went off to the castle{wait}{clr}{pos:00000000}{full}without saying a single word to me!{wait}{clr}{pos:00000000}{full}I hate getting left behind!{wait}",
   "box": "upper"
  },
  {
@@ -219,7 +219,7 @@
    "vm:048247"
   ],
   "jp": "{clr}{pos:00000000}{full}だめだクラウス！{nl}おまえは森にかえれ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No, Klaus! Go back to the forest.{wait}",
   "box": "lower"
  },
  {
@@ -230,7 +230,7 @@
    "vm:04824C"
   ],
   "jp": "{clr}{pos:00000000}{full}グルル、どうして？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr... Why?{wait}",
   "box": "upper"
  },
  {
@@ -241,7 +241,7 @@
    "vm:048251"
   ],
   "jp": "{clr}{pos:00000000}{full}俺たちは、追われ{nl}てるんだ{wait}{clr}{pos:00000000}{full}父上に・・・{nl}皇帝に逆らったからな・・・{wait}{clr}{pos:00000000}{full}ついてくると{nl}危ない目にあうぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We're being hunted.{wait}{clr}{pos:00000000}{full}I defied my father... the Emperor...{wait}{clr}{pos:00000000}{full}If you come with us, you'll be in danger.{wait}",
   "box": "lower"
  },
  {
@@ -252,7 +252,7 @@
    "vm:048256"
   ],
   "jp": "{clr}{pos:00000000}{full}だったら、よけいについて行くよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Then I'm coming for sure!{wait}",
   "box": "upper"
  },
  {
@@ -272,7 +272,7 @@
    "vm:04825B"
   ],
   "jp": "{clr}{pos:00000000}{full}だめだと言っても{nl}ついてくる気だな？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You're coming no matter what I say, aren't you?{wait}",
   "box": "lower"
  },
  {
@@ -283,7 +283,7 @@
    "vm:048260"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオ、もちろんさ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! You bet!{wait}",
   "box": "upper"
  },
  {
@@ -294,7 +294,7 @@
    "vm:048265"
   ],
   "jp": "{clr}{pos:00000000}{full}わかったよ{nl}そのかわり、弱音をはくなよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Fine. But in exchange, no whining.{wait}",
   "box": "lower"
  },
  {
@@ -305,7 +305,7 @@
    "vm:04826A"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオ！{nl}さっすがアニキ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! That's my Big Bro!{wait}",
   "box": "upper"
  },
  {
@@ -316,7 +316,7 @@
    "vm:04826F"
   ],
   "jp": "{clr}{pos:00000000}{full}ようし、これから{nl}みんなで自由の港に向かおう{wait}{clr}{pos:00000000}{full}そこなら、帝国軍も手出しはできないし{wait}{clr}{pos:00000000}{full}船で遠くに逃げられるはずだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, let's all head for the Free Port.{wait}{clr}{pos:00000000}{full}The Imperial army can't touch us there,{wait}{clr}{pos:00000000}{full}and we should be able to get far away by ship!{wait}",
   "box": "lower"
  },
  {
@@ -327,7 +327,7 @@
    "vm:0483CE"
   ],
   "jp": "{clr}{pos:00000000}{full}町人{nl}　帝国ばんざーい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Townsman: Long live the Empire!{wait}",
   "box": "centre"
  },
  {
@@ -338,7 +338,7 @@
    "vm:047E39"
   ],
   "jp": "{full}　ＳＴＡＧＥ　１{nl}{half}　{full}　＜帝国脱出＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 1{nl}{half}　{full}　<Escape from the Empire>{wait}",
   "box": "centre"
  }
 ]

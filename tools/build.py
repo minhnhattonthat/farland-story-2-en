@@ -25,6 +25,8 @@ import extract
 import font
 import lz
 import lzscan
+import windows
+import wrap
 from tbl import Table
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -129,7 +131,8 @@ def english(rom, entries, blocks, moves=None):
     jp, en = Table.load(ROOT / "tbl" / "jp.tbl"), font.english_table()
     out = bytearray(rom) + b"\xff" * (SIZE - len(rom))
     entries = name_templates(entries, en)
-    enc = {e["id"]: (en.encode(e["en"]) if e["en"] else jp.encode(e["jp"])) + END for e in entries}
+    data, w = windows.load(), font.widths()
+    enc = {e["id"]: (en.encode(wrap.wrap(e, data, w)) if e["en"] else jp.encode(e["jp"])) + END for e in entries}
     # p16 tables with any English move whole to P16_BANK
     table_of = {}
     for base, n in p16_tables():

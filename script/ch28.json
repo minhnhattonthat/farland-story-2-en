@@ -16,7 +16,7 @@
    "vm:05E56F"
   ],
   "jp": "{clr}{pos:00000000}{full}ついに貴様の出番かギボゲラ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So you're finally stepping in yourself, Gibogera!!{wait}",
   "box": "upper"
  },
  {
@@ -27,7 +27,7 @@
    "vm:05E574"
   ],
   "jp": "{clr}{pos:00000000}{full}ご冗談はおよしください{wait}{clr}{pos:00000000}{full}あなたたちごときにこの私が出るわけがないでしょう{wait}{clr}{pos:00000000}{full}まったく、困った人達だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Please, don't be absurd.{wait}{clr}{pos:00000000}{full}Why would I trouble myself to face the likes of you?{wait}{clr}{pos:00000000}{full}Honestly, what tiresome people.{wait}",
   "box": "lower"
  },
  {
@@ -38,7 +38,7 @@
    "vm:05E579"
   ],
   "jp": "{clr}{pos:00000000}{full}何だと！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What?!{wait}",
   "box": "upper"
  },
  {
@@ -49,7 +49,7 @@
    "vm:05E57E"
   ],
   "jp": "{clr}{pos:00000000}{full}おや？てっきり気づいているものだと思っていましたが{wait}{clr}{pos:00000000}{full}どうやら、まったく気づいていなかったようですね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh? I was quite sure you would have noticed by now.{wait}{clr}{pos:00000000}{full}But it seems you hadn't noticed at all.{wait}",
   "box": "lower"
  },
  {
@@ -60,7 +60,7 @@
    "vm:05E591"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルルッ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrrr!{wait}",
   "box": "upper"
  },
  {
@@ -71,7 +71,7 @@
    "vm:05E5A4"
   ],
   "jp": "{clr}{pos:00000000}{full}おまえに利用されていった人々のカタキ{wait}{clr}{pos:00000000}{full}今討たせてもらう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}For all the people you've used...{wait}{clr}{pos:00000000}{full}we'll take our revenge right now!{wait}",
   "box": "lower"
  },
  {
@@ -82,7 +82,7 @@
    "vm:05E5B7"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボハハッ{wait}{clr}{pos:00000000}{full}さぁ、皇帝陛下{nl}姿をあらわしなさい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebohaha!{wait}{clr}{pos:00000000}{full}Now, Your Imperial Majesty, show yourself.{wait}",
   "box": "upper"
  },
  {
@@ -93,7 +93,7 @@
    "vm:05E5CA"
   ],
   "jp": "{clr}{pos:00000000}{full}余は絶対主！{nl}そして、余は最高にして最強！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I am the absolute ruler! I am the greatest and the mightiest of all!{wait}",
   "box": "lower"
  },
  {
@@ -104,7 +104,7 @@
    "vm:05E61F"
   ],
   "jp": "{clr}{pos:00000000}{full}父上、変わりはてたお姿になって・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father, what has become of you...{wait}",
   "box": "upper"
  },
  {
@@ -115,7 +115,7 @@
    "vm:05E624"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボハハハッ{nl}人間の姿をすてて{wait}{clr}{pos:00000000}{full}すばらしい体を{nl}手に入れられたのですよ{wait}{clr}{pos:00000000}{full}皇帝陛下は今、だれよりも充足感の中にいる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebohahaha! He has cast off his human form{wait}{clr}{pos:00000000}{full}and obtained a magnificent new body.{wait}{clr}{pos:00000000}{full}His Imperial Majesty is now more fulfilled than anyone alive.{wait}",
   "box": "lower"
  },
  {
@@ -126,7 +126,7 @@
    "vm:05E637"
   ],
   "jp": "{clr}{pos:00000000}{full}リアドか？どうだ？余と一緒に来ぬか？{wait}{clr}{pos:00000000}{full}こちらの世界は快感が全身をかけめぐっておるぞ・・・{wait}{clr}{pos:00000000}{full}オオッ！・・・よい気持ちじゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad, is it? Well? Won't you come with me?{wait}{clr}{pos:00000000}{full}In this world, pleasure courses through my whole body...{wait}{clr}{pos:00000000}{full}Ooh!... What a feeling!{wait}",
   "box": "upper"
  },
  {
@@ -137,7 +137,7 @@
    "vm:05E64A"
   ],
   "jp": "{clr}{pos:00000000}{full}父上・・・{wait}{clr}{pos:00000000}{full}私の言葉がわかるのでしたらお聞き下さい・・・{wait}{clr}{pos:00000000}{full}兄上が亡くなりました・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father...{wait}{clr}{pos:00000000}{full}If you can understand my words, please listen...{wait}{clr}{pos:00000000}{full}My brother has passed away...{wait}",
   "box": "lower"
  },
  {
@@ -148,7 +148,7 @@
    "vm:05E65D"
   ],
   "jp": "{clr}{pos:00000000}{full}だから、それがどうした？{wait}{clr}{pos:00000000}{full}・・・余の後継者など必要ないぞ{wait}{clr}{pos:00000000}{full}余は永遠の命を手に入れたのだからな・・・{wait}{clr}{pos:00000000}{full}リアド、おまえも父と同じ力を得るがよい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}And what of it?{wait}{clr}{pos:00000000}{full}...I have no need of an heir.{wait}{clr}{pos:00000000}{full}For I have obtained eternal life...{wait}{clr}{pos:00000000}{full}Riad, you too shall gain the same power as your father!{wait}",
   "box": "upper"
  },
  {
@@ -159,7 +159,7 @@
    "vm:05E670"
   ],
   "jp": "{clr}{pos:00000000}{full}父上、私は親不孝な息子でした{wait}{clr}{pos:00000000}{full}ですが、今から我が人生最大の親孝行をしたいと思います{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father, I have been an undutiful son.{wait}{clr}{pos:00000000}{full}But now I mean to do the greatest duty a son can do for his father.{wait}",
   "box": "lower"
  },
  {
@@ -170,7 +170,7 @@
    "vm:05E675"
   ],
   "jp": "{clr}{pos:00000000}{full}オオッ！・・・{nl}良い気持ちじゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ooh!... What a feeling!{wait}",
   "box": "upper"
  },
  {
@@ -181,7 +181,7 @@
    "vm:05E67A"
   ],
   "jp": "{clr}{pos:00000000}{full}私の手でとどめを{nl}刺してあげます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I will put an end to you with my own hands.{wait}",
   "box": "lower"
  },
  {
@@ -192,7 +192,7 @@
    "vm:05E67F"
   ],
   "jp": "{clr}{pos:00000000}{full}オオッ！かけめぐる・・・いいっ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ooh! It's coursing through me... So good!{wait}",
   "box": "upper"
  },
  {
@@ -203,7 +203,7 @@
    "vm:05E692"
   ],
   "jp": "{clr}{pos:00000000}{full}さて、親子の会話をしっかりと楽しんでください{wait}{clr}{pos:00000000}{full}もし、来れるのならこの上の部屋にきてください{wait}{clr}{pos:00000000}{full}そこでまってますよ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well then, do enjoy your little father-and-son chat.{wait}{clr}{pos:00000000}{full}If you can make it, come to the room above.{wait}{clr}{pos:00000000}{full}I'll be waiting there...{wait}",
   "box": "upper"
  },
  {
@@ -214,7 +214,7 @@
    "vm:05E697"
   ],
   "jp": "{clr}{pos:00000000}{full}まて、ギボゲラ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait, Gibogera!{wait}",
   "box": "lower"
  },
  {
@@ -225,7 +225,7 @@
    "vm:05E79C"
   ],
   "jp": "{clr}{pos:00000000}{full}フハハハッ、オオッすばらしい{nl}いいぞ！{wait}{clr}{pos:00000000}{full}回復能力、そして、オオッ！さらに強くなるこの力！{wait}{clr}{pos:00000000}{full}その全てがすばらしい！！{nl}よい気持ちじゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Fuhahaha! Ooh, wonderfuuul!{wait}{clr}{pos:00000000}{full}This healing power, and, ooh! this strength that keeps on growing!{wait}{clr}{pos:00000000}{full}All of it is wonderful!! What a feeling!{wait}",
   "box": "upper"
  },
  {
@@ -236,7 +236,7 @@
    "vm:05E7A1"
   ],
   "jp": "{clr}{pos:00000000}{full}どうやら、攻撃するたびにやばくなっていますね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It seems he gets more dangerous every time we attack.{wait}",
   "box": "lower"
  },
  {
@@ -247,7 +247,7 @@
    "vm:05E7B4"
   ],
   "jp": "{clr}{pos:00000000}{full}信じられない！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I can't believe it!{wait}",
   "box": "upper"
  },
  {
@@ -258,7 +258,7 @@
    "vm:05E7C7"
   ],
   "jp": "{clr}{pos:00000000}{full}あきらめるな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Don't give up!{wait}",
   "box": "lower"
  },
  {
@@ -269,7 +269,7 @@
    "vm:05E7DA"
   ],
   "jp": "{clr}{pos:00000000}{full}やつの生命力はたしかにへり続けているもう少しだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}His life force is definitely still dropping. Just a little more!{wait}",
   "box": "upper"
  },
  {
@@ -280,7 +280,7 @@
    "vm:05E862"
   ],
   "jp": "{clr}{pos:00000000}{full}なぜだ？{wait}{clr}{pos:00000000}{full}ダメージが回復せん！？{nl}これは一体！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why?{wait}{clr}{pos:00000000}{full}My wounds won't heal?! What is this?!{wait}",
   "box": "upper"
  },
  {
@@ -291,7 +291,7 @@
    "vm:05E867"
   ],
   "jp": "{clr}{pos:00000000}{full}再生機能に、体がついていかないんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}His body can't keep up with its own regeneration!{wait}",
   "box": "lower"
  },
  {
@@ -302,7 +302,7 @@
    "vm:05E86C"
   ],
   "jp": "{clr}{pos:00000000}{full}うぉ！{nl}不快がかけめぐる・・・{wait}{clr}{pos:00000000}{full}うぉうぉうぉ・・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ugh! A foul feeling courses through me...{wait}{clr}{pos:00000000}{full}Uoh... uohh... uohhh....{wait}",
   "box": "upper"
  },
  {
@@ -313,7 +313,7 @@
    "vm:05E87F"
   ],
   "jp": "{clr}{pos:00000000}{full}父上！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father!{wait}",
   "box": "upper"
  },
  {
@@ -324,7 +324,7 @@
    "vm:05E892"
   ],
   "jp": "{clr}{pos:00000000}{full}リ・ア・・ドか？{nl}おまえの手でとどめを刺してくれ・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ri...a...d, is it? Finish me... with your own hand...{wait}",
   "box": "lower"
  },
  {
@@ -335,7 +335,7 @@
    "vm:05E897"
   ],
   "jp": "{clr}{pos:00000000}{full}父上！{nl}気がつかれたのですか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father! Have you come back to yourself?{wait}",
   "box": "upper"
  },
  {
@@ -346,7 +346,7 @@
    "vm:05E89C"
   ],
   "jp": "{clr}{pos:00000000}{full}全て・・・おごりと油断がまねいたことだったのだ・・・{wait}{clr}{pos:00000000}{full}帝国を・・・世界を平和な国に・・・{wait}{clr}{pos:00000000}{full}おまえの母が・・・望んだ平和な国に・・・{wait}{clr}{pos:00000000}{full}た・の・む・・ぞ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All of it... was brought on by my own pride and carelessness...{wait}{clr}{pos:00000000}{full}Make the Empire... the world... a land of peace...{wait}{clr}{pos:00000000}{full}The land of peace... your mother wished for...{wait}{clr}{pos:00000000}{full}I'm... count...ing... on... you...{wait}",
   "box": "lower"
  },
  {
@@ -357,7 +357,7 @@
    "vm:05E8A1"
   ],
   "jp": "{clr}{pos:00000000}{full}父上！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father!{wait}",
   "box": "upper"
  },
  {
@@ -368,7 +368,7 @@
    "vm:05E4DE"
   ],
   "jp": "{full}　ＳＴＡＧＥ２３{nl}{half}　{full}　　＜皇帝＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 23{nl}{half}　{full}　<The Emperor>{wait}",
   "box": "centre"
  }
 ]

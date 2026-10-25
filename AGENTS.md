@@ -8,6 +8,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/farland2_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/farland2_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 20000` (scenes: `tools/debug/scenes.lua`, notes `docs/re/debug.md`; never ask the user to play to a scene)
 - Regen:    `python -X utf8 tools/debug/regen.py [SCENE..] [--rom build/farland2_en.sfc]` (every scene: shots `work/qa/warp/shots/`, states `work/states/`)
+- Translate: `python -X utf8 tools/batches.py split|check|merge|pairs` (work/tl/, brief `docs/translator-brief.md`; box text is wrapped by `tools/wrap.py` at build time)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

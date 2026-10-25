@@ -7,7 +7,7 @@
    "vm:05F407"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボハハハ{nl}以外と早かった{nl}ですねえ{wait}{clr}{pos:00000000}{full}せっかくあれだけの力を与えてやった{nl}というのに{wait}{clr}{pos:00000000}{full}皇帝陛下もゾルディンやバーナサスと{wait}{clr}{pos:00000000}{full}たいして変わりが{nl}なかったようで{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebohahaha! That was quicker than I expected.{wait}{clr}{pos:00000000}{full}After I went to all the trouble of granting him such power...{wait}{clr}{pos:00000000}{full}It seems His Majesty was no better{wait}{clr}{pos:00000000}{full}than Zordin or Barnassus.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:05F40C"
   ],
   "jp": "{clr}{pos:00000000}{full}だまれっ！{wait}{clr}{pos:00000000}{full}今度こそ父上のかたきをとらせてもらうぞ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Shut up!{wait}{clr}{pos:00000000}{full}This time I'll avenge my father!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:05F519"
   ],
   "jp": "{clr}{pos:00000000}{full}今度こそ覚悟しろ{nl}ギボゲラ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This time you're finished, Gibogera!!{wait}",
   "box": "lower"
  },
  {
@@ -40,7 +40,7 @@
    "vm:05F51E"
   ],
   "jp": "{clr}{pos:00000000}{full}おまえ、一体何者{nl}なんだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Just what are you?{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:05F531"
   ],
   "jp": "{clr}{pos:00000000}{full}知ってどうする{nl}ゲボハハハ{wait}{clr}{pos:00000000}{full}まあ、少しは退屈しのぎになるかもしれませんね・・・{wait}{clr}{pos:00000000}{full}私の正体を知った{nl}人間たちの{wait}{clr}{pos:00000000}{full}うろたえる{nl}姿を見るのも{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}And what good would knowing do you? Gebohahaha!{wait}{clr}{pos:00000000}{full}Well, I suppose it might relieve my boredom a little...{wait}{clr}{pos:00000000}{full}to watch the humans who learn what I truly am{wait}{clr}{pos:00000000}{full}squirm in dismay.{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:05F544"
   ],
   "jp": "{clr}{pos:00000000}{full}やめろ！{nl}人間たちを惑わせて何が面白い{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Stop this! What joy do you find in leading humans astray?{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:05F549"
   ],
   "jp": "{clr}{pos:00000000}{full}ふん、何をあわてているのです・・・{wait}{clr}{pos:00000000}{full}ゲボハハハ{wait}{clr}{pos:00000000}{full}わかった、あなたは私と同じ一族の者だと知れるのが{wait}{clr}{pos:00000000}{full}そんなにいやなのですか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hmph, why so flustered...?{wait}{clr}{pos:00000000}{full}Gebohahaha!{wait}{clr}{pos:00000000}{full}I see. You can't bear for them to learn{wait}{clr}{pos:00000000}{full}that you are of the same kin as I?{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:05F55C"
   ],
   "jp": "{clr}{pos:00000000}{full}アルデナーラ先生が？うそや！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Master Ardenara? No way!{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:05F56F"
   ],
   "jp": "{clr}{pos:00000000}{full}神は最初、神の姿ににせて人間を作った{wait}{clr}{pos:00000000}{full}そして一番最初に{nl}作った人間たちに{wait}{clr}{pos:00000000}{full}自分と同じ力を{nl}与えたのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}In the beginning, the gods made humans in their own image.{wait}{clr}{pos:00000000}{full}And to the very first humans they made,{wait}{clr}{pos:00000000}{full}they gave the same power as their own.{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:05F582"
   ],
   "jp": "{clr}{pos:00000000}{full}しかし、それは{nl}まちがいだった！{wait}{clr}{pos:00000000}{full}おまえの力を、神々は取り上げようとした！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But that was a mistake!{wait}{clr}{pos:00000000}{full}The gods tried to take your power away!{wait}",
   "box": "lower"
  },
  {
@@ -117,7 +117,7 @@
    "vm:05F587"
   ],
   "jp": "{clr}{pos:00000000}{full}そうそう{nl}ゲボハハハ{wait}{clr}{pos:00000000}{full}でも私は逃げました遠くへね{wait}{clr}{pos:00000000}{full}やがて神々は眠りについた{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Quite so, quite so. Gebohahaha!{wait}{clr}{pos:00000000}{full}But I ran away. Far, far away.{wait}{clr}{pos:00000000}{full}And in time, the gods fell asleep.{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:05F58C"
   ],
   "jp": "{clr}{pos:00000000}{full}神々はおまえを{nl}ゆるしていない！{wait}{clr}{pos:00000000}{full}私の力を取り上げずかわりにお前を倒す役目を{wait}{clr}{pos:00000000}{full}私にさずけたのだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The gods have not forgiven you!{wait}{clr}{pos:00000000}{full}Rather than take my power away, they entrusted me{wait}{clr}{pos:00000000}{full}with the task of destroying you!{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:05F59F"
   ],
   "jp": "{clr}{pos:00000000}{full}そ・・・そうなのか・・・でも{wait}{clr}{pos:00000000}{full}アルデナーラ先生の力は半分しか{nl}もどってないって{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}S-so that's how it is... But{wait}{clr}{pos:00000000}{full}I heard Master Ardenara's power only came back by half!{wait}",
   "box": "upper"
  },
  {
@@ -150,7 +150,7 @@
    "vm:05F5B2"
   ],
   "jp": "{clr}{pos:00000000}{full}たとえそうであっても・・俺がかならずヤツを倒す！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Even so... I'll take him down, no matter what!{wait}",
   "box": "lower"
  },
  {
@@ -161,7 +161,7 @@
    "vm:05F5C5"
   ],
   "jp": "{clr}{pos:00000000}{full}ついて来れるなら来てごらんなさい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Follow me if you can.{wait}",
   "box": "upper"
  },
  {
@@ -172,7 +172,7 @@
    "vm:05F602"
   ],
   "jp": "{clr}{pos:00000000}{full}ちくしょう、どこまで逃げる気だ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Damn it, how far is he going to run?!!{wait}",
   "box": "upper"
  },
  {
@@ -183,7 +183,7 @@
    "vm:05F607"
   ],
   "jp": "{clr}{pos:00000000}{full}まて！{nl}やつはまた何かしかけるつもりじゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait! He's planning another trick!{wait}",
   "box": "lower"
  },
  {
@@ -194,7 +194,7 @@
    "vm:05F382"
   ],
   "jp": "{full}　ＳＴＡＧＥ２４{nl}{half}　{full}　　＜追撃＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 24{nl}{half}　{full}　　<Pursuit>{wait}",
   "box": "centre"
  },
  {
@@ -205,7 +205,7 @@
    "vm:05F642"
   ],
   "jp": "{full}かくれショップ{nl}だよ！{wait}",
-  "en": "",
+  "en": "{full}It's a hidden shop!{wait}",
   "box": "centre"
  }
 ]

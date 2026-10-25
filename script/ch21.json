@@ -7,7 +7,7 @@
    "vm:058615"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナさん{wait}{clr}{pos:00000000}{full}ついに「破亡の舞」を手に入れたそう{nl}ですね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Serena-san,{wait}{clr}{pos:00000000}{full}I hear you've finally gained the \"Dance of Ruin.\"{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:05861A"
   ],
   "jp": "{clr}{pos:00000000}{full}どうしてそれを！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}How do you know that?!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:05861F"
   ],
   "jp": "{clr}{pos:00000000}{full}クキクキッ{nl}それぐらい知ってますよ！{wait}{clr}{pos:00000000}{full}さぁ、帝国のトラの子の戦象部隊です！{wait}{clr}{pos:00000000}{full}楽しませてくれますよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Kekekeke! I know that much, at least!{wait}{clr}{pos:00000000}{full}Now, behold the Empire's top dog, the war-elephant corps!{wait}{clr}{pos:00000000}{full}They'll show you a fine time.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:058632"
   ],
   "jp": "{clr}{pos:00000000}{full}トラの子の象？{nl}何だそりゃ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Top dog? They're elephants!{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:058645"
   ],
   "jp": "{clr}{pos:00000000}{full}うるさいです{nl}{wait}{clr}{pos:00000000}{full}無敵の戦象たち！{nl}けちらして{nl}おしまい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, be quiet.{wait}{clr}{pos:00000000}{full}My invincible war elephants! Scatter them!{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:058658"
   ],
   "jp": "{clr}{pos:00000000}{full}ひぇー、魔物や、魔物や！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eeek! Monsters! It's monsters!{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:05866B"
   ],
   "jp": "{clr}{pos:00000000}{full}しかし、またしてもまち伏せ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But an ambush yet again!{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:05867E"
   ],
   "jp": "{clr}{pos:00000000}{full}あれだけの数の魔物をあやつれるとは・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}To control that many monsters...{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:058691"
   ],
   "jp": "{clr}{pos:00000000}{full}あれはあたたかい国にすむという象です{wait}{clr}{pos:00000000}{full}魔物じゃありません{wait}{clr}{pos:00000000}{full}体は大きいけど{nl}とてもやさしい動物と聞いています{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Those are elephants, said to live in warm countries.{wait}{clr}{pos:00000000}{full}They're not monsters.{wait}{clr}{pos:00000000}{full}I've heard they're very gentle animals, big as they are.{wait}",
   "box": "lower"
  },
  {
@@ -106,7 +106,7 @@
    "vm:0586A4"
   ],
   "jp": "{clr}{pos:00000000}{full}でも、あいつにふまれりゃ{nl}ペチャンコだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Still, if one of those steps on you, you're flat as a pancake!{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:0586B7"
   ],
   "jp": "{clr}{pos:00000000}{full}ああん、だめぇン{nl}大きいわ、{wait}{clr}{pos:00000000}{full}大きすぎて攻撃が{nl}きかないわ、きっと{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ahhn, no~ They're big,{wait}{clr}{pos:00000000}{full}so big our attacks won't work on them, I'm sure~{wait}",
   "box": "lower"
  },
  {
@@ -128,7 +128,7 @@
    "vm:0586CA"
   ],
   "jp": "{clr}{pos:00000000}{full}ゆるせない！{nl}森の動物を戦争に{nl}つかうなんて！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Unforgivable! Using the animals of the forest for war!{wait}",
   "box": "upper"
  },
  {
@@ -139,7 +139,7 @@
    "vm:0586DD"
   ],
   "jp": "{clr}{pos:00000000}{full}どうしてやさしいはずの象が、こんなに戦鬪的なんだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why are elephants, gentle as they're supposed to be, so fierce?!{wait}",
   "box": "lower"
  },
  {
@@ -150,7 +150,7 @@
    "vm:0586F0"
   ],
   "jp": "{clr}{pos:00000000}{full}かわいそうに・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Poor things...{wait}",
   "box": "upper"
  },
  {
@@ -161,7 +161,7 @@
    "vm:058703"
   ],
   "jp": "{clr}{pos:00000000}{full}それは象使いがムチを使ってあやつっているんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's the handlers. They're driving them with whips.{wait}",
   "box": "lower"
  },
  {
@@ -172,7 +172,7 @@
    "vm:058716"
   ],
   "jp": "{clr}{pos:00000000}{full}かかれ！{nl}帝国がほこる{nl}戦象軍団よ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Charge! Pride of the Empire, my war-elephant legion!{wait}",
   "box": "upper"
  },
  {
@@ -183,7 +183,7 @@
    "vm:05891D"
   ],
   "jp": "{clr}{pos:00000000}{full}バーカ！{wait}{clr}{pos:00000000}{full}おまえは一人で何もできないただの使いっぱしりじゃない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You moron!{wait}{clr}{pos:00000000}{full}You're just an errand boy who can't do anything on his own!{wait}",
   "box": "upper"
  },
  {
@@ -194,7 +194,7 @@
    "vm:058922"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルッ、おまえ{nl}本当に強いのガオ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr, are you really strong, rawr?{wait}",
   "box": "lower"
  },
  {
@@ -205,7 +205,7 @@
    "vm:058935"
   ],
   "jp": "{clr}{pos:00000000}{full}口だけじゃないの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Isn't it all just talk?{wait}",
   "box": "upper"
  },
  {
@@ -216,7 +216,7 @@
    "vm:058948"
   ],
   "jp": "{clr}{pos:00000000}{full}いつもしっぽをまいてかっこ悪いわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You always turn tail and run. So uncool.{wait}",
   "box": "lower"
  },
  {
@@ -227,7 +227,7 @@
    "vm:05895B"
   ],
   "jp": "{clr}{pos:00000000}{full}タイプじゃないわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You're not my type.{wait}",
   "box": "upper"
  },
  {
@@ -238,7 +238,7 @@
    "vm:05896E"
   ],
   "jp": "{clr}{pos:00000000}{full}ウソつきっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Liar, liar!{wait}",
   "box": "lower"
  },
  {
@@ -249,7 +249,7 @@
    "vm:058981"
   ],
   "jp": "{clr}{pos:00000000}{full}もうおまえ{nl}来なくていいよ{wait}{clr}{pos:00000000}{full}今度から戦う人だけと話すから{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You don't need to come anymore.{wait}{clr}{pos:00000000}{full}From now on, we'll only talk to people who actually fight.{wait}",
   "box": "upper"
  },
  {
@@ -260,7 +260,7 @@
    "vm:058994"
   ],
   "jp": "{clr}{pos:00000000}{full}どうですか、ここまでコケにされて{wait}{clr}{pos:00000000}{full}それでも逃げますか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well? After being made such a fool of,{wait}{clr}{pos:00000000}{full}will you still run away?{wait}",
   "box": "lower"
  },
  {
@@ -271,7 +271,7 @@
    "vm:0589A7"
   ],
   "jp": "{clr}{pos:00000000}{full}殺す・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll kill you...{wait}",
   "box": "upper"
  },
  {
@@ -282,7 +282,7 @@
    "vm:058A32"
   ],
   "jp": "{clr}{pos:00000000}{full}な、なぜだ・・・{nl}そんなバカな・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}H-how... That's impossible...{wait}",
   "box": "upper"
  },
  {
@@ -293,7 +293,7 @@
    "vm:058A37"
   ],
   "jp": "{clr}{pos:00000000}{full}感情に負けたな{nl}バーナサス！{wait}{clr}{pos:00000000}{full}おまえは俺たちの{nl}ことをよく知っていたが{wait}{clr}{pos:00000000}{full}自分のことをよく{nl}知らなかったのさ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You let your temper beat you, Barnassus!{wait}{clr}{pos:00000000}{full}You knew us well,{wait}{clr}{pos:00000000}{full}but you didn't know yourself!{wait}",
   "box": "lower"
  },
  {
@@ -304,7 +304,7 @@
    "vm:058A3C"
   ],
   "jp": "{clr}{pos:00000000}{full}クキ・キ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Keke...ke...{wait}",
   "box": "upper"
  },
  {
@@ -315,7 +315,7 @@
    "vm:058A6D"
   ],
   "jp": "{full}町人{nl}　あちこちで帝国に　たいする反乱が{wait}{nl}　起こっている{wait}",
-  "en": "",
+  "en": "{full}Townsman: Rebellions against the Empire{wait}{nl}are breaking out everywhere.{wait}",
   "box": "centre"
  },
  {
@@ -326,7 +326,7 @@
    "vm:0588D4"
   ],
   "jp": "{clr}{pos:00000000}{full}それではみなさん{nl}さようなら{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well then, goodbye, everyone.{wait}",
   "box": "upper"
  },
  {
@@ -337,7 +337,7 @@
    "vm:058590"
   ],
   "jp": "{full}　ＳＴＡＧＥ１７{nl}＜かわいそうな象＞{wait}",
-  "en": "",
+  "en": "{full}STAGE 17 <Poor Elephants>{wait}",
   "box": "centre"
  }
 ]

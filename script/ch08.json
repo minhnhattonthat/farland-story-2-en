@@ -7,7 +7,7 @@
    "vm:068852"
   ],
   "jp": "{clr}{pos:00000000}{full}やぁ、シフィルに{nl}ネイフル！{wait}{clr}{pos:00000000}{full}ちょうどよかった{nl}手伝いがほしかったところだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why, Cifil and Neiful!{wait}{clr}{pos:00000000}{full}Perfect timing. I was just wishing for some help.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:068857"
   ],
   "jp": "{clr}{pos:00000000}{full}何いってんだよ{nl}ケイリナス{wait}{clr}{pos:00000000}{full}こんなとこで{nl}ブラブラして{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What are you talking about, Quirinus?{wait}{clr}{pos:00000000}{full}Loafing around in a place like this...{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06885C"
   ],
   "jp": "{clr}{pos:00000000}{full}しっけいな{wait}{clr}{pos:00000000}{full}私はこれでも、帝国軍の動きを見はっているんだ！{wait}{clr}{pos:00000000}{full}ああっ、こちらの美しい方は・・・{nl}せめてお名前を{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}How rude!{wait}{clr}{pos:00000000}{full}I'll have you know I'm keeping watch on the Imperial army's movements!{wait}{clr}{pos:00000000}{full}Ah! And who might this beautiful lady be...? Pray, tell me your name, at least.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:068887"
   ],
   "jp": "{clr}{pos:00000000}{full}・・・私のこと？{nl}私はサリーナ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}...Me? I'm Serena.{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06889A"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナ・・・{nl}おお、名前まで美しい{wait}{clr}{pos:00000000}{full}私の名はケイリナス騎士ランティアの長男{wait}{clr}{pos:00000000}{full}そしてフェルサリア一の知恵者！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Serena... oh, even your name is beautiful.{wait}{clr}{pos:00000000}{full}My name is Quirinus, eldest son of the knight Lantia,{wait}{clr}{pos:00000000}{full}and Felsaria's greatest genius!{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:0688B1"
   ],
   "jp": "{clr}{pos:00000000}{full}フッ、残念だが{nl}サリーナの相手は{nl}決まっている{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh. Too bad, but Serena's already spoken for.{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:0688C8"
   ],
   "jp": "{clr}{pos:00000000}{full}ヴァラカナ！{nl}変なこと言うなよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Valakana! Don't say weird stuff!{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:0688DF"
   ],
   "jp": "{clr}{pos:00000000}{full}おいおい{nl}ケイリナス{wait}{clr}{pos:00000000}{full}敵の動きを教えて{nl}くれんか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Now, now, Quirinus.{wait}{clr}{pos:00000000}{full}Won't you tell us what the enemy's up to?{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:0688F2"
   ],
   "jp": "{clr}{pos:00000000}{full}あ、そうでした{wait}{clr}{pos:00000000}{full}見たところ{nl}私たちの十倍はいますね{wait}{clr}{pos:00000000}{full}やつら、もしかするとフェルサリアに{wait}{clr}{pos:00000000}{full}戦争を仕掛けるつもりかもしれない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ah, quite right.{wait}{clr}{pos:00000000}{full}By the look of it, they outnumber us ten to one.{wait}{clr}{pos:00000000}{full}They may well be planning{wait}{clr}{pos:00000000}{full}to wage war on Felsaria.{wait}",
   "box": "lower"
  },
  {
@@ -106,7 +106,7 @@
    "vm:068909"
   ],
   "jp": "{clr}{pos:00000000}{full}まあ・・・そんなに大軍なの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh my... is their army really that big?{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:06891C"
   ],
   "jp": "{clr}{pos:00000000}{full}エリア、キミまでこんなところに{wait}{clr}{pos:00000000}{full}しかし、この森の中で見るとさらにキミは美しい・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eria, you're here too?{wait}{clr}{pos:00000000}{full}And seen in this forest, you're lovelier than ever...{wait}",
   "box": "lower"
  },
  {
@@ -128,7 +128,7 @@
    "vm:068933"
   ],
   "jp": "{clr}{pos:00000000}{full}この人だれでもいいんだガオ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This guy'll flirt with anybody, rawr.{wait}",
   "box": "upper"
  },
  {
@@ -139,7 +139,7 @@
    "vm:068946"
   ],
   "jp": "{clr}{pos:00000000}{full}ケイリナス！{nl}また話がそれたよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Quirinus! You're getting off topic again!{wait}",
   "box": "lower"
  },
  {
@@ -150,7 +150,7 @@
    "vm:068959"
   ],
   "jp": "{clr}{pos:00000000}{full}うるさいなあ・・・{wait}{clr}{pos:00000000}{full}コホン、敵はあなどれないが、私にいい考えがあります{wait}{clr}{pos:00000000}{full}聞きたいでしょう？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Such a fuss...{wait}{clr}{pos:00000000}{full}Ahem. The enemy is not to be taken lightly, but I have a splendid idea.{wait}{clr}{pos:00000000}{full}You'd like to hear it, wouldn't you?{wait}",
   "box": "upper"
  },
  {
@@ -161,7 +161,7 @@
    "vm:06896C"
   ],
   "jp": "{clr}{pos:00000000}{full}ねえ、やっぱりかえろうよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hey, let's just go home after all.{wait}",
   "box": "lower"
  },
  {
@@ -172,7 +172,7 @@
    "vm:06897F"
   ],
   "jp": "{clr}{pos:00000000}{full}シフィル！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Cifil!{wait}",
   "box": "upper"
  },
  {
@@ -183,7 +183,7 @@
    "vm:068992"
   ],
   "jp": "{clr}{pos:00000000}{full}私の考えとは、こうです{wait}{clr}{pos:00000000}{full}帝国軍は今、せまい森に隠れています{wait}{clr}{pos:00000000}{full}スキをついて森の{nl}木に火をつければ{wait}{clr}{pos:00000000}{full}一気にやっつけれるというわけです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}My idea is this.{wait}{clr}{pos:00000000}{full}The Imperial army is hiding in this cramped forest right now.{wait}{clr}{pos:00000000}{full}If we catch them off guard and set the trees on fire,{wait}{clr}{pos:00000000}{full}we can wipe them out in one go.{wait}",
   "box": "lower"
  },
  {
@@ -194,7 +194,7 @@
    "vm:0689A5"
   ],
   "jp": "{clr}{pos:00000000}{full}それじゃあ、ヘタをするとボクたちも危ないじゃないか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But if it goes wrong, we'll be in danger too!{wait}",
   "box": "upper"
  },
  {
@@ -205,7 +205,7 @@
    "vm:0689B8"
   ],
   "jp": "{clr}{pos:00000000}{full}だが、何もやらなければ結果もでない{nl}{wait}{clr}{pos:00000000}{full}よしやってみよう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But if we do nothing, nothing will come of it.{wait}{clr}{pos:00000000}{full}All right, let's try it!{wait}",
   "box": "lower"
  },
  {
@@ -216,7 +216,7 @@
    "vm:0689CB"
   ],
   "jp": "{clr}{pos:00000000}{full}そうこなくちゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's the spirit!{wait}",
   "box": "upper"
  },
  {
@@ -227,7 +227,7 @@
    "vm:0689DE"
   ],
   "jp": "{clr}{pos:00000000}{full}・・・はぁ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}...Haah.{wait}",
   "box": "lower"
  }
 ]

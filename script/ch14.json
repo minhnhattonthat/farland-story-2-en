@@ -7,7 +7,7 @@
    "vm:06E54D"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな、しっかりするガオ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone, hang in there! Rawr!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:06E552"
   ],
   "jp": "{clr}{pos:00000000}{full}はっ・・・{nl}リギット、あなたもだいじょうぶ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh... Ligito, are you all right too?{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06E565"
   ],
   "jp": "{clr}{pos:00000000}{full}うん！{nl}ぼくはつよいんだっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yup! I'm shtrong!{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06E56A"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたがみんなを{nl}守ってくれたのね{nl}ありがとう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You protected everyone, didn't you? Thank you.{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06E56F"
   ],
   "jp": "{clr}{pos:00000000}{full}うしゃしゃ{nl}てれるっちゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hee hee, I'm all embarrashed!{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:06E582"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド殿はどこだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Where is Riad-dono?{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:06E595"
   ],
   "jp": "{clr}{pos:00000000}{full}だいじょうぶ、ここにいる{wait}{clr}{pos:00000000}{full}でも、シフィルがいないよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's okay, he's right here.{wait}{clr}{pos:00000000}{full}But Cifil's missing!{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:06E5A8"
   ],
   "jp": "{clr}{pos:00000000}{full}おちつけ！{nl}今は９人そろっている{wait}{clr}{pos:00000000}{full}シフィル、アルタバそれにカイがいないのか・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Calm down! There are nine of us here now.{wait}{clr}{pos:00000000}{full}So Cifil, Altaba and Kai are missing...{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:06E5BB"
   ],
   "jp": "{clr}{pos:00000000}{full}リアドさんったら！なにきょろきょろ{nl}してるの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad-san, really! Why are you looking around like that?{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:06E5CE"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド？{nl}俺のことか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad? Do you mean me?{wait}",
   "box": "lower"
  },
  {
@@ -117,7 +117,7 @@
    "vm:06E5E1"
   ],
   "jp": "{clr}{pos:00000000}{full}リアドったら・・・冗談いってる場合{nl}じゃないわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, Riad... This is no time for jokes.{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:06E5F4"
   ],
   "jp": "{clr}{pos:00000000}{full}まて、本当におかしいぞ{wait}{clr}{pos:00000000}{full}おい、リアド！{nl}俺がだれだか{nl}わかるか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait, something's really wrong.{wait}{clr}{pos:00000000}{full}Hey, Riad! Do you know who I am?{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:06E607"
   ],
   "jp": "{clr}{pos:00000000}{full}わからない・・・{nl}どこかで会った{nl}気がする・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I don't know... I feel like we've met somewhere...{wait}",
   "box": "upper"
  },
  {
@@ -150,7 +150,7 @@
    "vm:06E61A"
   ],
   "jp": "{clr}{pos:00000000}{full}まさかこれって{nl}記憶をなくしたってこと？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Don't tell me... he's lost his memory?{wait}",
   "box": "lower"
  },
  {
@@ -161,7 +161,7 @@
    "vm:06E62D"
   ],
   "jp": "{clr}{pos:00000000}{full}あかんわ・・・{nl}うちらぜつぼーてきやで！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No good... This is hopeless, y'know!{wait}",
   "box": "upper"
  },
  {
@@ -172,7 +172,7 @@
    "vm:06E640"
   ],
   "jp": "{clr}{pos:00000000}{full}なんとか記憶を取りもどさせる方法は{nl}ないかしら{wait}{clr}{pos:00000000}{full}ケイリナスさん？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Isn't there some way to bring his memory back?{wait}{clr}{pos:00000000}{full}Quirinus-san?{wait}",
   "box": "lower"
  },
  {
@@ -183,7 +183,7 @@
    "vm:06E653"
   ],
   "jp": "{clr}{pos:00000000}{full}うーむ、さすがの私も・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hmmm, even a genius like me...{wait}",
   "box": "upper"
  },
  {
@@ -194,7 +194,7 @@
    "vm:06E6A5"
   ],
   "jp": "{clr}{pos:00000000}{full}海に礼をいわねばなるまいな{wait}{clr}{pos:00000000}{full}ちょうど帝国の{nl}領地へおまえたちを{wait}{clr}{pos:00000000}{full}運んでくれるとはな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It seems I must thank the sea,{wait}{clr}{pos:00000000}{full}for carrying you right into{wait}{clr}{pos:00000000}{full}Imperial territory.{wait}",
   "box": "upper"
  },
  {
@@ -205,7 +205,7 @@
    "vm:06E6AA"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオ？{nl}す、するとここは？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr? Th-then, this place is...?{wait}",
   "box": "lower"
  },
  {
@@ -216,7 +216,7 @@
    "vm:06E6AF"
   ],
   "jp": "{clr}{pos:00000000}{full}テーバイムの海岸さ{wait}{clr}{pos:00000000}{full}このゾルディンの{nl}ものとなったばかりの国だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The coast of Tebaim.{wait}{clr}{pos:00000000}{full}A country that has only just become mine, Zordin's.{wait}",
   "box": "upper"
  },
  {
@@ -227,7 +227,7 @@
    "vm:06E6C2"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたがゾルディン将軍！？{wait}{clr}{pos:00000000}{full}リアドに剣を教えた・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You're General Zordin?!{wait}{clr}{pos:00000000}{full}The one who taught Riad the sword...{wait}",
   "box": "upper"
  },
  {
@@ -238,7 +238,7 @@
    "vm:06E6D5"
   ],
   "jp": "{clr}{pos:00000000}{full}リアドよ{nl}久しぶりだな{wait}{clr}{pos:00000000}{full}たっぷり剣の技をみせてやろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's been a while, Riad.{wait}{clr}{pos:00000000}{full}I'll give you a good look at my swordsmanship.{wait}",
   "box": "lower"
  },
  {
@@ -249,7 +249,7 @@
    "vm:06E6E8"
   ],
   "jp": "{clr}{pos:00000000}{full}ゾ・・ルディン？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Zor...din?{wait}",
   "box": "upper"
  },
  {
@@ -260,7 +260,7 @@
    "vm:06E6ED"
   ],
   "jp": "{clr}{pos:00000000}{full}どうした？{nl}いつもの元気がないようだが・・・{wait}{clr}{pos:00000000}{full}まあいい、おまえの仲間も少しは楽しませてくれるだろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What's wrong? You seem to lack your usual spirit...{wait}{clr}{pos:00000000}{full}No matter. Your friends should provide some amusement.{wait}",
   "box": "lower"
  },
  {
@@ -271,7 +271,7 @@
    "vm:06E700"
   ],
   "jp": "{clr}{pos:00000000}{full}やめて！{nl}今のリアドと戦うのはやめて下さい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Stop! Please don't fight Riad the way he is now.{wait}",
   "box": "lower"
  },
  {
@@ -282,7 +282,7 @@
    "vm:06E713"
   ],
   "jp": "{clr}{pos:00000000}{full}おかしなことを言ったな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What a strange thing to say.{wait}",
   "box": "upper"
  },
  {
@@ -302,7 +302,7 @@
    "vm:06E718"
   ],
   "jp": "{clr}{pos:00000000}{full}リアドは今、記憶をなくしているのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad has lost his memory.{wait}",
   "box": "lower"
  },
  {
@@ -313,7 +313,7 @@
    "vm:06E71D"
   ],
   "jp": "{clr}{pos:00000000}{full}ハッハッハッ{nl}それはできんな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hahaha! I can't do that.{wait}",
   "box": "upper"
  },
  {
@@ -333,7 +333,7 @@
    "vm:06E722"
   ],
   "jp": "{clr}{pos:00000000}{full}ひどい、あなたはそれでもリアドの師匠なの！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}How cruel! And you call yourself Riad's master?!{wait}",
   "box": "lower"
  },
  {
@@ -344,7 +344,7 @@
    "vm:06E735"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド殿をたのむ{nl}サリーナさん！{wait}{clr}{pos:00000000}{full}あとは私たちがなんとか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Take care of Riad-dono, Serena-san!{wait}{clr}{pos:00000000}{full}We'll handle the rest somehow.{wait}",
   "box": "lower"
  },
  {
@@ -355,7 +355,7 @@
    "vm:06E748"
   ],
   "jp": "{clr}{pos:00000000}{full}わかりました{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right.{wait}",
   "box": "upper"
  },
  {
@@ -366,7 +366,7 @@
    "vm:06E75B"
   ],
   "jp": "{clr}{pos:00000000}{full}一体、何がなんだかわからない・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I have no idea what's going on...{wait}",
   "box": "lower"
  },
  {
@@ -404,7 +404,7 @@
    "vm:06E953"
   ],
   "jp": "{clr}{pos:00000000}{full}うっ！{nl}頭が・・・いたい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ugh! My head... it hurts.{wait}",
   "box": "upper"
  },
  {
@@ -415,7 +415,7 @@
    "vm:06E958"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad...{wait}",
   "box": "lower"
  },
  {
@@ -426,7 +426,7 @@
    "vm:06E95D"
   ],
   "jp": "{clr}{pos:00000000}{full}なにかが・・・頭に浮かんできた・・・{wait}{clr}{pos:00000000}{full}ああっ・・・俺は{nl}一体・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Something... is coming back to me...{wait}{clr}{pos:00000000}{full}Ahh... What am I...?{wait}",
   "box": "upper"
  },
  {
@@ -437,7 +437,7 @@
    "vm:06E962"
   ],
   "jp": "{clr}{pos:00000000}{full}く・いてて・・・{nl}頭がなんでこんなにいたいんだろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ngh, ow... Why does my head hurt so much?{wait}",
   "box": "upper"
  },
  {
@@ -448,7 +448,7 @@
    "vm:06E975"
   ],
   "jp": "{clr}{pos:00000000}{full}だいじょうぶ？{nl}リアドさん{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Are you all right, Riad-san?{wait}",
   "box": "upper"
  },
  {
@@ -459,7 +459,7 @@
    "vm:06E988"
   ],
   "jp": "{clr}{pos:00000000}{full}ああ、だいじょうぶだエリア{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah, I'm fine, Eria.{wait}",
   "box": "lower"
  },
  {
@@ -470,7 +470,7 @@
    "vm:06E99B"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド・・・{nl}今、なんて？なんて言ったの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad... What did you just say? What did you say?{wait}",
   "box": "upper"
  },
  {
@@ -481,7 +481,7 @@
    "vm:06E9AE"
   ],
   "jp": "{clr}{pos:00000000}{full}記憶がもどったのか！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Your memory's back?!{wait}",
   "box": "lower"
  },
  {
@@ -492,7 +492,7 @@
    "vm:06E9C1"
   ],
   "jp": "{clr}{pos:00000000}{full}ん、なんだみんな{nl}そんな心配そうな顔をして・・・{wait}{clr}{pos:00000000}{full}ここはどこだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hm? Why's everyone looking so worried...{wait}{clr}{pos:00000000}{full}Where are we?{wait}",
   "box": "upper"
  },
  {
@@ -503,7 +503,7 @@
    "vm:06E9D4"
   ],
   "jp": "{clr}{pos:00000000}{full}ようやく、元の{nl}おまえにもどったか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So you're finally back to your old self.{wait}",
   "box": "lower"
  },
  {
@@ -514,7 +514,7 @@
    "vm:06E9D9"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたはゾルディン師匠！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You're... Master Zordin!{wait}",
   "box": "upper"
  },
  {
@@ -525,7 +525,7 @@
    "vm:06E9DE"
   ],
   "jp": "{clr}{pos:00000000}{full}さあて、少しは手ごたえのあるところを見せてもらおうか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Now then, show me you can put up a real fight.{wait}",
   "box": "lower"
  },
  {
@@ -536,7 +536,7 @@
    "vm:06E9E3"
   ],
   "jp": "{clr}{pos:00000000}{full}だまってやられはしないぞ！{nl}{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I won't go down without a fight!{wait}",
   "box": "upper"
  },
  {
@@ -547,7 +547,7 @@
    "vm:06EA6B"
   ],
   "jp": "{clr}{pos:00000000}{full}フッハハハ、少しはできるようだ{wait}{clr}{pos:00000000}{full}帝国でまっているぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hahaha, it seems you have some skill.{wait}{clr}{pos:00000000}{full}I'll be waiting for you in the Empire.{wait}",
   "box": "upper"
  },
  {
@@ -558,7 +558,7 @@
    "vm:06EA85"
   ],
   "jp": "{clr}{pos:00000000}{full}ゾルディン師匠！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Master Zordin!{wait}",
   "box": "lower"
  },
  {
@@ -569,7 +569,7 @@
    "vm:06EA98"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルルッ{nl}かなわないから逃げちゃった{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr! He couldn't beat us, so he ran away.{wait}",
   "box": "lower"
  },
  {
@@ -580,7 +580,7 @@
    "vm:06EAAB"
   ],
   "jp": "{clr}{pos:00000000}{full}いや恐ろしい敵だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No, he's a fearsome enemy.{wait}",
   "box": "upper"
  },
  {
@@ -591,7 +591,7 @@
    "vm:06EABE"
   ],
   "jp": "{clr}{pos:00000000}{full}じゃ、どうして消えちゃったのさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Then why'd he disappear?{wait}",
   "box": "lower"
  },
  {
@@ -602,7 +602,7 @@
    "vm:06EAD1"
   ],
   "jp": "{clr}{pos:00000000}{full}きっとリアドと{nl}本当の勝負がしたいのよ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm sure he wants a real match with Riad...{wait}",
   "box": "upper"
  },
  {
@@ -613,7 +613,7 @@
    "vm:06EAE4"
   ],
   "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}.....{wait}",
   "box": "lower"
  },
  {
@@ -624,7 +624,7 @@
    "vm:06EAF7"
   ],
   "jp": "{clr}{pos:00000000}{full}リギット君がもっと大人だったらなあ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}If only Ligito-kun were more grown up.{wait}",
   "box": "upper"
  },
  {
@@ -635,7 +635,7 @@
    "vm:06EB0A"
   ],
   "jp": "{clr}{pos:00000000}{full}ぼくにはもっと隠された力があるんだっちゃ{wait}{clr}{pos:00000000}{full}お母さんが言ってたけど、ぼくと相性のいい人間を{wait}{clr}{pos:00000000}{full}背中に乗っけたら{nl}すごく強くなれるんだっちゃ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I've got more hidden power, you shee!{wait}{clr}{pos:00000000}{full}My mom shaid that if I let a human who's a good match for me{wait}{clr}{pos:00000000}{full}ride on my back, I can get shuper shtrong!{wait}",
   "box": "lower"
  },
  {
@@ -646,7 +646,7 @@
    "vm:06EB0F"
   ],
   "jp": "{clr}{pos:00000000}{full}ふうん{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hmm.{wait}",
   "box": "upper"
  },
  {
@@ -657,7 +657,7 @@
    "vm:06EB22"
   ],
   "jp": "{clr}{pos:00000000}{full}それよりカイさんたちとめぐり合えたらいいのだけど・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}More than that, I hope we can find Kai-san and the others...{wait}",
   "box": "upper"
  },
  {
@@ -668,7 +668,7 @@
    "vm:06EB35"
   ],
   "jp": "{clr}{pos:00000000}{full}手っとりばやく{nl}近くの国から探してみよう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let's start by searching the nearest country.{wait}",
   "box": "lower"
  },
  {
@@ -679,7 +679,7 @@
    "vm:06EB65"
   ],
   "jp": "{full}町人{nl}　この国は帝国のゾ　ルディン将軍に{wait}{nl}　占領されているの{wait}",
-  "en": "",
+  "en": "{full}Townsman: This country has been{wait}{nl}occupied by the Empire's General Zordin.{wait}",
   "box": "centre"
  },
  {
@@ -690,7 +690,7 @@
    "vm:06E494"
   ],
   "jp": "{full}　ＳＴＡＧＥ１０{nl}　＜ゾルディン＞{wait}",
-  "en": "",
+  "en": "{full}STAGE 10　<Zordin>{wait}",
   "box": "centre"
  }
 ]

@@ -1,6 +1,9 @@
-# Translation reviewer brief - <Game title>
+# Translation reviewer brief - Farland Story 2 (SNES)
 
-You review one batch of a JP->`<target language>` fan translation. Read-only: no edits, no git, no subagents.
+You review one batch of a JP->English fan translation. Pairs file lines: `>> id | box | Japanese` then the English;
+` || ` separates pages (one key press each); `{..}` are control codes; box upper/lower = which portrait window
+speaks (no speaker names in the data: infer from voice and context, `docs/synopsis.md` has the cast and voices).
+Lines are wrapped by a tool, so ignore line length. Read-only: no edits, no git, no subagents.
 Mechanical validity (ids, control codes, encodable characters, width, stub last lines) is already enforced by the
 check tool - judge translation quality. Return the report as your final message: subagents cannot write files, so the
 controller saves it.

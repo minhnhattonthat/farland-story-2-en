@@ -70,7 +70,7 @@
    "vm:057169"
   ],
   "jp": "{clr}{pos:00000000}{full}ここはどこなんだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Where are we?{wait}",
   "box": "upper"
  },
  {
@@ -81,7 +81,7 @@
    "vm:05716E"
   ],
   "jp": "{clr}{pos:00000000}{full}木の中よ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Inside the tree!{wait}",
   "box": "lower"
  },
  {
@@ -92,7 +92,7 @@
    "vm:057181"
   ],
   "jp": "{clr}{pos:00000000}{full}私は村を守るように命じられただけで{nl}何かは知らない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I was only ordered to guard the village. I do not know what this is.{wait}",
   "box": "upper"
  },
  {
@@ -103,7 +103,7 @@
    "vm:057194"
   ],
   "jp": "{clr}{pos:00000000}{full}うあっ！{nl}な、何だ？{nl}この光は{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Whoa! Wh-what is this light?{wait}",
   "box": "lower"
  },
  {
@@ -114,7 +114,7 @@
    "vm:0571E6"
   ],
   "jp": "{clr}{pos:00000000}{full}わが一族最後の娘よ・・・{nl}よくたどりついた{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Last daughter of our clan... You have made it here at last.{wait}",
   "box": "upper"
  },
  {
@@ -125,7 +125,7 @@
    "vm:0571EB"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたはいったい？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Who are you?{wait}",
   "box": "lower"
  },
  {
@@ -136,7 +136,7 @@
    "vm:0571F0"
   ],
   "jp": "{clr}{pos:00000000}{full}記憶が完全にもどっていないのか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Your memory has not yet fully returned?{wait}",
   "box": "upper"
  },
  {
@@ -147,7 +147,7 @@
    "vm:0571F5"
   ],
   "jp": "{clr}{pos:00000000}{full}記憶？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}My memory?{wait}",
   "box": "lower"
  },
  {
@@ -158,7 +158,7 @@
    "vm:0571FA"
   ],
   "jp": "{clr}{pos:00000000}{full}心して聞くがいい・・・{wait}{clr}{pos:00000000}{full}おまえはケントゥーネ族の族長の娘、我々はある勢力から{wait}{clr}{pos:00000000}{full}おまえを守るために１４年前に記憶を奪いある村に送った{wait}{clr}{pos:00000000}{full}それは今日、我々が帝国に滅ぼされることを予言し敵の目{wait}{clr}{pos:00000000}{full}をあざむくためにわざと帝国の村におまえを送ったのだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Listen well...{wait}{clr}{pos:00000000}{full}You are the daughter of the Kentoone chief. To protect you from a certain power,{wait}{clr}{pos:00000000}{full}fourteen years ago we took your memories and sent you away to a village.{wait}{clr}{pos:00000000}{full}We foresaw that today the Empire would destroy us, and to throw{wait}{clr}{pos:00000000}{full}the enemy off your trail, we sent you to an Imperial village on purpose!{wait}",
   "box": "upper"
  },
  {
@@ -169,7 +169,7 @@
    "vm:05720D"
   ],
   "jp": "{clr}{pos:00000000}{full}ある勢力？{nl}帝国じゃないのですか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A certain power? Isn't it the Empire?{wait}",
   "box": "upper"
  },
  {
@@ -180,7 +180,7 @@
    "vm:057212"
   ],
   "jp": "{clr}{pos:00000000}{full}私は・・・{nl}舞とは一体何なの{nl}です？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I... What exactly is this dance of mine?{wait}",
   "box": "lower"
  },
  {
@@ -191,7 +191,7 @@
    "vm:057225"
   ],
   "jp": "{clr}{pos:00000000}{full}ケントゥーネの舞{nl}とは、神々との契約を意味するのだ{wait}{clr}{pos:00000000}{full}正しい舞を舞った{nl}とき{wait}{clr}{pos:00000000}{full}神々が契約に{nl}したがって力を{nl}貸してくださる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A Kentoone dance is a contract with the gods.{wait}{clr}{pos:00000000}{full}When the true dance is danced,{wait}{clr}{pos:00000000}{full}the gods lend their power, as the contract binds them.{wait}",
   "box": "lower"
  },
  {
@@ -202,7 +202,7 @@
    "vm:057238"
   ],
   "jp": "{clr}{pos:00000000}{full}教えてください{wait}{clr}{pos:00000000}{full}それでは帝国が{nl}ねらう「破亡の舞」とは？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Please, tell me.{wait}{clr}{pos:00000000}{full}Then what is the \"Dance of Ruin\" the Empire is after?{wait}",
   "box": "upper"
  },
  {
@@ -213,7 +213,7 @@
    "vm:05723D"
   ],
   "jp": "{clr}{pos:00000000}{full}良かろう{wait}{clr}{pos:00000000}{full}この世界にはきょうぼうなキメラがすみ着いている{wait}{clr}{pos:00000000}{full}そいつを倒して{nl}くれば教えてやろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Very well.{wait}{clr}{pos:00000000}{full}A ferocious chimera dwells in this world.{wait}{clr}{pos:00000000}{full}Defeat it, and I shall tell you.{wait}",
   "box": "lower"
  },
  {
@@ -224,7 +224,7 @@
    "vm:057242"
   ],
   "jp": "{clr}{pos:00000000}{full}わかりました{nl}やってみます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I understand. I'll try.{wait}",
   "box": "upper"
  },
  {
@@ -235,7 +235,7 @@
    "vm:057247"
   ],
   "jp": "{clr}{pos:00000000}{full}キメラは強い{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The chimera is strong.{wait}",
   "box": "lower"
  },
  {
@@ -246,7 +246,7 @@
    "vm:057347"
   ],
   "jp": "{clr}{pos:00000000}{full}ジュルーッ{nl}うまそうな人間たちが来た！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Slurrp! Here come some tasty-looking humans!{wait}",
   "box": "upper"
  },
  {
@@ -257,7 +257,7 @@
    "vm:05734C"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナ！{nl}手ごわそうだから{nl}離れているんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Serena! It looks tough, so stay back!{wait}",
   "box": "lower"
  },
  {
@@ -268,7 +268,7 @@
    "vm:057394"
   ],
   "jp": "{clr}{pos:00000000}{full}なんてやつ！{nl}{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What a monster!{wait}",
   "box": "upper"
  },
  {
@@ -279,7 +279,7 @@
    "vm:057399"
   ],
   "jp": "{clr}{pos:00000000}{full}どうした？{nl}そのていどか！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What's wrong? Is that all you've got?!{wait}",
   "box": "lower"
  },
  {
@@ -290,7 +290,7 @@
    "vm:0573AC"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルッ！おいらたちじゃ、歯が立たないのか！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr! We're no match for it?!{wait}",
   "box": "upper"
  },
  {
@@ -301,7 +301,7 @@
    "vm:0573BF"
   ],
   "jp": "{clr}{pos:00000000}{full}どこかに、どこかに死角があるはずだ{wait}{clr}{pos:00000000}{full}どこかにきっと・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It has to have a blind spot somewhere...{wait}{clr}{pos:00000000}{full}There must be one, somewhere...{wait}",
   "box": "lower"
  },
  {
@@ -312,7 +312,7 @@
    "vm:0573D2"
   ],
   "jp": "{clr}{pos:00000000}{full}いけない！{nl}このままではみんなが死んでしまうわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh no! At this rate, everyone will die!{wait}",
   "box": "upper"
  },
  {
@@ -323,7 +323,7 @@
    "vm:0573E5"
   ],
   "jp": "{clr}{pos:00000000}{full}もうあきらめよう{nl}よ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let's just give up already!{wait}",
   "box": "lower"
  },
  {
@@ -334,7 +334,7 @@
    "vm:0573F8"
   ],
   "jp": "{clr}{pos:00000000}{full}いやだっちゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No! I refushe!{wait}",
   "box": "upper"
  },
  {
@@ -345,7 +345,7 @@
    "vm:05740B"
   ],
   "jp": "{clr}{pos:00000000}{full}こいつはわしの力でも、どうにもならんわい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Even my power can't do a thing against this one.{wait}",
   "box": "lower"
  },
  {
@@ -356,7 +356,7 @@
    "vm:05749A"
   ],
   "jp": "{clr}{pos:00000000}{full}今の舞ではもうこれ以上{wait}{clr}{pos:00000000}{full}ダメージをあたえられないわ{wait}{clr}{pos:00000000}{full}だとすると新しい契約、新しい舞を舞えば・・・{wait}{clr}{pos:00000000}{full}リアド！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The dances I know now can't do it{wait}{clr}{pos:00000000}{full}any more damage.{wait}{clr}{pos:00000000}{full}Then if I made a new contract and danced a new dance...{wait}{clr}{pos:00000000}{full}Riad!{wait}",
   "box": "upper"
  },
  {
@@ -367,7 +367,7 @@
    "vm:05749F"
   ],
   "jp": "{clr}{pos:00000000}{full}何だ！{nl}{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What is it?!{wait}",
   "box": "lower"
  },
  {
@@ -378,7 +378,7 @@
    "vm:0574A4"
   ],
   "jp": "{clr}{pos:00000000}{full}ためしてみたい舞があるの・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}There's a dance I want to try...{wait}",
   "box": "upper"
  },
  {
@@ -389,7 +389,7 @@
    "vm:0574A9"
   ],
   "jp": "{clr}{pos:00000000}{full}わかった{wait}{clr}{pos:00000000}{full}みんな、サリーナの邪魔にならないように離れるんだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Got it.{wait}{clr}{pos:00000000}{full}Everyone, stand back so you don't get in Serena's way!{wait}",
   "box": "lower"
  },
  {
@@ -400,7 +400,7 @@
    "vm:0574AE"
   ],
   "jp": "{clr}{pos:00000000}{full}私は舞に全てを！{nl}{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I give everything to the dance!{wait}",
   "box": "upper"
  },
  {
@@ -411,7 +411,7 @@
    "vm:0574F6"
   ],
   "jp": "{clr}{pos:00000000}{full}まさか、そんな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No... It can't be!{wait}",
   "box": "upper"
  },
  {
@@ -422,7 +422,7 @@
    "vm:0574FB"
   ],
   "jp": "{clr}{pos:00000000}{full}これが・・・{nl}破亡の舞！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So this is... the Dance of Ruin!{wait}",
   "box": "lower"
  },
  {
@@ -433,7 +433,7 @@
    "vm:05750E"
   ],
   "jp": "{clr}{pos:00000000}{full}ちがう・・・{nl}あれは、怪物じゃないっ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No... That's not a monster!{wait}",
   "box": "upper"
  },
  {
@@ -444,7 +444,7 @@
    "vm:057513"
   ],
   "jp": "{clr}{pos:00000000}{full}あれはライナス様！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's Linus-sama!{wait}",
   "box": "lower"
  },
  {
@@ -455,7 +455,7 @@
    "vm:0575B6"
   ],
   "jp": "{clr}{pos:00000000}{full}よ、よくやった！{nl}それが破亡の舞じゃ・・・{wait}{clr}{pos:00000000}{full}おまえだけの破亡の舞・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}W-well done! That is the Dance of Ruin...{wait}{clr}{pos:00000000}{full}a Dance of Ruin all your own...{wait}",
   "box": "upper"
  },
  {
@@ -466,7 +466,7 @@
    "vm:0575BB"
   ],
   "jp": "{clr}{pos:00000000}{full}ライナス様{nl}「破亡の舞」とは{nl}いったい？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Linus-sama, what is the \"Dance of Ruin,\" really?{wait}",
   "box": "lower"
  },
  {
@@ -477,7 +477,7 @@
    "vm:0575C0"
   ],
   "jp": "{clr}{pos:00000000}{full}すべてを無へとかえす舞じゃ{wait}{clr}{pos:00000000}{full}その舞、この世界を破滅させる{nl}神々さえも・・・{wait}{clr}{pos:00000000}{full}我々、ケントゥーネ族の使命は{wait}{clr}{pos:00000000}{full}善と悪の勢力の均衡じゃ！{wait}{clr}{pos:00000000}{full}もしどちらかの勢力が世界をおおったとき{wait}{clr}{pos:00000000}{full}一族に伝わる舞{nl}破亡の舞で世界を{nl}滅ぼし{wait}{clr}{pos:00000000}{full}全てを一からやり直させるという使命を持つ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It is a dance that returns everything to nothing.{wait}{clr}{pos:00000000}{full}That dance... can unmake even the gods who would bring ruin to this world...{wait}{clr}{pos:00000000}{full}The mission of us Kentoone{wait}{clr}{pos:00000000}{full}is to keep the balance between the forces of good and evil!{wait}{clr}{pos:00000000}{full}Should either force come to cover the world,{wait}{clr}{pos:00000000}{full}our mission is to destroy that world with our clan's own dance, the Dance of Ruin,{wait}{clr}{pos:00000000}{full}and make everything begin again from the very start...{wait}",
   "box": "upper"
  },
  {
@@ -488,7 +488,7 @@
    "vm:0575C5"
   ],
   "jp": "{clr}{pos:00000000}{full}そんな恐ろしい力を私が・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Such a terrifying power, in me...{wait}",
   "box": "lower"
  },
  {
@@ -499,7 +499,7 @@
    "vm:0575CA"
   ],
   "jp": "{clr}{pos:00000000}{full}わしはそのことを伝えるために５００年{wait}{clr}{pos:00000000}{full}おまえをまっていた{wait}{clr}{pos:00000000}{full}わしの使命はこのことをおまえに伝えることじゃった{wait}{clr}{pos:00000000}{full}それでは舞を・・・ただしく・ま・・え・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I waited five hundred years for you,{wait}{clr}{pos:00000000}{full}to tell you this.{wait}{clr}{pos:00000000}{full}My mission was to pass this on to you.{wait}{clr}{pos:00000000}{full}Now, dance... right... ly...{wait}",
   "box": "upper"
  },
  {
@@ -510,7 +510,7 @@
    "vm:0575CF"
   ],
   "jp": "{clr}{pos:00000000}{full}ラ、ライナス様！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}L-Linus-sama!{wait}",
   "box": "lower"
  },
  {
@@ -521,7 +521,7 @@
    "vm:0575DD"
   ],
   "jp": "{clr}{pos:00000000}{full}これで・・・{nl}私は一人ぼっち{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Now... I'm all alone.{wait}",
   "box": "lower"
  },
  {
@@ -532,7 +532,7 @@
    "vm:0575F0"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナ・・・{nl}きみには俺が・・みんながいる{wait}{clr}{pos:00000000}{full}一人ぼっちじゃないさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Serena... You have me... You have everyone.{wait}{clr}{pos:00000000}{full}You're not alone.{wait}",
   "box": "upper"
  },
  {
@@ -543,7 +543,7 @@
    "vm:057603"
   ],
   "jp": "{clr}{pos:00000000}{full}仲間がいるじゃない！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You have all your friends!{wait}",
   "box": "lower"
  },
  {
@@ -554,7 +554,7 @@
    "vm:057616"
   ],
   "jp": "{clr}{pos:00000000}{full}元気を出してください{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Please, cheer up.{wait}",
   "box": "upper"
  },
  {
@@ -565,7 +565,7 @@
    "vm:057629"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナ、元気だせよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Chin up, Serena!{wait}",
   "box": "lower"
  },
  {
@@ -576,7 +576,7 @@
    "vm:05763C"
   ],
   "jp": "{clr}{pos:00000000}{full}そうだっちゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That'sh right!{wait}",
   "box": "upper"
  },
  {
@@ -587,7 +587,7 @@
    "vm:05764F"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたには悲しい顔は、にあわない！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A sad face just doesn't suit you!{wait}",
   "box": "lower"
  },
  {
@@ -598,7 +598,7 @@
    "vm:057662"
   ],
   "jp": "{clr}{pos:00000000}{full}そうよ{nl}{wait}{clr}{pos:00000000}{full}悲しい顔してたら{nl}幸福が逃げちゃうわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's right.{wait}{clr}{pos:00000000}{full}If you look sad, happiness will run away from you.{wait}",
   "box": "upper"
  },
  {
@@ -609,7 +609,7 @@
    "vm:057675"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな・・・ありがとう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone... Thank you.{wait}",
   "box": "lower"
  },
  {
@@ -620,7 +620,7 @@
    "vm:057688"
   ],
   "jp": "{clr}{pos:00000000}{full}そうそう！{nl}アルタバの顔を見てごらん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's it! Just take a look at Altaba's face!{wait}",
   "box": "upper"
  },
  {
@@ -631,7 +631,7 @@
    "vm:05769B"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオー！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr!{wait}",
   "box": "lower"
  },
  {
@@ -642,7 +642,7 @@
    "vm:0570E4"
   ],
   "jp": "{full}　ＳＴＡＧＥ１６{nl}{half}　{full}　＜破亡の舞＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 16{nl}{half}　{full}　<Dance of Ruin>{wait}",
   "box": "centre"
  },
  {
@@ -653,7 +653,7 @@
    "vm:0576AE"
   ],
   "jp": "{clr}{pos:00000000}{full}よし、帝国に{nl}むかうぞ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, on to the Empire!{wait}",
   "box": "upper"
  }
 ]

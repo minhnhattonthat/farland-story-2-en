@@ -7,7 +7,7 @@
    "vm:06568D"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王、リアド殿をお連れいたしました{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}King Ark, I have brought Riad-dono.{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:0656BF"
   ],
   "jp": "{clr}{pos:00000000}{full}初めてお目にかかります{wait}{clr}{pos:00000000}{full}私はヴァルデス帝国第二皇子のリアドともうします{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It is an honor to meet you.{wait}{clr}{pos:00000000}{full}I am Riad, second prince of the Valdes Empire.{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:0656D6"
   ],
   "jp": "{clr}{pos:00000000}{full}私がフェルサリア{nl}国王のアークだ{wait}{clr}{pos:00000000}{full}君がそうか・・・{nl}{wait}{clr}{pos:00000000}{full}たしかにカイやドカティの言うとおり{nl}悪者には見えない{wait}{clr}{pos:00000000}{full}しかし君の名をかたり、悪のかぎりをつくす一団{wait}{clr}{pos:00000000}{full}果たして、何が目的だったのか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I am Ark, King of Felsaria.{wait}{clr}{pos:00000000}{full}So you're the one...{wait}{clr}{pos:00000000}{full}Just as Kai and Docaty said, you certainly don't look like a villain.{wait}{clr}{pos:00000000}{full}Yet a band using your name has committed every evil imaginable.{wait}{clr}{pos:00000000}{full}What could their goal have been?{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:0656DB"
   ],
   "jp": "{clr}{pos:00000000}{full}恐らく、フェルサリアの人々をだまし{wait}{clr}{pos:00000000}{full}私たちを捕らえるためです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Most likely, to deceive the people of Felsaria{wait}{clr}{pos:00000000}{full}and capture us.{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:0656E0"
   ],
   "jp": "{clr}{pos:00000000}{full}君たちはなぜ、帝国に追われているのかね？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why is the Empire after you?{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:0656E5"
   ],
   "jp": "{clr}{pos:00000000}{full}父ネレイドは世界征服を企んでいます{wait}{clr}{pos:00000000}{full}世界征服にサリーナの舞の力を利用しようとしています{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}My father, Nereid, is plotting to conquer the world.{wait}{clr}{pos:00000000}{full}He means to use the power of Serena's dance to do it.{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:0656EA"
   ],
   "jp": "{clr}{pos:00000000}{full}舞の力？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The power of her dance?{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:0656EF"
   ],
   "jp": "{clr}{pos:00000000}{full}そう、サリーナの{nl}一族に伝わる{nl}「破亡の舞」を{wait}{clr}{pos:00000000}{full}使って国々を征服{nl}しようとしているのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yes. He intends to use the \"Dance of Ruin,\" handed down in Serena's clan,{wait}{clr}{pos:00000000}{full}to conquer nation after nation.{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:0656F4"
   ],
   "jp": "{clr}{pos:00000000}{full}帝国とは互いに干渉しない条約を結ぶつもりだったが{wait}{clr}{pos:00000000}{full}それが本当なら帝国の野望を止めなければならない{wait}{clr}{pos:00000000}{full}一度ネレイド皇帝と会談してみないことには{wait}{clr}{pos:00000000}{full}本当のことはわからない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I had meant to sign a treaty of mutual non-interference with the Empire,{wait}{clr}{pos:00000000}{full}but if that's true, we must stop the Empire's ambitions.{wait}{clr}{pos:00000000}{full}Still, until I've held talks with Emperor Nereid,{wait}{clr}{pos:00000000}{full}I can't know the truth.{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:0656F9"
   ],
   "jp": "{clr}{pos:00000000}{full}それはやめた方がいいです{wait}{clr}{pos:00000000}{full}父、いえ皇帝には{nl}邪悪な気を感じます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I would advise against that.{wait}{clr}{pos:00000000}{full}I sense something evil in my father... I mean, the Emperor.{wait}",
   "box": "lower"
  },
  {
@@ -117,7 +117,7 @@
    "vm:0656FE"
   ],
   "jp": "{clr}{pos:00000000}{full}はははっ、見くびってもらっちゃ困るな{wait}{clr}{pos:00000000}{full}これでも２０年前は魔王を退けたこともあるのだよ{wait}{clr}{pos:00000000}{full}もちろん油断は禁物だがね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hahaha, don't underestimate me.{wait}{clr}{pos:00000000}{full}Twenty years ago, I did drive back the Demon Lord, you know.{wait}{clr}{pos:00000000}{full}Of course, I won't let my guard down.{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:065703"
   ],
   "jp": "{clr}{pos:00000000}{full}しかし・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But...{wait}",
   "box": "lower"
  },
  {
@@ -148,7 +148,7 @@
    "vm:065708"
   ],
   "jp": "{clr}{pos:00000000}{full}君がそこまで言うのなら{wait}{clr}{pos:00000000}{full}エレノア・ディーノ・ランティア・ルシーダ・ゴダール{wait}{clr}{pos:00000000}{full}歴戦の勇士にご同行願おう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}If you insist that much...{wait}{clr}{pos:00000000}{full}Eleanor, Dino, Lantia, Lushida, Godal...{wait}{clr}{pos:00000000}{full}I'll ask these battle-hardened heroes to accompany me.{wait}",
   "box": "upper"
  },
  {
@@ -159,7 +159,7 @@
    "vm:06570D"
   ],
   "jp": "{clr}{pos:00000000}{full}しかし！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But...!{wait}",
   "box": "lower"
  },
  {
@@ -170,7 +170,7 @@
    "vm:065712"
   ],
   "jp": "{clr}{pos:00000000}{full}私はこれからヴァルデス帝国に向かうことにする{wait}{clr}{pos:00000000}{full}一度ネレイド皇帝と会見し{wait}{clr}{pos:00000000}{full}それからリアド殿たちの処遇を決めるとしよう{wait}{clr}{pos:00000000}{full}それまでは、フェルサリア王国の客として{wait}{clr}{pos:00000000}{full}かんげいすることを約束しよう{wait}{clr}{pos:00000000}{full}それと君にたのみがある{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I will now set out for the Valdes Empire.{wait}{clr}{pos:00000000}{full}I'll meet with Emperor Nereid,{wait}{clr}{pos:00000000}{full}and then decide how to deal with you, Riad-dono.{wait}{clr}{pos:00000000}{full}Until then, I promise you a warm welcome{wait}{clr}{pos:00000000}{full}as guests of the Kingdom of Felsaria.{wait}{clr}{pos:00000000}{full}And I have a favor to ask of you.{wait}",
   "box": "upper"
  },
  {
@@ -181,7 +181,7 @@
    "vm:065717"
   ],
   "jp": "{clr}{pos:00000000}{full}何でしょうか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What would that be?{wait}",
   "box": "lower"
  },
  {
@@ -192,7 +192,7 @@
    "vm:06571C"
   ],
   "jp": "{clr}{pos:00000000}{full}船を貸してほしいのだ{wait}{clr}{pos:00000000}{full}フェルサリアには{nl}長い航海にたえれる船がないのだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'd like you to lend me a ship.{wait}{clr}{pos:00000000}{full}Felsaria has no ship that can endure a long voyage.{wait}",
   "box": "upper"
  },
  {
@@ -203,7 +203,7 @@
    "vm:065721"
   ],
   "jp": "{clr}{pos:00000000}{full}わかりました{wait}{clr}{pos:00000000}{full}マジックシップ{nl}サイレントムーンを{wait}{clr}{pos:00000000}{full}お貸ししましょう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Understood.{wait}{clr}{pos:00000000}{full}The magic ship Silent Moon...{wait}{clr}{pos:00000000}{full}is yours to borrow.{wait}",
   "box": "lower"
  },
  {
@@ -214,7 +214,7 @@
    "vm:065726"
   ],
   "jp": "{clr}{pos:00000000}{full}ありがとう{nl}出発は三日後だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Thank you. We leave in three days.{wait}",
   "box": "upper"
  },
  {
@@ -225,7 +225,7 @@
    "vm:065763"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王ならきっとだいじょうぶですわ{wait}{clr}{pos:00000000}{full}私はそう信じてるわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm sure King Ark will be all right.{wait}{clr}{pos:00000000}{full}I believe in him.{wait}",
   "box": "upper"
  },
  {
@@ -236,7 +236,7 @@
    "vm:065768"
   ],
   "jp": "{clr}{pos:00000000}{full}うん・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah...{wait}",
   "box": "lower"
  },
  {
@@ -247,7 +247,7 @@
    "vm:0657F5"
   ],
   "jp": "{clr}{pos:00000000}{full}た、大変じゃ！{nl}魔物どもが、城に攻め込んできた！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Th-this is terrible! Monsters are attacking the castle!{wait}",
   "box": "upper"
  },
  {
@@ -258,7 +258,7 @@
    "vm:0657FA"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな！{nl}うろたえないで！{wait}{clr}{pos:00000000}{full}アリシア、町の人たちをみんな城の中へ集めて！{wait}{clr}{pos:00000000}{full}ドカティ、カイ{wait}{clr}{pos:00000000}{full}わが軍の兵士たちに城のまわりをかためるように言って{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone! Don't panic!{wait}{clr}{pos:00000000}{full}Alicia, gather all the townspeople inside the castle!{wait}{clr}{pos:00000000}{full}Docaty, Kai...{wait}{clr}{pos:00000000}{full}tell our soldiers to secure the area around the castle.{wait}",
   "box": "lower"
  },
  {
@@ -269,7 +269,7 @@
    "vm:06580D"
   ],
   "jp": "{clr}{pos:00000000}{full}はい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yes, Your Majesty!{wait}",
   "box": "upper"
  },
  {
@@ -280,7 +280,7 @@
    "vm:06587F"
   ],
   "jp": "{clr}{pos:00000000}{full}魔物だと！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Monsters?!{wait}",
   "box": "upper"
  },
  {
@@ -291,7 +291,7 @@
    "vm:065884"
   ],
   "jp": "{clr}{pos:00000000}{full}引っかかるな・・・{wait}{clr}{pos:00000000}{full}アーク王のるすを{nl}まっていたようではないか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Something's off...{wait}{clr}{pos:00000000}{full}It's as if they were waiting for King Ark to leave.{wait}",
   "box": "lower"
  },
  {
@@ -302,7 +302,7 @@
    "vm:065889"
   ],
   "jp": "{clr}{pos:00000000}{full}とにかく、俺たちもフェルサリア軍に{nl}加勢する{wait}{clr}{pos:00000000}{full}いいな、みんな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Anyway, we'll fight alongside the Felsarian army too.{wait}{clr}{pos:00000000}{full}Got it, everyone?{wait}",
   "box": "upper"
  },
  {
@@ -313,7 +313,7 @@
    "vm:06589C"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオッ{nl}まかせてよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! Leave it to us!{wait}",
   "box": "lower"
  },
  {
@@ -324,7 +324,7 @@
    "vm:0658AF"
   ],
   "jp": "{clr}{pos:00000000}{full}さすがは、リアド殿{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Just what I'd expect of Riad-dono.{wait}",
   "box": "upper"
  },
  {
@@ -335,7 +335,7 @@
    "vm:0658C2"
   ],
   "jp": "{clr}{pos:00000000}{full}行くわ！フェルサリアの民のためにも{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let's go! For the people of Felsaria!{wait}",
   "box": "lower"
  },
  {
@@ -346,7 +346,7 @@
    "vm:0658D5"
   ],
   "jp": "{clr}{pos:00000000}{full}まって！私も・・・私も連れていって！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait! Me too... take me with you too!{wait}",
   "box": "upper"
  },
  {
@@ -357,7 +357,7 @@
    "vm:0658E8"
   ],
   "jp": "{clr}{pos:00000000}{full}エリア・・・でも{nl}ドカティに怒られるからなあ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eria... but Docaty will give me an earful...{wait}",
   "box": "lower"
  },
  {
@@ -368,7 +368,7 @@
    "vm:0658ED"
   ],
   "jp": "{clr}{pos:00000000}{full}もうっ、お父様がそんなにコワイの！？{wait}{clr}{pos:00000000}{full}カイさん、それでも王国のナイトなの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, come on! Are you that scared of my father?!{wait}{clr}{pos:00000000}{full}Kai-san, and you call yourself a knight of the kingdom?{wait}",
   "box": "upper"
  },
  {
@@ -379,7 +379,7 @@
    "vm:0658F2"
   ],
   "jp": "{clr}{pos:00000000}{full}うーん、エリアの方がドカティよりコワイかも・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hmm, Eria might be scarier than Docaty...{wait}",
   "box": "lower"
  },
  {
@@ -390,7 +390,7 @@
    "vm:0658F7"
   ],
   "jp": "{clr}{pos:00000000}{full}私は回復魔法が得意なので、きっと役にたちます！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm good at healing magic, so I'm sure I'll be useful!{wait}",
   "box": "upper"
  },
  {
@@ -401,7 +401,7 @@
    "vm:06590A"
   ],
   "jp": "{clr}{pos:00000000}{full}いいだろう{nl}エリア、安心していいぞ{wait}{clr}{pos:00000000}{full}危なくなったらカイが命がけで守ってくれるだろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, Eria. You don't need to worry.{wait}{clr}{pos:00000000}{full}If things get dangerous, Kai will protect you with his life.{wait}",
   "box": "upper"
  },
  {
@@ -412,7 +412,7 @@
    "vm:06590F"
   ],
   "jp": "{clr}{pos:00000000}{full}ええっ、それはちょっと・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wh-what? Well, that's a bit much...{wait}",
   "box": "lower"
  },
  {
@@ -423,7 +423,7 @@
    "vm:065914"
   ],
   "jp": "{clr}{pos:00000000}{full}よし、冗談はおいといて、魔物退治だ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Okay, jokes aside, let's go hunt some monsters!{wait}",
   "box": "upper"
  },
  {
@@ -434,7 +434,7 @@
    "vm:065919"
   ],
   "jp": "{clr}{pos:00000000}{full}・・・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}.....{wait}",
   "box": "lower"
  },
  {
@@ -445,7 +445,7 @@
    "vm:0655AE"
   ],
   "jp": "{full}　ＳＴＡＧＥ　５{nl}{half}　{full}　＜アーク王＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 5{nl}{half}　{full}　<King Ark>{wait}",
   "box": "centre"
  },
  {
@@ -456,7 +456,7 @@
    "vm:065697"
   ],
   "jp": "{clr}{pos:00000000}{full}私と馬は{nl}一心同体！{wait}{clr}{pos:00000000}{full}おりるわけには{nl}いきません{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}My horse and I are one in body and soul!{wait}{clr}{pos:00000000}{full}I cannot possibly dismount.{wait}",
   "box": "upper"
  },
  {
@@ -467,7 +467,7 @@
    "vm:065692"
   ],
   "jp": "{clr}{pos:00000000}{full}カイさん！{nl}王の前ですよ{wait}{clr}{pos:00000000}{full}馬から{nl}おりて下さい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Kai-san! You're in the king's presence!{wait}{clr}{pos:00000000}{full}Please get off your horse!{wait}",
   "box": "lower"
  },
  {
@@ -478,7 +478,7 @@
    "vm:06569C"
   ],
   "jp": "{clr}{pos:00000000}{full}そうなんですか{nl}わかりました{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, is that so? Very well.{wait}",
   "box": "lower"
  }
 ]

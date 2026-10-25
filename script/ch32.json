@@ -7,7 +7,7 @@
    "vm:2A434D"
   ],
   "jp": "{clr}{pos:00000000}{full}まったく母さんも{nl}父さんも・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Honestly, Mom and Dad...{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:2A4352"
   ],
   "jp": "{clr}{pos:00000000}{full}まったくだよな{wait}{clr}{pos:00000000}{full}ボクら、あれくらいの冒険じゃ足りないくらいだよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Tell me about it.{wait}{clr}{pos:00000000}{full}That little adventure wasn't nearly enough for us!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:2A4365"
   ],
   "jp": "{clr}{pos:00000000}{full}ネイフルったら{nl}そんなむちゃいって{wait}{clr}{pos:00000000}{full}いつかケガしても{nl}知らないから{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Neiful, saying such reckless things...{wait}{clr}{pos:00000000}{full}Don't come crying to me when you get hurt someday.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:2A436A"
   ],
   "jp": "{clr}{pos:00000000}{full}エリアだって{nl}結横はしゃいで{nl}いたじゃないか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eria, you were having plenty of fun too!{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:2A437D"
   ],
   "jp": "{clr}{pos:00000000}{full}ねえ{nl}リアドのところへ遊びに行こうよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hey, let's go visit Riad!{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:2A4382"
   ],
   "jp": "{clr}{pos:00000000}{full}でもぉ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Buuut...{wait}",
   "box": "upper"
  },
  {
@@ -82,7 +82,7 @@
    "vm:2A4395"
   ],
   "jp": "{clr}{pos:00000000}{full}泣いてたもんねえ{nl}ドカティおじさん{wait}{clr}{pos:00000000}{full}ボクらを港までむかえに来てさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Uncle Docaty sure was crying, huh?{wait}{clr}{pos:00000000}{full}When he came to meet us at the port.{wait}",
   "box": "upper"
  },
  {
@@ -93,7 +93,7 @@
    "vm:2A439A"
   ],
   "jp": "{clr}{pos:00000000}{full}じゃ、ネイフル{nl}ぼくたちだけで{nl}行っちゃお{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Fine, Neiful, let's just go by ourselves.{wait}",
   "box": "lower"
  },
  {
@@ -104,7 +104,7 @@
    "vm:2A439F"
   ],
   "jp": "{clr}{pos:00000000}{full}そうだね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah.{wait}",
   "box": "upper"
  },
  {
@@ -115,7 +115,7 @@
    "vm:2A43C6"
   ],
   "jp": "{clr}{pos:00000000}{full}ま・・まってよ{nl}あたし、行かないとは言ってないわ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}W-wait! I never said I wasn't going!{wait}",
   "box": "lower"
  },
  {
@@ -126,7 +126,7 @@
    "vm:2A43ED"
   ],
   "jp": "{clr}{pos:00000000}{full}シフィルとネイフルそしてエリアは{wait}{clr}{pos:00000000}{full}まだまだ冒険したりない様子である{wait}{clr}{pos:00000000}{full}さっそく三人で王になったリアドのところへ{wait}{clr}{pos:00000000}{full}はるばる遊びに行くけいかくを立てて{nl}いる{wait}{clr}{pos:00000000}{full}どうなることやら{nl}・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Cifil, Neiful and Eria{wait}{clr}{pos:00000000}{full}seem far from done with adventuring.{wait}{clr}{pos:00000000}{full}The three are already making plans to travel all the way{wait}{clr}{pos:00000000}{full}to visit Riad, who has become king.{wait}{clr}{pos:00000000}{full}What will come of it...{wait}",
   "box": "centre"
  },
  {
@@ -137,7 +137,7 @@
    "vm:2A444A"
   ],
   "jp": "{clr}{pos:00000000}{full}ともかくだな{nl}エリアは無事に{nl}連れてかえった{wait}{clr}{pos:00000000}{full}いまさらもんくを{nl}言われるすじあいはないぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}In any case, I brought Eria home safe and sound.{wait}{clr}{pos:00000000}{full}You've no grounds to complain to me now.{wait}",
   "box": "upper"
  },
  {
@@ -148,7 +148,7 @@
    "vm:2A444F"
   ],
   "jp": "{clr}{pos:00000000}{full}フェルサリアを{nl}出る前より{wait}{clr}{pos:00000000}{full}しっかりした{nl}娘になった{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Compared to before she left Felsaria,{wait}{clr}{pos:00000000}{full}she's grown into a much more dependable girl.{wait}",
   "box": "lower"
  },
  {
@@ -159,7 +159,7 @@
    "vm:2A4454"
   ],
   "jp": "{clr}{pos:00000000}{full}だろう？{nl}だったら、ばんばんざいじゃないか{wait}{clr}{pos:00000000}{full}むしろ私には礼を{nl}言ってもらいたい{nl}くらいだぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Right? Then that's cause for celebration, isn't it?{wait}{clr}{pos:00000000}{full}If anything, I'd like you to thank me.{wait}",
   "box": "upper"
  },
  {
@@ -170,7 +170,7 @@
    "vm:2A4459"
   ],
   "jp": "{clr}{pos:00000000}{full}それが問題なんじゃ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's exactly the problem!!{wait}",
   "box": "lower"
  },
  {
@@ -181,7 +181,7 @@
    "vm:2A445E"
   ],
   "jp": "{clr}{pos:00000000}{full}へ？{nl}どうして？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Huh? Why?{wait}",
   "box": "upper"
  },
  {
@@ -192,7 +192,7 @@
    "vm:2A4463"
   ],
   "jp": "{clr}{pos:00000000}{full}エリアは・・・{nl}エリアはわしなんかもういなくても{wait}{clr}{pos:00000000}{full}一人でやって{nl}いけるんじゃあー！{wait}{clr}{pos:00000000}{full}それがさびしゅうて・・・うおおおーいおいおい・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eria... Eria doesn't need the likes of me anymore...{wait}{clr}{pos:00000000}{full}She can manage all on her owwwn!{wait}{clr}{pos:00000000}{full}It makes me so lonely... Waaah, boo-hoo-hoo...{wait}",
   "box": "lower"
  },
  {
@@ -203,7 +203,7 @@
    "vm:2A4468"
   ],
   "jp": "{clr}{pos:00000000}{full}困ったなあ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, dear...{wait}",
   "box": "upper"
  },
  {
@@ -214,7 +214,7 @@
    "vm:2A4489"
   ],
   "jp": "{clr}{pos:00000000}{full}カイは昔の友達ドカティと再会し{wait}{clr}{pos:00000000}{full}お互いに戦の終わりを喜びあった{wait}{clr}{pos:00000000}{full}しかし、ドカティはかわいい娘のエリアが{wait}{clr}{pos:00000000}{full}すっかり成長してしまったのがさびしいらしく{wait}{clr}{pos:00000000}{full}エリアを連れ出したカイに八つ当たりしている{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Kai was reunited with his old friend Docaty,{wait}{clr}{pos:00000000}{full}and together they rejoiced that the war was over.{wait}{clr}{pos:00000000}{full}But Docaty seems lonely now that his darling Eria{wait}{clr}{pos:00000000}{full}has grown up so completely,{wait}{clr}{pos:00000000}{full}and he's taking it out on Kai, who took her away.{wait}",
   "box": "centre"
  }
 ]

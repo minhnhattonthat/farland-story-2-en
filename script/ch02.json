@@ -7,7 +7,7 @@
    "vm:0613EB"
   ],
   "jp": "{clr}{pos:00000000}{full}自由都市国家の港{wait}{clr}{pos:00000000}{full}この港町の人々は戦に巻き込まれることはない{wait}{clr}{pos:00000000}{full}それは貿易で手に入れた食料や金を{wait}{clr}{pos:00000000}{full}たっぷりと帝国に送っているからである{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The port of a free city-state.{wait}{clr}{pos:00000000}{full}The people of this port town are never dragged into war.{wait}{clr}{pos:00000000}{full}That is because they send the Empire plenty{wait}{clr}{pos:00000000}{full}of the food and gold they earn through trade.{wait}",
   "box": "centre"
  },
  {
@@ -18,7 +18,7 @@
    "vm:0614A1"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオー、ここが自由の港かぁ・・・{nl}すごいや{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawrrr! So this is the Free Port... Amazing!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:0614AA"
   ],
   "jp": "{clr}{pos:00000000}{full}だろ？　イオニア大陸で一番大きい港がここさ{wait}{clr}{pos:00000000}{full}帝国もここだけは手出しせずにいるんだ{wait}{clr}{pos:00000000}{full}これだけ栄えている港を、戦であらしちゃ損だからな{wait}{clr}{pos:00000000}{full}ここでなんとかして船を手に入れるぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Right? It's the biggest port on the Ionian continent.{wait}{clr}{pos:00000000}{full}Even the Empire keeps its hands off this place.{wait}{clr}{pos:00000000}{full}Wrecking a port this prosperous with war would only be their loss.{wait}{clr}{pos:00000000}{full}We have to get a ship here somehow.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:0614C1"
   ],
   "jp": "{clr}{pos:00000000}{full}船でどこへ行くつもりなの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Where are you planning to go by ship?{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:0614C6"
   ],
   "jp": "{clr}{pos:00000000}{full}フェルサリア王国さ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}The Kingdom of Felsaria.{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:0614CB"
   ],
   "jp": "{clr}{pos:00000000}{full}フェルサリア？{wait}{clr}{pos:00000000}あの伝説の英雄{nl}アーク王の国ね！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Felsaria?{wait}{clr}{pos:00000000}The land of the legendary hero, King Ark?!{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:0614D0"
   ],
   "jp": "{clr}{pos:00000000}{full}ああ、アーク王にすべて話してみようと思うんだ{wait}{clr}{pos:00000000}{full}あの人ならきっと{nl}俺たちに味方して{nl}くれると思う{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah. I'm thinking of telling King Ark everything.{wait}{clr}{pos:00000000}{full}I'm sure a man like him will take our side.{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:0614D5"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド・・・{nl}私のために{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad... for my sake...{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:0614DA"
   ],
   "jp": "{clr}{pos:00000000}{full}サリーナ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Serena...{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:0614F1"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルル・・・{nl}もう勝手にしてよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr... Fine, do whatever you want.{wait}",
   "box": "lower"
  },
  {
@@ -117,7 +117,7 @@
    "vm:0614F6"
   ],
   "jp": "{clr}{pos:00000000}{full}エヘン、それはそれとしてだな{wait}{clr}{pos:00000000}{full}フェルサリアなら{nl}隠れ家になる場所も{wait}{clr}{pos:00000000}{full}たくさんありそうなんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ahem! Anyway, that aside...{wait}{clr}{pos:00000000}{full}In Felsaria, there should be plenty of places{wait}{clr}{pos:00000000}{full}we could use as a hideout, too.{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:0614FF"
   ],
   "jp": "{clr}{pos:00000000}{full}ウオー{nl}じゃ、決まりだね！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Woohoo! Then it's settled!{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:061504"
   ],
   "jp": "{clr}{pos:00000000}{full}まずは船を探すぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}First, let's find a ship.{wait}",
   "box": "upper"
  },
  {
@@ -150,7 +150,7 @@
    "vm:061558"
   ],
   "jp": "{clr}{pos:00000000}{full}探したぞリアド{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I've been looking for you, Riad.{wait}",
   "box": "lower"
  },
  {
@@ -161,7 +161,7 @@
    "vm:061561"
   ],
   "jp": "{clr}{pos:00000000}{full}ヴァ、ヴァラカナ！いつのまに・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}V-Valakana! When did you...{wait}",
   "box": "upper"
  },
  {
@@ -172,7 +172,7 @@
    "vm:061578"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルル・・・{nl}だれだっ、こいつ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr... Who's this guy?!{wait}",
   "box": "upper"
  },
  {
@@ -183,7 +183,7 @@
    "vm:06157D"
   ],
   "jp": "{clr}{pos:00000000}{full}フッ、安心しろ{nl}俺はリアドと{nl}親友だ{wait}{pos:00000000}{clr}{full}ちょっとした借りを返しに来たのさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh. Relax, I'm Riad's best friend.{wait}{pos:00000000}{clr}{full}I've come to repay a little debt.{wait}",
   "box": "lower"
  },
  {
@@ -194,7 +194,7 @@
    "vm:061590"
   ],
   "jp": "{clr}{pos:00000000}{full}借り？{nl}何のことだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A debt? What are you talking about?{wait}",
   "box": "upper"
  },
  {
@@ -205,7 +205,7 @@
    "vm:061595"
   ],
   "jp": "{clr}{pos:00000000}{full}いまは美しい恋人のことで頭がいっぱいってわけか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I see. Right now your head's full of your beautiful sweetheart, is that it?{wait}",
   "box": "lower"
  },
  {
@@ -216,7 +216,7 @@
    "vm:06159A"
   ],
   "jp": "{clr}{pos:00000000}{full}だ、だれがだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wh-who said she was?!{wait}",
   "box": "upper"
  },
  {
@@ -227,7 +227,7 @@
    "vm:06159F"
   ],
   "jp": "{clr}{pos:00000000}{full}何を{nl}むきになっている{wait}{clr}{pos:00000000}{full}さぁ{nl}遊んでいるひまは{nl}ないぞ{wait}{clr}{pos:00000000}{full}帝国軍が{nl}ここを攻めに来る！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What are you getting so worked up for?{wait}{clr}{pos:00000000}{full}Come on, there's no time to play around.{wait}{clr}{pos:00000000}{full}The Imperial army is coming to attack this place!{wait}",
   "box": "lower"
  },
  {
@@ -238,7 +238,7 @@
    "vm:0615A4"
   ],
   "jp": "{clr}{pos:00000000}{full}そんなバカな！{wait}{clr}{pos:00000000}{full}ここは自由の港、軍は出入りしない決まりがあるはずだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's crazy!{wait}{clr}{pos:00000000}{full}This is the Free Port! There's supposed to be an agreement that no army comes in or out!{wait}",
   "box": "upper"
  },
  {
@@ -249,7 +249,7 @@
    "vm:0615A9"
   ],
   "jp": "{clr}{pos:00000000}{full}おまえを捕まえるためなら、やつら神にも刃を向けかねん{wait}{clr}{pos:00000000}{full}まして港の民との決まりなど、ためらいもせず破る{wait}{clr}{pos:00000000}{full}・・・いいから{nl}ついて来るんだ{nl}リアド！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}To catch you, they'd turn their blades on the gods themselves.{wait}{clr}{pos:00000000}{full}An agreement with the port's people? They'll break it without a second thought.{wait}{clr}{pos:00000000}{full}...Never mind that, just come with me, Riad!{wait}",
   "box": "lower"
  },
  {
@@ -260,7 +260,7 @@
    "vm:0615BC"
   ],
   "jp": "{clr}{pos:00000000}{full}ガルル、アニキ{nl}帝国軍のヤツらだ！こっちへ来るよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Grrr, Big Bro, it's the Imperial army! They're coming this way!{wait}",
   "box": "lower"
  },
  {
@@ -271,7 +271,7 @@
    "vm:0615C1"
   ],
   "jp": "{clr}{pos:00000000}{full}ヴァラカナ！{wait}{clr}{pos:00000000}{full}おまえは関係ない早く逃げるんだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Valakana!{wait}{clr}{pos:00000000}{full}This has nothing to do with you. Get out of here, quick!{wait}",
   "box": "upper"
  },
  {
@@ -282,7 +282,7 @@
    "vm:0615D4"
   ],
   "jp": "{clr}{pos:00000000}{full}よけいな世話を{nl}焼かせてもらうぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm going to stick my nose where it's not wanted.{wait}",
   "box": "upper"
  },
  {
@@ -293,7 +293,7 @@
    "vm:0615D9"
   ],
   "jp": "{clr}{pos:00000000}{full}よけいな世話なら{nl}いらないガオ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Then keep your nose to yourself, rawr!{wait}",
   "box": "lower"
  },
  {
@@ -304,7 +304,7 @@
    "vm:0615E2"
   ],
   "jp": "{clr}{pos:00000000}{full}それは{nl}言葉のあやだっ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's a figure of speech!{wait}",
   "box": "upper"
  },
  {
@@ -315,7 +315,7 @@
    "vm:0617FA"
   ],
   "jp": "{clr}{pos:00000000}{full}まて、まず船を用意しないと・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wait, we need to get a ship ready first...{wait}",
   "box": "upper"
  },
  {
@@ -326,7 +326,7 @@
    "vm:0617FF"
   ],
   "jp": "{clr}{pos:00000000}{full}フッ、とっくに{nl}用意はできてるさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh. It's been ready for ages.{wait}",
   "box": "lower"
  },
  {
@@ -337,7 +337,7 @@
    "vm:061812"
   ],
   "jp": "{clr}{pos:00000000}{full}ガオッ{nl}あれがおいらたちの乗る船かい？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Rawr! Is that the ship we're riding?{wait}",
   "box": "upper"
  },
  {
@@ -348,7 +348,7 @@
    "vm:061825"
   ],
   "jp": "{clr}{pos:00000000}{full}すばらしい船ね！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What a wonderful ship!{wait}",
   "box": "upper"
  },
  {
@@ -359,7 +359,7 @@
    "vm:061838"
   ],
   "jp": "{clr}{pos:00000000}{full}感心していないで{nl}みんな早く{nl}乗り込むんだ！{wait}{clr}{pos:00000000}{full}帝国のやつらに{nl}追いつかれる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Quit admiring it, everyone, and get aboard, quick!{wait}{clr}{pos:00000000}{full}The Imperials are going to catch up with us.{wait}",
   "box": "upper"
  },
  {
@@ -370,7 +370,7 @@
    "vm:061886"
   ],
   "jp": "{clr}{pos:00000000}{full}おお、おんしらか{nl}ヴァラカナの客は？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ahoy, so you lot are Valakana's guests?{wait}",
   "box": "upper"
  },
  {
@@ -381,7 +381,7 @@
    "vm:06188B"
   ],
   "jp": "{clr}{pos:00000000}{full}ああ、紹介しよう{nl}{wait}{clr}{pos:00000000}{full}リアド{nl}こいつは船乗りの{nl}アルタバだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah, let me introduce you.{wait}{clr}{pos:00000000}{full}Riad, this is Altaba. He's a sailor.{wait}",
   "box": "lower"
  },
  {
@@ -392,7 +392,7 @@
    "vm:06189E"
   ],
   "jp": "{clr}{pos:00000000}{full}俺はリアド{nl}だが、ヴァラカナ{wait}{clr}{pos:00000000}{full}この人は一体なぜ{nl}俺たちを助けて{nl}くれるんだ？{wait}{clr}{pos:00000000}{full}帝国軍が{nl}恐くないのか？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm Riad. But Valakana...{wait}{clr}{pos:00000000}{full}why on earth is this man helping us?{wait}{clr}{pos:00000000}{full}Isn't he afraid of the Imperial army?{wait}",
   "box": "upper"
  },
  {
@@ -403,7 +403,7 @@
    "vm:0618A3"
   ],
   "jp": "{clr}{pos:00000000}{full}アルタバは{nl}ロードス国の出身{nl}なのさ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Altaba comes from the land of Lodoss.{wait}",
   "box": "lower"
  },
  {
@@ -414,7 +414,7 @@
    "vm:0618A8"
   ],
   "jp": "{clr}{pos:00000000}{full}ロードス・・・{wait}{clr}{pos:00000000}{full}帝国軍に攻め込まれた国のか・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Lodoss...{wait}{clr}{pos:00000000}{full}The country the Imperial army invaded...{wait}",
   "box": "upper"
  },
  {
@@ -425,7 +425,7 @@
    "vm:0618BB"
   ],
   "jp": "{clr}{pos:00000000}{full}そのとおりッス{wait}{clr}{pos:00000000}{full}帝国にちょっとばかりいたい目見せてやりたいッスよ{wait}{clr}{pos:00000000}{full}この船「サイレントムーン」が役に立てるなんて{wait}{clr}{pos:00000000}{full}うれしいッス{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Aye, that's right.{wait}{clr}{pos:00000000}{full}I'd sure like to give the Empire a good hard knock, I would.{wait}{clr}{pos:00000000}{full}And to think this ship, the \"Silent Moon\", can be of use...{wait}{clr}{pos:00000000}{full}Makes me a happy man, it does!{wait}",
   "box": "lower"
  },
  {
@@ -436,7 +436,7 @@
    "vm:0618C0"
   ],
   "jp": "{clr}{pos:00000000}{full}そうだったのか・・・{wait}{clr}{pos:00000000}{full}しかし、なんてすごい船なんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So that's how it is...{wait}{clr}{pos:00000000}{full}But what an amazing ship.{wait}",
   "box": "upper"
  },
  {
@@ -447,7 +447,7 @@
    "vm:0618C5"
   ],
   "jp": "{clr}{pos:00000000}{full}お客さん、この船は魔法がかかってるから{wait}{clr}{pos:00000000}{full}フェルサリアにもあっというまッスよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This here ship's got magic on her, folks,{wait}{clr}{pos:00000000}{full}so she'll have ya in Felsaria in a flash!{wait}",
   "box": "lower"
  },
  {
@@ -458,7 +458,7 @@
    "vm:0613E6"
   ],
   "jp": "{full}　ＳＴＡＧＥ　２{nl}{half}　{full}　　＜船出＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 2{nl}{half}　{full}　　<Setting Sail>{wait}",
   "box": "centre"
  }
 ]

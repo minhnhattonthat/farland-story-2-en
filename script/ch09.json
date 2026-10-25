@@ -7,7 +7,7 @@
    "vm:0695E1"
   ],
   "jp": "{clr}{pos:00000000}{full}やったぞ！どうやら成功だ！{wait}{clr}{pos:00000000}{full}はっはっはっ{nl}作戦勝ちというやつですよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We did it! Looks like it worked!{wait}{clr}{pos:00000000}{full}Hahaha! That's what you call a victory of strategy!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:0695E6"
   ],
   "jp": "{clr}{pos:00000000}{full}フッ、まぐれというやつだろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh. That's what you call dumb luck.{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:0695EB"
   ],
   "jp": "{clr}{pos:00000000}{full}何！？{nl}し、しっけいな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What?! H-how rude!{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06971B"
   ],
   "jp": "{clr}{pos:00000000}{full}ようし、捕まえた！{wait}{clr}{pos:00000000}{full}さあ、知ってることを全部、しゃべらせてやる！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, we caught one!{wait}{clr}{pos:00000000}{full}Now we'll make you spill everything you know!{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06972E"
   ],
   "jp": "{clr}{pos:00000000}{full}ネイフルったら{nl}言葉使いがとっても下品・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Neiful, the way you talk is so vulgar...{wait}",
   "box": "lower"
  },
  {
@@ -62,7 +62,7 @@
    "vm:069733"
   ],
   "jp": "{clr}{pos:00000000}{full}なんで敵に上品に{nl}しゃべらなくちゃ{nl}いけないんだよぉ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why should I have to talk all proper to an enemy?!{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:069746"
   ],
   "jp": "{clr}{pos:00000000}{full}おい！{nl}ボクの父上は・・・{wait}{clr}{pos:00000000}{full}アーク王は{nl}無事なのか！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hey! My father...{wait}{clr}{pos:00000000}{full}Is King Ark safe?!{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:069759"
   ],
   "jp": "{clr}{pos:00000000}{full}ぐっぐぐ・・・{nl}このガキめ！{wait}{clr}{pos:00000000}{full}そう簡単にしゃべってたまるかあ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ngh... you brat!{wait}{clr}{pos:00000000}{full}Like I'd talk that easily!{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:06976C"
   ],
   "jp": "{clr}{pos:00000000}{full}フッ、しゃべりたくなければそれでよい{wait}{clr}{pos:00000000}{full}どうなってもいいのなら・・・な{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh. If you don't want to talk, that's fine.{wait}{clr}{pos:00000000}{full}As long as you don't care what happens to you...{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:069771"
   ],
   "jp": "{clr}{pos:00000000}{full}や、やめろぉ！{nl}こ、恐くなんかな{nl}いぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}S-stop it! I-I'm not scared of you!{wait}",
   "box": "lower"
  },
  {
@@ -126,7 +126,7 @@
    "vm:069784"
   ],
   "jp": "{clr}{pos:00000000}{full}とってもムリしてるね、こいつ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}He's totally faking being brave.{wait}",
   "box": "lower"
  },
  {
@@ -137,7 +137,7 @@
    "vm:069797"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王は、帝国の要塞にとじこめられているらしい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I heard King Ark's being held in an Imperial fortress.{wait}",
   "box": "upper"
  },
  {
@@ -157,7 +157,7 @@
    "vm:0697AA"
   ],
   "jp": "{clr}{pos:00000000}{full}要塞？！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A fortress?!{wait}",
   "box": "lower"
  },
  {
@@ -168,7 +168,7 @@
    "vm:0697AF"
   ],
   "jp": "{clr}{pos:00000000}{full}ひぃ！{wait}{clr}{pos:00000000}{full}あんた、なんでそんなコワイ顔してにらむんだよお{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Eek!{wait}{clr}{pos:00000000}{full}Why are you glaring at me with such a scary face?!{wait}",
   "box": "upper"
  },
  {
@@ -179,7 +179,7 @@
    "vm:0697C2"
   ],
   "jp": "{clr}{pos:00000000}{full}まっ、失礼ね！{nl}これって素顔よ！{wait}{clr}{pos:00000000}{full}傷ついちゃう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well, how rude! This is just my face!{wait}{clr}{pos:00000000}{full}You've hurt my feelings.{wait}",
   "box": "upper"
  },
  {
@@ -190,7 +190,7 @@
    "vm:0697D5"
   ],
   "jp": "{clr}{pos:00000000}{full}アルタバさん、ますます変になっちゃってるわ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Altaba-san is getting stranger and stranger...{wait}",
   "box": "lower"
  },
  {
@@ -201,7 +201,7 @@
    "vm:0697E8"
   ],
   "jp": "{clr}{pos:00000000}{full}と、とにかく、帝国軍はもう{wait}{clr}{pos:00000000}{full}フェルサリアに入り込んでいるはずだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A-anyway, the Imperial army{wait}{clr}{pos:00000000}{full}should be inside Felsaria already.{wait}",
   "box": "upper"
  },
  {
@@ -212,7 +212,7 @@
    "vm:0697FB"
   ],
   "jp": "{clr}{pos:00000000}{full}何っ！{nl}一体どこから入り込んだんだ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What?! Where on earth did they get in?{wait}",
   "box": "lower"
  },
  {
@@ -223,7 +223,7 @@
    "vm:069800"
   ],
   "jp": "{clr}{pos:00000000}{full}えーと、たしか{nl}東のサンデッドの{nl}火山に{wait}{clr}{pos:00000000}{full}そこにすんでる{nl}ホワイトドラゴンを味方につけてから{wait}{clr}{pos:00000000}{full}本格的に戦が始まるって{wait}{clr}{pos:00000000}{full}こ、これだけ、しゃべったんだから、ゆるしてくれよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Um, I think it was... the volcano of Sundead in the east.{wait}{clr}{pos:00000000}{full}Once they win over the White Dragon that lives there,{wait}{clr}{pos:00000000}{full}the real war begins, they said.{wait}{clr}{pos:00000000}{full}Th-there, I told you all that, so let me go!{wait}",
   "box": "upper"
  },
  {
@@ -234,7 +234,7 @@
    "vm:069805"
   ],
   "jp": "{clr}{pos:00000000}{full}なんてことだ・・・{wait}{clr}{pos:00000000}{full}このフェルサリアが帝国に攻め込まれるなんて{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}How terrible...{wait}{clr}{pos:00000000}{full}To think Felsaria would be invaded by the Empire...{wait}",
   "box": "lower"
  },
  {
@@ -245,7 +245,7 @@
    "vm:069818"
   ],
   "jp": "{clr}{pos:00000000}{full}それにあのアーク王が{wait}{clr}{pos:00000000}{full}やつらに捕らえられてしまったとは{nl}信じられません{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}And I can't believe King Ark{wait}{clr}{pos:00000000}{full}has been captured by them.{wait}",
   "box": "upper"
  },
  {
@@ -256,7 +256,7 @@
    "vm:06982B"
   ],
   "jp": "{clr}{pos:00000000}{full}こうしてはいられないわ{wait}{clr}{pos:00000000}{full}なんとかしてこの{nl}フェルサリアを{nl}守りましょう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We can't just stand here!{wait}{clr}{pos:00000000}{full}Let's find a way to protect Felsaria!{wait}",
   "box": "lower"
  },
  {
@@ -267,7 +267,7 @@
    "vm:06983E"
   ],
   "jp": "{clr}{pos:00000000}{full}・・・どうしよう{nl}ネイフル{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}...What do we do, Neiful?{wait}",
   "box": "upper"
  },
  {
@@ -278,7 +278,7 @@
    "vm:069851"
   ],
   "jp": "{clr}{pos:00000000}{full}ボクたちも行くさ！サンデッドへ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We're going too, of course! To Sundead!{wait}",
   "box": "lower"
  },
  {
@@ -289,7 +289,7 @@
    "vm:069864"
   ],
   "jp": "{clr}{pos:00000000}{full}ホワイトドラゴンか・・・{wait}{clr}{pos:00000000}{full}本当にホワイトドラゴンなら、善の心を持っているはずだ{wait}{clr}{pos:00000000}{full}今から急いで行って帝国より先にドラゴンに会えたら{wait}{clr}{pos:00000000}{full}ドラゴンは俺たちに味方してくれるかもしれない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}A White Dragon...{wait}{clr}{pos:00000000}{full}If it really is a White Dragon, it should have a good heart.{wait}{clr}{pos:00000000}{full}If we hurry there now and reach the dragon before the Empire does,{wait}{clr}{pos:00000000}{full}it might be willing to take our side.{wait}",
   "box": "upper"
  },
  {
@@ -300,7 +300,7 @@
    "vm:069877"
   ],
   "jp": "{clr}{pos:00000000}{full}でも、もう帝国の味方になっていたら・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But if it's already sided with the Empire...{wait}",
   "box": "lower"
  },
  {
@@ -311,7 +311,7 @@
    "vm:06988A"
   ],
   "jp": "{clr}{pos:00000000}{full}もうっ、シフィル！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, come on, Cifil!{wait}",
   "box": "upper"
  },
  {
@@ -322,7 +322,7 @@
    "vm:06989D"
   ],
   "jp": "{clr}{pos:00000000}{full}とにかく、行ってみよう{wait}{clr}{pos:00000000}{full}少しでも希望のあることなら、なんでもやってみるんだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Anyway, let's go and see.{wait}{clr}{pos:00000000}{full}If there's even a little hope, we'll try anything!{wait}",
   "box": "lower"
  },
  {
@@ -333,7 +333,7 @@
    "vm:0698F0"
   ],
   "jp": "{full}町人{nl}　南の島に行って{nl}　みなよ{wait}",
-  "en": "",
+  "en": "{full}Townsman: Try going to the southern island.{wait}",
   "box": "centre"
  },
  {
@@ -344,7 +344,7 @@
    "vm:069907"
   ],
   "jp": "{full}町人{nl}　森で大きな火事が　あった{wait}",
-  "en": "",
+  "en": "{full}Townsman: There was a big fire in the forest.{wait}",
   "box": "centre"
  },
  {
@@ -355,7 +355,7 @@
    "vm:069716"
   ],
   "jp": "{clr}{pos:00000000}{full}帝国の兵隊よ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's an Imperial soldier!{wait}",
   "box": "lower"
  },
  {
@@ -366,7 +366,7 @@
    "vm:06991E"
   ],
   "jp": "{full}めずらしい{nl}武器を売ってやろう{wait}",
-  "en": "",
+  "en": "{full}I'll sell you some rare weapons.{wait}",
   "box": "centre"
  },
  {
@@ -377,7 +377,7 @@
    "vm:0695FE"
   ],
   "jp": "{clr}{pos:00000000}{full}敵のえん軍が{nl}来たッス！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Enemy reinforcements are coming in!{wait}",
   "box": "upper"
  }
 ]

@@ -7,7 +7,7 @@
    "vm:05A16C"
   ],
   "jp": "{clr}{pos:00000000}{full}ここ、ここ！{nl}{wait}{clr}{pos:00000000}{full}おいらが昔{nl}よく通ったぬけ道{nl}なんだガオ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Here, here!{wait}{clr}{pos:00000000}{full}This is the secret path I used to take all the time, rawr!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:05A171"
   ],
   "jp": "{clr}{pos:00000000}{full}あと少しで着くはずだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We should be almost there!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:05A1CA"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボハハハ{wait}{clr}{pos:00000000}{full}これはリアド様、サリーナさん、お仲のいいことで・・・{wait}{clr}{pos:00000000}{full}お邪魔をするのが{nl}つらいところです{nl}ゲボハハハ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebohahaha!{wait}{clr}{pos:00000000}{full}Well, if it isn't Riad-sama and Serena-san, so cozy together...{wait}{clr}{pos:00000000}{full}It truly pains me to intrude. Gebohahaha!{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:05A1CF"
   ],
   "jp": "{clr}{pos:00000000}{full}とうとうあらわれたなギボゲラ！{wait}{clr}{pos:00000000}{full}俺の手で倒して{nl}やる！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So you've finally shown yourself, Gibogera!{wait}{clr}{pos:00000000}{full}I'll take you down with my own hands!{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:05A1D4"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボッ、せっかちな人だ{wait}{clr}{pos:00000000}{full}まだまだ楽しいお相手がいるのにねえ・・・{wait}{clr}{pos:00000000}{full}さあ、戦うがいい！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebo! What an impatient man.{wait}{clr}{pos:00000000}{full}And here I have such a delightful opponent lined up for you...{wait}{clr}{pos:00000000}{full}Now, fight!{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:05A294"
   ],
   "jp": "{clr}{pos:00000000}{full}と、父さん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}D-Dad!{wait}",
   "box": "upper"
  },
  {
@@ -73,7 +73,7 @@
    "vm:05A299"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク様！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ark-sama!{wait}",
   "box": "lower"
  },
  {
@@ -87,7 +87,7 @@
    "vm:05A432"
   ],
   "jp": "{clr}{pos:00000000}{full}コ・ロ・ス{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ki... ll...{wait}",
   "box": "lower/upper"
  },
  {
@@ -98,7 +98,7 @@
    "vm:05A2BF"
   ],
   "jp": "{clr}{pos:00000000}{full}いかん、心をしばりつける呪いがかけられている{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This is bad. A curse has been laid on him that binds his mind.{wait}",
   "box": "lower"
  },
  {
@@ -109,7 +109,7 @@
    "vm:05A2D2"
   ],
   "jp": "{clr}{pos:00000000}{full}うそだよね{nl}父さん！{wait}{clr}{pos:00000000}{full}父さんは強いんだ！そんなヤツに負けるもんか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Tell me it isn't true, Dad!{wait}{clr}{pos:00000000}{full}You're strong! You'd never lose to a guy like him!{wait}",
   "box": "upper"
  },
  {
@@ -120,7 +120,7 @@
    "vm:05A237"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボハハハ{nl}{wait}{clr}{pos:00000000}{full}どうです、うんと楽しめそうでしょう？{wait}{clr}{pos:00000000}{full}アーク王もおくで{nl}まっていますから{nl}よろしく！{wait}{clr}{pos:00000000}{full}それじゃ、私は{nl}お邪魔のようです{nl}から引きあげます{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebohahaha!{wait}{clr}{pos:00000000}{full}Well? Doesn't this look like loads of fun?{wait}{clr}{pos:00000000}{full}King Ark is waiting further in, too, so do enjoy yourselves!{wait}{clr}{pos:00000000}{full}And now, since I seem to be in the way, I'll take my leave.{wait}",
   "box": "upper"
  },
  {
@@ -131,7 +131,7 @@
    "vm:05A23C"
   ],
   "jp": "{clr}{pos:00000000}{full}ギボゲラ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gibogera!{wait}",
   "box": "lower"
  },
  {
@@ -142,7 +142,7 @@
    "vm:05A415"
   ],
   "jp": "{clr}{pos:00000000}{full}父さん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Dad!{wait}",
   "box": "upper"
  },
  {
@@ -153,7 +153,7 @@
    "vm:05A42D"
   ],
   "jp": "{clr}{pos:00000000}{full}だめだシフィル！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No, Cifil!{wait}",
   "box": "upper"
  },
  {
@@ -164,7 +164,7 @@
    "vm:05A445"
   ],
   "jp": "{clr}{pos:00000000}{full}どうして目を覚まさないの？ぼくだよ父さん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Why won't you wake up? It's me, Dad!{wait}",
   "box": "lower"
  },
  {
@@ -238,7 +238,7 @@
    "vm:05A628"
   ],
   "jp": "{clr}{pos:00000000}{full}ぐっうううう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gnnnngh!{wait}",
   "box": "upper"
  },
  {
@@ -249,7 +249,7 @@
    "vm:05A62D"
   ],
   "jp": "{clr}{pos:00000000}{full}父さん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Dad!{wait}",
   "box": "lower"
  },
  {
@@ -260,7 +260,7 @@
    "vm:05A640"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}King Ark!{wait}",
   "box": "upper"
  },
  {
@@ -271,7 +271,7 @@
    "vm:05A653"
   ],
   "jp": "{clr}{pos:00000000}{full}はぁ、はぁ・・・{wait}{clr}{pos:00000000}{full}う？ここは、{nl}それにシフィル{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hah... hah...{wait}{clr}{pos:00000000}{full}Huh? Where am I...? And Cifil?{wait}",
   "box": "lower"
  },
  {
@@ -282,7 +282,7 @@
    "vm:05A666"
   ],
   "jp": "{clr}{pos:00000000}{full}やったあ！{wait}{clr}{pos:00000000}{full}父さん、ギボゲラのやつ、父さんをあやつってたんだ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}We did it!{wait}{clr}{pos:00000000}{full}Dad, that Gibogera was controlling you!{wait}",
   "box": "upper"
  },
  {
@@ -293,7 +293,7 @@
    "vm:05A66B"
   ],
   "jp": "{clr}{pos:00000000}{full}そ、そうだったのか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}S-so that's what happened.{wait}",
   "box": "lower"
  },
  {
@@ -304,7 +304,7 @@
    "vm:05A67E"
   ],
   "jp": "{clr}{pos:00000000}{full}あなたはなかなか{nl}てごわい敵でしたよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You were quite a formidable enemy.{wait}",
   "box": "lower"
  },
  {
@@ -315,7 +315,7 @@
    "vm:05A691"
   ],
   "jp": "{clr}{pos:00000000}{full}ランティアやエレノアたちもここに{wait}{clr}{pos:00000000}{full}とじこめられているのだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Lantia, Eleanor and the others{wait}{clr}{pos:00000000}{full}are imprisoned here too.{wait}",
   "box": "upper"
  },
  {
@@ -335,7 +335,7 @@
    "vm:05A6A4"
   ],
   "jp": "{clr}{pos:00000000}{full}アークおじ様？{nl}どうしたの？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Uncle Ark? What's wrong?{wait}",
   "box": "lower"
  },
  {
@@ -346,7 +346,7 @@
    "vm:05A6B7"
   ],
   "jp": "{clr}{pos:00000000}{full}ギボゲラの呪いが{nl}強力すぎたのよ{wait}{clr}{pos:00000000}{full}それに、それを一気にといたものだから{wait}{clr}{pos:00000000}{full}体力をしょうもうしちゃったみたい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gibogera's curse was too powerful.{wait}{clr}{pos:00000000}{full}And since it was broken all at once,{wait}{clr}{pos:00000000}{full}it seems to have drained his strength.{wait}",
   "box": "upper"
  },
  {
@@ -357,7 +357,7 @@
    "vm:05A6CA"
   ],
   "jp": "{clr}{pos:00000000}{full}こ、これしき・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Th-this is nothing...{wait}",
   "box": "lower"
  },
  {
@@ -368,7 +368,7 @@
    "vm:05A793"
   ],
   "jp": "{clr}{pos:00000000}{full}おお、ネイフル！{nl}おまえたちが助けてくれたのか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Oh, Neiful! So you all came to save us?{wait}",
   "box": "upper"
  },
  {
@@ -379,7 +379,7 @@
    "vm:05A798"
   ],
   "jp": "{clr}{pos:00000000}{full}うれしいわネイフルこんなところまで来てくれたのね{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm so happy, Neiful. You came all this way for us.{wait}",
   "box": "lower"
  },
  {
@@ -390,7 +390,7 @@
    "vm:05A7AB"
   ],
   "jp": "{clr}{pos:00000000}{full}父様、母様！{nl}よかった、無事で！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Father, Mother! Thank goodness you're safe!{wait}",
   "box": "upper"
  },
  {
@@ -401,7 +401,7 @@
    "vm:05A7BE"
   ],
   "jp": "{clr}{pos:00000000}{full}油断は禁物ですよ{nl}父上{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You mustn't let your guard down, Father.{wait}",
   "box": "lower"
  },
  {
@@ -412,7 +412,7 @@
    "vm:05A7D1"
   ],
   "jp": "{clr}{pos:00000000}{full}ケイリナス！{nl}何を言っておる{wait}{clr}{pos:00000000}{full}今回は敵がひれつな手をつかったからだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Quirinus! What are you saying?{wait}{clr}{pos:00000000}{full}This time the enemy used a dirty trick, that's all!{wait}",
   "box": "upper"
  },
  {
@@ -423,7 +423,7 @@
    "vm:05A7E4"
   ],
   "jp": "{clr}{pos:00000000}{full}まあいいではありませんか、ケイリナスも成長したものだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Now, now, let it go. Quirinus has certainly grown up, hasn't he?{wait}",
   "box": "lower"
  },
  {
@@ -434,7 +434,7 @@
    "vm:05A7F7"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな、ありがとう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Thank you, everyone.{wait}",
   "box": "upper"
  },
  {
@@ -445,7 +445,7 @@
    "vm:05A80A"
   ],
   "jp": "{clr}{pos:00000000}{full}はあ、せまいところにとじこめられて{nl}つかれちゃった{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Phew, being shut up in that cramped place wore me out.{wait}",
   "box": "lower"
  },
  {
@@ -456,7 +456,7 @@
    "vm:05A81D"
   ],
   "jp": "{clr}{pos:00000000}{full}さあ、これで気がかりはなくなった{wait}{clr}{pos:00000000}{full}そうでしょう？{nl}アーク王{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well, now there's nothing left to worry about.{wait}{clr}{pos:00000000}{full}Isn't that right, King Ark?{wait}",
   "box": "upper"
  },
  {
@@ -467,7 +467,7 @@
    "vm:05A830"
   ],
   "jp": "{clr}{pos:00000000}{full}うん？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hm?{wait}",
   "box": "lower"
  },
  {
@@ -478,7 +478,7 @@
    "vm:05A843"
   ],
   "jp": "{clr}{pos:00000000}{full}父さん、約束だよ{wait}{clr}{pos:00000000}{full}フェルサリアにもどって、早く元気になって{wait}{clr}{pos:00000000}{full}ボクは絶対かえって来るからまっててよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Dad, promise me.{wait}{clr}{pos:00000000}{full}Go back to Felsaria and get well soon.{wait}{clr}{pos:00000000}{full}I'll come home for sure, so wait for me.{wait}",
   "box": "upper"
  },
  {
@@ -489,7 +489,7 @@
    "vm:05A856"
   ],
   "jp": "{clr}{pos:00000000}{full}すまぬ・・・{wait}{clr}{pos:00000000}{full}呪いをかけられたせいで、おまえを守ってやれない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Forgive me...{wait}{clr}{pos:00000000}{full}Because of this curse, I cannot protect you.{wait}",
   "box": "lower"
  },
  {
@@ -500,7 +500,7 @@
    "vm:05A869"
   ],
   "jp": "{clr}{pos:00000000}{full}シフィルならだいじょうぶだよ{nl}{wait}{clr}{pos:00000000}{full}ボクもついてるもん{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Cifil will be fine.{wait}{clr}{pos:00000000}{full}He's got me, after all.{wait}",
   "box": "upper"
  },
  {
@@ -511,7 +511,7 @@
    "vm:05A87C"
   ],
   "jp": "{clr}{pos:00000000}{full}父上もびっくりするくらい、強くなってかえるからね！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll come back so strong, even you'll be amazed, Father!{wait}",
   "box": "lower"
  },
  {
@@ -522,7 +522,7 @@
    "vm:05A88F"
   ],
   "jp": "{clr}{pos:00000000}{full}わかった信じているぞ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Very well. I believe in you.{wait}",
   "box": "upper"
  },
  {
@@ -533,7 +533,7 @@
    "vm:05A894"
   ],
   "jp": "{clr}{pos:00000000}{full}ボク、やるよ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll do it!{wait}",
   "box": "lower"
  },
  {
@@ -544,7 +544,7 @@
    "vm:05A899"
   ],
   "jp": "{clr}{pos:00000000}{full}では、さらばだ{nl}リアド殿{nl}シフィルをたのむ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Then farewell, Riad-dono. I leave Cifil in your care.{wait}",
   "box": "upper"
  },
  {
@@ -555,7 +555,7 @@
    "vm:05A8AC"
   ],
   "jp": "{clr}{pos:00000000}{full}アーク王、だいじょうぶです{wait}{clr}{pos:00000000}{full}シフィルはやはり{nl}あなたの息子だ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}King Ark, he'll be all right.{wait}{clr}{pos:00000000}{full}Cifil is your son, after all.{wait}",
   "box": "lower"
  },
  {
@@ -566,7 +566,7 @@
    "vm:05A931"
   ],
   "jp": "{clr}{pos:00000000}{full}いよいよ帝国に乗り込むぞ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}At last, we're heading into the Empire!{wait}",
   "box": "upper"
  },
  {
@@ -577,7 +577,7 @@
    "vm:05A936"
   ],
   "jp": "{clr}{pos:00000000}{full}覚悟はできているのかリアド{wait}{clr}{pos:00000000}{full}まっている敵はおまえの・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Are you ready for this, Riad?{wait}{clr}{pos:00000000}{full}The enemy waiting for you is your...{wait}",
   "box": "lower"
  },
  {
@@ -588,7 +588,7 @@
    "vm:05A93B"
   ],
   "jp": "{clr}{pos:00000000}{full}ああ、だが、父上と兄上は本当の敵じゃないかもしれない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah. But maybe Father and my brother aren't the real enemy.{wait}",
   "box": "upper"
  },
  {
@@ -599,7 +599,7 @@
    "vm:05A940"
   ],
   "jp": "{clr}{pos:00000000}{full}どういうことだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What do you mean?{wait}",
   "box": "lower"
  },
  {
@@ -610,7 +610,7 @@
    "vm:05A945"
   ],
   "jp": "{clr}{pos:00000000}{full}何か帝国をあやつる力があるような気がするんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I have a feeling some power is controlling the Empire.{wait}",
   "box": "upper"
  },
  {
@@ -621,7 +621,7 @@
    "vm:05A0E7"
   ],
   "jp": "{full}　ＳＴＡＧＥ１９{nl}{half}　{full}　＜トンネル＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 19{nl}{half}　{full}　<The Tunnel>{wait}",
   "box": "centre"
  }
 ]

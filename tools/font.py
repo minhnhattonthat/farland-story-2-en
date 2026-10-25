@@ -82,7 +82,7 @@ def remap(glyphs=None):
     for code in range(JP_REMAP):
         ch = jp.dec.get(bytes([code, 0]), "")
         ch = ch if ch == "　" else unicodedata.normalize("NFKC", ch)
-        if ch in index:
+        if ch in index and ch != "▶":  # the menu cursor keeps its own glyph; VWF ▶ is for English yes/no lines
             out[code] = index[ch]
     return bytes(out)
 

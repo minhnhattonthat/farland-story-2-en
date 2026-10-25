@@ -7,7 +7,7 @@
    "vm:2A50D9"
   ],
   "jp": "{clr}{pos:00000000}{full}ワスはやっぱり{nl}海の男ダス！！{wait}{clr}{pos:00000000}{full}広くて大きい、海はいいなあ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'm a man of the sea after all, I am!!{wait}{clr}{pos:00000000}{full}So wide and so big... the sea's the best!!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:2A50FE"
   ],
   "jp": "{clr}{pos:00000000}{full}アルタバはロードスの町で漁師として{nl}くらし始めた{wait}{clr}{pos:00000000}{full}とにかく、海の{nl}好きな男である{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Altaba began living as a fisherman in the town of Lodoss.{wait}{clr}{pos:00000000}{full}Above all else, he is a man who loves the sea.{wait}",
   "box": "centre"
  },
  {
@@ -29,7 +29,7 @@
    "vm:2A5143"
   ],
   "jp": "{clr}{pos:00000000}{full}でも、リアド様・・・{wait}{clr}{pos:00000000}{full}ちょっぴり会い{nl}たくなって来たダス{wait}{clr}{pos:00000000}{full}あの方のぬくもりが忘れられないダス{nl}・・・うふっ{wait}{clr}{pos:00000000}{full}お城に遊びに{nl}行っちゃおうかな{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But, Riad-sama...{wait}{clr}{pos:00000000}{full}I'm starting to miss him a teeny bit, I am...{wait}{clr}{pos:00000000}{full}I just can't forget that man's warmth... Tee-hee!{wait}{clr}{pos:00000000}{full}Maybe I'll pop over to the castle for a visit.{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:2A5168"
   ],
   "jp": "{clr}{pos:00000000}{full}ずっと海でくらす{nl}べきである{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}He really ought to stay out at sea for good.{wait}",
   "box": "centre"
  }
 ]

@@ -7,7 +7,7 @@
    "vm:2A363D"
   ],
   "jp": "{clr}{pos:00000000}{full}そこはギボゲラの{nl}体内じゃ！{wait}{clr}{pos:00000000}{full}心臓じゃ・・・{nl}やつの心臓を攻撃{nl}するのじゃ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That is inside Gibogera's body!{wait}{clr}{pos:00000000}{full}The heart... Attack his heart!!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:2A3650"
   ],
   "jp": "{clr}{pos:00000000}{full}邪魔なカベがある{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}There's a wall in the way.{wait}",
   "box": "upper"
  },
  {
@@ -29,7 +29,7 @@
    "vm:2A3663"
   ],
   "jp": "{clr}{pos:00000000}{full}破かいしてやろう！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Then let's smash it!{wait}",
   "box": "lower"
  },
  {
@@ -40,7 +40,7 @@
    "vm:2A3676"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボッ、よけいな{nl}ことを！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebo! How dare you meddle!{wait}",
   "box": "upper"
  },
  {
@@ -51,7 +51,7 @@
    "vm:2A37F8"
   ],
   "jp": "{clr}{pos:00000000}{full}かなり弱ってはいるが・・・{wait}{clr}{pos:00000000}{full}どうしたらとどめが刺せるんだ！？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}He's badly weakened, but...{wait}{clr}{pos:00000000}{full}how do we finish him off?!{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:2A37FD"
   ],
   "jp": "{clr}{pos:00000000}{full}わかったわ！{nl}「破亡の舞」よ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I've got it! The \"Dance of Ruin\"!{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:2A3810"
   ],
   "jp": "{clr}{pos:00000000}{full}でも・・・{nl}ギボゲラだけじゃなく、外の世界まで{wait}{clr}{pos:00000000}{full}めちゃくちゃになっちゃったら、どうするんだよ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}But... what if it doesn't just wreck Gibogera,{wait}{clr}{pos:00000000}{full}but messes up the outside world too?{wait}",
   "box": "upper"
  },
  {
@@ -84,7 +84,7 @@
    "vm:2A3823"
   ],
   "jp": "{clr}{pos:00000000}{full}いや、ここはギボゲラの世界だ{wait}{clr}{pos:00000000}{full}ヤツを倒すにはそれしかないかもしれない{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}No, this is Gibogera's world.{wait}{clr}{pos:00000000}{full}It may be the only way to beat him.{wait}",
   "box": "lower"
  },
  {
@@ -95,7 +95,7 @@
    "vm:2A3836"
   ],
   "jp": "{clr}{pos:00000000}{full}やってみるわ！{nl}「破亡の舞」を！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I'll try it! The \"Dance of Ruin\"!{wait}",
   "box": "upper"
  },
  {
@@ -106,7 +106,7 @@
    "vm:2A38CD"
   ],
   "jp": "{clr}{pos:00000000}{full}ゲボゲボゲボゲボ{nl}苦しい・・・{nl}これはなんだ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Gebogebogebogebo... it hurts... what is this?{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:2A38D2"
   ],
   "jp": "{clr}{pos:00000000}{full}やったぞ、サリーナ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You did it, Serena!{wait}",
   "box": "lower"
  },
  {
@@ -128,7 +128,7 @@
    "vm:2A38E5"
   ],
   "jp": "{clr}{pos:00000000}{full}で・・でもなんだかぼくらも危ない・・・みたい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}B-but it kinda looks like... we're in danger too...{wait}",
   "box": "upper"
  },
  {
@@ -140,7 +140,7 @@
    "vm:2A3A48"
   ],
   "jp": "{clr}{pos:00000000}{full}うあっ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Waaah!{wait}",
   "box": "lower/upper"
  },
  {
@@ -151,7 +151,7 @@
    "vm:2A3751"
   ],
   "jp": "{clr}{pos:00000000}{full}これがギボゲラの{nl}心臓か？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}So this is Gibogera's heart?{wait}",
   "box": "upper"
  },
  {
@@ -162,7 +162,7 @@
    "vm:2A3756"
   ],
   "jp": "{clr}{pos:00000000}{full}気持ち悪いぞ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}It's disgusting!{wait}",
   "box": "lower"
  },
  {
@@ -173,7 +173,7 @@
    "vm:2A3769"
   ],
   "jp": "{clr}{pos:00000000}{full}いくぞみんな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Let's go, everyone!{wait}",
   "box": "upper"
  },
  {
@@ -184,7 +184,7 @@
    "vm:2A3588"
   ],
   "jp": "{full}　ＳＴＡＧＥ２５{nl}{half}　{full}　＜ギボゲラ＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 25{nl}{half}　{full}　<Gibogera>{wait}",
   "box": "centre"
  },
  {
@@ -195,7 +195,7 @@
    "vm:2A3A5B"
   ],
   "jp": "{clr}{pos:00000000}{full}わしにまかせろ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Leave it to me!{wait}",
   "box": "upper"
  },
  {
@@ -207,7 +207,7 @@
    "vm:2A3A60"
   ],
   "jp": "{clr}{pos:00000000}{full}アルデナーラ先生！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Master Ardenara!{wait}",
   "box": "lower"
  },
  {
@@ -218,7 +218,7 @@
    "vm:2A360D"
   ],
   "jp": "{clr}{pos:00000000}{full}ここは・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}This place...{wait}",
   "box": "upper"
  },
  {
@@ -229,7 +229,7 @@
    "vm:2A3612"
   ],
   "jp": "{clr}{pos:00000000}{full}ここはドコ？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Where are we?{wait}",
   "box": "lower"
  },
  {
@@ -240,7 +240,7 @@
    "vm:2A3625"
   ],
   "jp": "{clr}{pos:00000000}{full}ギボゲラめ！{wait}{clr}{pos:00000000}{full}やつはわしを入れ{nl}なかったのじゃ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Curse you, Gibogera!{wait}{clr}{pos:00000000}{full}He wouldn't let me in!{wait}",
   "box": "upper"
  }
 ]

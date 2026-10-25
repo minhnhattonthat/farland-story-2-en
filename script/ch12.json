@@ -7,7 +7,7 @@
    "vm:06D266"
   ],
   "jp": "{clr}{pos:00000000}{full}リアド殿！{nl}帝国軍の船があらわれました！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Riad-dono! Imperial ships have appeared!{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:06D26B"
   ],
   "jp": "{clr}{pos:00000000}{full}しまった！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Damn it!{wait}",
   "box": "lower"
  },
  {
@@ -29,7 +29,7 @@
    "vm:06D2FB"
   ],
   "jp": "{clr}{pos:00000000}{full}どうしよう・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}What do we do...{wait}",
   "box": "upper"
  },
  {
@@ -40,7 +40,7 @@
    "vm:06D30E"
   ],
   "jp": "{clr}{pos:00000000}{full}はっはっは、天才ケイリナスがついてます{wait}{clr}{pos:00000000}{full}だいじょうぶ、だいじょうぶ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Hahaha, you have the genius Quirinus on your side.{wait}{clr}{pos:00000000}{full}No need to worry, no need to worry.{wait}",
   "box": "lower"
  },
  {
@@ -51,7 +51,7 @@
    "vm:06D321"
   ],
   "jp": "{clr}{pos:00000000}{full}そう言うからには{nl}何か考えがあるんだな？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}If you're saying that, you must have some plan?{wait}",
   "box": "upper"
  },
  {
@@ -62,7 +62,7 @@
    "vm:06D326"
   ],
   "jp": "{clr}{pos:00000000}{full}もちろん！{nl}やつらの船が近づいたら{wait}{clr}{pos:00000000}{full}敵の船に飛び移って乗っ取るのです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Of course! When their ship draws near,{wait}{clr}{pos:00000000}{full}we leap onto the enemy ship and take it over.{wait}",
   "box": "lower"
  },
  {
@@ -73,7 +73,7 @@
    "vm:06D339"
   ],
   "jp": "{clr}{pos:00000000}{full}ケイリナスのやり方は、いつもイチか{nl}バチかだもんなぁ{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Quirinus's plans are always all-or-nothing, huh.{wait}",
   "box": "lower"
  },
  {
@@ -84,7 +84,7 @@
    "vm:06D34C"
   ],
   "jp": "{clr}{pos:00000000}{full}悪かったな！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Well, excuse me!{wait}",
   "box": "upper"
  },
  {
@@ -95,7 +95,7 @@
    "vm:06D35F"
   ],
   "jp": "{clr}{pos:00000000}{full}もう、そこまで来ている！{wait}{clr}{pos:00000000}{full}とにかくケイリナスのやり方しかなさ{nl}そうです{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}They're almost on us!{wait}{clr}{pos:00000000}{full}Anyway, Quirinus's plan seems to be our only choice.{wait}",
   "box": "lower"
  },
  {
@@ -106,7 +106,7 @@
    "vm:06D445"
   ],
   "jp": "{clr}{pos:00000000}{full}ようし、船をくっつけるダスよ！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, I'm bringing us alongside!!{wait}",
   "box": "upper"
  },
  {
@@ -117,7 +117,7 @@
    "vm:06D3C8"
   ],
   "jp": "{clr}{pos:00000000}{full}久しぶりだな{nl}リアド{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Long time no see, Riad.{wait}",
   "box": "upper"
  },
  {
@@ -128,7 +128,7 @@
    "vm:06D3CD"
   ],
   "jp": "{clr}{pos:00000000}{full}ウェイス・・・{nl}帝国軍の手先に{nl}なりさがったか{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Wace... So you've sunk to being the Empire's lackey.{wait}",
   "box": "lower"
  },
  {
@@ -139,7 +139,7 @@
    "vm:06D3D2"
   ],
   "jp": "{clr}{pos:00000000}{full}フッフッフ、出世したと言ってくれ{wait}{clr}{pos:00000000}{full}ともにゾルディン{nl}師匠に剣のけいこをつけてもらった{wait}{clr}{pos:00000000}{full}私に倒されるなら{nl}不足はないだろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh heh heh, call it a promotion.{wait}{clr}{pos:00000000}{full}We both learned the sword under Master Zordin.{wait}{clr}{pos:00000000}{full}Falling to me should be no disgrace for you.{wait}",
   "box": "upper"
  },
  {
@@ -150,7 +150,7 @@
    "vm:06D3D7"
   ],
   "jp": "{clr}{pos:00000000}{full}ああ、その言葉は{nl}そっくりあなたに{nl}返してやる{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Yeah, and I'll throw those very words right back at you.{wait}",
   "box": "lower"
  },
  {
@@ -161,7 +161,7 @@
    "vm:06D3EA"
   ],
   "jp": "{clr}{pos:00000000}{full}いっしょに剣のけいこを？{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}You trained in the sword together?{wait}",
   "box": "upper"
  },
  {
@@ -172,7 +172,7 @@
    "vm:06D3FD"
   ],
   "jp": "{clr}{pos:00000000}{full}そうだ{nl}ウェイスは兄弟子だ{wait}{clr}{pos:00000000}{full}あなたは{nl}剣を出世のために{nl}使うというのか{wait}{clr}{pos:00000000}{full}ゾルディン師匠も{nl}さぞかしなげく{nl}だろう{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}That's right. Wace was my senior in training under him.{wait}{clr}{pos:00000000}{full}You'd use your sword just to get ahead?{wait}{clr}{pos:00000000}{full}Master Zordin must be grieving.{wait}",
   "box": "lower"
  },
  {
@@ -183,7 +183,7 @@
    "vm:06D410"
   ],
   "jp": "{clr}{pos:00000000}{full}クックク・・・{nl}こいつはお笑いだ{wait}{clr}{pos:00000000}{full}ゾルディン師匠は{nl}帝国軍の{wait}{clr}{pos:00000000}{full}将軍でもあるってことを忘れたのか{wait}{clr}{pos:00000000}{full}俺がこうして{nl}わざわざおまえを{nl}倒しに来たのも{wait}{clr}{pos:00000000}{full}師匠の・・・いや{nl}将軍の命令だ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh heh heh... That's a laugh.{wait}{clr}{pos:00000000}{full}Have you forgotten that Master Zordin{wait}{clr}{pos:00000000}{full}is also a general of the Imperial army?{wait}{clr}{pos:00000000}{full}The reason I came all this way to take you down{wait}{clr}{pos:00000000}{full}is the Master's... no, the General's orders!{wait}",
   "box": "upper"
  },
  {
@@ -194,7 +194,7 @@
    "vm:06D415"
   ],
   "jp": "{clr}{pos:00000000}{full}ゾルディン師匠が{nl}そんな命令を！？{wait}{clr}{pos:00000000}{full}ばかな！！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Master Zordin gave an order like that?!{wait}{clr}{pos:00000000}{full}That's crazy!!{wait}",
   "box": "lower"
  },
  {
@@ -205,7 +205,7 @@
    "vm:06D41A"
   ],
   "jp": "{clr}{pos:00000000}{full}クックク・・・帝国にはおまえの味方などもうおらん{wait}{clr}{pos:00000000}{full}あきらめろ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Heh heh heh... You've got no allies left in the Empire.{wait}{clr}{pos:00000000}{full}Give up!{wait}",
   "box": "upper"
  },
  {
@@ -216,7 +216,7 @@
    "vm:06D41F"
   ],
   "jp": "{clr}{pos:00000000}{full}そうはいくものか！{wait}{clr}{pos:00000000}{full}こうなったら、死んでもあなたに負けるわけにはいかん！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Not a chance!{wait}{clr}{pos:00000000}{full}Now I can't lose to you, even if it kills me!{wait}",
   "box": "lower"
  },
  {
@@ -227,7 +227,7 @@
    "vm:06D432"
   ],
   "jp": "{clr}{pos:00000000}{full}よし、今だ！{nl}帝国軍の船に思い切り近づくんだ！{wait}{clr}{pos:00000000}{full}みんなも剣を取れ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}All right, now! Get right up close to the Imperial ship!{wait}{clr}{pos:00000000}{full}Everyone, take up your swords!{wait}",
   "box": "lower"
  },
  {
@@ -238,7 +238,7 @@
    "vm:06D463"
   ],
   "jp": "{clr}{pos:00000000}{full}みんな、帝国軍の船に飛び移れ！{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Everyone, jump onto the Imperial ship!{wait}",
   "box": "lower"
  },
  {
@@ -249,7 +249,7 @@
    "vm:06D1D1"
   ],
   "jp": "{full}　ＳＴＡＧＥ　９{nl}{half}　{full}　　＜海戦＞{wait}",
-  "en": "",
+  "en": "{full}　STAGE 9{nl}{half}　{full}　　<Sea Battle>{wait}",
   "box": "centre"
  }
 ]

@@ -8,7 +8,7 @@
    "p16:02665D"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋４{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +4{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.02679F",
@@ -18,7 +18,7 @@
    "p16:02665F"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋８{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +8{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.0267E1",
@@ -28,7 +28,7 @@
    "p16:026661"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +12{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026825",
@@ -38,7 +38,7 @@
    "p16:026663"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１６{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +16{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026869",
@@ -48,7 +48,7 @@
    "p16:026665"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +20{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.0268AD",
@@ -58,7 +58,7 @@
    "p16:026667"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋２２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +22{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.0268F1",
@@ -68,7 +68,7 @@
    "p16:026669"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋２５{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +25{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026935",
@@ -78,7 +78,7 @@
    "p16:02666B"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +10{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026979",
@@ -88,7 +88,7 @@
    "p16:02666D"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +10{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.0269BD",
@@ -98,7 +98,7 @@
    "p16:02666F"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +10{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026A01",
@@ -108,7 +108,7 @@
    "p16:026671"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +10{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026A45",
@@ -118,7 +118,7 @@
    "p16:026673"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +12{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026A89",
@@ -128,7 +128,7 @@
    "p16:026675"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋１２{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +12{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026ACD",
@@ -138,7 +138,7 @@
    "p16:026677"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +20{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026B11",
@@ -148,7 +148,7 @@
    "p16:026679"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +30{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026B55",
@@ -158,7 +158,7 @@
    "p16:02667B"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋２０{nl}{half}リアド・ヴァラカナ・シフィル{nl}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +20{nl}{half}Riad, Valakana, Cifil, Circlus"
  },
  {
   "id": "item_desc.026B99",
@@ -168,7 +168,7 @@
    "p16:02667D"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}シフィル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +30{nl}{half}Cifil"
  },
  {
   "id": "item_desc.026BBD",
@@ -178,7 +178,7 @@
    "p16:02667F"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力＋３０{nl}{half}リアド",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Attack +30{nl}{half}Riad"
  },
  {
   "id": "item_desc.026BDF",
@@ -188,7 +188,7 @@
    "p16:026681"
   ],
   "jp": "{clr}{pos:00000000}{full}主にナイトがつかうやり攻撃力＋５{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lance mostly used{nl}by knights. Attack +5{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026C1F",
@@ -198,7 +198,7 @@
    "p16:026683"
   ],
   "jp": "{clr}{pos:00000000}{full}重いやり{nl}攻撃力＋８{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A heavy lance{nl}Attack +8{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026C53",
@@ -208,7 +208,7 @@
    "p16:026685"
   ],
   "jp": "{clr}{pos:00000000}{full}ぎんで出来たやり{nl}攻撃力＋１２{half}{nl}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lance made of silver{nl}Attack +12{half}{nl}Kai, Quirinus"
  },
  {
   "id": "item_desc.026C91",
@@ -218,7 +218,7 @@
    "p16:026687"
   ],
   "jp": "{clr}{pos:00000000}{full}ドラゴンのやり{nl}攻撃力＋１５{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A dragon's lance{nl}Attack +15{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026CCD",
@@ -228,7 +228,7 @@
    "p16:026689"
   ],
   "jp": "{clr}{pos:00000000}{full}聖なるやり{nl}攻撃力＋２０{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A holy lance{nl}Attack +20{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026D05",
@@ -238,7 +238,7 @@
    "p16:02668B"
   ],
   "jp": "{clr}{pos:00000000}{full}神話上のやり{nl}攻撃力＋２５{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A mythical lance{nl}Attack +25{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026D3F",
@@ -248,7 +248,7 @@
    "p16:02668D"
   ],
   "jp": "{clr}{pos:00000000}{full}炎のやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lance of flame{nl}Attack +10{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026D75",
@@ -258,7 +258,7 @@
    "p16:02668F"
   ],
   "jp": "{clr}{pos:00000000}{full}こおりのやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lance of ice{nl}Attack +10{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026DAF",
@@ -268,7 +268,7 @@
    "p16:026691"
   ],
   "jp": "{clr}{pos:00000000}{full}かみなりのやり{nl}攻撃力＋１２{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lance of thunder{nl}Attack +12{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026DEB",
@@ -278,7 +278,7 @@
    "p16:026693"
   ],
   "jp": "{clr}{pos:00000000}{full}ラッキーなやり{nl}攻撃力＋１５{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lucky lance{nl}Attack +15{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026E27",
@@ -288,7 +288,7 @@
    "p16:026695"
   ],
   "jp": "{clr}{pos:00000000}{full}呪いのやり{nl}攻撃力＋１０{nl}{half}カイ・ケイリナス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A cursed lance{nl}Attack +10{nl}{half}Kai, Quirinus"
  },
  {
   "id": "item_desc.026E5F",
@@ -298,7 +298,7 @@
    "p16:026697"
   ],
   "jp": "{clr}{pos:00000000}{full}かたてで使うオノ{nl}攻撃力＋１０{nl}{half}アルタバ・ドカティ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A one-handed axe{nl}Attack +10{nl}{half}Altaba, Docaty"
  },
  {
   "id": "item_desc.026E9F",
@@ -308,7 +308,7 @@
    "p16:026699"
   ],
   "jp": "{clr}{pos:00000000}{full}せんとうようのオノ攻撃力＋１５{nl}{half}アルタバ・ドカティ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}An axe made for battle{nl}Attack +15{nl}{half}Altaba, Docaty"
  },
  {
   "id": "item_desc.026EDF",
@@ -318,7 +318,7 @@
    "p16:02669B"
   ],
   "jp": "{clr}{pos:00000000}{full}りょうてようのオノ攻撃力＋２０{nl}{half}アルタバ・ドカティ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A two-handed axe{nl}Attack +20{nl}{half}Altaba, Docaty"
  },
  {
   "id": "item_desc.026F1F",
@@ -328,7 +328,7 @@
    "p16:02669D"
   ],
   "jp": "{clr}{pos:00000000}{full}きょだいなオノ{nl}攻撃力＋２５{nl}{half}アルタバ・ドカティ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A huge axe{nl}Attack +25{nl}{half}Altaba, Docaty"
  },
  {
   "id": "item_desc.026F5D",
@@ -338,7 +338,7 @@
    "p16:02669F"
   ],
   "jp": "{clr}{pos:00000000}{full}ラッキーなオノ{nl}攻撃力＋２０{nl}{half}アルタバ・ドカティ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lucky axe{nl}Attack +20{nl}{half}Altaba, Docaty"
  },
  {
   "id": "item_desc.026F9B",
@@ -348,7 +348,7 @@
    "p16:0266A1"
   ],
   "jp": "{clr}{pos:00000000}{full}コンパクトなゆみ{nl}間せつ攻撃力＋５{nl}{half}シュナリー",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A compact bow{nl}Ranged Attack +5{nl}{half}Shunari"
  },
  {
   "id": "item_desc.026FD7",
@@ -358,7 +358,7 @@
    "p16:0266A3"
   ],
   "jp": "{clr}{pos:00000000}{full}大きいゆみ{nl}間せつ攻撃力＋１０{half}シュナリー",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A large bow{nl}Ranged Attack +10{nl}{half}Shunari"
  },
  {
   "id": "item_desc.02700D",
@@ -368,7 +368,7 @@
    "p16:0266A5"
   ],
   "jp": "{clr}{pos:00000000}{full}ぎんでできたゆみ{nl}間せつ攻撃力＋１５{half}シュナリー",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A bow made of silver{nl}Ranged Attack +15{nl}{half}Shunari"
  },
  {
   "id": "item_desc.027049",
@@ -378,7 +378,7 @@
    "p16:0266A7"
   ],
   "jp": "{clr}{pos:00000000}{full}聖なるゆみ{nl}間せつ攻撃力＋２０{half}シュナリー",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A holy bow{nl}Ranged Attack +20{nl}{half}Shunari"
  },
  {
   "id": "item_desc.02707F",
@@ -410,7 +410,7 @@
    "p16:0266AD"
   ],
   "jp": "{clr}{pos:00000000}{full}攻撃力が強い{nl}間せつ攻撃力＋５０シュナリー",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A powerful bow{nl}Ranged Attack +50{nl}Shunari"
  },
  {
   "id": "item_desc.0270CD",
@@ -420,7 +420,7 @@
    "p16:0266AF"
   ],
   "jp": "{clr}{pos:00000000}{full}火の魔法のつえ{nl}間せつ魔法力＋１０{half}ネイフル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff of fire magic{nl}Ranged Magic +10{nl}{half}Neiful"
  },
  {
   "id": "item_desc.027105",
@@ -441,7 +441,7 @@
    "p16:0266B3"
   ],
   "jp": "{clr}{pos:00000000}{full}強力なでんげきをだすつえ間せつ魔法力＋２０{half}ネイフル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff of mighty lightning{nl}Ranged Magic +20{nl}{half}Neiful"
  },
  {
   "id": "item_desc.027151",
@@ -462,7 +462,7 @@
    "p16:0266B7"
   ],
   "jp": "{clr}{pos:00000000}{full}炎のつえ{nl}間せつ魔法力＋１５{half}ネイフル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff of flame{nl}Ranged Magic +15{nl}{half}Neiful"
  },
  {
   "id": "item_desc.02718F",
@@ -472,7 +472,7 @@
    "p16:0266B9"
   ],
   "jp": "{clr}{pos:00000000}{full}火炎じごくのつえ{nl}間せつ魔法力＋２０{half}ネイフル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff of hellfire{nl}Ranged Magic +20{nl}{half}Neiful"
  },
  {
   "id": "item_desc.0271C9",
@@ -482,7 +482,7 @@
    "p16:0266BB"
   ],
   "jp": "{clr}{pos:00000000}{full}いんせきのつえ{nl}間せつ魔法力＋４５{half}ネイフル",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff of meteors{nl}Ranged Magic +45{nl}{half}Neiful"
  },
  {
   "id": "item_desc.027201",
@@ -525,7 +525,7 @@
    "p16:0266C3"
   ],
   "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff that restores HP{nl}{half}Eria"
  },
  {
   "id": "item_desc.027251",
@@ -535,7 +535,7 @@
    "p16:0266C5"
   ],
   "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff that restores HP{nl}{half}Eria"
  },
  {
   "id": "item_desc.02727D",
@@ -545,7 +545,7 @@
    "p16:0266C7"
   ],
   "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}つえ{nl}{half}エリア",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A staff that restores HP{nl}{half}Eria"
  },
  {
   "id": "item_desc.0272A9",
@@ -555,7 +555,7 @@
    "p16:0266C9"
   ],
   "jp": "{clr}{pos:00000000}{full}聖なるつえ{nl}魔法力＋５{nl}{half}エリア",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A holy staff{nl}Magic +5{nl}{half}Eria"
  },
  {
   "id": "item_desc.0272D5",
@@ -565,7 +565,7 @@
    "p16:0266CB"
   ],
   "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}がっき{nl}{half}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}An instrument that{nl}restores HP{nl}{half}Circlus"
  },
  {
   "id": "item_desc.027307",
@@ -575,7 +575,7 @@
    "p16:0266CD"
   ],
   "jp": "{clr}{pos:00000000}{full}体力を回復させる{nl}がっき{nl}{half}サークルス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}An instrument that{nl}restores HP{nl}{half}Circlus"
  },
  {
   "id": "item_desc.027339",
@@ -585,7 +585,7 @@
    "p16:0266CF"
   ],
   "jp": "{clr}{pos:00000000}{full}ポレポレのつえ{nl}体力を回復させる{nl}{half}ドリス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsPole-Pole{nl}Restores HP{nl}{half}Doris"
  },
  {
   "id": "item_desc.02736F",
@@ -595,7 +595,7 @@
    "p16:0266D1"
   ],
   "jp": "{clr}{pos:00000000}{full}ライジングドッグのつえ　魔法力＋１０{half}アルデナーラ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsRising Dog{nl}Magic +10{nl}{half}Ardenara"
  },
  {
   "id": "item_desc.0273AD",
@@ -605,7 +605,7 @@
    "p16:0266D3"
   ],
   "jp": "{clr}{pos:00000000}{full}サラマンダーのつえ間せつ魔法力＋１５{half}ドリス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsSalamander{nl}Ranged Magic +15{nl}{half}Doris"
  },
  {
   "id": "item_desc.0273E5",
@@ -615,7 +615,7 @@
    "p16:0266D5"
   ],
   "jp": "{clr}{pos:00000000}{full}ゴーレムのつえ{nl}魔法力＋２０{nl}{half}ドリス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsGolem{nl}Magic +20{nl}{half}Doris"
  },
  {
   "id": "item_desc.027417",
@@ -625,7 +625,7 @@
    "p16:0266D7"
   ],
   "jp": "{clr}{pos:00000000}{full}ソードマンのつえ{nl}魔法力＋２５{nl}{half}アルデナーラ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsSwordsman{nl}Magic +25{nl}{half}Ardenara"
  },
  {
   "id": "item_desc.027451",
@@ -657,7 +657,7 @@
    "p16:0266DD"
   ],
   "jp": "{clr}{pos:00000000}{full}ドラゴンのつえ{nl}間せつ魔法力＋３０{half}アルデナーラ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsDragon{nl}Ranged Magic +30{nl}{half}Ardenara"
  },
  {
   "id": "item_desc.0274A5",
@@ -667,7 +667,7 @@
    "p16:0266DF"
   ],
   "jp": "{clr}{pos:00000000}{full}ポレポレＧのつえ{nl}間せつ魔法力＋４０{half}ドリス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}SummonsPole-Pole Great{nl}Ranged Magic +40{nl}{half}Doris"
  },
  {
   "id": "item_desc.0274DD",
@@ -677,7 +677,7 @@
    "p16:0266E1"
   ],
   "jp": "{clr}{pos:00000000}{full}するどいつめ{nl}攻撃力＋３{nl}{half}クラウス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A sharp claw{nl}Attack +3{nl}{half}Klaus"
  },
  {
   "id": "item_desc.02750D",
@@ -687,7 +687,7 @@
    "p16:0266E3"
   ],
   "jp": "{clr}{pos:00000000}{full}ぎんで出来たつめ{nl}攻撃力＋８{nl}{half}クラウス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A claw made of silver{nl}Attack +8{nl}{half}Klaus"
  },
  {
   "id": "item_desc.027541",
@@ -697,7 +697,7 @@
    "p16:0266E5"
   ],
   "jp": "{clr}{pos:00000000}{full}きょだいなつめ{nl}攻撃力＋１２{nl}{half}クラウス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A huge claw{nl}Attack +12{nl}{half}Klaus"
  },
  {
   "id": "item_desc.027575",
@@ -718,7 +718,7 @@
    "p16:0266E9"
   ],
   "jp": "{clr}{pos:00000000}{full}ラッキーなつめ{nl}攻撃力＋１０{nl}{half}クラウス",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A lucky claw{nl}Attack +10{nl}{half}Klaus"
  },
  {
   "id": "item_desc.0275B5",
@@ -728,7 +728,7 @@
    "p16:0266EB"
   ],
   "jp": "{clr}{pos:00000000}{full}ゆびわ{nl}魔法力＋５{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A ring{nl}Magic +5{nl}{half}Serena"
  },
  {
   "id": "item_desc.0275DF",
@@ -738,7 +738,7 @@
    "p16:0266ED"
   ],
   "jp": "{clr}{pos:00000000}{full}ＨＰ回復のゆびわ{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A ring that restores HP{nl}{half}Serena"
  },
  {
   "id": "item_desc.027607",
@@ -748,7 +748,7 @@
    "p16:0266EF"
   ],
   "jp": "{clr}{pos:00000000}{full}しんじゅのゆびわ{nl}魔法力＋１０{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A pearl ring{nl}Magic +10{nl}{half}Serena"
  },
  {
   "id": "item_desc.02763D",
@@ -758,7 +758,7 @@
    "p16:0266F1"
   ],
   "jp": "{clr}{pos:00000000}{full}ルビーのゆびわ{nl}魔法力＋１５{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A ruby ring{nl}Magic +15{nl}{half}Serena"
  },
  {
   "id": "item_desc.027671",
@@ -768,7 +768,7 @@
    "p16:0266F3"
   ],
   "jp": "{clr}{pos:00000000}{full}サファイヤのゆびわ魔法力＋２０{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A sapphire ring{nl}Magic +20{nl}{half}Serena"
  },
  {
   "id": "item_desc.0276A7",
@@ -778,7 +778,7 @@
    "p16:0266F5"
   ],
   "jp": "{clr}{pos:00000000}{full}ダイヤのゆびわ{nl}魔法力＋２５{nl}{half}サリーナ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A diamond ring{nl}Magic +25{nl}{half}Serena"
  },
  {
   "id": "item_desc.0276DB",
@@ -788,7 +788,7 @@
    "p16:0266F7"
   ],
   "jp": "{clr}{pos:00000000}{full}ドラゴンのしっぽ{nl}攻撃力＋１０{nl}{half}リギット",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A dragon's tail{nl}Attack +10{nl}{half}Ligito"
  },
  {
   "id": "item_desc.027711",
@@ -798,7 +798,7 @@
    "p16:0266F9"
   ],
   "jp": "{clr}{pos:00000000}{full}かえんほうしゃ{nl}間せつ攻撃力＋１０{half}リギット",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Breathes fire{nl}Ranged Attack +10{nl}{half}Ligito"
  },
  {
   "id": "item_desc.027749",
@@ -808,7 +808,7 @@
    "p16:0266FB"
   ],
   "jp": "{clr}{pos:00000000}{full}雪だるまをふらす{nl}直間魔法力＋２０{nl}{half}おゆきちゃん",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Rains down snowmen{nl}Direct/Ranged Magic +20{nl}{half}Oyuki-chan"
  },
  {
   "id": "item_desc.027787",
@@ -1137,7 +1137,7 @@
    "p16:026737"
   ],
   "jp": "{clr}{pos:00000000}{full}森でとれるしょくぶつ{nl}ＨＰが２０回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A plant found in forests{nl}Restores 20 HP"
  },
  {
   "id": "item_desc.0277F5",
@@ -1147,7 +1147,7 @@
    "p16:026739"
   ],
   "jp": "{clr}{pos:00000000}{full}ようせいが持つくすり{nl}ＨＰが４０回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A medicine fairies carry{nl}Restores 40 HP"
  },
  {
   "id": "item_desc.027829",
@@ -1157,7 +1157,7 @@
    "p16:02673B"
   ],
   "jp": "{clr}{pos:00000000}{full}ハチが持つアイテムＨＰ１５回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}An item bees carry{nl}Restores 15 HP"
  },
  {
   "id": "item_desc.027857",
@@ -1167,7 +1167,7 @@
    "p16:02673D"
   ],
   "jp": "{clr}{pos:00000000}{full}力つきたものをよみがえらせ{nl}ＨＰが２０回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Revives the fallen{nl}and restores 20 HP"
  },
  {
   "id": "item_desc.027891",
@@ -1177,7 +1177,7 @@
    "p16:02673F"
   ],
   "jp": "{clr}{pos:00000000}{full}ＨＰが完全回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Fully restores HP"
  },
  {
   "id": "item_desc.0278AF",
@@ -1187,7 +1187,7 @@
    "p16:026741"
   ],
   "jp": "{clr}{pos:00000000}{full}力つきたものをよみがえらせ{nl}ＨＰが完全回復する",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Revives the fallen{nl}and fully restores HP"
  },
  {
   "id": "item_desc.0278E9",
@@ -1197,7 +1197,7 @@
    "p16:026743"
   ],
   "jp": "{clr}{pos:00000000}{full}栄よう満てんの{nl}スッポンのエキス{nl}Ｍぼうぎょ３ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Nutrient-packed{nl}turtle extract{nl}Resistance +3"
  },
  {
   "id": "item_desc.027927",
@@ -1207,7 +1207,7 @@
    "p16:026745"
   ],
   "jp": "{clr}{pos:00000000}{full}ペンギンのたまご{nl}ＨＰ１５回復",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A penguin egg{nl}Restores 15 HP"
  },
  {
   "id": "item_desc.027951",
@@ -1272,7 +1272,7 @@
    "p16:026751"
   ],
   "jp": "{clr}{pos:00000000}{full}伝説？の幸運のくつはいたキャラの{nl}移動力が２ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}Legendary(?) lucky boots{nl}Wearer's Move +2"
  },
  {
   "id": "item_desc.027997",
@@ -1282,7 +1282,7 @@
    "p16:026753"
   ],
   "jp": "{clr}{pos:00000000}{full}色々な、がくもんについて書かれた本{nl}魔法力２ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A book on all kinds{nl}of learning{nl}Magic +2"
  },
  {
   "id": "item_desc.0279D3",
@@ -1292,7 +1292,7 @@
    "p16:026755"
   ],
   "jp": "{clr}{pos:00000000}{full}不思議な木の実{nl}攻撃力が３ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A mysterious fruit{nl}Attack +3"
  },
  {
   "id": "item_desc.0279FD",
@@ -1302,7 +1302,7 @@
    "p16:026757"
   ],
   "jp": "{clr}{pos:00000000}{full}守りの力がこもったいし{nl}Ｐぼうぎょが３ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A stone filled with{nl}protective power{nl}Defense +3"
  },
  {
   "id": "item_desc.027A33",
@@ -1312,7 +1312,7 @@
    "p16:026759"
   ],
   "jp": "{clr}{pos:00000000}{full}山おくでしかとれない不思議なキノコ{nl}最大体力が５ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A strange mushroom found{nl}only deep in the mountains{nl}Max HP +5"
  },
  {
   "id": "item_desc.027A73",
@@ -1322,6 +1322,6 @@
    "p16:02675B"
   ],
   "jp": "{clr}{pos:00000000}{full}怪物グリフォンのはね{nl}素早さが２ＵＰ",
-  "en": ""
+  "en": "{clr}{pos:00000000}{full}A feather from a{nl}monstrous griffin{nl}Speed +2"
  }
 ]

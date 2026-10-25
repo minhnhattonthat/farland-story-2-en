@@ -7,7 +7,7 @@
    "vm:2A54A2"
   ],
   "jp": "{clr}{pos:00000000}{full}ぼくはアーク王との約束をまもったっちゃ{wait}{clr}{pos:00000000}{full}世界を救ったんだ{nl}もんね・・・{nl}{wait}{clr}{pos:00000000}{full}でも退屈でしゅ{nl}むにゃむにゃ・・・{wait}{clr}{pos:00000000}{full}あーあっ・・・{nl}サリーナしゃんや{nl}リアドにいちゃん{wait}{clr}{pos:00000000}{full}あしょびにこないかなあ・・・{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}I kept my promish to King Ark, I did.{wait}{clr}{pos:00000000}{full}'Cawsh I shaved the whole world...{wait}{clr}{pos:00000000}{full}But I'm sho bored... mumble mumble...{wait}{clr}{pos:00000000}{full}Aww... I wish Serena-shan and Big Brother Riad{wait}{clr}{pos:00000000}{full}would come play...{wait}",
   "box": "upper"
  },
  {
@@ -18,7 +18,7 @@
    "vm:2A54C7"
   ],
   "jp": "{clr}{pos:00000000}{full}フェルサリアを守るホワイトドラゴンとしての自覚に{wait}{clr}{pos:00000000}{full}目覚めたリギット{wait}{clr}{pos:00000000}{full}だがすっかり{nl}フェルサリアが{nl}平和になった今は{wait}{clr}{pos:00000000}{full}遊びたいざかりの彼には少々{nl}{wait}{clr}{pos:00000000}{full}今の役目は{nl}退屈らしい{wait}",
-  "en": "",
+  "en": "{clr}{pos:00000000}{full}Ligito has awakened to his duty{wait}{clr}{pos:00000000}{full}as the White Dragon who protects Felsaria.{wait}{clr}{pos:00000000}{full}But now that Felsaria is wholly at peace,{wait}{clr}{pos:00000000}{full}for a youngster who only wants to play,{wait}{clr}{pos:00000000}{full}his job seems a little dull.{wait}",
   "box": "centre"
  }
 ]
