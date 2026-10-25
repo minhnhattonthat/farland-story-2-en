@@ -252,7 +252,7 @@
    "imm:0309DE/0309EA"
   ],
   "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　ＧＡＭＥ　ＯＶＥＲ",
-  "en": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　GAME OVER"
+  "en": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　　　　　　G　A　M　E　　O　V　E　R"
  },
  {
   "id": "battle.03480B",
@@ -263,6 +263,16 @@
   ],
   "jp": "ブレイクストーム！",
   "en": "Break Storm!"
+ },
+ {
+  "id": "battle.2A0FF4",
+  "addr": "2A0FF4",
+  "len": 40,
+  "ptrs": [
+   "imm:2A0FBC/2A0FC8"
+  ],
+  "jp": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　ＧＡＭＥ　ＯＶＥＲ",
+  "en": "{pos:00000000}{full}{delay:3C00}{spd0}{f40off}{f20off}　　　　　　G　A　M　E　　O　V　E　R"
  },
  {
   "id": "battle.2A8D1B",

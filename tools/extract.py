@@ -44,7 +44,7 @@ IMM = re.compile(rb"\xa9(..)\x85([\x10\x14])", re.S)
 JSL = re.compile(rb"\x22..[\xc0-\xef]|(?<![\xc2\xe2])\x20..", re.S)
 # `LDY #1 : LDA #lo/hi : STA [$28],y` ... `LDY #3 : LDA #bank : STA [$28],y` (battle messages built in RAM)
 IMM28 = re.compile(rb"\xa0\x01\x00\xa9(..)\x97\x28\xe2\x30\xa0\x03\xa9(.)\x97\x28", re.S)
-CODE = [(0x000000, 0x040000), (0x2A6000, 0x2C0000)]  # banks $C0-$C3, $EA-$EB (code)
+CODE = [(0x000000, 0x040000), (0x2A0000, 0x2C0000)]  # banks $C0-$C3, $EA-$EB (code; $EA:0F98 = game over)
 # where text lives (docs/re/text.md): code/data banks $C1-$C3, scripts $C4-$C6 and $EA. Every textscan run in
 # here must be an entry (the coverage test); runs elsewhere are font and graphics data that happen to decode.
 TEXT_RANGES = [(0x010000, 0x040000), (0x047800, 0x070000), (0x2A3540, 0x2C0000)]

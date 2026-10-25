@@ -62,6 +62,9 @@ def run(rom, scene, kind, cold):
     state_in = None if cold or kind != "map" or scene == "map" else STATES / "map.mss"
     frames = 8000 if state_in else 60000
     log = emu(rom, out, scene, frames, state_in, STATES / f"{scene}.mss")
+    if "warp reached" not in log:  # a run now and then never leaves the title (no warp line at all): retry once
+        shutil.rmtree(out, ignore_errors=True)
+        log = emu(rom, out, scene, frames, state_in, STATES / f"{scene}.mss")
     ok = "warp reached" in log
     if ok:
         shutil.copy(out / f"{scene}.png", OUT / "shots" / f"{scene}.png")

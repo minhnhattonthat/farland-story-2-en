@@ -15,6 +15,8 @@
  },
  "override": {
   "_": "fields that share a row with numbers or other strings (marker tour work/qa/marker/shots, JP tour work/qa/tour6/shots): px up to the next thing drawn on the row",
+  "battle.030A16": {"px": 175, "lines": 1, "why": "GAME OVER window: 22 cells x 1 (textlog, not the battle message window)"},
+  "battle.2A0FF4": {"px": 175, "lines": 1, "why": "GAME OVER window, second copy ($EA:0F98 opens the same 22 x 1 window)"},
   "system.021E67": {"px": 71, "lines": 1, "why": "status label; stat number right-aligned to cell 12 (3 digits from x 78)"},
   "system.021E6F": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
   "system.021E7F": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
