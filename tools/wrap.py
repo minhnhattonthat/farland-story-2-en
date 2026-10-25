@@ -56,7 +56,7 @@ def fill(body, n, px, last, w):
                 cur = word
         # no widow: pull words down from the line above while the last line is a stub and still fits
         lim = last if len(lines) % n == n - 1 or k == len(paras) - 1 else px
-        while len(lines) > start and len(cur) < STUB and " " in lines[-1]:
+        while len(lines) > start and (len(cur) < STUB or " " not in cur) and " " in lines[-1]:
             head, word = lines[-1].rsplit(" ", 1)
             if font.text_width(f"{word} {cur}", w) > lim:
                 break
@@ -76,6 +76,38 @@ def fill(body, n, px, last, w):
     return lines
 
 
+def sentences(body):
+    """The body split after each sentence end (. ! ? and any closing quote) that a space follows."""
+    out, i = [], 0
+    for m in re.finditer(r"[.!?]+[\"')]*(?= )", body):
+        out.append(body[i:m.end()])
+        i = m.end() + 1
+    return [x for x in out + [body[i:]] if x]
+
+
+def page_chunks(body, n, px, last, w):
+    """A paragraph too long for one window page -> page texts ({nl} between lines). Prefer page breaks at sentence
+    ends when that takes no extra page; else keep the line fill but never leave one line alone on the last page."""
+    lines = fill(body, n, px, last, w)
+    if len(lines) <= n:
+        return ["{nl}".join(lines)]
+    want = -(-len(lines) // n)
+    if "{nl}" not in body:
+        groups = []
+        for s in sentences(body):
+            if groups and len(fill(f"{groups[-1]} {s}", n, px, last, w)) <= n:
+                groups[-1] = f"{groups[-1]} {s}"
+            else:
+                groups.append(s)
+        filled = [fill(g, n, px, last, w) for g in groups]
+        if len(groups) > 1 and sum(-(-len(f) // n) for f in filled) == want:
+            return ["{nl}".join(f[i:i + n]) for f in filled for i in range(0, len(f), n)]
+    chunks = [lines[i:i + n] for i in range(0, len(lines), n)]
+    if len(chunks[-1]) == 1 and n > 1 and font.text_width(chunks[-2][-2], w) <= last:
+        chunks[-1].insert(0, chunks[-2].pop())  # 3 + 1 lines -> 2 + 2
+    return ["{nl}".join(c) for c in chunks]
+
+
 def wrap_text(s, b, w=None):
     """Box string `s` wrapped to budget b = {px, lines, last}."""
     w = w or font.widths()
@@ -85,8 +117,7 @@ def wrap_text(s, b, w=None):
         if not body or CODE.sub("", body.replace("{nl}", "")) != body.replace("{nl}", ""):
             out.append(prefix + body + suffix)  # empty or layout page
             continue
-        lines = fill(body, n, px, last, w)
-        chunks = ["{nl}".join(lines[i:i + n]) for i in range(0, len(lines), n)]
+        chunks = page_chunks(body, n, px, last, w)
         again = prefix if "{clr}" in prefix else "{nl}"
         out.append(prefix + (WAIT + again).join(chunks) + (suffix or (WAIT if len(chunks) > 1 else "")))
     return "".join(out)
@@ -106,6 +137,12 @@ def selftest():
     assert out.count(WAIT) == out.count("{clr}") == 3, out
     assert wrap_text(out, b) == out  # idempotent
     assert wrap_text("{full}" + "x " * 60 + WAIT, b).count("{wait}{nl}") == 1  # scrolling narration
+    four = "{clr}" + " ".join(["word"] * 9) + ". " + " ".join(["more"] * 9) + "." + WAIT  # 4 lines
+    out = wrap_text(four, b)
+    assert out.count(WAIT) == 2 and out.split(WAIT)[0].endswith("word.") and wrap_text(out, b) == out, out
+    assert all(p.count("{nl}") >= 1 for p in wrap_text("{clr}" + "x " * 85 + WAIT, b).split(WAIT)[:-1])  # 2 + 2
+    assert " " in fill("aaa bbb ccc ddd eee fff ggg hhh iii jjj kkk lll mmm nnn ooo ppp qqq rrr sss " * 2 + "end.",
+                       3, 143, 136, font.widths())[-1]  # no one-word last line
     layout = "{clr}{pos:00000000}{half}A{nl}{pos:02000000}B" + WAIT
     assert wrap_text(layout, b) == layout
     try:

@@ -25,6 +25,15 @@ org $C02CF1          ; X = buffer offset of the cell, Y = font offset: SEP #$20 
     jml vwf_draw
     nop
 
+org $C032DA          ; {pos} handler: PLB / SEP #$20 / REP #$10
+    jml vwf_pos
+    nop
+
+org $C03317          ; {clr} handler: PLB / SEP #$30 / LDX $04D3
+    jml vwf_clr
+    nop
+    nop
+
 ; --- code ---
 org $F00000
 vwf_glyph:
@@ -314,6 +323,23 @@ vwf_wordfits:
     lda !w
     cmp !keep         ; C = end >= width
     rts
+
+; {pos} and {clr} place the cursor themselves: forget where the last VWF glyph left it, so the next glyph starts
+; at pixel 0 of its cell even when {pos} lands on that same cell (a string after {clr}{pos:0,0} began 3-4 px in).
+vwf_pos:
+    plb
+    sep #$20
+    rep #$10
+    lda #$FF
+    sta.l $7E0000+!col
+    jml $C032DF
+vwf_clr:
+    plb
+    sep #$30
+    lda #$FF
+    sta.l $7E0000+!col
+    ldx $04D3
+    jml $C0331D
 
 vwf_remap:   incbin "../build/vwf_remap.bin"   ; JP code $00-$4B -> VWF index, $FF = original glyph
 vwf_width:   incbin "../build/vwf_width.bin"   ; advance per VWF index

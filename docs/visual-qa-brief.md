@@ -36,6 +36,9 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
   - Two dialogue boxes (upper and lower) are both on screen; the one not speaking is empty or holds the last line.
   - A ▼ arrow at the bottom right of a box is the page-wait prompt.
   - STAGE cards and the objective window use the full-width layout of the original ("STAGE 01", "- Objective -").
+  - Line and page breaks come from `tools/wrap.py`: a one-word last line is fine when moving one more word down
+    would not fit, and a page break may fall mid-sentence where the jp field breaks the page there too. A page
+    holding a single leftover line or word of an overflowing paragraph is an issue.
   - `scenes/` sheets pair each scene: English build left, original ROM right (one shot per warp scene; a box
     still typing in either is not a bug). `tour/` and `view/` sheets: one shot per page wait; the same page can
     appear twice in a row.

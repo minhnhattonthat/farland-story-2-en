@@ -690,7 +690,7 @@
    "vm:06E494"
   ],
   "jp": "{full}　ＳＴＡＧＥ１０{nl}　＜ゾルディン＞{wait}",
-  "en": "{full}STAGE 10　<Zordin>{wait}",
+  "en": "{full}　STAGE 10{nl}　<Zordin>{wait}",
   "box": "centre"
  }
 ]

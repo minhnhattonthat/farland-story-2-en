@@ -115,6 +115,9 @@ local function chapter_load_watch()
     end
   elseif step > 11 and loadSince then
     loadSince = false
+    -- K = 0 leaves record 0 (the hero the story moves) with id 0, whose sprite is a garbage metasprite (pointer 0)
+    -- that can overflow the sprite line limit and cut holes in portraits: give it the hero's id
+    if K == 0 and r(W.unit(0) + 0x15) == 0 then w(W.unit(0) + 0x15, 1) end
     L.log(string.format("warp party size %d loads chapter %d", K, sc.chapter))
   end
 end
