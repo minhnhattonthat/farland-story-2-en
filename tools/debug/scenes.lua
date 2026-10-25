@@ -26,7 +26,7 @@ local cards = {
   { 30, 0xEA3E0D },
 }
 for stage, c in ipairs(cards) do
-  S[string.format("stage%02d", stage)] = { chapter = c[1], load = LOAD[c[1]], text = c[2], settle = 90 }
+  S[string.format("stage%02d", stage)] = { chapter = c[1], load = LOAD[c[1]], text = c[2], settle = 300 }  -- the card's second line is fully typed
 end
 
 -- Battle map (stage 1, real party)

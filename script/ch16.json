@@ -536,7 +536,7 @@
    "vm:050FCC"
   ],
   "jp": "{full}　ＳＴＡＧＥ１２{nl}　＜トロイヤ王＞{wait}",
-  "en": "{full}　STAGE 12{nl}<The King of Troia>{wait}",
+  "en": "{full}　STAGE 12{nl}　<The King of Troia>{wait}",
   "box": "centre"
  }
 ]
