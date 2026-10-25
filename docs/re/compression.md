@@ -9,7 +9,9 @@ sizes, e.g. `0x6321` -> 8192 bytes of 4bpp title tiles; `lz.py selftest` round-t
 - Bit clear: one literal byte. Every output byte also goes into the 256-byte ring (zero-filled at start, `$00:0187`).
 - Stops when the read index reaches the length (can be mid-group).
 - Our encoder (`lz.compress`) is greedy, not byte-identical to the original packer: the identity build copies
-  original blocks unchanged and only recompresses edited ones.
+  original blocks unchanged and only recompresses edited ones. Verified on all 285 blocks
+  (`tests/test_build.py`): each round-trips and packs no larger than the original, so an edited block whose
+  data compresses as well fits in place.
 
 ## Blocks
 

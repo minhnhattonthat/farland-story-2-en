@@ -40,11 +40,8 @@ def table_entries(rom, base, limit=256):
     return out
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--dump", help="write unpacked blocks here")
-    a = ap.parse_args()
-    rom = (ROOT / "rom" / "Farland Story 2 (Japan).sfc").read_bytes()
+def find_blocks(rom):
+    """{file offset: (packed size, unpacked size, where it was found)} for every known block."""
     blocks = {}
     for src in DIRECT:
         data, size = decompress(rom, src)
@@ -52,6 +49,15 @@ def main():
     for base, who in TABLES.items():
         for i, src, size, n in table_entries(rom, base):
             blocks.setdefault(src, (size, n, f"table {base:06X}[{i}] ({who})"))
+    return blocks
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dump", help="write unpacked blocks here")
+    a = ap.parse_args()
+    rom = (ROOT / "rom" / "Farland Story 2 (Japan).sfc").read_bytes()
+    blocks = find_blocks(rom)
     for src in sorted(blocks):
         size, n, who = blocks[src]
         print(f"{src:06X} packed {size:5d} unpacked {n:5d}  {who}")

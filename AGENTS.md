@@ -3,7 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py`        -> build/farland2_en.sfc (checks the dump against `rom.sha1` first; not written yet, phase 3)
+- Build:    `python -X utf8 tools/build.py`        -> build/farland2_en.sfc (checks the dump against `rom.sha1` first; `--identity` fails unless unpack+repack with no edits equals the dump)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/farland2_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/farland2_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 20000` (scenes: `tools/debug/scenes.lua`, notes `docs/re/debug.md`; never ask the user to play to a scene)
