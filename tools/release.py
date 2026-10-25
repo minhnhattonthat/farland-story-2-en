@@ -71,7 +71,7 @@ def main():
     shot = (QA / "rom.sha1").read_text().strip() if (QA / "rom.sha1").exists() else "none"
     if shot != hashlib.sha1(built).hexdigest():
         sys.exit(f"release: the QA tour shot build {shot}, not this one: run tools/qa_tour.py, then the visual-QA gate")
-    run(Path(SCRIPTS) / "qa_gate.py", "check", QA / "manifest.tsv")
+    run(Path(SCRIPTS) / "qa_gate.py", "check", QA / "manifest.tsv", QA / "verdicts")
 
     final = ROOT / "build" / f"farland2_en_v{a.version}.sfc"
     run(ROOT / "tools" / "bps.py", "snes-checksum", BUILT, "--out", final)
