@@ -5,7 +5,7 @@ except your one verdict file: no edits to the repo, no git, no subagents.
 
 ## Inputs (in your dispatch)
 - A chunk file: one `id<TAB>path` line per sheet. Read every sheet in it; none may be skipped.
-- Your verdict file: `work/qa/verdicts/<chunk>.tsv`.
+- Your verdict file: `work/qa/p8/verdicts/<chunk>.tsv` (the dispatch names it).
 - Optional: the original ROM's sheets (`work/qa/tour_jp/`, same ids) and `glossary.md`.
 
 ## How to look
