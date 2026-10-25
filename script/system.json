@@ -843,7 +843,7 @@
   "addr": "021DEF",
   "len": 8,
   "ptrs": [
-   "imm:021C48/021C61"
+   "imm:021C48/021C42"
   ],
   "jp": "{pos:02000100}",
   "en": "",
@@ -854,9 +854,20 @@
   "addr": "021DF7",
   "len": 8,
   "ptrs": [
-   "imm:021C6E/021C7D"
+   "imm:021C6E/021C68"
   ],
   "jp": "{pos:00000200}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021DFF",
+  "addr": "021DFF",
+  "len": 8,
+  "ptrs": [
+   "imm:021C8A/021C84"
+  ],
+  "jp": "{pos:09000200}",
   "en": "",
   "notext": true
  },
@@ -865,9 +876,20 @@
   "addr": "021E07",
   "len": 8,
   "ptrs": [
-   "imm:021CA3/021CB2"
+   "imm:021CA3/021C9C"
   ],
   "jp": "{pos:00000300}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E0F",
+  "addr": "021E0F",
+  "len": 8,
+  "ptrs": [
+   "imm:021CBF/021CB9"
+  ],
+  "jp": "{pos:09000300}",
   "en": "",
   "notext": true
  },
@@ -876,9 +898,20 @@
   "addr": "021E17",
   "len": 8,
   "ptrs": [
-   "imm:021CD8/021CE7"
+   "imm:021CD8/021CD1"
   ],
   "jp": "{pos:00000400}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E1F",
+  "addr": "021E1F",
+  "len": 8,
+  "ptrs": [
+   "imm:021CF4/021CEE"
+  ],
+  "jp": "{pos:09000400}",
   "en": "",
   "notext": true
  },
@@ -887,9 +920,20 @@
   "addr": "021E27",
   "len": 8,
   "ptrs": [
-   "imm:021D0D/021D1C"
+   "imm:021D0D/021D06"
   ],
   "jp": "{pos:00000500}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E2F",
+  "addr": "021E2F",
+  "len": 8,
+  "ptrs": [
+   "imm:021D29/021D23"
+  ],
+  "jp": "{pos:09000500}",
   "en": "",
   "notext": true
  },
@@ -898,9 +942,20 @@
   "addr": "021E37",
   "len": 8,
   "ptrs": [
-   "imm:021D42/021D51"
+   "imm:021D42/021D3B"
   ],
   "jp": "{pos:00000600}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E3F",
+  "addr": "021E3F",
+  "len": 8,
+  "ptrs": [
+   "imm:021D5E/021D58"
+  ],
+  "jp": "{pos:09000600}",
   "en": "",
   "notext": true
  },
@@ -909,9 +964,20 @@
   "addr": "021E47",
   "len": 8,
   "ptrs": [
-   "imm:021D77/021D86"
+   "imm:021D77/021D70"
   ],
   "jp": "{pos:00000700}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021E4F",
+  "addr": "021E4F",
+  "len": 8,
+  "ptrs": [
+   "imm:021D93/021D8D"
+  ],
+  "jp": "{pos:09000700}",
   "en": "",
   "notext": true
  },
@@ -920,7 +986,7 @@
   "addr": "021E57",
   "len": 8,
   "ptrs": [
-   "imm:021DAC/021DBB"
+   "imm:021DAC/021DA5"
   ],
   "jp": "{pos:00000800}",
   "en": "",
@@ -1023,7 +1089,7 @@
   "addr": "021F76",
   "len": 8,
   "ptrs": [
-   "imm:021F03/021F14"
+   "imm:021F03/021EFD"
   ],
   "jp": "{pos:05000000}",
   "en": "",
@@ -1034,9 +1100,20 @@
   "addr": "021F7E",
   "len": 8,
   "ptrs": [
-   "imm:021F1A/021F29"
+   "imm:021F1A/021F14"
   ],
   "jp": "{pos:00000100}",
+  "en": "",
+  "notext": true
+ },
+ {
+  "id": "system.021F86",
+  "addr": "021F86",
+  "len": 8,
+  "ptrs": [
+   "imm:021F36/021F30"
+  ],
+  "jp": "{pos:05000100}",
   "en": "",
   "notext": true
  },
@@ -1058,6 +1135,16 @@
    "imm:021F22/021F29"
   ],
   "jp": "ＨＰ",
+  "en": ""
+ },
+ {
+  "id": "system.021F9C",
+  "addr": "021F9C",
+  "len": 4,
+  "ptrs": [
+   "imm:021F4F/021F48"
+  ],
+  "jp": "／",
   "en": ""
  },
  {

@@ -1,0 +1,4061 @@
+{
+ "box": {
+  "upper": {"px": 143, "last": 136, "lines": 3, "measured": "work/qa/p5m/torture, arrow3: 18 cells; a line of exactly 144 px auto-wraps; the page-wait arrow covers cell 17 of line 3"},
+  "lower": {"px": 143, "last": 136, "lines": 3, "measured": "same window size as upper (textlog: 18 cells x 3 lines for all 718 seen)"},
+  "centre": {"px": 143, "last": 136, "lines": 3, "measured": "textlog: 18 cells x 3 lines (41 seen)"}
+ },
+ "fields": {
+  "battle": {"px": 111, "last": 104, "lines": 3, "measured": "textlog: battle message window 14 cells x 3; last line arrow: guess (same cell as dialogue). Most battle strings are fragments joined to a unit or item name at runtime ('<name>のこうげき！'): the fragment's line shares the 111 px with the longest name it can follow (phase 7 lint)"},
+  "units": {"px": 71, "lines": 1, "max_chars": 16, "measured": "battle window name line: name then 'LV' at cell 9 (JP layout, 71 px); status window 12 cells (95 px); at most 16 characters (name template battle.01ED33, docs/re/vwf.md)"},
+  "classes": {"px": 79, "lines": 1, "measured": "status window 12 cells, class at cell 2"},
+  "items": {"px": 63, "lines": 1, "measured": "item list and shop list windows 9 cells, cursor in cell 0 (items, shop_buy); widening corrupts the next window (work/qa/widen): phase 7 engine work"},
+  "item_desc": {"px": 143, "lines": 3, "measured": "item description window 18 cells x 3 (items scene)"},
+  "objectives": {"px": 143, "lines": 1, "measured": "objective window 18 cells (objective scene)"},
+  "system": {"rule": "per entry: (cells - start cell) * 8 - 1 px from `entries` (window seen in a tour) or `static`; start cell = the string's first {pos}"}
+ },
+ "override": {
+  "_": "fields that share a row with numbers or other strings (marker tour work/qa/marker/shots, JP tour work/qa/tour6/shots): px up to the next thing drawn on the row",
+  "system.021E67": {"px": 71, "lines": 1, "why": "status label; stat number right-aligned to cell 12 (3 digits from x 78)"},
+  "system.021E6F": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021E7F": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021E8D": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021E9F": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021EB1": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021EBB": {"px": 71, "lines": 1, "why": "status label, as system.021E67"},
+  "system.021F8E": {"px": 31, "lines": 1, "why": "status EXP label, number follows (guess)"},
+  "system.021F96": {"px": 23, "lines": 1, "why": "status HP label, 'nn/ nn' follows (guess)"},
+  "system.021F9C": {"px": 7, "lines": 1, "why": "the / between HP and max HP"},
+  "system.015A96": {"px": 55, "lines": 1, "why": "weapons window label, number right-aligned to cell 11 (weapons shot)"},
+  "system.015AA6": {"px": 55, "lines": 1, "why": "weapons window label, as system.015A96"},
+  "system.016A40": {"px": 31, "lines": 1, "why": "shop price label, price follows in the same row (shop_buy)"},
+  "system.02132F": {"px": 47, "lines": 1, "why": "save slot: '1.STAGE' + stage number + hero name + LV + level share 20 cells"},
+  "system.02133F": {"px": 47, "lines": 1, "why": "as system.02132F"},
+  "system.02134F": {"px": 47, "lines": 1, "why": "as system.02132F"},
+  "system.02135F": {"px": 63, "lines": 1, "why": "save slot: name + LV label after '1.STAGE01'; level number follows"},
+  "system.02107B": {"px": 71, "lines": 4, "why": "settings: title line may use 143 px; the BGM/SE/mode labels end before the values at cell 10"},
+  "system.015FE8": {"px": 31, "lines": 2, "why": "use/drop sub-window 6 cells, text from cell 2 (item_use)"}
+ },
+ "tables": {
+  "023764": {"entries": 39, "cells": 18, "lines": 5, "why": "stage numbers (STAGE card, objective window): siblings system.0237B2 (18x5) and 0237E8 (9x6, seen as a buffer match); digits stay digits"}
+ },
+ "static": {
+  "_":"windows of strings no tour reached yet, from the window-open call (JSL $C2:1FC4, w = LDA #imm to $14) before the string's code, or a seen sibling of the same format; all guess until a scene shows them",
+  "system.002B8D": {"cells": 7, "lines": 1, "why": "window opened at $C0:2A70 (w=7)"},
+  "system.002BA3": {"cells": 7, "lines": 1, "why": "same window as system.002B8D"},
+  "system.0136B4": {"cells": 18, "lines": 3, "why": "same format as system.0136E0 (seen 18x3)"},
+  "system.0141B9": {"cells": 18, "lines": 3, "why": "same format as system.0136E0"},
+  "system.0141EB": {"cells": 18, "lines": 3, "why": "same format as system.0136E0"},
+  "system.014524": {"cells": 18, "lines": 3, "why": "same format as system.0136E0"},
+  "system.014ADD": {"cells": 18, "lines": 3, "why": "same format as system.0136E0"},
+  "system.014CB5": {"cells": 18, "lines": 3, "why": "same format as system.0136E0"},
+  "system.015AB4": {"cells": 11, "lines": 8, "why": "equipment window, sibling system.015A96 (11x8)"},
+  "system.015B30": {"cells": 11, "lines": 8, "why": "equipment window, sibling system.015A96 (11x8)"},
+  "system.01646C": {"cells": 14, "lines": 3, "why": "level-up / recovery message: battle message window (guess)"},
+  "system.016476": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.01647E": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0164AA": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0164C0": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0164D6": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0164E8": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0164FE": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.01650C": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.016526": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.016538": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.01654C": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.016574": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.01659A": {"cells": 14, "lines": 3, "why": "as system.01646C"},
+  "system.0168B6": {"cells": 18, "lines": 3, "why": "sell prompt, shop message window (as system.016B92, seen 18x3)"},
+  "system.0168BA": {"cells": 18, "lines": 3, "why": "sell prompt, shop message window (as system.016B92, seen 18x3)"},
+  "system.01F1D4": {"cells": 14, "lines": 3, "why": "level-up stat names: battle message window (guess)"},
+  "system.01F1E6": {"cells": 14, "lines": 3, "why": "as system.01F1D4"},
+  "system.01F1F8": {"cells": 14, "lines": 3, "why": "as system.01F1D4"},
+  "system.01F210": {"cells": 14, "lines": 3, "why": "as system.01F1D4"},
+  "system.01F228": {"cells": 14, "lines": 3, "why": "as system.01F1D4"},
+  "system.01F234": {"cells": 14, "lines": 3, "why": "as system.01F1D4"},
+  "system.020AD6": {"cells": 18, "lines": 1, "why": "load confirm (guess: 18-cell prompt)"},
+  "system.022EDB": {"cells": 18, "lines": 1, "why": "as system.020AD6"},
+  "system.0214D0": {"cells": 18, "lines": 1, "why": "yes/no prompt (guess: 18-cell prompt)"},
+  "system.0210CF": {"cells": 18, "lines": 4, "why": "settings window, siblings system.02107B.. (18x4)"},
+  "system.0210E7": {"cells": 18, "lines": 4, "why": "settings window"},
+  "system.021103": {"cells": 18, "lines": 4, "why": "settings window"},
+  "system.02132F": {"cells": 20, "lines": 3, "why": "save slot list, siblings system.02136F.. (20x3)"},
+  "system.02133F": {"cells": 20, "lines": 3, "why": "save slot list"},
+  "system.02134F": {"cells": 20, "lines": 3, "why": "save slot list"},
+  "system.021F8E": {"cells": 12, "lines": 9, "why": "status window, siblings system.021E67.. (12x9)"},
+  "system.021F96": {"cells": 12, "lines": 9, "why": "status window"},
+  "system.021F9C": {"cells": 12, "lines": 9, "why": "status window"},
+  "system.027AA3": {"cells": 14, "lines": 3, "why": "battle special-move message: battle window (guess)"},
+  "system.027AC7": {"cells": 14, "lines": 3, "why": "as system.027AA3"},
+  "system.029F47": {"cells": 14, "lines": 3, "why": "as system.027AA3"}
+ },
+ "entries": {
+  "battle.01E9D2": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "battle.01EB12": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "battle.01ED47": {
+   "win": "00",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "battle.01EDE6": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "battle.030A16": {
+   "win": "00",
+   "cells": 22,
+   "lines": 1,
+   "via": "7EF8D6"
+  },
+  "ch00.0483D9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048505": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048579": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048609": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048677": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0486C3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048719": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0487B5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0487CB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048897": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0488C7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048933": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0489A3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048A35": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048A97": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048AB1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048B3F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048B85": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048CA1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048CF7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048D13": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048D49": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048D5F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048D8B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048E23": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048E5F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048EFB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.048F2B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04901D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04903D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049067": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049107": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04912D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049149": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049177": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0491A3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0491B7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0491CF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0491E7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04920B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04922B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049243": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049269": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04928F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.0492A7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.04932D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049363": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch00.049393": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.0493B7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.049411": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.049467": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.0494A1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.049513": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.04952F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.049599": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.0495B3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch01.049BF3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.06194E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.0619FE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061A36": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061B08": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061B30": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061B50": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061B98": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061C0E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061C34": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061C50": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061C7C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061CF8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061D20": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061D3E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061D5A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061D8A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061DB8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061E16": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061E36": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061E72": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061E8E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061F04": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.061F60": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.062010": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.06204E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.062094": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.0620C2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.0620F0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch02.062500": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062BE9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062C7D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062CA3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062CFF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062D2D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062D47": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062D69": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062DC9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062E7D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062EC1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062F6F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062FBD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062FE3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.062FF9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.06300F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0630E1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0630F5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063183": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0631E9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063223": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063275": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0632FD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063319": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063353": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063381": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0633E5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063425": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063723": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063777": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0637D5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.06380D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.06385F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.06387F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063911": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0639B1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.0639C7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063EAB": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063EFF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063F17": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch03.063F8D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064758": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064790": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0647BE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0647E8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064812": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064832": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06484C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06486A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06488A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0648AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0648D8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064906": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06492E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064958": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06497C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0649B4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0649CC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.0649F6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064A52": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064A7C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064AA6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064B04": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064B3E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064B6E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064B86": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064BE6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.064C7C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch04.06550A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0659E4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065A18": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065A76": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065B64": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065BB8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065BEE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065C5C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065C72": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065CE2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065DB0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065E06": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065E96": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065ECE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065F54": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.065F6A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06607A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066096": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0660F4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066158": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066180": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0661D0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0661E8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066226": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0662DE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0662F2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06630C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066362": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0663B8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0663DA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0663FA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06642A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06645C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06649C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0664FE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06653C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066578": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0665E2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06660C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.06663E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066656": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066682": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.0666CA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch05.066712": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066D1C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066D66": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066D88": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066E0C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066E5C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066E72": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066ED6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066EFE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066F5A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066F82": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066FA8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066FCA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.066FF8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.06701E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.06706A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.0670A8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.0670D8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.067116": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.067172": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.0671D6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.0671F0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.06722A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.067240": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.0676E2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch06.067702": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067C2B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067C5D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067CD3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067D71": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067DA9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067E1F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067E3D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067E6F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067F31": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.067FC5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068099": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0680D1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0680F5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068137": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0681B5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0681DF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.06827D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0682C9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068309": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0683DF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068491": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0684B3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0684CB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0684F3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068519": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068567": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0685F3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.06862B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.06863F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068665": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.068691": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch07.0686A7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.068EB1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.068F13": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.068F61": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.068FEF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.06901B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0690A9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0690E5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069111": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069159": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0691FD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069227": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069291": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0692B9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0692E7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069363": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.069389": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0693A1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.06944D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.06948D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0694DD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch08.0694FB": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch09.06992B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch09.069987": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch09.0699B1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch09.06A27F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06AB03": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06AB27": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06AB4F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06AB6B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06ABBF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06ABE1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch10.06BCF7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C661": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C6AF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C6DD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C70D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C749": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C7B5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C7D5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C7F5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C815": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C863": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C87F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C8BD": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C8E1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C969": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C993": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C9A9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06C9E7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CA3B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CA5D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CAB7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CAE5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CB47": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CB6D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CB8B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CBA7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CBFD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CC2D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CC51": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CCCD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CDA7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CDC5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CE13": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CE71": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CE89": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CF01": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CF21": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CFA9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06CFE1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06D01F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06D06D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06D09F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch11.06D14B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D52B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D561": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D579": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D597": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D5F1": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D627": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D683": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D6C5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D6DF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D73D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D76B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D78D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D7C9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D863": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D89F": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D8C5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06D957": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DA3D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DA83": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DAD9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DB39": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DB93": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch12.06DBBF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch13.06E1D6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch13.06E222": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EB70": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EB98": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EBD2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EBFE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EC3A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EC62": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EC82": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06ECCE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06ED36": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06ED72": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06ED96": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EDD2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EE2A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EE68": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EE9E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EED4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06EF2C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch14.06F9C6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050B12": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050B40": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050B5A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050B7E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050B98": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050BD8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050BF8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050C2C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050C48": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050C60": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050C78": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050C90": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050CAE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050CEE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch15.050F44": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.0517FC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051930": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.0519AA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.0519E8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051A1A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051AA4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051ABE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051AD4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051B02": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051B20": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.051B7E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.052400": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.052416": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch16.052430": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052E90": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052EC6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052EF2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052F22": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052F52": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052F70": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.052FE0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05301A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053040": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05308E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0530BC": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053102": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053172": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0531C8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0531DC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0531F4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053230": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053272": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0532C2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0532EC": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05336A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05338A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0533AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053404": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053456": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053486": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0534D8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0534F2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053552": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05358C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0535EE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05360E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05362C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05367C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0536AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0536C2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.05373A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053790": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0537C6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.0537EE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053804": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.053870": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.054220": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch17.054422": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054DD8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054E52": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054E76": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054ED2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054F12": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054F3E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054F6A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054FA4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.054FBE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055080": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0550BA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055132": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055148": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0551BC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055210": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055260": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055278": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05529E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0552BE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0552E0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0552F8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05532E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055350": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055378": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05539C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0553D6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055486": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05549E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0554F8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0555AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0555C4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055C50": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055C78": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055CEC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055D1A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055D38": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055D76": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055DA4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.055DD2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0561CC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.0561EC": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05621C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch18.05626A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.0569E8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056A1A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056A3A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056A66": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056AC4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056AF4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056B12": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056B34": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056B90": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056BAA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056BCE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056C20": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056C5C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056C70": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056CD0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056CF6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056D30": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056D90": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056DAA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056DD6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056E14": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch19.056F16": {
+   "win": "02",
+   "cells": 8,
+   "lines": 1,
+   "via": "7EF8D6"
+  },
+  "ch19.057036": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0577CA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0577EA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057802": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057842": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.05786E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0578A6": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0578C6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0578F4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057908": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057A2C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057A5C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057A8E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057B28": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057B78": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057BF6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.057C1E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch20.0584E2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058A78": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058AC8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058AE8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058B6A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058B94": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058BE4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058C0A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058C34": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058C6A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058CF6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058D2C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058D86": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058DC2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058E02": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058E22": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.058E5C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch21.059198": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0595B2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059642": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0596AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0596EC": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059714": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059752": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05976A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05978A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0597A2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0597C2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05980E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059826": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05985A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05987A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.0598EE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.05990A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059946": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch22.059C0A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch23.059E8B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch23.059EC7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch23.059EF3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AA2C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AA7C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AAA0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AB32": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AB80": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05ABF6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AC10": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AC28": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AC40": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AC7A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05ACD2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05AD94": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch24.05B77C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BA95": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BACF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BB27": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BB5D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BBCD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BBEB": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BC39": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch25.05BEE5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch26.05CB46": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch26.05CBB8": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch26.05D266": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D818": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D83C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D868": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D8B2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D93A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D978": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05D9B4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05DA0A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05DA5A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05DA6E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch27.05E45A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05E930": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05E95C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05E9DE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05E9F4": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EA6E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EA86": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EAD6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EB1C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EB54": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EB86": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EC18": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05ECB2": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05ED28": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EDE0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EE4A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EE78": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EEA6": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EED4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05EF6A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch28.05F2FC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch29.05F64D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch29.05F713": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch29.05FC77": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3AB7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3B1D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3B3B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3B5B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3E0D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3E57": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3E77": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3E91": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch30.2A3EAB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A40DC": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A412A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A4158": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A41AA": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A41E2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch31.2A4238": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4573": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A45A1": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A45F7": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4651": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A468B": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A46BD": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4709": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4761": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4799": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A47AF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A47EF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A48D5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4945": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4991": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4A03": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4A27": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4A45": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4AED": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch32.2A4B0B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4E00": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4E58": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4E80": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4EEE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4F1C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4F4A": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch33.2A4F6C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch34.2A523B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch34.2A5291": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch34.2A52F9": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch34.2A53AF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch35.2A55B0": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch35.2A56A4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A59FF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5A4D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5ACB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5B45": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5BCF": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5C43": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5C7B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5CB5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5D09": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5D69": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5D9D": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5DCF": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5DFB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5E21": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5E49": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5EB7": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch36.2A5ED5": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A61E4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A6200": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A621E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A6258": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A62BA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A6304": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A633E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A6392": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A63AE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A646C": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A64EE": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A6518": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A65A4": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A65BE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A664A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A66AE": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A671A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A672E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch37.2A76AA": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A6FD0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A6FF8": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A7018": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A704A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A70A2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A7196": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A720C": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A723A": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A7368": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A7608": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A764E": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A766E": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3
+  },
+  "ch38.2A7684": {
+   "win": "00",
+   "cells": 18,
+   "lines": 3
+  },
+  "classes.024973": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "classes.024987": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "classes.024993": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "classes.02499F": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "item_desc.02675D": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "item_desc.02679F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "items.025F7D": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "items.025F8D": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "items.0263A9": {
+   "win": "01",
+   "cells": 12,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "items.0263B1": {
+   "win": "01",
+   "cells": 12,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "items.02641F": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "items.026445": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "objectives.025231": {
+   "win": "00",
+   "cells": 18,
+   "lines": 5,
+   "via": "7EF8D6"
+  },
+  "system.010B44": {
+   "win": "00",
+   "cells": 20,
+   "lines": 1,
+   "via": "7EF8D6"
+  },
+  "system.010E21": {
+   "win": "00",
+   "cells": 14,
+   "lines": 1,
+   "via": "7EF8D6"
+  },
+  "system.0136E0": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.015A96": {
+   "win": "00",
+   "cells": 11,
+   "lines": 8,
+   "via": "7EF8D6"
+  },
+  "system.015AA6": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.015FE8": {
+   "win": "02",
+   "cells": 6,
+   "lines": 2,
+   "via": "7EF8D6"
+  },
+  "system.016A40": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "system.016B92": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.020312": {
+   "win": "00",
+   "cells": 18,
+   "lines": 5,
+   "via": "7EF8D6"
+  },
+  "system.020336": {
+   "win": "00",
+   "cells": 18,
+   "lines": 5,
+   "via": "7EF8D6"
+  },
+  "system.02060F": {
+   "win": "00",
+   "cells": 14,
+   "lines": 1,
+   "via": "7EF9D6"
+  },
+  "system.02107B": {
+   "win": "00",
+   "cells": 18,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "system.0210C3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "system.0210DB": {
+   "win": "00",
+   "cells": 18,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "system.0210F3": {
+   "win": "00",
+   "cells": 18,
+   "lines": 4,
+   "via": "7EF8D6"
+  },
+  "system.021173": {
+   "win": "00",
+   "cells": 14,
+   "lines": 1,
+   "via": "7EF9D6"
+  },
+  "system.0211C1": {
+   "win": "00",
+   "cells": 14,
+   "lines": 1,
+   "via": "7EF9D6"
+  },
+  "system.02135F": {
+   "win": "00",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.02136F": {
+   "win": "01",
+   "cells": 20,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.021387": {
+   "win": "01",
+   "cells": 20,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.02139F": {
+   "win": "01",
+   "cells": 20,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.0214AC": {
+   "win": "02",
+   "cells": 8,
+   "lines": 1,
+   "via": "7EF8D6"
+  },
+  "system.021E67": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.021E6F": {
+   "win": "00",
+   "cells": 11,
+   "lines": 8,
+   "via": "7EF8D6"
+  },
+  "system.021E7F": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.021E8D": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.021E9F": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.021EB1": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.021EBB": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.0237B2": {
+   "win": "00",
+   "cells": 18,
+   "lines": 5,
+   "via": "7EF8D6"
+  },
+  "system.0237E8": {
+   "win": "00",
+   "cells": 9,
+   "lines": 6,
+   "via": "7EF8D6"
+  },
+  "system.02380C": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "system.023812": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "system.023818": {
+   "win": "00",
+   "cells": 11,
+   "lines": 8,
+   "via": "7EF8D6"
+  },
+  "units.02465D": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "units.024665": {
+   "win": "00",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "units.02466F": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "units.0246A9": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "units.0246D3": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "units.0246F5": {
+   "win": "01",
+   "cells": 18,
+   "lines": 3,
+   "via": "7EF9D6"
+  },
+  "units.0247DD": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "units.024853": {
+   "win": "00",
+   "cells": 12,
+   "lines": 9,
+   "via": "7EF8D6"
+  },
+  "units.02488F": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  },
+  "units.024901": {
+   "win": "01",
+   "cells": 14,
+   "lines": 3,
+   "via": "7EF8D6"
+  }
+ }
+}

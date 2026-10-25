@@ -5,6 +5,8 @@
 --   DONE_STATE='abs path.mss'  save a state when the scene is reached
 --   FAST=1         text print speed pinned to the fastest
 --   GOD=1          party HP pinned to max every frame
+--   HOLD=3000      after the scene is reached, keep clicking A for this many frames (text tours), then stop
+--   CLICK=0        with HOLD: wait without clicking (shots of one page)
 -- When the scene is reached: shot <out>/<SCENE>.png, log "warp reached", optional state, stop.
 -- RAM (RE notes: docs/re/debug.md): $0292 outer mode (0 logos, 1 intro, 2 title menu, 7 game); $0293 game step
 -- (9 New Game, 10-16 load chapter $03B1, 17 run it); $0294 battle sub-state (3 story, 5 phase banner, 6 map idle,
@@ -22,6 +24,17 @@ end
 local sc = W.scenes[SCENE]
 if not sc then error("unknown SCENE " .. tostring(SCENE)) end
 W.scene = sc
+-- English builds move strings: <rom>.reloc.txt (tools/build.py) maps a Japanese string address to its new one
+do
+  local f = io.open((emu.getRomInfo().path:gsub("%.%w+$", ".reloc.txt")), "r")
+  if f then
+    for line in f:lines() do
+      local o, n = line:match("^(%x+) (%x+)")
+      if o and tonumber(o, 16) == sc.text then sc.text = tonumber(n, 16) end
+    end
+    f:close()
+  end
+end
 local function r(a) return emu.read(a, emu.memType.snesWorkRam) end
 local function r16(a) return r(a) | (r(a + 1) << 8) end
 local function w(a, v) emu.write(a, v, emu.memType.snesWorkRam) end
@@ -33,7 +46,8 @@ function W.reached()
   W.done = true
   L.shot(SCENE .. ".png")
   L.log(string.format("warp reached %s at frame %d", SCENE, L.frame))
-  if DONE_STATE then L.save_state(DONE_STATE, function() L.finish(0) end) else L.finish(0) end
+  local finish = function() if HOLD then W.holdEnd = L.frame + HOLD else L.finish(0) end end
+  if DONE_STATE then L.save_state(DONE_STATE, finish) else finish() end
 end
 
 -- Text: the draw loop $C0:2C53 reads the string at [$04C6] (24-bit) + offset $04CC; offset 0 = a new string.
@@ -115,7 +129,13 @@ L.on_frame(function(n)
   if GOD or sc.god then
     for i = 0, 18 do local o = W.unit(i); if r(o + 0x24) > 0 then w(o + 0x24, r(o + 0x22)) end end
   end
-  if W.done then return end
+  if W.done then  -- HOLD: keep clicking A through the scene's text, then stop
+    if W.holdEnd then
+      if CLICK ~= 0 then click(n) end
+      if n >= W.holdEnd then L.finish(0) end
+    end
+    return
+  end
   if sc.chapter and W.started and loadSince ~= false then chapter_load_watch() end
   if stage == "until" and sc.loop then sc.loop(W, n) end
   if not L.route_done() then return end

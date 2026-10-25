@@ -34,11 +34,12 @@ Addresses: CPU `$Bk:addr` (HiROM, file offset = `addr & $3FFFFF`) and file offse
 | `$800E` | `{delay:2}` | 1 | `$04C9` = value (pause / speed; low byte used) |
 | `$800F` | `{clr}` | 0 | clear the window buffer (`$7E:xxxx` filled with `$FF00`) |
 
-Dialogue boxes are 3 lines; the box width in glyphs is to be measured in phase 5.
+Dialogue boxes are 18 cells x 3 lines (143 px per English line, 136 on the line before `{wait}`); every window
+budget: `data/windows.json`, `vwf.md`.
 
 ## Extraction (phase 4, verified: `tests/test_build.py`)
 
-`python -X utf8 tools/extract.py --write` dumps `script/*.json` (never overwrites without `--force`): 1899 strings
+`python -X utf8 tools/extract.py --write` dumps `script/*.json` (never overwrites without `--force`): 1907 strings (1899 before the phase-5 `imm` fix, `vwf.md`)
 in 46 files, found through the pointers that reach them, not by scanning. Each entry: `id` (`<file>.<addr>`),
 `addr`, `len` (bytes incl. `{end}`: the in-place room), `ptrs`, `jp` (without the final `{end}`), `en`, and
 `box` (script windows), `unused` (no pointer reaches it: 49 dead-scene lines + 1), `notext` (controls/blanks only).

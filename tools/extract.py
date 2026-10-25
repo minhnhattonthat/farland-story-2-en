@@ -40,7 +40,8 @@ TABLES = [
 ]
 # `LDA #lo/hi : STA $10|$14` with `LDA #bank : STA $12|$16` close by (text pointer in direct page)
 IMM = re.compile(rb"\xa9(..)\x85([\x10\x14])", re.S)
-JSL = re.compile(rb"\x22..[\xc0-\xef]", re.S)
+# a call between the pointer and a bank store ends the call setup: JSL, or JSR (not the $20 of REP/SEP #$20)
+JSL = re.compile(rb"\x22..[\xc0-\xef]|(?<![\xc2\xe2])\x20..", re.S)
 # `LDY #1 : LDA #lo/hi : STA [$28],y` ... `LDY #3 : LDA #bank : STA [$28],y` (battle messages built in RAM)
 IMM28 = re.compile(rb"\xa0\x01\x00\xa9(..)\x97\x28\xe2\x30\xa0\x03\xa9(.)\x97\x28", re.S)
 CODE = [(0x000000, 0x040000), (0x2A6000, 0x2C0000)]  # banks $C0-$C3, $EA-$EB (code)
@@ -81,11 +82,19 @@ def imm_refs(rom):
             if before and JSL.search(rom[before[-1].end():m.start()]):
                 before = []
             b = after or (before[-1] if before else None)
-            if not b or rom[b.start() - 2] != 0xA9 or not 0xC0 <= rom[b.start() - 1] <= 0xEF:
+            if not b:
                 continue
-            t = vm.off(rom[b.start() - 1] << 16 | int.from_bytes(m[1], "little"))
+            if rom[b.start() - 2] == 0xA9:  # LDA #bank (8-bit A)
+                bank = b.start() - 1
+            elif rom[b.start() - 3] == 0xA9 and rom[b.start() - 1] == 0:  # LDA #$00bb (16-bit A)
+                bank = b.start() - 2
+            else:
+                continue
+            if not 0xC0 <= rom[bank] <= 0xEF:
+                continue
+            t = vm.off(rom[bank] << 16 | int.from_bytes(m[1], "little"))
             if text_end(rom, t) > t + 2:
-                refs.setdefault(t, []).append(f"imm:{m.start() + 1:06X}/{b.start() - 1:06X}")
+                refs.setdefault(t, []).append(f"imm:{m.start() + 1:06X}/{bank:06X}")
         for m in IMM28.finditer(rom, lo, hi):
             t = vm.off(m[2][0] << 16 | int.from_bytes(m[1], "little"))
             if text_end(rom, t):

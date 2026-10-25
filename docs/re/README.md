@@ -18,6 +18,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | [font.md](font.md) | 16x16 and 8x16 fonts | verified (rendered + draw code) |
 | [compression.md](compression.md) | LZ codec, block list | verified (`tools/lz.py`, test) |
 | [graphics.md](graphics.md) | graphics-text survey (tour + static sweep) | see file |
+| [vwf.md](vwf.md) | English engine: VWF hooks, English table, relocation, window budgets (`data/windows.json`) | verified (marker build, `tests/test_engine.py`) |
 | [debug.md](debug.md) | game state RAM, warps, menus, shop, game over: the debug tool's basis | verified (warps reach every scene, `tools/debug/regen.py`) |
 
 Tools: `tools/extract.py` (script dump), `tools/vm.py` (script bytecode walker), `tools/textscan.py` (text runs), `tools/fontsheet.py` (font vs table), `tools/lz.py` + `tools/lzscan.py`

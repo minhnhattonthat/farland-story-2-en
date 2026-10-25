@@ -15,6 +15,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Original ROM: `rom/Farland Story 2 (Japan).sfc` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). HiROM+FastROM (map $31), 3 MiB, 8 KiB SRAM, no copier header.
 - Emulator: this repo's own MesenCE in `tools/mesen/` (release 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip, via `$SKILL/scripts/fetch_emu.py mesen`; gitignored; GUI settings with key mappings in `tools/emu-config/mesen-settings.json`, copy to `tools/mesen/settings.json` on a fresh clone). Savestates: `work/states/`.
 - Text: `script/*.json` (one file per chapter/table; fields and pointer kinds: `docs/re/text.md` §Extraction; `tools/extract.py --write` never overwrites). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Assembler: asar 1.91 in `tools/asar/asar.exe` (gitignored; `gh release download v1.91 --repo RPGHacker/asar -p asar191.zip`, take `asar.exe`). English engine: `asm/vwf.asm`, font `fonts/vwf.txt`, window budgets `data/windows.json` (`docs/re/vwf.md`). Marker build: `tools/build.py --marker [--qa ID=TEXT]`.
 - `tools/tbl.py`, `bps.py`, `romdiff.py` are copies from `$SKILL/scripts/` so a clone builds without the skill.
 
 ## Rulings
