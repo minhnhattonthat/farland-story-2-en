@@ -1,0 +1,13 @@
+# Byte ranges (file offsets, inclusive hex) the assembler (asm/*.asm) may change. Every other changed byte must be
+# a write logged by tools/build.py (put()). Checked by tools/romdiff.py at build time and in tests/test_build.py.
+002C6A-002C6D   # vwf.asm: jml vwf_glyph
+002CF1-002CF5   # vwf.asm: jml vwf_draw + nop
+022048-022051   # windows.asm: jsl win_alloc + nops
+013142          # windows.asm: shop list width
+01313A          # windows.asm: shop list x
+013BA5          # windows.asm: item list width
+013E32          # windows.asm: use/sell sub-window y
+014EEF          # windows.asm: exchange width, upper
+014F08          # windows.asm: exchange width, lower
+013898          # windows.asm: weapons window width
+300000-30FFFF   # bank $F0: VWF and window code, font

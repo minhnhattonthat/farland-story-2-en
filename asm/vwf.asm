@@ -5,6 +5,7 @@
 ; the cell and the next one. Other codes (kana, kanji, menu cursor) take the original path.
 ; Applied by tools/build.py with asar after the ROM is expanded to 4 MiB; build/vwf_*.bin come from tools/font.py.
 hirom
+incsrc "../build/vwf_consts.asm"   ; !vwf_space: VWF index of the space glyph
 
 !px    = $1E80   ; word: pixel offset in the current cell (0-7)
 !col   = $1E82   ; cell ($04C3) and line ($04C4) the last VWF glyph left the cursor at; any other value means
@@ -105,6 +106,22 @@ vwf_draw:
     stz !px+1
 .synced:
     rep #$30
+    ; a space whose next word would pass the window's right edge breaks the line instead (lines joined at run
+    ; time: "<name> attacks!"); script text is fitted by tools/wrap.py, so it never breaks there
+    lda !code
+    cmp.w #$0400+!vwf_space
+    bne .draw
+    jsr vwf_wordfits
+    bcc .draw
+    inc $04CC
+    inc $04CC
+    lda #$FFFF
+    sta !col
+    sep #$30
+    lda $04D3          ; cell = width: the engine's own wrap starts the next line
+    plb
+    jml $C02F9A
+.draw:
     lda !code
     sec
     sbc #$0400
@@ -223,9 +240,86 @@ vwf_draw:
     plb
     jml $C02F9A       ; A = new cell (M=X=8): CMP $04D3 / BCC store / else next line
 
+; C set = the word after the space at text offset $04CC ends past the window ($04D3 cells); M=X=16, DB=$7E.
+; Scans the string ([$04C6] + offset) to the next space or control code. Kana/kanji count 8 px.
+vwf_wordfits:
+    lda $04C3
+    and #$00FF
+    asl
+    asl
+    asl
+    clc
+    adc !px
+    bne +
+    clc               ; at the line start: breaking would only add an empty line
+    rts
++   sta !w
+    lda.l vwf_width+!vwf_space
+    and #$00FF
+    clc
+    adc !w
+    sta !w
+    lda $10
+    pha
+    lda $12
+    pha
+    lda $04C6
+    sta $10
+    lda $04C8
+    sta $12
+    ldy $04CC
+.next:
+    iny
+    iny
+    lda [$10],y
+    bmi .done         ; control code or end
+    cmp #$0400
+    bcs .vwf
+    cmp #$004C
+    bcs .wide
+    tax
+    lda.l vwf_remap,x
+    and #$00FF
+    cmp #$00FF
+    beq .wide
+    bra .idx
+.vwf:
+    sec
+    sbc #$0400
+.idx:
+    cmp.w #!vwf_space
+    beq .done
+    tax
+    lda.l vwf_width,x
+    and #$00FF
+    bra .add
+.wide:
+    lda #$0008
+.add:
+    clc
+    adc !w
+    sta !w
+    bra .next
+.done:
+    pla
+    sta $12
+    pla
+    sta $10
+    lda $04D3
+    and #$00FF
+    asl
+    asl
+    asl
+    sta !keep         ; scratch: window width in px
+    lda !w
+    cmp !keep         ; C = end >= width
+    rts
+
 vwf_remap:   incbin "../build/vwf_remap.bin"   ; JP code $00-$4B -> VWF index, $FF = original glyph
 vwf_width:   incbin "../build/vwf_width.bin"   ; advance per VWF index
 vwf_shift:   incbin "../build/vwf_shift.bin"   ; [px][byte] = (byte << 8) >> px, words
 vwf_font:    incbin "../build/vwf_font.bin"    ; 16 bytes per VWF index, 1bpp rows 0-15
 vwf_end:
-warnpc $F10000
+warnpc $F0F000
+
+incsrc "windows.asm"

@@ -54,9 +54,36 @@ name line copies a 9-space template (`battle.01ED33`, `$C1:ED33`) to `$7E:F9D6`,
 (`$C1:ECDA`, the only overlay call) and appends it to `$7E:F8D6`: a name longer than the template overwrites the
 terminator and the append copies the buffer into itself forever (black screen after the first battle). The
 English build fills the template with 16 zero-width blanks (`\z` in `fonts/vwf.txt`) and fails if a unit name is
-longer (`build.TEMPLATES`, `tests/test_engine.py`). In this line the name is followed by `LV` at cell 9 in the
-Japanese layout: unit names must stay within 71 px there, or `battle.01ED47` starts with `{pos:09000000}`.
-Probe: `tools/lua/catlog.lua` logs every append with both lengths.
+longer (`build.TEMPLATES`, `tests/test_engine.py`). The template ends in `{pos:0A000000}` (row 0 of the name
+line, set by `battle.01E842`), so `LV` sits at cell 10 after any name: unit names up to 79 px, LV99 ends at
+104 of 111 (verified, `work/qa/p7f/bt`). Probe: `tools/lua/catlog.lua` logs every append with both lengths.
+
+## Word wrap at run time (phase 7, verified `work/qa/p7f/bt`)
+
+Lines joined at run time (battle: `<name>` + ` attacks!`, sell prompt: `<item>` + ` sells for ` + price) can pass
+the window edge, where the engine wraps by cell mid-word. `vwf_draw`: on the space glyph, `vwf_wordfits` scans
+the string (`[$04C6]` + `$04CC`) to the next space or control code; if cursor + space + word >= `$04D3 * 8`
+px, the space is consumed and the engine's own wrap (`$C0:2F9A` with A = `$04D3`) starts the next line.
+Kana/kanji count 8 px. Script text never triggers it: `tools/wrap.py` keeps every line within `$04D3*8 - 1` px
+(text width = sum of advances). Number joins need the space in the string: `battle.01EED3` " gained ",
+`system.0168B6` " sells for ".
+
+## Window tiles (phase 7, `asm/windows.asm`, verified `work/qa/p7e`)
+
+Window open `$C2:1FC4` (x/y/w/h in `$10/$11/$14/$15`; call sites: `tools/winsites.py`) writes a record at
+`$7E:D58C + 11*depth` (depth `$036B`): +0 x, +1 y, +2 w, +3 h (inner cells, frame outside), +6 area = w*h, +8 tile
+base = `$20` + the areas of the windows below. Its tiles live in a RAM shadow `$7E:D5CE + (base-$20)*16`,
+uploaded to VRAM `$5000 + base*8` (BG3 chr `$5000`); BG3's map is at `$5800` (64x32, but only the left 32x32
+screen is uploaded, `$800` bytes from `$7E:A0AC`). In the Japanese game the shop used 248 of 256 tiles: any
+wider window ran into the map (garbage at the top of the screen, `work/qa/widen2`).
+
+English: `win_alloc` (replaces `C2:2048-2051`) computes base = previous base + previous area (= the original
+sum), and a run that would cross tile 256 starts at tile 384 (`$5C00`, the unused right screen of the map).
+Shadow then reaches `$7E:F3CE`; `$7E:E3CE-$F3FF` is written only by the boot RAM clear (watch probe over 16 warp
+scenes: dialogue, battle, menus, shop, save/load, settings, game over, ending, credits). Widths (LDA #w immediates):
+shop list 9->13 (x 15->13), item list 11->14, exchange 12->15 (both), weapons 11->14, use/sell sub-window y 1->11
+(below the list). Every item window now has 12 name cells (95 px). `data/romdiff.txt` lists every byte the
+assembler changes outside bank `$F0`; `tools/hookcheck.py` finds no branch into a hook.
 
 `imm` bank immediates also come as `LDA #$00bb : STA $16` (16-bit A), and a JSR to the copy routine ends a
 call setup (phase 5 fix in `extract.imm_refs`: 10 entries had the next string's bank site, 8 short

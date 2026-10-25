@@ -94,7 +94,8 @@ def binaries(glyphs=None):
     return {"vwf_font.bin": b"".join(bytes(d) for _, d, _ in glyphs),
             "vwf_width.bin": bytes(a for _, _, a in glyphs),
             "vwf_shift.bin": shift,
-            "vwf_remap.bin": remap(glyphs)}
+            "vwf_remap.bin": remap(glyphs),
+            "vwf_consts.asm": f"!vwf_space = ${[c for c, _, _ in glyphs].index(' '):04X}\n".encode()}
 
 
 def sheet(path, glyphs, zoom=4):

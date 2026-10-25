@@ -6,9 +6,9 @@
  },
  "fields": {
   "battle": {"px": 111, "last": 104, "lines": 3, "measured": "textlog: battle message window 14 cells x 3; last line arrow: guess (same cell as dialogue). Most battle strings are fragments joined to a unit or item name at runtime ('<name>のこうげき！'): the fragment's line shares the 111 px with the longest name it can follow (phase 7 lint)"},
-  "units": {"px": 71, "lines": 1, "max_chars": 16, "engine": "phase 7: battle.01ED47 starts with {pos:09000000} or the name line moves LV; names over 71 px are flagged, not cut (D4)", "measured": "battle window name line: name then 'LV' at cell 9 (JP layout, 71 px); status window 12 cells (95 px); at most 16 characters (name template battle.01ED33, docs/re/vwf.md)"},
+  "units": {"px": 79, "lines": 1, "max_chars": 16, "measured": "battle window name line: the English name template ends in {pos:0A000000}, so 'LV' sits at cell 10 (79 px for the name; LV99 ends at 104 of 111); status window 12 cells (95 px); at most 16 characters (name template battle.01ED33, docs/re/vwf.md)"},
   "classes": {"px": 79, "lines": 1, "measured": "status window 12 cells, class at cell 2"},
-  "items": {"px": 63, "lines": 1, "engine": "phase 7: widen the item and shop lists; names over 63 px are flagged, not cut (D4)", "measured": "item list and shop list windows 9 cells, cursor in cell 0 (items, shop_buy); widening corrupts the next window (work/qa/widen): phase 7 engine work"},
+  "items": {"px": 95, "lines": 1, "measured": "12 name cells in every item window after asm/windows.asm widens them: shop list 13 (cursor, name), item list 14 (blank, cursor), exchange 15 (blank, cursor, mark), weapons 14 (work/qa/p7c ruler names, JP widths 9/11/12/11)"},
   "item_desc": {"px": 143, "lines": 3, "measured": "item description window 18 cells x 3 (items scene)"},
   "objectives": {"px": 143, "lines": 1, "measured": "objective window 18 cells (objective scene)"},
   "system": {"rule": "per entry: (cells - start cell) * 8 - 1 px from `entries` (window seen in a tour) or `static`; start cell = the string's first {pos}"}

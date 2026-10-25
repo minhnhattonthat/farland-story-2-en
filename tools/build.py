@@ -25,6 +25,7 @@ import extract
 import font
 import lz
 import lzscan
+import romdiff
 import windows
 import wrap
 from tbl import Table
@@ -40,6 +41,8 @@ SIZE = 0x400000     # 4 MiB: banks $F0-$FF = file 0x300000-0x3FFFFF (docs/re/rom
 P16_BANK = 0x310000  # $F1: relocated p16 tables
 FREE = (0x320000, 0x400000)  # $F2-$FF: relocated strings ($F0 holds the VWF code and font)
 MOVES = {}  # filled by build(): relocated strings, written beside the ROM as <rom>.reloc.txt
+WRITES = []  # filled by build(): every write before the assembler, written beside the ROM as <rom>.writes.txt
+RANGES = ROOT / "data" / "romdiff.txt"  # where the assembler may change bytes
 
 
 def unpack(rom, table):
@@ -53,14 +56,21 @@ def load_script():
     return [e for p in sorted(extract.SCRIPT.glob("*.json")) for e in json.loads(p.read_text(encoding="utf-8"))]
 
 
-def repack_lz(rom, out, blocks):
+def put(out, rom, off, data, by, log):
+    """One write to the image, logged against the clean dump for tools/romdiff.py --writes."""
+    data = bytes(data)
+    log.append((off, rom[off:off + len(data)].ljust(len(data), b"\xff"), data, by))
+    out[off:off + len(data)] = data
+
+
+def repack_lz(rom, out, blocks, log=None):
     for src, (size, data) in blocks.items():
         if data == lz.decompress(rom, src)[0]:
             continue
         b = lz.compress(data)
         if len(b) > size:
             raise ValueError(f"LZ block {src:06X}: {len(b)} bytes packed, room for {size}")
-        out[src:src + len(b)] = b
+        put(out, rom, src, b, f"lz:{src:06X}", [] if log is None else log)
 
 
 def repack(rom, table, entries, blocks):
@@ -104,16 +114,17 @@ def p16_bank_sites(rom, base, n):
 # Blank templates the game copies to a RAM buffer and then overlays a name onto without its terminator
 # ($C1:ECBA-ECDA: template -> $7E:F9D6, unit name over it, `JSL $C2:28E9`). A name longer than the template
 # overwrites the terminator and the next concatenation runs away (hang after a battle, docs/re/vwf.md). English
-# builds fill the template with zero-width blanks, one per character of the longest allowed name.
-TEMPLATES = {"battle.01ED33": ("units", 16)}
+# builds fill the template with zero-width blanks, one per character of the longest allowed name, then the
+# suffix: the battle window's name line moves the cursor to cell 10 so LV keeps its column after any name.
+TEMPLATES = {"battle.01ED33": ("units", 16, "{pos:0A000000}")}
 
 
 def name_templates(entries, en):
     entries = [dict(e) for e in entries]
-    for tid, (names, n) in TEMPLATES.items():
+    for tid, (names, n, suffix) in TEMPLATES.items():
         t = next(e for e in entries if e["id"] == tid)
-        t["en"] = t["en"] or font.ZWSP * n
-        room = len(en.encode(t["en"]))
+        t["en"] = t["en"] or font.ZWSP * n + suffix
+        room = len(en.encode(t["en"].removesuffix(suffix)))
         for e in entries:
             if e["id"].split(".")[0] == names and e["en"] and len(en.encode(e["en"])) > room:
                 raise ValueError(f"{e['id']}: {e['en']!r} is longer than the {n}-character name template {tid}")
@@ -124,10 +135,12 @@ def cpu(off):
     return 0xC00000 | off
 
 
-def english(rom, entries, blocks, moves=None):
+def english(rom, entries, blocks, moves=None, log=None):
     """4 MiB build: English strings placed (in place or relocated), pointers rewritten, VWF applied.
-    `moves` (a dict) receives {old offset: new offset} of every relocated string."""
+    `moves` (a dict) receives {old offset: new offset} of every relocated string, `log` (a list) every write the
+    build makes before the assembler (put())."""
     moves = {} if moves is None else moves
+    log = [] if log is None else log
     jp, en = Table.load(ROOT / "tbl" / "jp.tbl"), font.english_table()
     out = bytearray(rom) + b"\xff" * (SIZE - len(rom))
     entries = name_templates(entries, en)
@@ -151,7 +164,7 @@ def english(rom, entries, blocks, moves=None):
             if p16_free > P16_BANK + 0x10000:
                 raise ValueError("p16 bank full")
         elif len(b) <= e["len"]:
-            out[a:a + len(b)] = b
+            put(out, rom, a, b, e["id"], log)
             continue
         elif p16:
             raise ValueError(f"{e['id']}: {len(b)} bytes, room for {e['len']}, and its p16 table stays in place")
@@ -161,24 +174,24 @@ def english(rom, entries, blocks, moves=None):
             new, free = free, free + len(b)
             if free > FREE[1]:
                 raise ValueError("expansion full")
-        out[new:new + len(b)] = b
+        put(out, rom, new, b, e["id"], log)
         moves[a] = new
         for p in e["ptrs"]:
             kind, at = p.split(":")
             if kind in ("vm", "p24"):
-                out[int(at, 16):int(at, 16) + 3] = cpu(new).to_bytes(3, "little")
+                put(out, rom, int(at, 16), cpu(new).to_bytes(3, "little"), f"{e['id']} {p}", log)
             elif kind == "p16":
-                out[int(at, 16):int(at, 16) + 2] = (new & 0xFFFF).to_bytes(2, "little")
+                put(out, rom, int(at, 16), (new & 0xFFFF).to_bytes(2, "little"), f"{e['id']} {p}", log)
             elif kind == "imm":
                 lo, bank = (int(x, 16) for x in at.split("/"))
-                out[lo:lo + 2] = (new & 0xFFFF).to_bytes(2, "little")
-                out[bank] = cpu(new) >> 16
+                put(out, rom, lo, (new & 0xFFFF).to_bytes(2, "little"), f"{e['id']} {p}", log)
+                put(out, rom, bank, [cpu(new) >> 16], f"{e['id']} {p} bank", log)
     for base, n in p16_tables():
         if base not in moved_tables:
             continue
         for s in p16_bank_sites(rom, base, n):
-            out[s] = cpu(P16_BANK) >> 16
-    repack_lz(rom, out, blocks)
+            put(out, rom, s, [cpu(P16_BANK) >> 16], f"p16 bank {base:06X}", log)
+    repack_lz(rom, out, blocks, log)
     return apply_asm(out)
 
 
@@ -213,8 +226,20 @@ def build(identity=False, marker=False, qa=()):
     if set(override) - {e["id"] for e in entries}:
         raise ValueError(f"--qa: unknown id(s) {sorted(set(override) - {e['id'] for e in entries})}")
     entries = [dict(e, en=override[e["id"]]) if e["id"] in override else e for e in entries]
-    out = english(rom, entries, blocks, MOVES)
+    WRITES.clear()
+    out = english(rom, entries, blocks, MOVES, WRITES)
     return rom, out, len(entries), len(blocks)
+
+
+def romcheck(rom, out, log):
+    """tools/romdiff.py over the build: every changed byte is a logged write (expected original bytes, no
+    overlaps) or inside an allowed range of data/romdiff.txt (assembler hooks, the expansion). [] = clean."""
+    allowed = set()
+    for line in RANGES.read_text(encoding="utf-8").splitlines():
+        if line.split("#")[0].strip():
+            lo, _, hi = line.split("#")[0].strip().partition("-")
+            allowed.update(range(int(lo, 16), int(hi or lo, 16) + 1))
+    return romdiff.check(rom, out, allowed, log)[0]
 
 
 def main():
@@ -230,6 +255,9 @@ def main():
     dest.write_bytes(out)
     # for tools/debug/warp.lua: scenes keyed to a Japanese string's address find the moved string
     dest.with_suffix(".reloc.txt").write_text("".join(f"{cpu(o):06X} {cpu(n):06X}\n" for o, n in sorted(MOVES.items())))
+    dest.with_suffix(".writes.txt").write_text("".join(f"{o:X} {a.hex()} {b.hex()} {by}\n" for o, a, b, by in WRITES))
+    if not a.identity and (errs := romcheck(rom, out, WRITES)):
+        sys.exit("romdiff:\n" + "\n".join(errs))
     print(f"{dest.relative_to(ROOT)}: {nt} strings, {nb} LZ blocks, sha1 {hashlib.sha1(out).hexdigest()}")
     if a.identity:
         diff = [i for i in range(len(rom)) if rom[i] != out[i]] if len(out) == len(rom) else ["size"]

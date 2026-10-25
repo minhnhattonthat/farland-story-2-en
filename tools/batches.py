@@ -144,7 +144,8 @@ def check_entry(e, en_text, gl, data, w, allowed):
             except ValueError as x:
                 errs.append(str(x))
     else:
-        strip_nl = lambda s: [c for c in CODE.findall(s) if c != "{nl}"]  # noqa: E731
+        # {pos} arguments may differ: English layout can move a label (still one {pos} per Japanese one)
+        strip_nl = lambda s: [re.sub(r"^\{pos:.*", "{pos}", c) for c in CODE.findall(s) if c != "{nl}"]  # noqa: E731
         if strip_nl(e["jp"]) != strip_nl(en_text):
             errs.append(f"control codes differ: want {''.join(strip_nl(e['jp']))}")
         b = windows.budget(e, data)

@@ -2,37 +2,34 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translate) done 2026-10-25. Next: phase 7 (insert, fit, check).
-- **Done (phase 1-5):** recon (`docs/re/`), debug warp (`tools/debug/`, `docs/re/debug.md`), identity build,
+- **Phase:** 7 (insert, fit, check) done 2026-10-25. Next: phase 8 (QA in the emulator), starting with the
+  graphics-text insertion below.
+- **Done (phase 1-6):** recon (`docs/re/`), debug warp (`tools/debug/`, `docs/re/debug.md`), identity build,
   extraction (`script/*.json`, `docs/re/text.md`), VWF engine + relocation + marker build + width gate
-  (`docs/re/vwf.md`, `data/windows.json`).
-- **Done (phase 6):** every string with text has `en` (1772 merged; `unused`/`notext` keep Japanese).
-  - Tools: `tools/batches.py` (split/check/merge/pairs, `tests/test_batches.py`), `tools/wrap.py` (box text: one
-    paragraph per page, lines broken by pixel width and pages added at build time, D11). `{wait}` pages map 1:1
-    to translator pages (` || `).
-  - Docs: `docs/synopsis.md` (cast, chapters, reveals), `docs/style-reference.md` (voices, pilot pairs),
-    `glossary.md` (names per D2/D10, terms, address forms), `docs/translator-brief.md`, `docs/reviewer-brief.md`,
-    decisions D9-D11.
-  - Pilot ch00-01, units/classes/items/objectives, battle/system by the controller (b001-b003); b004-b015 by 4
-    translator agents; 7 reviewer passes: every Critical/Important fixed, Minors applied in one polish pass.
-  - Font: `▶` glyph added (English yes/no lines; the JP menu cursor keeps its own glyph, `font.remap`).
-  - Pilot seen in-game (`work/qa/p6`, `p6b`): prologue scroll narration, dialogue, status, settings, save,
-    objective, stage card, credits wrap fine.
-- **Next (phase 7):** fit and engine work found so far:
-  - Item names over 63 px (31, e.g. Bastard Sword 75) and unit names over 71 px (7, e.g. Mini Gibogera 1 75):
-    `batches.py check` prints them as `LONG` (fields with `engine` in `data/windows.json`). Widen item/shop
-    lists (`$C2:257F` allocation RE, see below) and move LV in the battle name line.
-  - Battle name line reads "SerenaLV1": `battle.01ED47` needs `{pos:09000000}` (or similar) so LV keeps its column.
-  - Battle messages: fragment + longest name can pass 111 px ("Armor Knight 1 attacks!" cut in `work/qa/p6`
-    battle shot); check where the game wraps and fit (lint: fragment + longest unit/item name).
-  - Prompts are overdrawn, not cleared: English prompts are padded with `　` (6 px) to cover the previous string
-    (save/load/continue prompts in `system`). Check every menu prompt pair in a tour.
-  - Yes/No prompt alignment (`system.0214AC`/`0214D0`, `0168BA`, `016B92`) computed for 8-px half-width cells; verify.
-  - Lint `tools/batches.py` style checks (width per box/field) over the whole script = the build gate.
-- **Engine work queued:** item list and shop list windows are 9 cells (63 px for names). Window opens are
-  `LDA #x/#y/#w/#h : STA $10/$11/$14/$15 : JSL $C2:1FC4` (36 call sites, record at `$7E:D58C + 11*depth`).
-  Widening the shop list (`$C1:3137`, x/w immediates at `0x01313A`/`0x013142`, 9 -> 12) garbled the top of the
-  screen (`work/qa/widen2`): window buffers/VRAM slots look fixed-size; needs RE of the allocation (`$C2:257F`).
+  (`docs/re/vwf.md`, `data/windows.json`), full English script (`tools/batches.py`, `tools/wrap.py`, D9-D11).
+- **Done (phase 7):** build gate green (`tools/check.py`: 29 tests).
+  - `tools/lint.py` = whole-script lint (batch checks: font, pages, control codes, px per line/field, glossary,
+    honorifics; + no Japanese in `en`, no untranslated text unless `unused`/`notext`, no widow last line).
+    `tests/test_insert.py` runs it, so the pre-commit hook gates on it. `{pos}` args may differ from the JP.
+  - `tools/wrap.py`: no widows (pulls a word down when a paragraph's last line is under 6 characters).
+  - Item names: every item window widened to 12 name cells / 95 px (`asm/windows.asm`: BG3 window tiles past
+    256 move to tile 384; `docs/re/vwf.md` §Window tiles). Verified with 96-px ruler names in shop, items,
+    use/sell, exchange, weapons (`work/qa/p7e`).
+  - Unit names: LV fixed at cell 10 by the name template's `{pos}` (budget 79 px; "Serena LV1" fixed).
+  - Run-time word wrap in the VWF (`vwf_wordfits`): "Armor Knight 1 / attacks!", sell prompt with the longest
+    item name (`work/qa/p7f/bt`, `p7h`). " gained " and " sells for " got their space before the number.
+  - ROM checks: `build.py` logs every write (`put()`, `build/*.writes.txt`) and fails on any romdiff error
+    (`data/romdiff.txt` = assembler ranges); `tools/hookcheck.py`: no branch into a hook; relocated strings
+    leave no stale pointer (one-off scan: 68 byte coincidences, none code). All in `tests/test_insert.py`.
+  - Tour of all 92 scenes on the build (`work/qa/p7g/shots`, states in `work/qa/p7g/states`): prompts (save,
+    load, buy, sell, no gold), Yes/No rows, settings, status, battle lines read right.
+- **Next (phase 8):**
+  - **Graphics text first** (`docs/re/graphics.md`): G2 title menu (はじめから/つづきから/環境設定, LZ `0x6321`)
+    and G3 command menus (unit menu 移動/武器/アイテム/交換/買物, standby 待機, map menu ターン終了/状況/
+    セーブ/ロード/環境設定; raw `0xD45EB-0xD5617`, 1bpp rows in odd bytes) are still Japanese in the tour.
+    Bongo's IPS layout is the reference (`docs/re/prior-work.md`). G1 logo stays (D5).
+  - Then QA per the skill: routes through changed scenes, contact sheets, visual-qa verdicts (`qa_gate.py`),
+    `jp_left.py`. `work/states/*.mss` are stale (pre-phase-7 code): regenerate with `tools/debug/regen.py`.
 - **Known limits of the warp:** warped chapters get dummy party members; chapters 20, 34-38 run on chapter 19's /
   33's map; later-chapter commands and post-battle level-up/item messages have no scene yet (`docs/re/debug.md`).
 - **Known extraction gap:** `system.016496` "はげんきになった！" has no pointer found (kept, flagged `unused`).

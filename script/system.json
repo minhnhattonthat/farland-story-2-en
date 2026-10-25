@@ -449,7 +449,7 @@
    "imm:01684E/016848"
   ],
   "jp": "は",
-  "en": " sells for"
+  "en": " sells for "
  },
  {
   "id": "system.0168BA",
@@ -459,7 +459,7 @@
    "imm:016863/01686A"
   ],
   "jp": "ゴールドになります{pos:05000100}うりますか？{pos:05000200}はい　　いいえ",
-  "en": " Gold.{pos:05000100}Sell it?{pos:05000200}Yes　  No"
+  "en": " Gold.{pos:09000100}Sell it?{pos:05000200}Yes　  No"
  },
  {
   "id": "system.01693D",

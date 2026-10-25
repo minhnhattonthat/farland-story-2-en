@@ -21,6 +21,7 @@ import windows
 
 CODE = re.compile(r"(\{[^}]*\})")
 WAIT = "{wait}"
+STUB = 6  # a paragraph's last line shorter than this (characters) is a widow
 
 
 def pages(s):
@@ -42,8 +43,9 @@ def pages(s):
 def fill(body, n, px, last, w):
     """Lines of a paragraph body ({nl} = forced break); line i may hold `last` px when it ends a window page."""
     lines = []
-    for para in body.split("{nl}"):
-        cur = ""
+    paras = body.split("{nl}")
+    for k, para in enumerate(paras):
+        start, cur = len(lines), ""
         for word in para.split(" "):
             cand = f"{cur} {word}" if cur else word
             lim = last if len(lines) % n == n - 1 else px
@@ -52,11 +54,20 @@ def fill(body, n, px, last, w):
             else:
                 lines.append(cur)
                 cur = word
+        # no widow: pull words down from the line above while the last line is a stub and still fits
+        lim = last if len(lines) % n == n - 1 or k == len(paras) - 1 else px
+        while len(lines) > start and len(cur) < STUB and " " in lines[-1]:
+            head, word = lines[-1].rsplit(" ", 1)
+            if font.text_width(f"{word} {cur}", w) > lim:
+                break
+            lines[-1], cur = head, f"{word} {cur}"
         lines.append(cur)
     if font.text_width(lines[-1], w) > last:  # the page's final line ends at the arrow too
         words = lines.pop().split(" ")
         k = len(words)
         while k > 1 and font.text_width(" ".join(words[:k]), w) > last:
+            k -= 1
+        while k > 1 and len(" ".join(words[k:])) < STUB:  # no widow on the arrow line either
             k -= 1
         lines += [" ".join(words[:k]), " ".join(words[k:])]
     for i, line in enumerate(lines):
