@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 9 (release) done 2026-10-26. The run's goal is met: `release/FarlandStory2_EN_v1.0.zip` built and
-  verified. Nothing is published (owner's call).
+  verified. Published 2026-10-26: repo public, release https://github.com/minhnhattonthat/farland-story-2-en/releases/tag/v1.0
+  (owner account minhnhattonthat: `GH_TOKEN=$(gh auth token --user minhnhattonthat)`, the active gh account can't write).
 - **Done (phase 1-6):** recon (`docs/re/`), debug warp (`tools/debug/`, `docs/re/debug.md`), identity build,
   extraction (`script/*.json`, `docs/re/text.md`), VWF engine + relocation + marker build + width gate
   (`docs/re/vwf.md`, `data/windows.json`), full English script (`tools/batches.py`, `tools/wrap.py`, D9-D11).
@@ -31,6 +32,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
   33's map; later-chapter commands and post-battle level-up/item messages have no scene (the viewer shows them).
 - **Known extraction gap:** `system.016496` "はげんきになった！" has no pointer found (kept, flagged `unused`).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing blocking. Non-blocking: publishing v1.0 (`gh release create`) is the owner's
-  call. D9 (register, SFX), D10 (fan spellings like Serena, Cifil, Lodoss kept per D2; 破亡の舞 = "Dance of
+- **Waiting on the user:** nothing blocking. Non-blocking: D9 (register, SFX), D10 (fan spellings like Serena, Cifil, Lodoss kept per D2; 破亡の舞 = "Dance of
   Ruin") were controller defaults; override any in docs/decisions.md.
