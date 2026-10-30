@@ -98,7 +98,7 @@ def imm_refs(rom):
         for m in IMM28.finditer(rom, lo, hi):
             t = vm.off(m[2][0] << 16 | int.from_bytes(m[1], "little"))
             if text_end(rom, t):
-                refs.setdefault(t, []).append(f"imm:{m.start() + 4:06X}/{m.start() + 12:06X}")
+                refs.setdefault(t, []).append(f"imm:{m.start() + 4:06X}/{m.start() + 13:06X}")
     return refs
 
 

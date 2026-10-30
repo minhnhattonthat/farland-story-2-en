@@ -185,6 +185,9 @@ def english(rom, entries, blocks, moves=None, log=None):
                 put(out, rom, int(at, 16), (new & 0xFFFF).to_bytes(2, "little"), f"{e['id']} {p}", log)
             elif kind == "imm":
                 lo, bank = (int(x, 16) for x in at.split("/"))
+                # a site off by one byte overwrote an opcode (issue #1): the operands must hold the old pointer
+                if rom[lo:lo + 2] != (a & 0xFFFF).to_bytes(2, "little") or rom[bank] != cpu(a) >> 16:
+                    raise ValueError(f"{e['id']} {p}: the immediates don't hold {cpu(a):06X}")
                 put(out, rom, lo, (new & 0xFFFF).to_bytes(2, "little"), f"{e['id']} {p}", log)
                 put(out, rom, bank, [cpu(new) >> 16], f"{e['id']} {p} bank", log)
     for base, n in p16_tables():

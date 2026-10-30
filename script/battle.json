@@ -259,7 +259,7 @@
   "addr": "03480B",
   "len": 20,
   "ptrs": [
-   "imm:03507B/035083"
+   "imm:03507B/035084"
   ],
   "jp": "ブレイクストーム！",
   "en": "Break Storm!"
@@ -279,7 +279,7 @@
   "addr": "2A8D1B",
   "len": 50,
   "ptrs": [
-   "imm:2A8FC9/2A8FD1"
+   "imm:2A8FC9/2A8FD2"
   ],
   "jp": "アルデナーラはライジングドッグをしょうかんした！",
   "en": "Ardenara summoned{nl}Rising Dog!"
@@ -289,7 +289,7 @@
   "addr": "2A8D4D",
   "len": 44,
   "ptrs": [
-   "imm:2A9996/2A999E"
+   "imm:2A9996/2A999F"
   ],
   "jp": "アルデナーラはソードマンをしょうかんした！",
   "en": "Ardenara summoned{nl}Swordsman!"
@@ -299,7 +299,7 @@
   "addr": "2A8D79",
   "len": 42,
   "ptrs": [
-   "imm:2AA6FF/2AA707"
+   "imm:2AA6FF/2AA708"
   ],
   "jp": "アルデナーラはドラゴンをしょうかんした！",
   "en": "Ardenara summoned{nl}Dragon!"
@@ -309,7 +309,7 @@
   "addr": "2B335B",
   "len": 14,
   "ptrs": [
-   "imm:2B3E5F/2B3E67"
+   "imm:2B3E5F/2B3E68"
   ],
   "jp": "がろうけん！",
   "en": "Wolf Fang Fist!"
@@ -319,7 +319,7 @@
   "addr": "2B6426",
   "len": 40,
   "ptrs": [
-   "imm:2B662F/2B6637"
+   "imm:2B662F/2B6638"
   ],
   "jp": "ドリスはサラマンダーをしょうかんした！",
   "en": "Doris summoned{nl}Salamander!"
@@ -329,7 +329,7 @@
   "addr": "2B644E",
   "len": 36,
   "ptrs": [
-   "imm:2B6F8A/2B6F92"
+   "imm:2B6F8A/2B6F93"
   ],
   "jp": "ドリスはゴーレムをしょうかんした！",
   "en": "Doris summoned{nl}Golem!"
@@ -339,7 +339,7 @@
   "addr": "2B6472",
   "len": 44,
   "ptrs": [
-   "imm:2B7973/2B797B"
+   "imm:2B7973/2B797C"
   ],
   "jp": "ドリスはポレポレグレートをしょうかんした！",
   "en": "Doris summoned{nl}Pole-Pole Great!"
@@ -349,7 +349,7 @@
   "addr": "2B649E",
   "len": 36,
   "ptrs": [
-   "imm:2B85F1/2B85F9"
+   "imm:2B85F1/2B85FA"
   ],
   "jp": "ドリスはポレポレをしょうかんした！",
   "en": "Doris summoned{nl}Pole-Pole!"

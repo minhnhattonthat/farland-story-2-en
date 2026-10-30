@@ -31,6 +31,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Known limits of the warp:** warped chapters get dummy party members; chapters 20, 34-38 run on chapter 19's /
   33's map; later-chapter commands and post-battle level-up/item messages have no scene (the viewer shows them).
 - **Known extraction gap:** `system.016496` "はげんきになった！" has no pointer found (kept, flagged `unused`).
-- **Open bugs:** none.
+- **Open bugs:** none. #1 (freeze on Special, 2026-10-30) fixed, not released: 12 `imm:` sites (every special
+  name, summon and Serena dance, Transform) had the bank operand one byte early, so v1.0 wrote over an `LDA`
+  opcode. Extractor fixed, build now refuses a site that doesn't hold the old pointer; warp scene `special`.
+  Needs `tools/release.py --version 1.1` (with the user) to reach players.
 - **Waiting on the user:** nothing blocking. Non-blocking: D9 (register, SFX), D10 (fan spellings like Serena, Cifil, Lodoss kept per D2; 破亡の舞 = "Dance of
   Ruin") were controller defaults; override any in docs/decisions.md.

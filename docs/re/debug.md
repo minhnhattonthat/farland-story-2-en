@@ -30,6 +30,7 @@ Probes (`--script`): `tools/lua/statelog.lua` (state changes below), `tools/lua/
 | `$029B` | unit-command action (5 = shop, `$C1:2A10` dispatcher); `$0299` its sub-state |
 | `$04C6-$04C8`, `$04CC` | current string pointer + offset (draw loop `$C0:2C53`); `$04CE/$04D0` print speed |
 | `$7F0000 + 60*i` | unit records, i < 19 party (record 0 = the hero, リアド), 19+ others: +0 acted flag, +1/+2 tile x/y, +3/+5 pixel x/y, +4 character id (name table `$C2:45E3`), +$15 id class (< `$14` party), +$22/$23 max HP, +$24 HP (0 = down). Unit at a tile: `$EB:137D` |
+| `$7EB8C3 + y*w + x` | tile map of units: record + 1 (0 = empty), w = map width `$7F0D90` (`$EB:11C4`); moving a unit means its record and this byte (`scenes.lua` `foe_below`) |
 
 Chapter map: chapter 0 = prologue (the party joins in its script), chapter N shows STAGE N's card for 1-5, then
 7 -> 6, 10 -> 7, 11 -> 8, 12 -> 9, 14-22 -> 10-18, 24-30 -> 19-25 (card strings listed in `scenes.lua`);
@@ -66,7 +67,10 @@ and battle play. Chapter 0 builds the real party, so a warp has to stand in for 
 
 ## Not covered yet (add when a later phase needs them)
 
-- Bongo's menu label list also has Warp, Special Attack, Gather, World Map, Unit: commands that appear in later
+- Special (必殺): scenes `special_menu` / `special` (stage 1 foe record 22 moved below the hero; the hero's
+  Break Storm plays). Offered when Attack is (a foe in range, `$C3:0000`) and `$EB:1088` passes: class 1 HP >= 21,
+  class 6 at full HP, class 9 ...
+- Bongo's menu label list also has Warp, Gather, World Map, Unit: commands that appear in later
   chapters or with other units. Warped chapters have no party, so these need a save fixture or a party injection.
 - Level-up, item-get and other post-battle messages (`$C1:F1BE` ...): seen only when a fight is won.
 - Continue / load from the title (needs a save: `save_confirm` writes one in `<out>/` SRAM).

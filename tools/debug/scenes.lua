@@ -53,6 +53,16 @@ S.shop = M { poke = to_shop, route = "6 a;40 -;6 down;20 -;6 a;10 -", ["until"] 
 S.shop_buy = M { poke = to_shop, route = "6 a;40 -;6 down;20 -;6 a;90 -;6 a;10 -", ["until"] = in_shop, settle = 90 }
 S.shop_nomoney = M { poke = to_shop, route = "6 a;40 -;6 down;20 -;6 a;90 -;6 a;60 -;6 a;10 -", ["until"] = in_shop,
   settle = 40 }                                                             -- おかねがたりません！ (0 gold)
+-- Special (必殺, issue #1): offered with Attack when a foe is in range ($C3:0000) and the hero has HP >= 21
+-- ($EB:1088). Stage 1 foes are records 22-27 (19-21, 31-33 are green allies); 22 is moved below the hero (33,17):
+-- its record and the tile map $7EB8C3 + y * width ($7F0D90) + x = record + 1 ($EB:11C4).
+local function foe_below(W)
+  local o, wd = W.unit(22), W.r(0x10D90)
+  W.w(0xB8C3 + W.r(o + 2) * wd + W.r(o + 1), 0); W.w(0xB8C3 + 17 * wd + 33, 23)
+  W.w(o + 1, 33); W.w(o + 2, 17); W.w(o + 3, 0x10); W.w(o + 4, 0x02); W.w(o + 5, 0x10); W.w(o + 6, 0x01)
+end
+S.special_menu = M { poke = foe_below, route = "6 a;10 -", ["until"] = menu_open, settle = 40 }  -- 移動 攻／回 必殺 ...
+S.special = M { poke = foe_below, route = "6 a;40 -;6 down;20 -;6 down;20 -;6 a;40 -;6 down;20 -;6 a", settle = 120 }
 S.map_menu = M { route = "6 b;10 -", ["until"] = menu_open, settle = 40 }  -- ターン終了 状況 セーブ ロード 環境設定
 S.objective = M { route = "6 b;40 -;6 down;20 -;6 a" }                    -- 状況: STAGE + objective
 S.save = M { route = "6 b;40 -;6 down;20 -;6 down;20 -;6 a" }

@@ -1426,7 +1426,7 @@
   "addr": "027AA3",
   "len": 36,
   "ptrs": [
-   "imm:02879B/0287A3"
+   "imm:02879B/0287A4"
   ],
   "jp": "サリーナは、はぼうのまいをまった！",
   "en": "Serena danced{nl}the Dance of Ruin!"
@@ -1436,7 +1436,7 @@
   "addr": "027AC7",
   "len": 36,
   "ptrs": [
-   "imm:028EB8/028EC0"
+   "imm:028EB8/028EC1"
   ],
   "jp": "サリーナはかいふくのまいをまった！",
   "en": "Serena danced{nl}the Healing Dance!"
@@ -1446,7 +1446,7 @@
   "addr": "029F47",
   "len": 12,
   "ptrs": [
-   "imm:02A419/02A421"
+   "imm:02A419/02A422"
   ],
   "jp": "へんしん！",
   "en": "Transform!"
