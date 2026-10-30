@@ -9,6 +9,18 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story (every chapter, STAGE cards, ending) | Translated |
+| Battle messages, items, units, classes, shops, status/save/settings screens, GAME OVER | Translated |
+| Title menu and unit/map command menus (drawn as graphics) | Translated |
+| Title logo | Left in Japanese (katakana logo; the English "FARLAND STORY 2" sub-logo below it names the game) |
+| Staff roll | Translated |
+
+Known issues: none known; [report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
