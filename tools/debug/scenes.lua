@@ -62,7 +62,8 @@ local function foe_below(W)
   W.w(o + 1, 33); W.w(o + 2, 17); W.w(o + 3, 0x10); W.w(o + 4, 0x02); W.w(o + 5, 0x10); W.w(o + 6, 0x01)
 end
 S.special_menu = M { poke = foe_below, route = "6 a;10 -", ["until"] = menu_open, settle = 40 }  -- 移動 攻／回 必殺 ...
-S.special = M { poke = foe_below, route = "6 a;40 -;6 down;20 -;6 down;20 -;6 a;40 -;6 down;20 -;6 a", settle = 120 }
+S.special = M { poke = foe_below, route = "6 a;40 -;6 down;20 -;6 down;20 -;6 a;40 -;6 down;20 -;6 a",
+  settle = 330 }                                                          -- battle: "Break Storm!" in the left box
 S.map_menu = M { route = "6 b;10 -", ["until"] = menu_open, settle = 40 }  -- ターン終了 状況 セーブ ロード 環境設定
 S.objective = M { route = "6 b;40 -;6 down;20 -;6 a" }                    -- 状況: STAGE + objective
 S.save = M { route = "6 b;40 -;6 down;20 -;6 down;20 -;6 a" }
